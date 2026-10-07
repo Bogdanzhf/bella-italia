@@ -1,0 +1,379 @@
+id: 11
+title_it: "A ritmo di musica"
+title_ru: "В ритме музыки"
+level: A2
+icon: "🎵"
+description: >
+  Условное наклонение condizionale semplice и composto: желания, вежливые просьбы,
+  советы, предположения, неподтверждённые новости и будущее в прошедшем.
+  Музыка, фестиваль в Сан-Ремо и итальянские исполнители.
+goals:
+  - образовывать condizionale semplice (vorrei, potrei, mi piacerebbe)
+  - вежливо просить, советовать и выражать желания
+  - выражать несбывшееся желание с condizionale composto (sarei venuta)
+  - передавать неподтверждённые новости
+  - говорить о музыке и музыкальных инструментах
+
+lessons:
+  - slug: condizionale-semplice
+    title_it: "Cosa gli chiederesti?"
+    title_ru: "Условное наклонение: образование"
+    theory: |
+      ## Condizionale semplice
+
+      Основа та же, что у **будущего времени**, но окончания другие: **-ei, -esti, -ebbe, -emmo, -este, -ebbero**.
+
+      | | **parlare** | **leggere** | **preferire** |
+      |---|---|---|---|
+      | io | parl**erei** | legg**erei** | prefer**irei** |
+      | tu | parl**eresti** | legg**eresti** | prefer**iresti** |
+      | lui / lei | parl**erebbe** | legg**erebbe** | prefer**irebbe** |
+      | noi | parl**eremmo** | legg**eremmo** | prefer**iremmo** |
+      | voi | parl**ereste** | legg**ereste** | prefer**ireste** |
+      | loro | parl**erebbero** | legg**erebbero** | prefer**irebbero** |
+
+      * **-care / -gare** → **-cherei / -gherei**: *cercherei, pagherei*
+      * **-ciare / -giare** → **-cerei / -gerei**: *comincerei, mangerei*
+
+      ## Неправильные — как в futuro
+
+      | | | |
+      |---|---|---|
+      | essere → **sarei** | avere → **avrei** | fare → **farei** |
+      | andare → **andrei** | potere → **potrei** | dovere → **dovrei** |
+      | volere → **vorrei** | venire → **verrei** | sapere → **saprei** |
+      | vedere → **vedrei** | vivere → **vivrei** | rimanere → **rimarrei** |
+      | bere → **berrei** | stare → **starei** | dare → **darei** |
+
+      > 💡 Не путайте с будущим: *parlerò* (я буду говорить) — *parlerei* (я бы говорила); *parleremo* (будем) — *parleremmo* (говорили бы, двойная **m**!).
+    words:
+      - "il cantante | певец"
+      - "la cantante | певица"
+      - "sparito | исчезнувший"
+      - "effettivamente | действительно"
+      - "la tendenza | тенденция"
+      - "spont`aneo | спонтанный"
+      - "la vincitrice | победительница"
+      - "l'opinione | мнение | f"
+      - "altrui | чужой"
+      - "l'assistente | ассистент | m"
+      - "l'applicazione | приложение | f"
+      - "sincero | искренний"
+      - "chiedere | спрашивать"
+    phrases:
+      - "Cosa gli chiederesti? | Что бы ты у него спросила?"
+      - "Vorrei un caffè. | Я бы хотела кофе."
+      - "Mi piacerebbe andare in Italia. | Мне бы хотелось поехать в Италию."
+      - "Sarebbe bello! | Было бы здорово!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Io ___ volentieri un gelato. (mangiare, condizionale)"
+        options: ["mangerò", "mangerei", "mangiarei", "mangierei"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Condizionale от *volere* (io):"
+        options: ["volerei", "vorrei", "vorrò", "voglio"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Noi ___ in Sicilia. (andare, condizionale)"
+        options: ["andremo", "andremmo", "anderemmo", "andassimo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Tu ___ venire con me? (potere, condizionale)"
+        options: ["potresti", "potrai", "poteresti", "puoi"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Loro ___ di più. (dovere, condizionale)"
+        options: ["dovrebbero", "dovranno", "doverebbero", "dovrebbono"]
+        answer: 0
+      - type: input
+        level: 2
+        q: "Io ___ (essere) felice. (condizionale)"
+        answer: ["sarei"]
+      - type: input
+        level: 3
+        q: "Voi ___ (avere) tempo domani? (condizionale)"
+        answer: ["avreste"]
+      - type: input
+        level: 3
+        q: "Lei ___ (preferire) il tè. (condizionale)"
+        answer: ["preferirebbe"]
+      - type: input
+        level: 3
+        q: "Noi ___ (fare) una festa. (condizionale)"
+        answer: ["faremmo"]
+      - type: input
+        level: 3
+        q: "Io ___ (pagare) con la carta. (condizionale)"
+        answer: ["pagherei"]
+      - type: input
+        level: 3
+        q: "Tu ___ (venire) al concerto? (condizionale)"
+        answer: ["verresti"]
+
+  - slug: uso-condizionale
+    title_it: "Al tuo posto guarderei il Festival di Sanremo…"
+    title_ru: "Когда употреблять condizionale"
+    theory: |
+      ## Пять значений condizionale
+
+      1. **Желание**: *Come **sarebbe** bello comprare un'auto nuova! **Mi piacerebbe** tanto venire con voi al mare.*
+      2. **Вежливая просьба**: *Signora, **potrebbe** dirmi dov'è piazza Firenze? Mi **daresti** il sale, per favore?*
+      3. **Совет**: ***Faresti** bene a studiare di più. **Al tuo posto** non **andrei** più a casa di Filippo.* — На твоём месте я бы…
+      4. **Мнение, предположение**: ***Potremmo** fare un giro in barca. Luca **dovrebbe** tornare per le 5.* — Лука должен бы вернуться к пяти.
+      5. **Неподтверждённая новость** (как в СМИ): *Secondo alcuni medici, i bambini non **dovrebbero** guardare la TV per più di un'ora.* — Якобы, по мнению некоторых врачей…
+
+      > 💡 Самые полезные фразы: **vorrei** (я бы хотела), **potrei** (могла бы я), **mi piacerebbe** (мне бы хотелось), **dovresti** (тебе следовало бы), **al tuo posto…** (на твоём месте…).
+
+      ## Фестиваль Сан-Ремо
+
+      **Festival della canzone italiana di Sanremo** — главный музыкальный конкурс Италии, проходит каждый год в феврале с 1951 года. Победитель часто представляет Италию на Евровидении.
+    words:
+      - "appassionato di | увлечённый (чем-то)"
+      - "il suggerimento | совет, подсказка"
+      - "la manifestazione | мероприятие"
+      - "esibirsi | выступать"
+      - "realizz`abile | осуществимый"
+      - "gentilmente | любезно"
+      - "il passante | прохожий"
+      - "la notizia | новость"
+      - "lo sc`andalo | скандал"
+      - "il ministro | министр"
+      - "il mimo | мим"
+      - "al tuo posto | на твоём месте"
+      - "la barca | лодка"
+    phrases:
+      - "Al tuo posto andrei dal medico. | На твоём месте я бы пошла к врачу."
+      - "Potrebbe aiutarmi, per favore? | Не могли бы Вы мне помочь?"
+      - "Dovresti riposarti. | Тебе следовало бы отдохнуть."
+      - "Mi piacerebbe tanto! | Мне бы очень хотелось!"
+    exercises:
+      - type: choice
+        level: 2
+        q: "Вежливая просьба: «___ chiudere la finestra?»"
+        options: ["Puoi", "Potresti", "Potrai", "Potevi"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "«На твоём месте я бы не пошла» —"
+        options: ["Al tuo posto non andrò.", "Al tuo posto non andrei.", "Al tuo posto non vado.", "Al tuo posto non andavo."]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Secondo la polizia, il ladro ___ un uomo alto. (якобы)"
+        options: ["è", "sarebbe", "sarà", "era"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*Mi piacerebbe* означает:"
+        options: ["мне нравится", "мне понравилось", "мне бы хотелось", "мне понравится"]
+        answer: 2
+      - type: input
+        level: 3
+        q: "Tu ___ (dovere) studiare di più. (совет)"
+        answer: ["dovresti"]
+      - type: input
+        level: 3
+        q: "Mi ___ (piacere) visitare Venezia. (condizionale)"
+        answer: ["piacerebbe"]
+      - type: input
+        level: 3
+        q: "Scusi, ___ (sapere) dirmi che ore sono? (Lei, condizionale)"
+        answer: ["saprebbe"]
+      - type: order
+        level: 3
+        q: "Соберите: «Не могли бы Вы мне помочь?»"
+        answer: "Potrebbe aiutarmi, per favore?"
+
+  - slug: condizionale-composto
+    title_it: "L'avrei visto volentieri, ma…"
+    title_ru: "Condizionale composto"
+    theory: |
+      ## Образование
+
+      **avere / essere в condizionale semplice** + **причастие**:
+
+      | | **vedere** | **venire** |
+      |---|---|---|
+      | io | **avrei** visto | **sarei** venuto/a |
+      | tu | **avresti** visto | **saresti** venuto/a |
+      | lui / lei | **avrebbe** visto | **sarebbe** venuto/a |
+      | noi | **avremmo** visto | **saremmo** venuti/e |
+      | voi | **avreste** visto | **sareste** venuti/e |
+      | loro | **avrebbero** visto | **sarebbero** venuti/e |
+
+      ## Когда употребляется
+
+      * **несбывшееся желание**: *Mi **sarebbe piaciuto** venire con voi, ma non potevo.* — Я бы с удовольствием пришла, но не могла.
+      * **совет о прошлом** (упрёк): ***Avresti dovuto** telefonarmi subito!* — Тебе следовало позвонить мне сразу!
+      * **неподтверждённый факт в прошлом**: *L'incidente **sarebbe accaduto** a causa della pioggia.* — Авария якобы произошла из-за дождя.
+      * **будущее в прошедшем**: *Ero sicura che Matteo mi **avrebbe detto** di no.* — Я была уверена, что Маттео скажет мне «нет».
+
+      > 💡 Обратите внимание на последний пункт: там, где в русском «скажет» (будущее), в итальянском после прошедшего времени нужен **condizionale composto**.
+    words:
+      - "puntuale | пунктуальный"
+      - "evidentemente | очевидно"
+      - "il guasto | поломка"
+      - "in diretta | в прямом эфире"
+      - "la connessione | подключение"
+      - "lento | медленный"
+      - "il trasloco | переезд"
+      - "sottosopra | вверх дном"
+      - "sfortunato | неудачный, невезучий"
+      - "lascia stare | забудь, не говори"
+      - "la sala | зал"
+      - "esaurito | распроданный"
+      - "mettere da parte | откладывать"
+      - "altrimenti | иначе, а то"
+      - "sperare | надеяться"
+      - "accadere | случаться"
+    phrases:
+      - "L'avrei visto volentieri, ma… | Я бы с удовольствием посмотрела, но…"
+      - "Avresti dovuto dirmelo! | Тебе следовало мне это сказать!"
+      - "Sarei venuta, ma ero malata. | Я бы пришла, но болела."
+      - "Lascia stare! | Даже не спрашивай!"
+      - "I biglietti erano esauriti. | Билеты были распроданы."
+    exercises:
+      - type: choice
+        level: 2
+        q: "Mi ___ venire, ma ero stanca."
+        options: ["piacerebbe", "sarebbe piaciuto", "è piaciuto", "piacerà"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Ero sicura che lui ___."
+        options: ["verrà", "sarebbe venuto", "verrebbe", "viene"]
+        answer: 1
+        explain: "Будущее в прошедшем — condizionale composto."
+      - type: choice
+        level: 2
+        q: "Tu ___ telefonarmi! (следовало бы — о прошлом)"
+        options: ["dovresti", "avresti dovuto", "dovrai", "hai dovuto"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Io ___ (comprare) quella borsa, ma costava troppo. (condizionale composto)"
+        answer: ["avrei comprato"]
+      - type: input
+        level: 3
+        q: "Noi ___ (andare) al concerto, ma i biglietti erano esauriti. (condizionale composto)"
+        answer: ["saremmo andati", "saremmo andate"]
+      - type: input
+        level: 3
+        q: "Marco ha detto che ___ (arrivare) alle otto. (condizionale composto)"
+        answer: ["sarebbe arrivato"]
+
+  - slug: musica-italiana
+    title_it: "Musica italiana"
+    title_ru: "Музыка и инструменты"
+    theory: |
+      ## Инструменты
+
+      **la chitarra** (гитара), **il pianoforte** (фортепиано), **il violino** (скрипка), **la batteria** (ударная установка), **la tastiera** (синтезатор), **il microfono** (микрофон), **le cuffie** (наушники).
+
+      * *Suono la chitarra.* — Я играю на гитаре.
+      * *Chi è il tuo cantante preferito?* — Кто твой любимый певец?
+
+      ## Итальянская музыка
+
+      Италия — родина **оперы**: Джузеппе Верди, Джакомо Пуччини, Джоаккино Россини. Знаменитые исполнители: **Luciano Pavarotti**, **Andrea Bocelli**, **Laura Pausini**, **Eros Ramazzotti**, **Adriano Celentano**, **Vasco Rossi**, группа **Måneskin** (победители Евровидения-2021).
+
+      **Il cantautore / la cantautrice** — автор-исполнитель: сам пишет песни и поёт их. Это особая итальянская традиция: Лучо Далла, Фабрицио Де Андре, Франко Баттиато.
+
+      > 💡 Многие музыкальные термины во всех языках — итальянские: *piano, forte, allegro, adagio, crescendo, soprano, tempo*.
+    words:
+      - "il verso | стих, строка"
+      - "spericolato | безрассудный"
+      - "il guerriero | воин"
+      - "isolato | изолированный"
+      - "sul serio | серьёзно"
+      - "leggendario | легендарный"
+      - "l'`epoca | эпоха | f"
+      - "preoccupante | тревожный"
+      - "il micr`ofono | микрофон"
+      - "la batter`ia | ударная установка"
+      - "le cuffie | наушники"
+      - "la tastiera | клавиатура, синтезатор"
+      - "l'ind`agine | опрос, расследование | f"
+      - "ognuno | каждый"
+      - "annuale | ежегодный"
+      - "la cantautrice | автор-исполнительница"
+      - "il cantautore | автор-исполнитель"
+      - "emozionare | волновать"
+      - "la competizione | соревнование"
+      - "il disco | диск, пластинка"
+      - "prestigioso | престижный"
+      - "profondo | глубокий"
+      - "c`elebre | знаменитый"
+      - "la f`avola | сказка"
+      - "la maratona | марафон"
+      - "il riposo | отдых"
+      - "stressante | напряжённый"
+      - "la sposa | невеста"
+      - "lo sposo | жених"
+      - "la pace | мир"
+      - "l'entrata | вход | f"
+      - "la grotta | пещера"
+      - "il barbiere | парикмахер (мужской)"
+      - "la melod`ia | мелодия"
+      - "ovunque | везде"
+      - "la pinacoteca | картинная галерея"
+      - "la collezione | коллекция"
+      - "la scultura | скульптура"
+      - "il divertimento | развлечение"
+      - "vietato | запрещённый"
+      - "splendido | великолепный"
+    phrases:
+      - "Chi è il tuo cantante preferito? | Кто твой любимый певец?"
+      - "Suono la chitarra da tre anni. | Я играю на гитаре три года."
+      - "Questa canzone mi emoziona. | Эта песня меня волнует."
+      - "Sul serio? | Серьёзно?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "*La batteria* (в музыке) — это:"
+        options: ["батарейка", "ударная установка", "скрипка", "микрофон"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*Le cuffie* — это:"
+        options: ["наушники", "колонки", "ноты", "струны"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "*Il cantautore* — это:"
+        options: ["оперный певец", "автор-исполнитель", "дирижёр", "звукорежиссёр"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "В каком месяце проходит фестиваль в Сан-Ремо?"
+        options: ["в феврале", "в августе", "в декабре", "в мае"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Переведите: «сказка» — la ___"
+        answer: ["favola"]
+      - type: input
+        level: 3
+        q: "Переведите: «невеста» — la ___"
+        answer: ["sposa"]
+      - type: input
+        level: 3
+        q: "Переведите: «Серьёзно?» — Sul ___?"
+        answer: ["serio"]
+
+verbs:
+  - {inf: parlare, ru: говорить, tense: condizionale, forms: [parlerei, parleresti, parlerebbe, parleremmo, parlereste, parlerebbero]}
+  - {inf: leggere, ru: читать, tense: condizionale, forms: [leggerei, leggeresti, leggerebbe, leggeremmo, leggereste, leggerebbero]}
+  - {inf: preferire, ru: предпочитать, tense: condizionale, forms: [preferirei, preferiresti, preferirebbe, preferiremmo, preferireste, preferirebbero]}
+  - {inf: essere, ru: быть, tense: condizionale, forms: [sarei, saresti, sarebbe, saremmo, sareste, sarebbero]}
+  - {inf: avere, ru: иметь, tense: condizionale, forms: [avrei, avresti, avrebbe, avremmo, avreste, avrebbero]}
+  - {inf: volere, ru: хотеть, tense: condizionale, forms: [vorrei, vorresti, vorrebbe, vorremmo, vorreste, vorrebbero]}
+  - {inf: potere, ru: мочь, tense: condizionale, forms: [potrei, potresti, potrebbe, potremmo, potreste, potrebbero]}
+  - {inf: dovere, ru: быть должным, tense: condizionale, forms: [dovrei, dovresti, dovrebbe, dovremmo, dovreste, dovrebbero]}
+  - {inf: andare, ru: идти, tense: condizionale, forms: [andrei, andresti, andrebbe, andremmo, andreste, andrebbero]}

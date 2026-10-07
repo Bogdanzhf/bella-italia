@@ -1,0 +1,226 @@
+lessons_before:
+  - slug: dialogo-fine-settimana
+    kind: dialogue
+    title_it: "Com'è andato il weekend?"
+    title_ru: "Как прошли выходные?"
+    dialogue:
+      title: "Lunedì mattina"
+      scene: "Понедельник. София и Джанна встречаются в баре перед работой и рассказывают о выходных."
+      lines:
+        - "Gianna: Buongiorno, Sofia! Allora, come hai passato il fine settimana? | Доброе утро, София! Ну, как ты провела выходные?"
+        - "Sofia: Benissimo! Sabato sono andata al lago con Lorenzo. | Отлично! В субботу я ездила на озеро с Лоренцо."
+        - "Gianna: Ah, sì? E che cosa avete fatto? | Да? И что вы делали?"
+        - "Sofia: Abbiamo fatto una passeggiata e abbiamo mangiato un gelato. Poi siamo tornati in treno. | Мы погуляли и съели мороженое. Потом вернулись на поезде."
+        - "Gianna: Che bello! Io purtroppo ho lavorato tutto il sabato. | Как здорово! А я, к сожалению, всю субботу работала."
+        - "Sofia: Mi dispiace! E domenica? | Жаль! А в воскресенье?"
+        - "Gianna: Domenica sono rimasta a casa, ho letto un libro e ho dormito tanto. | В воскресенье я осталась дома, читала книгу и много спала."
+        - "Sofia: Anche questo è bello! Hai già fatto colazione? | Это тоже хорошо! Ты уже позавтракала?"
+        - "Gianna: No, non ancora. Prendo un cappuccino e un cornetto. E tu? | Нет, ещё нет. Возьму капучино и круассан. А ты?"
+        - "Sofia: Per me un caffè macchiato, grazie. | Мне кофе маккьято, спасибо."
+    words:
+      - "il weekend | выходные"
+      - "tutto il sabato | всю субботу"
+      - "non ancora | ещё нет"
+    phrases:
+      - "Come hai passato il fine settimana? | Как ты провела выходные?"
+      - "Che cosa avete fatto? | Что вы делали?"
+      - "Hai già fatto colazione? | Ты уже позавтракала?"
+      - "Non ancora. | Ещё нет."
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["Sabato Sofia è andata al lago.", true]
+          - ["Gianna ha lavorato sabato.", true]
+          - ["Domenica Gianna è andata al cinema.", false]
+          - ["Gianna ha già fatto colazione.", false]
+      - type: choice
+        level: 2
+        audio: "Domenica sono rimasta a casa e ho dormito tanto."
+        q: "🎧 Что Джанна делала в воскресенье?"
+        options: ["работала", "оставалась дома и спала", "ездила на море", "ходила в кино"]
+        answer: 1
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Вставьте вспомогательный глагол."
+        text: "Sofia [[è]] andata al lago. Hanno fatto una passeggiata e [[hanno]] mangiato un gelato. Gianna [[ha]] lavorato."
+      - type: dialog
+        level: 2
+        q: "Восстановите диалог."
+        lines:
+          - "Che cosa hai fatto ieri?"
+          - "Sono andata al cinema."
+          - "Che film hai visto?"
+          - "Una commedia italiana. Bellissima!"
+
+lessons_after:
+  - slug: bar-italiano
+    kind: culture
+    title_it: "Il bar e il caffè"
+    title_ru: "Итальянский бар и кофе"
+    reading:
+      title: "Un caffè, per favore!"
+      photo: p-espresso-bar
+      text: |
+        Per gli italiani il bar è un luogo speciale. La mattina molti fanno colazione al bar: un cappuccino e un cornetto, in piedi al banco.
+        Il caffè italiano è l'espresso: piccolo, forte e caldo. Gli italiani lo bevono velocemente, anche tre o quattro volte al giorno.
+        Il cappuccino si beve solo la mattina, mai dopo pranzo!
+        A casa molti italiani preparano il caffè con la moka, una piccola caffettiera inventata nel 1933.
+        Al bar spesso prima si paga alla cassa, poi si dà lo scontrino al barista.
+      ru: |
+        Для итальянцев бар — особое место. Утром многие завтракают в баре: капучино и круассан, стоя у стойки.
+        Итальянский кофе — это эспрессо: маленький, крепкий и горячий. Итальянцы пьют его быстро, даже три-четыре раза в день.
+        Капучино пьют только утром, никогда после обеда!
+        Дома многие итальянцы варят кофе в моке — маленькой кофеварке, изобретённой в 1933 году.
+        В баре часто сначала платят на кассе, потом отдают чек бармену.
+      glossary:
+        - "in piedi | стоя"
+        - "velocemente | быстро"
+        - "la caffettiera | кофеварка"
+        - "inventato | изобретённый"
+    photos: [p-moka]
+    words:
+      - "in piedi | стоя"
+      - "la caffettiera | кофеварка"
+      - "la moka | мока (гейзерная кофеварка)"
+      - "velocemente | быстро"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["Gli italiani bevono il cappuccino dopo cena.", false]
+          - ["L'espresso è piccolo e forte.", true]
+          - ["La moka è una caffettiera.", true]
+          - ["Al bar si paga sempre alla fine.", false]
+      - type: choice
+        level: 1
+        img: p-moka
+        q: "Что на фото?"
+        options: ["la moka", "il cornetto", "lo scontrino", "la tazza"]
+        answer: 0
+      - type: cloze
+        level: 2
+        ref: reading
+        q: "Заполните пропуски по тексту."
+        text: "La moka è stata inventata nel [[1933]]. Prima si paga alla [[*cassa/banco/moka]], poi si dà lo [[scontrino]] al barista."
+
+  - slug: autovalutazione-4
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 4"
+    theory: |
+      ## Что вы уже умеете
+
+      * рассказывать о прошлом в **passato prossimo** с **avere** и **essere**;
+      * знать неправильные причастия: *fatto, detto, visto, preso, letto, scritto, stato, venuto…*;
+      * ставить наречия **già, mai, ancora, appena** и употреблять **ci** («туда»);
+      * заказывать в баре.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините глагол и причастие"
+        pairs:
+          - ["fare", "fatto"]
+          - ["vedere", "visto"]
+          - ["prendere", "preso"]
+          - ["scrivere", "scritto"]
+          - ["venire", "venuto"]
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: какой глагол образует прошедшее с avere?"
+        options: ["andare", "partire", "mangiare", "arrivare"]
+        answer: 2
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: что не заказывают в баре?"
+        options: ["cappuccino", "cornetto", "spremuta", "binario"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Ieri Maria {{ha=>è}} andata al cinema."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Abbiamo {{prenduto=>preso}} un taxi."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Le ragazze sono {{arrivati=>arrivate}} tardi."
+      - type: cloze
+        level: 3
+        q: "Поставьте глаголы в passato prossimo."
+        text: "Ieri io [[ho mangiato]] (mangiare) una pizza e poi [[sono tornata|sono tornato]] (tornare) a casa."
+      - type: choice
+        level: 2
+        audio: "Non sono mai stata a Parigi."
+        q: "🎧 Была ли женщина в Париже?"
+        options: ["да, много раз", "да, один раз", "никогда"]
+        answer: 2
+
+exercises:
+  passato-avere:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какое слово не о прошлом?"
+      options: ["ieri", "la settimana scorsa", "domani", "due giorni fa"]
+      answer: 2
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Tu hai {{mangiata=>mangiato}} il gelato?"
+    - type: choice
+      level: 2
+      audio: "Ieri ho studiato tutto il giorno."
+      q: "🎧 Что человек делал вчера?"
+      options: ["работал", "учился", "спал", "гулял"]
+      answer: 1
+  passato-essere:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какой глагол спрягается с avere?"
+      options: ["nascere", "restare", "dormire", "diventare"]
+      answer: 2
+    - type: cloze
+      level: 3
+      q: "Поставьте глаголы в passato prossimo."
+      text: "Marco [[è uscito]] (uscire) alle otto. Le amiche [[sono partite]] (partire) ieri."
+  participi-irregolari:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Ho {{leggiuto=>letto}} un bel libro."
+    - type: odd
+      level: 3
+      q: "Найдите лишнее: какое причастие правильное (по общему правилу)?"
+      options: ["detto", "fatto", "parlato", "visto"]
+      answer: 2
+  avverbi-ci:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Non sono {{già=>ancora}} pronta, aspetta!"
+    - type: cloze
+      level: 3
+      q: "Вставьте наречие или ci."
+      text: "Hai [[già]] mangiato? — Sì, ho appena finito. Vai spesso a Roma? — Sì, [[ci]] vado ogni mese."
+  al-bar:
+    - type: dialog
+      level: 2
+      q: "Восстановите диалог в баре."
+      lines:
+        - "Buongiorno! Desidera?"
+        - "Un cappuccino e un cornetto, per favore."
+        - "Ecco a Lei. Altro?"
+        - "No, grazie. Quant'è?"
+    - type: choice
+      level: 1
+      audio: "Per me un caffè macchiato, grazie."
+      q: "🎧 Что заказали?"
+      options: ["капучино", "кофе маккьято", "чай", "апельсиновый сок"]
+      answer: 1

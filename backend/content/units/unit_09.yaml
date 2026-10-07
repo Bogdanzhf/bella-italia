@@ -1,0 +1,493 @@
+id: 9
+title_it: "Andiamo a fare spese"
+title_ru: "Идём за покупками"
+level: A2
+icon: "👗"
+description: >
+  Возвратные и взаимно-возвратные глаголы в настоящем и прошедшем времени,
+  с модальными глаголами, безличная форма si и безличные выражения,
+  одежда, размеры, способы оплаты и итальянская мода.
+goals:
+  - "спрягать возвратные глаголы: mi alzo, ti vesti, si diverte"
+  - рассказывать о своём дне с возвратными глаголами
+  - образовывать прошедшее время возвратных глаголов (mi sono alzata)
+  - "употреблять безличную форму: si mangia bene, bisogna studiare"
+  - "покупать одежду: размер, цвет, примерка, оплата"
+
+lessons:
+  - slug: verbi-riflessivi
+    title_it: "Ogni giorno i soliti vestiti!"
+    title_ru: "Возвратные глаголы"
+    theory: |
+      ## Что такое возвратный глагол
+
+      Возвратный глагол описывает действие, направленное на себя. В русском это **-ся**: мыться, одеваться. В итальянском — местоимение **перед** глаголом, которое меняется по лицам. Инфинитив оканчивается на **-arsi, -ersi, -irsi**.
+
+      | | **alzarsi** (вставать) | **vedersi** (видеться) | **divertirsi** (веселиться) |
+      |---|---|---|---|
+      | io | **mi** alzo | **mi** vedo | **mi** diverto |
+      | tu | **ti** alzi | **ti** vedi | **ti** diverti |
+      | lui / lei | **si** alza | **si** vede | **si** diverte |
+      | noi | **ci** alziamo | **ci** vediamo | **ci** divertiamo |
+      | voi | **vi** alzate | **vi** vedete | **vi** divertite |
+      | loro | **si** alzano | **si** vedono | **si** divertono |
+
+      ## Мой день
+
+      **svegliarsi** (просыпаться), **alzarsi** (вставать), **lavarsi** (умываться), **vestirsi** (одеваться), **pettinarsi** (причёсываться), **truccarsi** (краситься), **prepararsi** (собираться), **riposarsi** (отдыхать), **addormentarsi** (засыпать).
+
+      *Mi sveglio alle sette, mi lavo, mi vesto e faccio colazione.*
+
+      ## Взаимно-возвратные
+
+      Действие двух людей **друг с другом**: *Andrea e Alessia **si amano**.* — любят друг друга. *Ci vediamo domani!* — Увидимся завтра! *Si conoscono da anni.* — Они знакомы много лет.
+
+      > 💡 Некоторые глаголы возвратны в итальянском, но не в русском: *ricordarsi* (помнить), *sentirsi* (чувствовать себя), *chiamarsi*. И наоборот: *ridere* (смеяться) — не возвратный.
+    words:
+      - "lo stilista | модельер, дизайнер"
+      - "il capo di abbigliamento | предмет одежды"
+      - "le scarpe da tennis | кроссовки"
+      - "la giacca | пиджак, жакет"
+      - "la cam`icia | рубашка"
+      - "i calzini | носки"
+      - "il cappotto | пальто"
+      - "il centro commerciale | торговый центр"
+      - "svegliarsi | просыпаться"
+      - "alzarsi | вставать"
+      - "evitare | избегать"
+      - "gli accessori | аксессуары"
+      - "affollato | многолюдный"
+      - "divertirsi | веселиться"
+      - "sentirsi | чувствовать себя"
+      - "annoiarsi | скучать"
+      - "rilassarsi | расслабляться"
+      - "conoscersi | знакомиться"
+      - "il raffreddore | простуда"
+      - "di sicuro | наверняка"
+      - "vestirsi | одеваться"
+      - "addormentarsi | засыпать"
+      - "prepararsi | собираться, готовиться"
+      - "lavarsi | мыться"
+      - "pettinarsi | причёсываться"
+      - "arrabbiarsi | сердиться"
+      - "riposarsi | отдыхать"
+      - "ricordarsi | помнить"
+      - "sposarsi | жениться, выходить замуж"
+      - "lasciarsi | расставаться"
+      - "stancarsi | уставать"
+      - "sbrigarsi | торопиться"
+      - "innamorarsi | влюбляться"
+    phrases:
+      - "Mi sveglio alle sette. | Я просыпаюсь в семь."
+      - "Come ti senti? | Как ты себя чувствуешь?"
+      - "Ci vediamo domani! | Увидимся завтра!"
+      - "Mi lavo i denti. | Я чищу зубы."
+      - "Sbrigati! | Поторопись!"
+      - "Ti ricordi di me? | Ты меня помнишь?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Io ___ alzo alle otto."
+        options: ["mi", "ti", "si", "ci"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "Tu ___ diverti alla festa?"
+        options: ["mi", "ti", "si", "vi"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Maria ___ ogni mattina. (truccarsi)"
+        options: ["si trucca", "mi trucca", "si trucco", "ti trucca"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Noi ___ alle sette. (svegliarsi)"
+        options: ["si svegliamo", "ci svegliamo", "vi svegliate", "ci svegliate"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Paolo e Lucia ___. (amarsi)"
+        options: ["si amano", "ci amano", "si ama", "li amano"]
+        answer: 0
+      - type: input
+        level: 2
+        q: "Voi ___ (vestirsi) in fretta."
+        answer: ["vi vestite"]
+      - type: input
+        level: 3
+        q: "Io non ___ (ricordarsi) il suo nome."
+        answer: ["mi ricordo"]
+      - type: input
+        level: 3
+        q: "Come ___ (chiamarsi) tua sorella?"
+        answer: ["si chiama"]
+      - type: input
+        level: 3
+        q: "Loro ___ (annoiarsi) a casa."
+        answer: ["si annoiano"]
+      - type: input
+        level: 3
+        q: "Tu ___ (sentirsi) bene?"
+        answer: ["ti senti"]
+      - type: order
+        level: 3
+        q: "Соберите: «Я просыпаюсь, умываюсь и одеваюсь.»"
+        answer: "Mi sveglio, mi lavo e mi vesto."
+
+  - slug: riflessivi-passato
+    title_it: "Mi sono divertita!"
+    title_ru: "Возвратные глаголы в прошедшем"
+    theory: |
+      ## Passato prossimo возвратных глаголов
+
+      Возвратные глаголы **всегда** образуют сложные времена с **essere**, поэтому причастие согласуется с подлежащим:
+
+      | | **alzarsi** |
+      |---|---|
+      | io | **mi sono** alzato / alzat**a** |
+      | tu | **ti sei** alzato / alzat**a** |
+      | lui / lei | **si è** alzato / alzat**a** |
+      | noi | **ci siamo** alzati / alzat**e** |
+      | voi | **vi siete** alzati / alzat**e** |
+      | loro | **si sono** alzati / alzat**e** |
+
+      * *Ieri Alberto **si è alzato** tardi. Chiara **si è alzata** tardi.*
+      * *Alberto e Chiara **si sono alzati** tardi. Chiara e Giovanna **si sono alzate** tardi.*
+
+      ## С модальными глаголами
+
+      Местоимение — **перед** модальным глаголом или **в конце** инфинитива:
+      * ***Mi** devo svegliare presto.* = *Devo svegliar**mi** presto.*
+
+      В прошедшем: если местоимение впереди — **essere**, если в конце — **avere**:
+      * *Non **mi sono** potut**a** svegliare.* = *Non **ho** potuto svegliar**mi**.*
+    words:
+      - "farsi la barba | бриться"
+      - "spogliarsi | раздеваться"
+      - "l'operaio | рабочий | m"
+      - "la montatura | оправа"
+      - "gli occhiali da vista | очки (для зрения)"
+      - "entrambi | оба"
+      - "intanto | пока что, тем временем"
+      - "dip`endere | зависеть"
+    phrases:
+      - "Mi sono divertita molto! | Я очень повеселилась!"
+      - "A che ora ti sei svegliata? | Во сколько ты проснулась?"
+      - "Ci siamo conosciuti a Roma. | Мы познакомились в Риме."
+      - "Non mi sono potuta riposare. | Я не смогла отдохнуть."
+    exercises:
+      - type: choice
+        level: 2
+        q: "Ieri Anna ___ tardi. (svegliarsi)"
+        options: ["si è svegliata", "si ha svegliato", "si è svegliato", "ha svegliata"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "I ragazzi ___ alla festa. (divertirsi)"
+        options: ["si sono divertiti", "si hanno divertito", "sono divertiti", "si è divertito"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "«Я должна вставать рано» —"
+        options: ["Devo mi alzare presto.", "Mi devo alzare presto.", "Devo alzare mi presto.", "Mi devo alzarmi presto."]
+        answer: 1
+      - type: choice
+        level: 3
+        q: "Non ___ potuto riposarmi."
+        options: ["sono", "ho", "mi sono", "mi ho"]
+        answer: 1
+        explain: "Местоимение в конце инфинитива → avere."
+      - type: input
+        level: 3
+        q: "Io (Sofia) ___ (vestirsi) in fretta. (passato prossimo)"
+        answer: ["mi sono vestita"]
+      - type: input
+        level: 3
+        q: "Noi ___ (conoscersi) all'università. (passato prossimo)"
+        answer: ["ci siamo conosciuti", "ci siamo conosciute"]
+      - type: input
+        level: 3
+        q: "Tu (Marco) ___ (arrabbiarsi)? (passato prossimo)"
+        answer: ["ti sei arrabbiato"]
+      - type: input
+        level: 3
+        q: "Le ragazze ___ (sposarsi) l'anno scorso. (passato prossimo)"
+        answer: ["si sono sposate"]
+
+  - slug: la-posso-provare
+    title_it: "La posso provare?"
+    title_ru: "В магазине одежды"
+    theory: |
+      ## Покупаем одежду
+
+      * **Posso aiutarLa? / Desidera?** — Могу Вам помочь?
+      * **Cerco una gonna / un vestito.** — Я ищу юбку / платье.
+      * **Che taglia porta?** — Какой у Вас размер? — **Porto la 42.**
+      * **Che numero porta?** (обувь) — Какой у Вас размер обуви? — **Il 38.**
+      * **La posso provare?** — Можно примерить?
+      * **Dov'è il camerino?** — Где примерочная?
+      * **Mi sta bene? / È stretta / larga / corta / lunga.** — Мне идёт? / Узкая / широкая / короткая / длинная.
+      * **Quanto costa? / Quanto viene?** — Сколько стоит?
+
+      ## Оплата
+
+      * **Posso pagare con la carta di credito / con il Bancomat?** — Можно оплатить кредитной картой / дебетовой картой?
+      * **Pago in contanti.** — Я заплачу наличными.
+      * **I saldi** — распродажа; **lo sconto** — скидка.
+
+      ## Цвета и ткани
+
+      **bianco, nero, rosso, giallo, verde, blu, azzurro, celeste** (голубой), **grigio** (серый), **marrone** (коричневый), **rosa** (розовый — не изменяется!), **viola** (фиолетовый — не изменяется).
+
+      Ткани: **il cotone** (хлопок), **la lana** (шерсть), **la seta** (шёлк), **il lino** (лён), **la pelle** (кожа).
+      Узоры: **a righe** (в полоску), **a quadri** (в клетку), **a fiori** (в цветочек), **a pallini** (в горошек), **a tinta unita** (однотонный).
+    words:
+      - "la taglia | размер (одежды)"
+      - "lo stile | стиль"
+      - "il lino | лён"
+      - "il tessuto | ткань"
+      - "la seta | шёлк"
+      - "celeste | голубой"
+      - "gr`igio | серый"
+      - "il camerino | примерочная"
+      - "là | там"
+      - "stretto | узкий, тесный"
+      - "largo | широкий"
+      - "in contanti | наличными"
+      - "il Bancomat | банковская карта; банкомат"
+      - "la commessa | продавщица"
+      - "provare | примерять; пробовать"
+      - "indossare | надевать, носить"
+      - "il cappello | шляпа, шапка"
+      - "il giubbotto | куртка"
+      - "le calze | чулки, колготки"
+      - "il tacco | каблук"
+      - "il maglione | свитер"
+      - "la cintura | ремень, пояс"
+      - "la misura | размер, мерка"
+      - "la stoffa | ткань"
+      - "sportivo | спортивный"
+      - "rosa | розовый"
+      - "viola | фиолетовый"
+      - "i saldi | распродажа"
+      - "il cotone | хлопок"
+      - "la carta di cr`edito | кредитная карта"
+      - "la maglia | кофта"
+      - "a righe | в полоску"
+      - "a quadri | в клетку"
+      - "a fiori | в цветочек"
+      - "a pallini | в горошек"
+      - "la pelle | кожа"
+      - "la lana | шерсть"
+      - "le maniche lunghe | длинные рукава"
+    phrases:
+      - "Che taglia porta? | Какой у Вас размер?"
+      - "La posso provare? | Можно примерить?"
+      - "Dov'è il camerino? | Где примерочная?"
+      - "Mi sta bene? | Мне идёт?"
+      - "Posso pagare con la carta? | Можно оплатить картой?"
+      - "Pago in contanti. | Я заплачу наличными."
+    exercises:
+      - type: choice
+        level: 1
+        q: "*Il camerino* — это:"
+        options: ["касса", "примерочная", "витрина", "склад"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*A righe* означает:"
+        options: ["в клетку", "в полоску", "в горошек", "однотонный"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Как спросить размер одежды?"
+        options: ["Che numero porta?", "Che taglia porta?", "Quanto costa?", "Che colore preferisce?"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Le gonne ___ (розовые)."
+        options: ["rose", "rosa", "rosi", "rosse"]
+        answer: 1
+        explain: "rosa и viola не изменяются."
+      - type: choice
+        level: 2
+        q: "*La seta* — это:"
+        options: ["шерсть", "хлопок", "шёлк", "кожа"]
+        answer: 2
+      - type: input
+        level: 3
+        q: "Переведите: «наличными» — in ___"
+        answer: ["contanti"]
+      - type: input
+        level: 3
+        q: "Переведите: «свитер» — il ___"
+        answer: ["maglione"]
+      - type: input
+        level: 3
+        q: "Переведите: «серый» —"
+        answer: ["grigio"]
+      - type: order
+        level: 3
+        q: "Соберите: «Можно оплатить кредитной картой?»"
+        answer: "Posso pagare con la carta di credito?"
+
+  - slug: forma-impersonale
+    title_it: "Si può pagare in contanti?"
+    title_ru: "Безличная форма"
+    theory: |
+      ## Безличная форма si
+
+      Когда не важно, кто именно действует («у нас так делают», «здесь едят»), используем **si + глагол в 3-м лице**:
+
+      * *In quel ristorante **si mangia** bene.* — В том ресторане хорошо кормят.
+      * *Qui **si parla** italiano.* — Здесь говорят по-итальянски.
+      * ***Si può** pagare in contanti?* — Можно заплатить наличными?
+
+      Синоним — **uno + 3-е лицо**: *In quel ristorante **uno mangia** bene.*
+
+      С возвратным глаголом **si si** превращается в **ci si**: *In discoteca **ci si diverte**.* — На дискотеке веселятся.
+
+      В сложных временах — всегда **essere**, а прилагательные — во **мн. ч.**: *Ieri **si è andati** al cinema. Quando **si è** giovani, **si è** felici.*
+
+      ## Безличные выражения
+
+      * **bisogna** + инфинитив — нужно: ***Bisogna** studiare di più.*
+      * **è necessario / è possibile / è facile / è difficile / è utile / è bello** + инфинитив: ***È bello** viaggiare.*
+      * **è meglio** — лучше: ***È meglio** mangiare fuori stasera.*
+      * **conviene** — выгодно, имеет смысл
+      * погода: *piove, nevica, grandina*.
+    words:
+      - "il decalogo | свод правил"
+      - "fidarsi | доверять"
+      - "maggiore | больший"
+      - "iniziale | начальный"
+      - "sint`etico | синтетический"
+      - "l'etichetta | этикетка | f"
+      - "il cartello | вывеска, табличка"
+      - "la merce | товар"
+      - "venduto | проданный"
+      - "il confronto | сравнение"
+      - "inutile | бесполезный"
+      - "guidare | водить (машину)"
+      - "bisogna | нужно, надо"
+      - "necessario | необходимый"
+      - "utile | полезный"
+      - "convenire | быть выгодным"
+      - "il colloquio di lavoro | собеседование"
+    phrases:
+      - "Si può pagare in contanti? | Можно заплатить наличными?"
+      - "In Italia si mangia bene. | В Италии хорошо кормят."
+      - "Bisogna studiare di più. | Нужно больше заниматься."
+      - "È meglio partire presto. | Лучше уехать пораньше."
+      - "Come si dice…? | Как сказать…?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Qui ___ italiano. (говорят)"
+        options: ["si parla", "si parlano", "parla", "parlano si"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "In vacanza ___ diverte. (безличное от divertirsi)"
+        options: ["si si", "ci si", "si ci", "ci"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ studiare per l'esame."
+        options: ["Bisogna", "Bisogno", "Si bisogna", "È bisogna"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Quando si è giovani, si è ___."
+        options: ["felice", "felici", "felicità", "felicemente"]
+        answer: 1
+        explain: "В безличной форме прилагательное — во мн. ч."
+      - type: input
+        level: 3
+        q: "Переведите: «Как это сказать по-итальянски?» — Come ___ dice in italiano?"
+        answer: ["si"]
+      - type: input
+        level: 3
+        q: "In questo museo non ___ (potere) fare foto. (безличная форма)"
+        answer: ["si può"]
+      - type: input
+        level: 3
+        q: "È ___ prenotare il tavolo. (лучше)"
+        answer: ["meglio"]
+
+  - slug: moda-italiana
+    title_it: "La moda italiana"
+    title_ru: "Итальянская мода"
+    theory: |
+      ## Made in Italy
+
+      Итальянская мода известна во всём мире своей **raffinatezza** (изысканностью) и качеством. Милан — одна из мировых столиц моды.
+
+      Знаменитые дома моды: **Gucci, Prada, Versace, Armani, Dolce & Gabbana, Valentino, Fendi, Benetton**.
+
+      * **Prada** — основан братьями Прада в 1913 году; их первый бутик до сих пор находится в **Galleria Vittorio Emanuele II** в Милане.
+      * **Benetton** — Лучано Бенеттон начал в 14 лет, продавая свитера; компания прославилась провокационными рекламными кампаниями о социальных темах.
+
+      ## Слова
+
+      **il marchio** (бренд), **la casa di moda** (дом моды), **i capi firmati** (брендовая одежда), **la vetrina** (витрина), **il lusso** (роскошь), **i gioielli** (украшения).
+
+      * *Che ne pensi?* — Что ты об этом думаешь?
+      * *Ti sta benissimo!* — Тебе очень идёт!
+    words:
+      - "la raffinatezza | изысканность"
+      - "il settore | сектор, отрасль"
+      - "l'esportazione | экспорт | f"
+      - "i capi firmati | брендовая одежда"
+      - "il produttore | производитель"
+      - "il gioiello | украшение"
+      - "apprezzare | ценить"
+      - "il successo | успех"
+      - "la popolarità | популярность"
+      - "la campagna pubblicitaria | рекламная кампания"
+      - "lo scopo | цель"
+      - "la vetrina | витрина"
+      - "la ricchezza | богатство"
+      - "il lusso | роскошь"
+      - "il marchio | бренд, марка"
+      - "la casa di moda | дом моды"
+      - "il carrello | корзина (покупок)"
+      - "l'argomento | тема | m"
+      - "e così via | и так далее"
+    phrases:
+      - "Che ne pensi? | Что ты об этом думаешь?"
+      - "Ti sta benissimo! | Тебе очень идёт!"
+      - "Andiamo in giro per i negozi! | Пошли по магазинам!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Какой город — итальянская столица моды?"
+        options: ["Roma", "Milano", "Napoli", "Bologna"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "*La vetrina* — это:"
+        options: ["витрина", "вешалка", "касса", "скидка"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "«Тебе очень идёт!» —"
+        options: ["Ti sta benissimo!", "Ti piace molto!", "Sei bellissimo!", "Ti va bene!"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Переведите: «Что ты об этом думаешь?» — Che ne ___?"
+        answer: ["pensi"]
+      - type: input
+        level: 3
+        q: "Переведите: «бренд» — il ___"
+        answer: ["marchio"]
+
+verbs:
+  - {inf: alzarsi, ru: вставать, tense: presente, forms: [mi alzo, ti alzi, si alza, ci alziamo, vi alzate, si alzano]}
+  - {inf: vedersi, ru: видеться, tense: presente, forms: [mi vedo, ti vedi, si vede, ci vediamo, vi vedete, si vedono]}
+  - {inf: divertirsi, ru: веселиться, tense: presente, forms: [mi diverto, ti diverti, si diverte, ci divertiamo, vi divertite, si divertono]}
+  - {inf: svegliarsi, ru: просыпаться, tense: presente, forms: [mi sveglio, ti svegli, si sveglia, ci svegliamo, vi svegliate, si svegliano]}
+  - {inf: vestirsi, ru: одеваться, tense: presente, forms: [mi vesto, ti vesti, si veste, ci vestiamo, vi vestite, si vestono]}
+  - {inf: alzarsi, ru: вставать, tense: passato prossimo, forms: ["mi sono alzato|mi sono alzata", "ti sei alzato|ti sei alzata", "si è alzato|si è alzata", "ci siamo alzati|ci siamo alzate", "vi siete alzati|vi siete alzate", "si sono alzati|si sono alzate"]}

@@ -1,0 +1,269 @@
+lessons_before:
+  - slug: dialogo-nuovo-inizio
+    kind: dialogue
+    title_it: "Un caffè con Gianna"
+    title_ru: "Кофе с Джанной"
+    dialogue:
+      title: "Al bar vicino alla scuola"
+      scene: "После урока Лоренцо знакомит Софию со своей подругой Джанной — журналисткой из Милана."
+      lines:
+        - "Lorenzo: Gianna, ti presento Sofia. È russa e studia l'italiano con me. | Джанна, познакомься, это София. Она русская и учит итальянский со мной."
+        - "Gianna: Ciao, Sofia! Piacere. Io sono Gianna. | Привет, София! Приятно познакомиться. Я Джанна."
+        - "Sofia: Piacere! Anche tu studi qui? | Очень приятно! Ты тоже здесь учишься?"
+        - "Gianna: No, io lavoro. Sono giornalista, lavoro in un giornale in centro. | Нет, я работаю. Я журналистка, работаю в газете в центре."
+        - "Sofia: Che bello! E abiti a Milano? | Как здорово! А ты живёшь в Милане?"
+        - "Gianna: Sì, abito qui vicino. E tu dove abiti? | Да, живу здесь рядом. А ты где живёшь?"
+        - "Sofia: Abito in via Dante, con una ragazza francese. | Я живу на улице Данте, с одной девушкой-француженкой."
+        - "Gianna: Com'è? Simpatica? | Какая она? Приятная?"
+        - "Sofia: Sì, è molto simpatica. È alta, bionda e ha gli occhi azzurri. | Да, очень приятная. Высокая, светлая, с голубыми глазами."
+        - "Lorenzo: Ragazze, prendete un caffè? Offro io! | Девушки, будете кофе? Я угощаю!"
+        - "Gianna: Grazie, Lorenzo! Per me un cappuccino. | Спасибо, Лоренцо! Мне капучино."
+        - "Sofia: Anche per me, grazie. | Мне тоже, спасибо."
+    words:
+      - "presentare | представлять, знакомить"
+      - "ti presento | познакомься, это…"
+      - "anche | тоже, также"
+      - "offro io | я угощаю"
+    phrases:
+      - "Ti presento Sofia. | Познакомься, это София."
+      - "Anche tu studi qui? | Ты тоже здесь учишься?"
+      - "Offro io! | Я угощаю!"
+      - "Anche per me, grazie. | Мне тоже, спасибо."
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["Gianna è una studentessa.", false]
+          - ["Gianna lavora in centro.", true]
+          - ["Sofia abita con una ragazza francese.", true]
+          - ["Lorenzo offre il caffè.", true]
+      - type: choice
+        level: 1
+        ref: dialogue
+        q: "Какая соседка Софии?"
+        options: ["bassa e bruna", "alta e bionda", "anziana e simpatica", "alta e bruna"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Io lavoro. Sono giornalista."
+        q: "🎧 Кем работает Джанна?"
+        options: ["преподавательница", "журналистка", "официантка", "врач"]
+        answer: 1
+      - type: dialog
+        level: 2
+        q: "Восстановите порядок реплик."
+        lines:
+          - "Ti presento Gianna."
+          - "Piacere, io sono Sofia."
+          - "Piacere! Studi qui?"
+          - "Sì, studio l'italiano."
+      - type: cloze
+        level: 3
+        ref: dialogue
+        q: "Заполните пропуски глаголами в нужной форме."
+        text: "Gianna [[lavora]] in un giornale. Sofia [[abita]] in via Dante. Lorenzo e Sofia [[studiano]] l'italiano."
+
+lessons_after:
+  - slug: citta-italiane
+    kind: culture
+    title_it: "Le città italiane"
+    title_ru: "Города Италии"
+    reading:
+      title: "Cinque città da visitare"
+      photo: p-venezia
+      text: |
+        Roma è la capitale d'Italia ed è nel Lazio. È una città antica: qui ci sono il Colosseo e la Fontana di Trevi.
+        Milano è nel Nord, in Lombardia. È la città della moda e del lavoro. Il Duomo di Milano è molto famoso.
+        Venezia è nel Veneto. Non ci sono macchine: le persone prendono il vaporetto o la gondola.
+        Firenze è in Toscana. È la città dell'arte: ci sono molti musei e il famoso Duomo.
+        Napoli è nel Sud, in Campania. È la città della pizza e del mare. Vicino a Napoli c'è il Vesuvio.
+      ru: |
+        Рим — столица Италии, он находится в Лацио. Это древний город: здесь Колизей и фонтан Треви.
+        Милан — на севере, в Ломбардии. Это город моды и работы. Миланский собор очень знаменит.
+        Венеция — в регионе Венето. Там нет машин: люди ездят на речном трамвае или гондоле.
+        Флоренция — в Тоскане. Это город искусства: там много музеев и знаменитый собор.
+        Неаполь — на юге, в Кампании. Это город пиццы и моря. Рядом с Неаполем — Везувий.
+      glossary:
+        - "antico | древний"
+        - "il Nord | север"
+        - "il Sud | юг"
+        - "le persone | люди"
+        - "vicino a | рядом с"
+    photos: [p-duomo-milano, p-firenze, p-napoli, p-fontana-trevi]
+    words:
+      - "antico | древний"
+      - "il Nord | север"
+      - "il Sud | юг"
+      - "il Centro | центр (Италии)"
+    exercises:
+      - type: match
+        level: 1
+        ref: reading
+        q: "Соедините город и регион"
+        pairs:
+          - ["Roma", "Lazio"]
+          - ["Milano", "Lombardia"]
+          - ["Firenze", "Toscana"]
+          - ["Napoli", "Campania"]
+          - ["Venezia", "Veneto"]
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["A Venezia ci sono molte macchine.", false]
+          - ["Milano è la città della moda.", true]
+          - ["Napoli è nel Nord.", false]
+          - ["Il Vesuvio è vicino a Napoli.", true]
+      - type: choice
+        level: 1
+        img: p-duomo-milano
+        q: "Какой город на фото?"
+        options: ["Milano", "Napoli", "Venezia", "Roma"]
+        answer: 0
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: какой город НЕ на севере?"
+        options: ["Milano", "Torino", "Venezia", "Napoli"]
+        answer: 3
+
+  - slug: autovalutazione-1
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 1"
+    theory: |
+      ## Что вы уже умеете
+
+      * спрягать правильные глаголы на **-are, -ere, -ire** (и **-isc-**: *capisco, finisci*);
+      * ставить неопределённый артикль **un, uno, una, un'**;
+      * здороваться и прощаться, говорить на **«ты»** и на **«Вы» (Lei)**;
+      * описывать внешность и характер, говорить, откуда вы.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините ситуацию и фразу"
+        pairs:
+          - ["поздороваться с синьорой вечером", "Buonasera, signora!"]
+          - ["попрощаться с другом", "Ciao, a domani!"]
+          - ["спросить, откуда человек (на «Вы»)", "Lei di dov'è?"]
+          - ["описать внешность", "Ha i capelli lunghi."]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: какое слово — не цвет глаз?"
+        options: ["azzurri", "verdi", "lunghi", "marroni"]
+        answer: 2
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: какой глагол спрягается с -isc-?"
+        options: ["dormire", "partire", "capire", "aprire"]
+        answer: 2
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Io {{lavora=>lavoro}} in un ufficio."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Ho {{un=>un'}} amica a Roma."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Loro {{preferono=>preferiscono}} il tè."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "Signora, Lei [[parla]] italiano? — Sì, e anche il russo. Mio fratello è [[*alto/alta/alti]] e [[*simpatico/simpatica/simpatici]]."
+      - type: choice
+        level: 2
+        audio: "Buonanotte, a domani!"
+        q: "🎧 Когда так говорят?"
+        options: ["утром", "днём", "перед сном", "при встрече"]
+        answer: 2
+
+exercises:
+  presente-regolare:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какой глагол НЕ на -ere?"
+      options: ["prendere", "leggere", "dormire", "scrivere"]
+      answer: 2
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Noi {{parlate=>parliamo}} italiano."
+    - type: cloze
+      level: 3
+      q: "Поставьте глаголы в нужную форму."
+      text: "Io [[abito]] a Roma. Tu [[leggi]] un libro. Loro [[dormono]] molto."
+    - type: choice
+      level: 2
+      audio: "Finisco di lavorare alle sei."
+      q: "🎧 Во сколько человек заканчивает работать?"
+      options: ["в 5", "в 6", "в 7", "в 16"]
+      answer: 1
+  articolo-indeterminativo:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: перед каким словом нужен артикль uno?"
+      options: ["libro", "zaino", "amico", "ragazzo"]
+      answer: 1
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "È {{una=>un}} ragazzo gentile."
+    - type: cloze
+      level: 3
+      q: "Поставьте неопределённый артикль."
+      text: "[[un]] caffè, [[uno]] studente, [[una]] pizza, [[un']] idea"
+  di-dove-sei:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Abito {{a=>in}} Italia da due anni."
+    - type: choice
+      level: 1
+      audio: "Sono di Napoli, ma abito a Torino."
+      q: "🎧 Где живёт этот человек?"
+      options: ["в Неаполе", "в Турине", "в Риме", "в Милане"]
+      answer: 1
+  saluti:
+    - type: dialog
+      level: 2
+      q: "Восстановите диалог."
+      lines:
+        - "Buongiorno, signora Bianchi!"
+        - "Buongiorno! Come sta?"
+        - "Bene, grazie. E Lei?"
+        - "Benissimo, grazie!"
+    - type: odd
+      level: 1
+      q: "Найдите лишнее: что НЕ говорят при прощании?"
+      options: ["Arrivederci!", "A presto!", "Buongiorno!", "Ciao!"]
+      answer: 2
+  forma-cortesia:
+    - type: error
+      level: 2
+      q: "Найдите ошибку (обращение на «Вы»)."
+      text: "Professore, come {{ti=>si}} chiama?"
+    - type: choice
+      level: 2
+      audio: "Scusi, Lei è italiano?"
+      q: "🎧 Как обращаются к человеку?"
+      options: ["на «ты»", "на «Вы»"]
+      answer: 1
+  come-e:
+    - type: odd
+      level: 1
+      q: "Найдите лишнее: что относится к характеру, а не к внешности?"
+      options: ["alto", "magro", "simpatico", "biondo"]
+      answer: 2
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Maria {{è=>ha}} gli occhi verdi."
+    - type: cloze
+      level: 3
+      q: "Подберите антонимы."
+      text: "alto ↔ [[basso]], allegro ↔ [[triste]], giovane ↔ [[anziano|vecchio]]"

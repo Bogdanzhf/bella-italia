@@ -1,0 +1,526 @@
+id: 8
+title_it: "Fare la spesa"
+title_ru: "Покупки продуктов"
+level: A2
+icon: "🧺"
+description: >
+  Прямые местоимения lo, la, li, le, частица ne, местоимения в сложных временах
+  и с модальными глаголами, conoscere и sapere, конструкция ce l'ho, эмоции,
+  количество и упаковки, магазины и рынки Италии.
+goals:
+  - заменять дополнение местоимениями lo, la, li, le, mi, ti…
+  - "говорить о количестве с ne: ne prendo due chili"
+  - "согласовывать причастие с местоимением: l'ho vista, li ho comprati"
+  - различать conoscere и sapere
+  - выражать радость, сожаление и разочарование
+  - делать покупки в магазине и на рынке
+
+lessons:
+  - slug: pronomi-diretti
+    title_it: "Al supermercato"
+    title_ru: "Прямые местоимения"
+    theory: |
+      ## Что такое прямое местоимение
+
+      Прямое местоимение заменяет дополнение **без предлога** (отвечает на вопрос *кого? что?*):
+      *Leggo **il giornale**.* → ***Lo** leggo.* — Я её (газету) читаю.
+
+      | | Безударная форма | Ударная форма |
+      |---|---|---|
+      | меня | **mi** | me |
+      | тебя | **ti** | te |
+      | его / её / Вас | **lo / la / La** | lui / lei / Lei |
+      | нас | **ci** | noi |
+      | вас | **vi** | voi |
+      | их (м. / ж.) | **li / le** | loro |
+
+      **Безударная** форма стоит **перед** глаголом: *Carlo **mi** saluta.*
+      **Ударная** — **после** глагола, для выделения: *Carlo saluta **me*** (именно меня).
+
+      * *Compri **le mele**? — Sì, **le** compro.*
+      * *Vedi **i ragazzi**? — No, non **li** vedo.*
+      * *Signora, **La** posso aiutare?* — Синьора, могу я Вам помочь?
+
+      > 💡 **Lo** может заменять целую фразу: *A che ora comincia il film? — Non **lo** so.* — Не знаю (этого).
+    words:
+      - "lo yogurt | йогурт"
+      - "la mela | яблоко"
+      - "uguale | одинаковый; всё равно"
+      - "di meno | меньше; дешевле"
+      - "la pera | груша"
+      - "la banana | банан"
+      - "la calor`ia | калория"
+      - "il limone | лимон"
+      - "integrale | цельнозерновой"
+      - "l'uovo | яйцо | m; мн. ч. le uova"
+      - "la confezione | упаковка"
+      - "il sacchetto | пакет"
+      - "meno male | слава богу, хорошо что"
+      - "a memoria | наизусть"
+      - "convincere | убеждать"
+      - "accompagnare | провожать, сопровождать"
+      - "fumare | курить"
+      - "il litro | литр"
+    phrases:
+      - "Il latte? Lo compro io! | Молоко? Я его куплю!"
+      - "Le mele le prendi tu? | Яблоки возьмёшь ты?"
+      - "Non lo so. | Не знаю."
+      - "Signora, La posso aiutare? | Синьора, могу Вам помочь?"
+      - "Meno male! | Слава богу!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Leggi il libro? — Sì, ___ leggo."
+        options: ["lo", "la", "li", "le"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "Compri la pizza? — Sì, ___ compro."
+        options: ["lo", "la", "li", "le"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Vedi i tuoi amici? — Sì, ___ vedo stasera."
+        options: ["lo", "le", "li", "gli"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Mangi le banane? — No, non ___ mangio."
+        options: ["li", "la", "le", "lo"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Signora, ___ posso aiutare?"
+        options: ["ti", "La", "lo", "Le"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Mi ami? — Sì, ___ amo!"
+        options: ["mi", "ti", "lo", "ci"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Prendi il caffè? — Sì, ___ prendo."
+        answer: ["lo"]
+      - type: input
+        level: 3
+        q: "Inviti Maria e Giulia? — Sì, ___ invito."
+        answer: ["le"]
+      - type: input
+        level: 3
+        q: "Chi accompagna i bambini? — ___ accompagno io."
+        answer: ["li"]
+      - type: input
+        level: 3
+        q: "Sai a che ora parte il treno? — No, non ___ so."
+        answer: ["lo"]
+
+  - slug: emozioni
+    title_it: "Che bello!"
+    title_ru: "Радость, сожаление, досада"
+    theory: |
+      ## Как выразить эмоции
+
+      | Радость | Сожаление | Досада |
+      |---|---|---|
+      | **Che bello!** — Как здорово! | **Che peccato!** — Как жаль! | **Che rabbia!** — Какая досада! |
+      | **Che bella sorpresa!** — Какой сюрприз! | **Mi dispiace!** — Мне жаль! | **Accidenti!** — Чёрт возьми! |
+      | **Fantastico! / Evviva!** — Здорово! / Ура! | **Purtroppo…** — К сожалению… | **Mannaggia!** — Вот досада! |
+      | **Sono contentissima!** — Я так рада! | **Peccato che…** — Жаль, что… | **Uffa!** — Ну вот! (раздражение) |
+
+      > 💡 Конструкция **Che + прилагательное / существительное!** очень удобна: *Che bello! Che fortuna! Che noia! Che freddo!*
+    words:
+      - "la gioia | радость"
+      - "il ramm`arico | сожаление"
+      - "il disappunto | разочарование"
+      - "che rabbia! | какая досада!"
+      - "accidenti! | чёрт возьми!"
+      - "la sorpresa | сюрприз"
+      - "mannaggia! | вот досада!"
+      - "la borsa di studio | стипендия"
+      - "la noia | скука"
+      - "che peccato! | как жаль!"
+      - "evviva! | ура!"
+    phrases:
+      - "Che bello! | Как здорово!"
+      - "Che bella sorpresa! | Какой приятный сюрприз!"
+      - "Che peccato! | Как жаль!"
+      - "Accidenti, ho perso il treno! | Чёрт, я опоздала на поезд!"
+      - "Ho vinto una borsa di studio! | Я получила стипендию!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как выразить радость?"
+        options: ["Che peccato!", "Che bello!", "Mannaggia!", "Che rabbia!"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Как сказать «Как жаль!»?"
+        options: ["Che peccato!", "Che bello!", "Evviva!", "Accidenti!"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "*Mannaggia!* выражает:"
+        options: ["радость", "досаду", "благодарность", "согласие"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «сюрприз» — la ___"
+        answer: ["sorpresa"]
+      - type: input
+        level: 3
+        q: "Переведите: «Какой холод!» — Che ___!"
+        answer: ["freddo"]
+
+  - slug: ne-quantita
+    title_it: "Quanto ne vuole?"
+    title_ru: "Местоимение ne и количество"
+    theory: |
+      ## Ne — «из этого, этого»
+
+      **Ne** заменяет существительное, когда говорим о **части** или **количестве**:
+
+      * *Quante mele vuole? — **Ne** vorrei un chilo.* — Сколько яблок хотите? — Мне бы килограмм (их).
+      * *Hai fratelli? — Sì, **ne** ho due.* — Да, у меня их двое.
+      * *Mangi tutta la pizza? — No, **ne** mangio solo un pezzo.*
+
+      > 💡 Сравните: если берём **всё** — используем *lo, la, li, le*: *La mangi tutta la pizza? — Sì, **la** mangio tutta.* Если **часть** — **ne**.
+
+      С *ne* в отрицании: *Non **ne** ho.* — У меня нет (этого).
+
+      ## Количество и упаковки
+
+      * **un etto** (100 г), **mezzo chilo** (полкило), **un chilo**, **un litro**, **un grammo**
+      * **un paio di** (пара), **una dozzina di** (дюжина)
+      * **un pacco** (пачка), **una bottiglia** (бутылка), **un vasetto** (баночка), **una scatoletta** (консервная банка), **un tubetto** (тюбик), **una bustina** (пакетик), **una lattina** (жестяная банка)
+
+      ## В магазине
+
+      * **Desidera? / Mi dica.** — Что желаете? / Слушаю Вас.
+      * **Vorrei tre etti di prosciutto.** — Мне бы 300 граммов ветчины.
+      * **Altro? — Basta così, grazie.** — Что-то ещё? — Это всё, спасибо.
+    words:
+      - "desiderare | желать"
+      - "l'etto | сто граммов | m"
+      - "almeno | по крайней мере"
+      - "il chilo | килограмм"
+      - "un paio | пара"
+      - "la dozzina | дюжина"
+      - "il grammo | грамм"
+      - "il pezzo | кусок"
+      - "basta così | достаточно, это всё"
+      - "il vasetto | баночка"
+      - "il tubetto | тюбик"
+      - "la scatoletta | консервная банка"
+      - "il pacco | пачка, посылка"
+      - "il dentifricio | зубная паста"
+      - "la marmellata | варенье, джем"
+      - "il tonno | тунец"
+      - "la bustina | пакетик"
+      - "il contenitore | ёмкость"
+    phrases:
+      - "Quanto ne vuole? | Сколько Вам (этого)?"
+      - "Ne vorrei mezzo chilo. | Мне бы полкило."
+      - "Vorrei tre etti di prosciutto. | Мне бы 300 граммов ветчины."
+      - "Basta così, grazie. | Это всё, спасибо."
+      - "Mi dica! | Слушаю Вас!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "*Un etto* — это:"
+        options: ["10 граммов", "100 граммов", "1 килограмм", "1 литр"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Quanti anni hai? — ___ ho venti."
+        options: ["Li", "Ne", "Lo", "Le"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Quante bottiglie compri? — ___ compro tre."
+        options: ["Le", "Ne", "Li", "La"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Mangi tutta la torta? — Sì, ___ mangio tutta!"
+        options: ["ne", "la", "lo", "le"]
+        answer: 1
+        explain: "Всю целиком — la; часть — ne."
+      - type: input
+        level: 3
+        q: "Hai sorelle? — Sì, ___ ho una."
+        answer: ["ne"]
+      - type: input
+        level: 3
+        q: "Переведите: «дюжина яиц» — una ___ di uova"
+        answer: ["dozzina"]
+      - type: input
+        level: 3
+        q: "Переведите: «Это всё, спасибо» — Basta ___, grazie."
+        answer: ["così", "cosi"]
+
+  - slug: pronomi-tempi-composti
+    title_it: "Dove li hai comprati?"
+    title_ru: "Местоимения в прошедшем. Conoscere и sapere"
+    theory: |
+      ## Местоимения в passato prossimo
+
+      С **lo, la, li, le** причастие **обязательно** согласуется:
+
+      * *Hai visto il film? — Sì, **l'ho visto**.*
+      * *Dove hai comprato questa camicetta? — **L'ho comprata** a Roma.*
+      * *Hai visto i ragazzi? — Sì, **li ho incontrati** al bar.*
+      * *Hai le chiavi? — **Le ho messe** sul tavolo.*
+
+      *Lo* и *la* перед *ho, hai, ha, hanno* и гласной сокращаются до **l'**.
+
+      С **ne** причастие согласуется с количеством: *Hai comprato le mele? — Sì, **ne** ho comprat**i** due chili.* *La torta? **Ne** ho mangiat**e** due fette.*
+
+      С **mi, ti, ci, vi** согласование необязательно: *Chiara, chi **ti** ha accompagnat**o/a**?*
+
+      ## Conoscere и sapere — «знать»
+
+      | **conoscere** | **sapere** |
+      |---|---|
+      | знать человека, место: *Conosci Marco? Conosco Roma.* | знать факт, информацию: *Sai dove abita?* |
+      | | уметь: *So nuotare.* — Я умею плавать. |
+
+      В прошедшем значение меняется:
+      * *Ho conosciuto Stefania alla festa.* — Я **познакомилась** со Стефанией.
+      * *Ho saputo che…* — Я **узнала**, что…
+      * *Conoscevo già Franco.* — Я уже **была знакома** с Франко.
+    words:
+      - "unico | единственный"
+      - "il matrimonio | свадьба, брак"
+      - "la decisione | решение"
+      - "il resto | остаток; сдача"
+      - "conoscere | знать (кого-то), знакомиться"
+      - "la camicetta | блузка"
+      - "nuotare | плавать"
+    phrases:
+      - "Dove li hai comprati? | Где ты их купила?"
+      - "L'ho conosciuta alla festa di Carla. | Я познакомилась с ней на празднике у Карлы."
+      - "Hai saputo la notizia? | Ты слышала новость?"
+      - "Sa tutto di tutti. | Знает всё обо всех."
+    exercises:
+      - type: choice
+        level: 2
+        q: "Hai visto Maria? — Sì, l'ho ___ ieri."
+        options: ["visto", "vista", "visti", "viste"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Hai comprato i biglietti? — Sì, li ho ___."
+        options: ["comprato", "comprata", "comprati", "comprate"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "___ dove abita Luca?"
+        options: ["Conosci", "Sai", "Conosce", "Sapi"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ mio fratello?"
+        options: ["Sai", "Conosci", "Sapete", "Sa"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Hai letto le lettere? — Sì, le ho ___. (leggere)"
+        answer: ["lette"]
+      - type: input
+        level: 3
+        q: "Hai mangiato la torta? — Sì, ___ mangiata. (местоимение + avere)"
+        answer: ["l'ho", "l’ho"]
+      - type: input
+        level: 3
+        q: "Quante pizze hai fatto? — Ne ho ___ tre. (fare)"
+        answer: ["fatte"]
+      - type: input
+        level: 3
+        q: "Io ___ (sapere) nuotare."
+        answer: ["so"]
+
+  - slug: ti-posso-aiutare
+    title_it: "Ti posso aiutare?"
+    title_ru: "Помощь. Местоимения с модальными. Ce l'ho"
+    theory: |
+      ## Предложить помощь
+
+      * **Ti posso aiutare? / Posso aiutarti?** — Могу тебе помочь?
+      * **Vuoi una mano?** — Помочь тебе?
+      * **Posso essere d'aiuto?** — Могу я чем-нибудь помочь?
+      * **Hai bisogno di qualcosa?** — Тебе что-нибудь нужно?
+      * **Vuoi un passaggio?** — Тебя подвезти?
+
+      ## Местоимения с модальными глаголами
+
+      С *dovere, volere, potere* (и *cominciare a, finire di, sapere*) местоимение можно поставить **перед** первым глаголом или **слитно в конце** инфинитива:
+
+      * ***La** posso comprare.* = *Posso comprar**la**.*
+      * ***Lo** devo fare.* = *Devo far**lo**.*
+      * ***La** comincio a preparare.* = *Comincio a preparar**la**.*
+
+      Между двумя глаголами местоимение **не ставится**.
+
+      ## Ce l'ho / non ce l'ho
+
+      В разговорной речи с *avere* в значении «иметь при себе» добавляют **ci** (→ **ce**) перед *lo, la, li, le*:
+
+      * *Hai la penna? — Sì, **ce l'ho**. / No, **non ce l'ho**.*
+      * *Hai i biglietti? — Sì, **ce li ho**.*
+    words:
+      - "aiutare | помогать"
+      - "consegnare | сдавать, доставлять"
+      - "la traduzione | перевод"
+      - "l'umore | настроение | m"
+      - "il passaggio | подвезти (поездка); проход"
+      - "la collaborazione | сотрудничество"
+      - "avere bisogno di | нуждаться в"
+      - "teatrale | театральный"
+      - "l'`angolo | угол | m"
+      - "occupato | занятый"
+      - "assolutamente | непременно, абсолютно"
+      - "il c`ompito | задание; домашнее задание"
+      - "parcheggiare | парковать"
+      - "la farina | мука"
+      - "il li`evito | дрожжи, разрыхлитель"
+      - "l'olio | масло (растительное) | m"
+      - "il frigor`ifero | холодильник"
+      - "la carota | морковь"
+    phrases:
+      - "Vuoi una mano? | Тебе помочь?"
+      - "Hai bisogno di qualcosa? | Тебе что-нибудь нужно?"
+      - "Vuoi un passaggio? | Тебя подвезти?"
+      - "Ti vedo un po' giù. | Ты какая-то грустная."
+      - "No, non ce l'ho! | Нет, у меня нет!"
+    exercises:
+      - type: choice
+        level: 2
+        q: "Questa gonna è cara, non ___ posso comprare."
+        options: ["lo", "la", "le", "li"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "«Я должна это сделать» —"
+        options: ["Devo lo fare.", "Lo devo fare.", "Devo fare lo.", "Devolo fare."]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Hai la chiave? — Sì, ___."
+        options: ["ce l'ho", "l'ho", "ce ho", "lo ho"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Hai i biglietti? — No, non ___."
+        options: ["ce l'ho", "ce li ho", "li ho", "ce le ho"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «Тебе помочь?» — Vuoi una ___?"
+        answer: ["mano"]
+      - type: input
+        level: 3
+        q: "Posso aiutar___? (тебе)"
+        answer: ["ti"]
+      - type: input
+        level: 3
+        q: "Il compito? Devo far___ oggi."
+        answer: ["lo"]
+
+  - slug: negozi-mercati
+    title_it: "Negozi e mercati"
+    title_ru: "Магазины и рынки"
+    theory: |
+      ## Магазины и продавцы
+
+      | Магазин | Продавец | Что продают |
+      |---|---|---|
+      | **la panetteria** | il panettiere | хлеб |
+      | **la macelleria** | il macellaio | мясо |
+      | **la pescheria** | il pescivendolo | рыба |
+      | **il fruttivendolo** | il fruttivendolo | овощи, фрукты |
+      | **il fioraio** | il fioraio | цветы |
+      | **la farmacia** | il farmacista | лекарства |
+      | **il negozio di alimentari** | il negoziante | продукты |
+
+      ## Исторические рынки
+
+      В каждом итальянском городе есть свой рынок под открытым небом: **la Vucciria** и **Ballarò** в Палермо, **Rialto** в Венеции, **Porta Portese** в Риме. Там продают продукты, одежду, обувь, предметы быта — и можно **tirare sul prezzo** (торговаться).
+
+      ## Продукты DOP
+
+      Метка **DOP** (*Denominazione di Origine Protetta*) защищает типичные продукты региона: **Parmigiano Reggiano**, **prosciutto di Parma**, **mozzarella di bufala**, **aceto balsamico di Modena**, **pecorino**, **gorgonzola**.
+    words:
+      - "il mazzo di rose | букет роз"
+      - "la medicina | лекарство"
+      - "il fioraio | цветочник"
+      - "il pesciv`endolo | торговец рыбой"
+      - "la panetter`ia | булочная"
+      - "il fruttiv`endolo | продавец овощей и фруктов"
+      - "il macellaio | мясник"
+      - "il negozio di alimentari | продуктовый магазин"
+      - "il negoziante | торговец"
+      - "il c`avolo | капуста"
+      - "la lattuga | салат-латук"
+      - "la carta ig`ienica | туалетная бумага"
+      - "il portafoglio | кошелёк"
+      - "gli alimenti | продукты питания"
+      - "l'abbigliamento | одежда | m"
+      - "le calzature | обувь"
+      - "tranne | кроме"
+      - "gustoso | вкусный"
+      - "il maiale | свинина; свинья"
+      - "la mucca | корова"
+      - "la colpa | вина"
+      - "è colpa mia | это моя вина"
+      - "l'oliva | оливка | f"
+      - "il reparto | отдел"
+      - "lo sconto | скидка"
+      - "conveniente | выгодный"
+      - "il parcheggio | парковка"
+      - "la scelta | выбор"
+      - "il quartiere | район, квартал"
+      - "il dente | зуб"
+    phrases:
+      - "Quanto costano le pere? | Сколько стоят груши?"
+      - "C'è uno sconto? | Есть скидка?"
+      - "È colpa mia. | Это моя вина."
+      - "Vado dal fruttivendolo. | Я иду к зеленщику."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Где купить хлеб?"
+        options: ["in macelleria", "in panetteria", "in farmacia", "dal fioraio"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*Il macellaio* продаёт:"
+        options: ["рыбу", "мясо", "цветы", "хлеб"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "*Lo sconto* — это:"
+        options: ["чек", "скидка", "сдача", "очередь"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «кошелёк» — il ___"
+        answer: ["portafoglio"]
+      - type: input
+        level: 3
+        q: "Переведите: «лекарство» — la ___"
+        answer: ["medicina"]
+      - type: match
+        level: 2
+        q: "Соедините продавца и товар"
+        pairs:
+          - ["il fioraio", "цветы"]
+          - ["il pescivendolo", "рыба"]
+          - ["il macellaio", "мясо"]
+          - ["il fruttivendolo", "овощи и фрукты"]
+          - ["il farmacista", "лекарства"]
+
+verbs:
+  - {inf: conoscere, ru: знать (кого-то), tense: presente, forms: [conosco, conosci, conosce, conosciamo, conoscete, conoscono]}
+  - {inf: sapere, ru: знать (что-то), tense: presente, forms: [so, sai, sa, sappiamo, sapete, sanno]}
+  - {inf: aiutare, ru: помогать, tense: presente, forms: [aiuto, aiuti, aiuta, aiutiamo, aiutate, aiutano]}

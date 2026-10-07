@@ -1,0 +1,197 @@
+lessons_before:
+  - slug: dialogo-cinema
+    kind: dialogue
+    title_it: "Quando eri piccola…"
+    title_ru: "Когда ты была маленькой…"
+    dialogue:
+      title: "Dopo il film"
+      scene: "София и Лоренцо выходят из кинотеатра после старого итальянского фильма."
+      lines:
+        - "Lorenzo: Allora, ti è piaciuto il film? | Ну как, тебе понравился фильм?"
+        - "Sofia: Moltissimo! Mi ha ricordato la mia infanzia. | Очень! Он напомнил мне моё детство."
+        - "Lorenzo: Davvero? Com'era la tua infanzia? | Правда? Каким было твоё детство?"
+        - "Sofia: Abitavo in una piccola città vicino a Mosca. D'estate andavo sempre dai nonni in campagna. | Я жила в маленьком городке под Москвой. Летом я всегда ездила к бабушке с дедушкой в деревню."
+        - "Lorenzo: E che cosa facevi lì? | И что ты там делала?"
+        - "Sofia: Giocavo con il cane, leggevo le favole e la sera guardavamo i film tutti insieme. | Играла с собакой, читала сказки, а вечером мы все вместе смотрели фильмы."
+        - "Lorenzo: Che bello! Io invece ero un bambino molto vivace. Una volta sono caduto dall'albero! | Как здорово! А я был очень непоседливым ребёнком. Однажды я упал с дерева!"
+        - "Sofia: Oddio! E che cosa è successo? | О боже! И что случилось?"
+        - "Lorenzo: Niente di grave, per fortuna. Ma la mamma si è arrabbiata tantissimo! | Ничего серьёзного, к счастью. Но мама ужасно рассердилась!"
+        - "Sofia: Ahah, ci credo! | Ха-ха, верю!"
+    words:
+      - "l'infanzia | детство | f"
+      - "ricordare | напоминать, помнить"
+      - "niente di grave | ничего серьёзного"
+      - "per fortuna | к счастью"
+    phrases:
+      - "Ti è piaciuto il film? | Тебе понравился фильм?"
+      - "Com'era la tua infanzia? | Каким было твоё детство?"
+      - "Niente di grave. | Ничего серьёзного."
+      - "Ci credo! | Верю! Ещё бы!"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["A Sofia non è piaciuto il film.", false]
+          - ["D'estate Sofia andava dai nonni.", true]
+          - ["Lorenzo era un bambino tranquillo.", false]
+          - ["Lorenzo è caduto dall'albero.", true]
+      - type: choice
+        level: 2
+        audio: "D'estate andavo sempre dai nonni in campagna."
+        q: "🎧 Куда девочка ездила летом?"
+        options: ["на море", "к бабушке с дедушкой в деревню", "в горы", "в Москву"]
+        answer: 1
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Imperfetto или passato prossimo?"
+        text: "Da bambina Sofia [[*giocava/ha giocato]] con il cane. Una volta Lorenzo [[*è caduto/cadeva]] dall'albero."
+      - type: dialog
+        level: 2
+        q: "Восстановите диалог."
+        lines:
+          - "Dove abitavi da bambino?"
+          - "Abitavo a Bologna."
+          - "E che cosa facevi d'estate?"
+          - "Andavo sempre al mare."
+
+lessons_after:
+  - slug: cinema-italiano-cultura
+    kind: culture
+    title_it: "Cinecittà e il grande cinema"
+    title_ru: "Чинечитта и великое кино"
+    reading:
+      title: "La fabbrica dei sogni"
+      photo: p-cinecitta
+      text: |
+        Cinecittà è un grande studio cinematografico a Roma. È nata nel 1937 e qui sono stati girati più di tremila film.
+        Qui ha lavorato Federico Fellini, uno dei registi più famosi del mondo. Il suo film "La dolce vita" racconta Roma negli anni Sessanta: c'è una scena famosa nella Fontana di Trevi.
+        Dopo la Seconda guerra mondiale nasce il Neorealismo: i registi raccontavano la vita vera delle persone semplici.
+        Anche oggi il cinema italiano vince premi importanti: Roberto Benigni e Paolo Sorrentino hanno vinto l'Oscar.
+        Per questo Cinecittà si chiama anche "la fabbrica dei sogni".
+      ru: |
+        Чинечитта — большая киностудия в Риме. Она появилась в 1937 году, здесь сняли больше трёх тысяч фильмов.
+        Здесь работал Федерико Феллини, один из самых известных режиссёров мира. Его фильм «Сладкая жизнь» рассказывает о Риме шестидесятых: в нём знаменитая сцена в фонтане Треви.
+        После Второй мировой войны родился неореализм: режиссёры рассказывали о настоящей жизни простых людей.
+        И сегодня итальянское кино получает важные премии: Роберто Бениньи и Паоло Соррентино получили «Оскар».
+        Поэтому Чинечитту называют ещё «фабрикой грёз».
+      glossary:
+        - "girare un film | снимать фильм"
+        - "la scena | сцена"
+        - "semplice | простой"
+        - "la fabbrica dei sogni | фабрика грёз"
+    words:
+      - "girare un film | снимать фильм"
+      - "la scena | сцена"
+      - "il sogno | мечта, сон"
+      - "semplice | простой"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["Cinecittà è a Milano.", false]
+          - ["Fellini ha girato \"La dolce vita\".", true]
+          - ["Il Neorealismo nasce dopo la guerra.", true]
+      - type: choice
+        level: 2
+        ref: reading
+        q: "Почему Чинечитту называют «фабрикой грёз»?"
+        options: ["Там делают игрушки", "Там сняли тысячи фильмов", "Там живут актёры", "Это парк развлечений"]
+        answer: 1
+      - type: match
+        level: 2
+        q: "Соедините режиссёра и факт"
+        pairs:
+          - ["Federico Fellini", "La dolce vita"]
+          - ["Roberto Benigni", "La vita è bella"]
+          - ["Paolo Sorrentino", "La grande bellezza"]
+
+  - slug: autovalutazione-7
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 7"
+    theory: |
+      ## Что вы уже умеете
+
+      * описывать прошлое и привычки в **imperfetto**: *ero, avevo, facevo, andavo*;
+      * выбирать между **imperfetto** (фон, процесс) и **passato prossimo** (событие);
+      * говорить о том, что было раньше другого события: **trapassato prossimo**;
+      * соглашаться и не соглашаться; говорить о кино.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините глагол и форму imperfetto (io)"
+        pairs:
+          - ["essere", "ero"]
+          - ["fare", "facevo"]
+          - ["bere", "bevevo"]
+          - ["dire", "dicevo"]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: что не жанр фильма?"
+        options: ["commedia", "giallo", "orrore", "regista"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Da piccola {{abito=>abitavo}} sempre con i nonni."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Mentre {{guardo=>guardavo}} la TV, è suonato il telefono."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Quando sono arrivata, il treno {{è=>era}} già partito."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "Hai [[ragione]], sono d'accordo! — Io invece non sono [[d'accordo]]: secondo [[me]] il film è noioso."
+      - type: choice
+        level: 2
+        audio: "Ogni domenica andavamo al cinema con papà."
+        q: "🎧 Это разовое событие или привычка?"
+        options: ["разовое событие", "привычка в прошлом"]
+        answer: 1
+
+exercises:
+  imperfetto:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Noi {{eramo=>eravamo}} molto felici."
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какая форма НЕ imperfetto?"
+      options: ["parlavo", "leggevi", "dormiva", "ho dormito"]
+      answer: 3
+  imperfetto-passato:
+    - type: choice
+      level: 2
+      audio: "Mentre camminavo, ho incontrato un'amica."
+      q: "🎧 Какое действие прервало другое?"
+      options: ["прогулка", "встреча с подругой"]
+      answer: 1
+  trapassato-prossimo:
+    - type: odd
+      level: 3
+      q: "Найдите лишнее: какая форма НЕ trapassato prossimo?"
+      options: ["avevo visto", "era partito", "avevamo mangiato", "ho finito"]
+      answer: 3
+  accordo-disaccordo:
+    - type: odd
+      level: 1
+      q: "Найдите лишнее: какая фраза выражает несогласие?"
+      options: ["Hai ragione!", "Sono d'accordo.", "Non è vero!", "Certo!"]
+      answer: 2
+  cinema-italiano:
+    - type: choice
+      level: 1
+      audio: "Il film è una commedia molto divertente."
+      q: "🎧 Какой жанр у фильма?"
+      options: ["ужасы", "комедия", "драма", "детектив"]
+      answer: 1

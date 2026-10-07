@@ -1,0 +1,464 @@
+id: 7
+title_it: "Al cinema"
+title_ru: "В кино"
+level: A2
+icon: "🎬"
+description: >
+  Прошедшее время imperfetto и его отличие от passato prossimo,
+  предпрошедшее trapassato prossimo, как выразить согласие и несогласие,
+  жанры кино и великие итальянские режиссёры.
+goals:
+  - описывать прошлое, привычки и обстановку с помощью imperfetto
+  - выбирать между imperfetto и passato prossimo
+  - рассказывать о том, что произошло раньше другого события (trapassato prossimo)
+  - соглашаться и не соглашаться с собеседником
+  - говорить о фильмах и жанрах
+
+lessons:
+  - slug: imperfetto
+    title_it: "Che ridere!"
+    title_ru: "Imperfetto: образование"
+    theory: |
+      ## Образование imperfetto
+
+      Отбрасываем **-re** инфинитива и добавляем **-vo, -vi, -va, -vamo, -vate, -vano**:
+
+      | | **parlare** | **leggere** | **dormire** |
+      |---|---|---|---|
+      | io | parla**vo** | legge**vo** | dormi**vo** |
+      | tu | parla**vi** | legge**vi** | dormi**vi** |
+      | lui / lei | parla**va** | legge**va** | dormi**va** |
+      | noi | parla**vamo** | legge**vamo** | dormi**vamo** |
+      | voi | parla**vate** | legge**vate** | dormi**vate** |
+      | loro | parl**a**vano | legg**e**vano | dorm**i**vano |
+
+      ## Неправильные
+
+      | **essere** | **bere** | **dire** | **fare** |
+      |---|---|---|---|
+      | ero | bevevo | dicevo | facevo |
+      | eri | bevevi | dicevi | facevi |
+      | era | beveva | diceva | faceva |
+      | eravamo | bevevamo | dicevamo | facevamo |
+      | eravate | bevevate | dicevate | facevate |
+      | erano | bevevano | dicevano | facevano |
+
+      Так же: *tradurre → traducevo, porre → ponevo*.
+
+      ## Когда употребляется
+
+      * **описание** в прошлом (люди, места, погода, время): *Vent'anni fa nella nostra città **c'era** più verde. **Era** una bella giornata.*
+      * **привычки, повторяющиеся действия**: *Ogni domenica Carlo **andava** al cinema.* — По воскресеньям Карло ходил в кино.
+      * **параллельные** действия: *Giulia **studiava** e **ascoltava** la radio.*
+      * **вежливая просьба**: ***Volevo** due pizze.* — Я хотела бы две пиццы.
+      * сказки: ***C'era una volta…*** — Жил-был…
+
+      > 💡 Imperfetto близок к русскому **несовершенному виду**: «читала, ходила, было».
+    words:
+      - "il g`enere | жанр"
+      - "il giallo | детектив"
+      - "poliziesco | полицейский (о фильме)"
+      - "l'orrore | ужас; фильм ужасов | m"
+      - "visto che | поскольку"
+      - "la febbre | температура, жар"
+      - "innanzitutto | прежде всего"
+      - "confuso | смущённый, запутанный"
+      - "complicato | сложный"
+      - "strano | странный"
+      - "la metà | половина"
+      - "innamorato | влюблённый"
+      - "il fantasma | привидение"
+      - "l'assassino | убийца | m"
+      - "il ricordo | воспоминание"
+      - "il silenzio | тишина"
+      - "ogni tanto | время от времени"
+      - "felice | счастливый"
+      - "mentre | пока, в то время как"
+      - "c'era una volta | жил-был, однажды"
+    phrases:
+      - "Che ridere! | Как смешно!"
+      - "Da bambina ero molto tranquilla. | В детстве я была очень спокойной."
+      - "Ogni estate andavamo al mare. | Каждое лето мы ездили на море."
+      - "C'era una volta una principessa… | Жила-была принцесса…"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Io ___ molto da bambina. (leggere, imperfetto)"
+        options: ["leggevo", "leggiavo", "ho letto", "leggivo"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "Imperfetto от *essere* (io):"
+        options: ["essevo", "ero", "stavo", "sono stato"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Ogni domenica noi ___ dai nonni. (andare)"
+        options: ["andavamo", "siamo andati", "andiamo", "andavano"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Loro ___ sempre la verità. (dire)"
+        options: ["diravano", "dicevano", "dirono", "hanno detto"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Che cosa ___ da piccolo? (fare, tu)"
+        options: ["facevi", "faravi", "fai", "fasti"]
+        answer: 0
+      - type: input
+        level: 2
+        q: "Tu ___ (dormire) quando ho telefonato? (imperfetto)"
+        answer: ["dormivi"]
+      - type: input
+        level: 3
+        q: "Noi ___ (essere) stanchi. (imperfetto)"
+        answer: ["eravamo"]
+      - type: input
+        level: 3
+        q: "Mentre io ___ (cucinare), Marco guardava la TV. (imperfetto)"
+        answer: ["cucinavo"]
+      - type: input
+        level: 3
+        q: "Voi ___ (bere) il caffè? (imperfetto)"
+        answer: ["bevevate"]
+      - type: input
+        level: 3
+        q: "Lei ___ (avere) i capelli lunghi. (imperfetto)"
+        answer: ["aveva"]
+      - type: order
+        level: 3
+        q: "Соберите: «Жила-была принцесса.»"
+        answer: "C'era una volta una principessa."
+
+  - slug: imperfetto-passato
+    title_it: "Ti ricordi?"
+    title_ru: "Imperfetto или passato prossimo?"
+    theory: |
+      ## Главное различие
+
+      | **imperfetto** — фон, процесс | **passato prossimo** — событие, результат |
+      |---|---|
+      | привычки: *Da piccola **andavo** a scuola a piedi.* | разовое действие: *Ieri **sono andata** a scuola in autobus.* |
+      | описание: ***Era** tardi, **pioveva**.* | последовательные действия: *Prima **ho mangiato**, poi **ho guardato** la TV.* |
+      | параллельные действия: ***Mentre** camminavo, **parlavo** al telefono.* | действие, которое прервало другое: *Mentre camminavo, **ho incontrato** Dino.* |
+
+      > 💡 Представьте фильм: **imperfetto** — декорации и то, что длится на фоне; **passato prossimo** — то, что вдруг произошло.
+
+      *Mentre **attraversavo** la strada, mi **ha investito** una bicicletta!* — Когда я переходила дорогу, на меня наехал велосипед!
+
+      ## Модальные глаголы
+
+      * *Luigi **doveva** andare dal dentista* (imperfetto) — должен был пойти (пошёл ли — неизвестно).
+      * *Luigi **è dovuto** andare dal dentista* (passato prossimo) — пришлось пойти (и пошёл).
+
+      ## Полезные слова
+
+      **Oddio!** (О боже!), **Vabbè** (ладно), **Chissà** (кто знает).
+    words:
+      - "oddio! | о боже!"
+      - "il mazzo di fiori | букет цветов"
+      - "vabbè | ну ладно"
+      - "chissà | кто знает"
+      - "l'abit`udine | привычка | f"
+      - "buio | тёмный"
+      - "piovoso | дождливый"
+      - "il pennarello | фломастер"
+      - "notare | замечать"
+      - "i pantaloni | брюки"
+      - "la maglietta | футболка"
+      - "nervoso | нервный"
+      - "la gente | люди"
+      - "deserto | пустынный"
+      - "impaziente | нетерпеливый"
+      - "attraversare | переходить"
+      - "la strada | улица, дорога"
+      - "investire | сбивать (о транспорте)"
+    phrases:
+      - "Ti ricordi? | Ты помнишь?"
+      - "Mentre camminavo, ho incontrato Dino. | Пока я гуляла, я встретила Дино."
+      - "Non c'era molta gente in giro. | Вокруг было немного людей."
+      - "Chissà! | Кто знает!"
+    exercises:
+      - type: choice
+        level: 2
+        q: "Ieri ___ un film bellissimo."
+        options: ["vedevo", "ho visto", "vedrò", "vedo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Da bambina ___ sempre al parco."
+        options: ["giocavo", "ho giocato", "giocherò", "gioco"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Mentre ___ la TV, è arrivato Marco."
+        options: ["ho guardato", "guardavo", "guarderò", "guardo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Mentre camminavo, ___ un'amica."
+        options: ["incontravo", "ho incontrato", "incontro", "incontrerò"]
+        answer: 1
+      - type: choice
+        level: 3
+        q: "Prima ___ e poi ho guardato la TV."
+        options: ["mangiavo", "ho mangiato", "mangio", "avevo mangiare"]
+        answer: 1
+        explain: "Последовательные законченные действия — passato prossimo."
+      - type: choice
+        level: 3
+        q: "Quando ero piccola, ___ i capelli lunghi."
+        options: ["ho avuto", "avevo", "avrò", "ebbi"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Ieri ___ (piovere) tutto il giorno, così sono rimasta a casa. (imperfetto)"
+        answer: ["pioveva"]
+      - type: input
+        level: 3
+        q: "Sabato scorso Anna ___ (andare) al cinema. (passato prossimo)"
+        answer: ["è andata"]
+      - type: input
+        level: 3
+        q: "Mentre io ___ (dormire), è suonato il telefono. (imperfetto)"
+        answer: ["dormivo"]
+
+  - slug: trapassato-prossimo
+    title_it: "Avevamo deciso di andare al cinema…"
+    title_ru: "Trapassato prossimo"
+    theory: |
+      ## Предпрошедшее время
+
+      **avere / essere в imperfetto** + **причастие**:
+
+      | | **fare** | **andare** |
+      |---|---|---|
+      | io | **avevo** fatto | **ero** andato/a |
+      | tu | **avevi** fatto | **eri** andato/a |
+      | lui / lei | **aveva** fatto | **era** andato/a |
+      | noi | **avevamo** fatto | **eravamo** andati/e |
+      | voi | **avevate** fatto | **eravate** andati/e |
+      | loro | **avevano** fatto | **erano** andati/e |
+
+      Выбор *avere / essere* и согласование причастия — как в passato prossimo.
+
+      ## Когда употребляется
+
+      Для действия, которое произошло **раньше** другого действия в прошлом:
+
+      * *Francesca ha detto che l'anno scorso non **era andata** in vacanza.* — Франческа сказала, что в прошлом году не ездила в отпуск.
+      * *Quando sono arrivata alla stazione, il treno **era** già **partito**.* — Когда я приехала на вокзал, поезд уже ушёл.
+      * *Mio nonno parlava sempre dei viaggi che **aveva fatto**.*
+
+      > 💡 Ось времени: trapassato prossimo → passato prossimo / imperfetto → сейчас.
+    words:
+      - "la traged`ia | трагедия"
+      - "quindi | итак, значит"
+      - "qualche giorno prima | несколько дней назад"
+      - "non era un granché | так себе, ничего особенного"
+      - "neppure | даже не"
+      - "eppure | и всё же"
+      - "la cr`itica | критика, рецензия"
+      - "ormai | уже, теперь уже"
+      - "la recensione | рецензия"
+      - "decidere | решать"
+    phrases:
+      - "Avevamo deciso di andare al cinema. | Мы решили пойти в кино (ещё до того)."
+      - "Il film non era un granché. | Фильм был так себе."
+      - "Quando sono arrivata, il treno era già partito. | Когда я приехала, поезд уже ушёл."
+    exercises:
+      - type: choice
+        level: 2
+        q: "Quando sono arrivata, la lezione ___ già ___."
+        options: ["è / iniziata", "era / iniziata", "aveva / iniziato", "sarà / iniziata"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Trapassato от *mangiare* (io):"
+        options: ["ho mangiato", "avevo mangiato", "ero mangiato", "mangiavo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Marco ha detto che ___ in Spagna l'anno prima."
+        options: ["era stato", "aveva stato", "è stato", "sarà stato"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Non avevo fame perché ___ già ___ (mangiare). (trapassato)"
+        answer: ["avevo mangiato"]
+      - type: input
+        level: 3
+        q: "Le ragazze ___ (uscire) quando è arrivata la mamma. (trapassato)"
+        answer: ["erano uscite", "erano già uscite"]
+      - type: input
+        level: 3
+        q: "Voi ___ (vedere) quel film prima? (trapassato)"
+        answer: ["avevate visto"]
+
+  - slug: accordo-disaccordo
+    title_it: "Sei d'accordo?"
+    title_ru: "Согласие и несогласие"
+    theory: |
+      ## Как выразить мнение
+
+      * **Secondo me…** / **Per me…** — По-моему…
+      * **Penso che sia…** — Я думаю, что… (подробнее позже)
+      * **Sei d'accordo?** — Ты согласна?
+
+      | Согласие | Несогласие |
+      |---|---|
+      | **Sono d'accordo con te.** — Я с тобой согласна. | **Non sono d'accordo.** — Я не согласна. |
+      | **Hai ragione!** — Ты права! | **Non hai ragione / Hai torto.** — Ты не права. |
+      | **È vero!** — Это правда! | **Non è vero!** — Неправда! |
+      | **Certo! / Sicuramente!** — Конечно! | **Ma no! / Per niente!** — Да нет же! / Вовсе нет! |
+      | **Anche secondo me.** — Я тоже так считаю. | **Secondo me, invece…** — А по-моему… |
+      | **Penso di sì.** — Думаю, да. | **Penso di no.** — Думаю, нет. |
+
+      > 💡 Обратите внимание: «быть правым» по-итальянски — **avere ragione** (букв. «иметь разум»), а «ошибаться» — **avere torto**.
+    words:
+      - "d'accordo | согласен"
+      - "l'accordo | согласие | m"
+      - "il disaccordo | несогласие"
+      - "avere ragione | быть правым"
+      - "avere torto | быть неправым"
+      - "bravissimo | молодец, отличный"
+      - "la reg`ia | режиссура"
+      - "l'attrice | актриса | f"
+      - "sicuramente | конечно, наверняка"
+      - "liberamente | свободно"
+      - "secondo me | по-моему"
+      - "penso di sì | думаю, да"
+    phrases:
+      - "Sei d'accordo? | Ты согласна?"
+      - "Hai ragione! | Ты права!"
+      - "Non sono d'accordo con te. | Я с тобой не согласна."
+      - "Secondo me, il film è bellissimo. | По-моему, фильм прекрасный."
+      - "Penso di no. | Думаю, нет."
+    exercises:
+      - type: choice
+        level: 1
+        q: "«Ты права!» —"
+        options: ["Sei ragione!", "Hai ragione!", "Hai torto!", "Sei d'accordo!"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Как сказать «по-моему»?"
+        options: ["Secondo me", "Per me", "Оба варианта верны"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Антоним к *avere ragione*:"
+        options: ["avere torto", "avere fame", "essere d'accordo", "avere paura"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Переведите: «Я согласна» — Sono ___"
+        answer: ["d'accordo", "d’accordo"]
+      - type: input
+        level: 3
+        q: "Переведите: «Думаю, да» — Penso di ___"
+        answer: ["sì", "si"]
+      - type: order
+        level: 3
+        q: "Соберите: «Я с тобой не согласна.»"
+        answer: "Non sono d'accordo con te."
+
+  - slug: cinema-italiano
+    title_it: "Il cinema italiano"
+    title_ru: "Итальянское кино"
+    theory: |
+      ## Жанры
+
+      **la commedia** (комедия), **il dramma / film drammatico** (драма), **il giallo / film poliziesco** (детектив), **il film d'avventura** (приключения), **il film d'amore** (мелодрама), **il film di fantascienza** (фантастика), **il film dell'orrore** (ужасы), **il cartone animato** (мультфильм), **il documentario** (документальный).
+
+      ## О фильме
+
+      **il titolo** (название), **la trama** (сюжет), **il regista** (режиссёр), **l'attore / l'attrice** (актёр / актриса), **la colonna sonora** (саундтрек), **il protagonista** (главный герой).
+
+      * *Cosa danno al cinema stasera?* — Что сегодня показывают в кино?
+      * *Il film è emozionante / noioso / divertente.*
+
+      ## Великие режиссёры
+
+      **Neorealismo** (после Второй мировой): Roberto Rossellini, Vittorio De Sica (*Ladri di biciclette*). **Federico Fellini** (*La dolce vita*, *8½*), **Sergio Leone** (вестерны), **Roberto Benigni** (*La vita è bella* — «Жизнь прекрасна»), **Paolo Sorrentino** (*La grande bellezza*). Композитор **Ennio Morricone** написал музыку к сотням фильмов.
+    words:
+      - "la copertina | обложка"
+      - "il t`itolo | название"
+      - "la trama | сюжет"
+      - "la stampa | пресса"
+      - "la pubblicità | реклама"
+      - "emozionante | захватывающий"
+      - "la colonna sonora | саундтрек"
+      - "il periodo | период"
+      - "la guerra | война"
+      - "c`omico | комичный; комик"
+      - "l'iron`ia | ирония | f"
+      - "la società | общество"
+      - "il compositore | композитор"
+      - "noto | известный"
+      - "il romanzo | роман"
+      - "la carriera | карьера"
+      - "il capolavoro | шедевр"
+      - "l'autore | автор | m"
+      - "il pr`incipe | принц"
+      - "la principessa | принцесса"
+      - "la risata | смех"
+      - "il pregio | достоинство"
+      - "il difetto | недостаток"
+      - "gratis | бесплатно"
+      - "il profumo | запах, духи"
+      - "l'ospedale | больница | m"
+      - "il telegiornale | теленовости"
+      - "lavare | мыть"
+      - "l'errore | ошибка | m"
+      - "prom`ettere | обещать"
+      - "ultimamente | в последнее время"
+      - "basta! | хватит!"
+      - "geloso | ревнивый"
+      - "originale | оригинальный"
+      - "c`adere | падать"
+    phrases:
+      - "Che film andiamo a vedere? | Какой фильм пойдём смотреть?"
+      - "Cosa danno al cinema? | Что показывают в кино?"
+      - "Non ne vale la pena. | Оно того не стоит."
+      - "Un attimo! | Минутку!"
+      - "Basta! | Хватит!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "*Il giallo* (о кино) — это:"
+        options: ["комедия", "детектив", "мультфильм", "мелодрама"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*La trama* — это:"
+        options: ["сюжет", "название", "реклама", "саундтрек"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Кто снял фильм *La vita è bella*?"
+        options: ["Federico Fellini", "Roberto Benigni", "Sergio Leone", "Ennio Morricone"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «принцесса» — la ___"
+        answer: ["principessa"]
+      - type: input
+        level: 3
+        q: "Переведите: «шедевр» — il ___"
+        answer: ["capolavoro"]
+      - type: input
+        level: 3
+        q: "Переведите: «название» — il ___"
+        answer: ["titolo"]
+
+verbs:
+  - {inf: parlare, ru: говорить, tense: imperfetto, forms: [parlavo, parlavi, parlava, parlavamo, parlavate, parlavano]}
+  - {inf: leggere, ru: читать, tense: imperfetto, forms: [leggevo, leggevi, leggeva, leggevamo, leggevate, leggevano]}
+  - {inf: dormire, ru: спать, tense: imperfetto, forms: [dormivo, dormivi, dormiva, dormivamo, dormivate, dormivano]}
+  - {inf: essere, ru: быть, tense: imperfetto, forms: [ero, eri, era, eravamo, eravate, erano]}
+  - {inf: fare, ru: делать, tense: imperfetto, forms: [facevo, facevi, faceva, facevamo, facevate, facevano]}
+  - {inf: dire, ru: говорить, tense: imperfetto, forms: [dicevo, dicevi, diceva, dicevamo, dicevate, dicevano]}
+  - {inf: bere, ru: пить, tense: imperfetto, forms: [bevevo, bevevi, beveva, bevevamo, bevevate, bevevano]}
+  - {inf: avere, ru: иметь, tense: imperfetto, forms: [avevo, avevi, aveva, avevamo, avevate, avevano]}

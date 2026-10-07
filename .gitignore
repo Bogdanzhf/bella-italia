@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+/data/
+frontend/node_modules/
+frontend/dist/
+_scratch/
+frontend/dist-static/
+*.backup*.db
+.claude/
+# учебники и аудио — материалы правообладателя, в репозиторий не публикуются
+Рабочий каталог по итальянскому/
+*.pdf
+*.mp3
+.vscode/

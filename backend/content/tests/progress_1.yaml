@@ -1,0 +1,133 @@
+id: progress-1
+title: "Тест прогресса 1 · юниты 0–2"
+units: [0, 1, 2]
+description: "Знакомство, внешность, свободное время, квартира, время и транспорт."
+sections:
+  - title: "Чтение"
+    intro: "Прочитайте объявление и ответьте на вопросы."
+    reading:
+      title: "Centro sportivo «Stella»"
+      text: |
+        Volete stare in forma e conoscere nuovi amici? Venite al centro sportivo «Stella»!
+        Siamo aperti dal lunedì al sabato, dalle otto di mattina alle dieci di sera. La domenica siamo chiusi.
+        Il centro è vicino alla stazione della metropolitana e alla fermata dell'autobus numero 12.
+        Ci sono una piscina, una palestra e due campi da tennis. Nel nostro bar potete prendere un caffè, un panino o una spremuta.
+        Ci sono corsi di nuoto e di tennis per bambini e per adulti. Per informazioni chiamate il numero 02 4567 8910.
+    exercises:
+      - type: tf
+        level: 1
+        q: "Верно или неверно?"
+        items:
+          - ["Il centro è aperto la domenica.", false]
+          - ["Il centro chiude alle dieci di sera.", true]
+          - ["Nel centro c'è una piscina.", true]
+          - ["I corsi sono solo per bambini.", false]
+      - type: choice
+        level: 1
+        q: "Как добраться до центра?"
+        options: ["только на машине", "на метро или автобусе 12", "только пешком", "на трамвае"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Что можно взять в баре?"
+        options: ["пиццу и пиво", "кофе, бутерброд или сок", "только воду", "мороженое"]
+        answer: 1
+
+  - title: "Аудирование"
+    intro: "Прослушайте короткие тексты и выберите правильный ответ."
+    exercises:
+      - type: choice
+        level: 1
+        audio: "Ciao, mi chiamo Marta. Sono argentina, ma abito a Roma da due anni."
+        q: "🎧 Где живёт Марта?"
+        options: ["в Аргентине", "в Риме", "в Милане", "в Мадриде"]
+        answer: 1
+      - type: choice
+        level: 1
+        audio: "Il mio numero di telefono è tre quattro nove, uno due sei, sette cinque otto."
+        q: "🎧 Какой номер телефона?"
+        options: ["349 126 758", "349 216 758", "394 126 785", "349 126 785"]
+        answer: 0
+      - type: choice
+        level: 2
+        audio: "Mio fratello è alto e magro, ha i capelli neri e gli occhi verdi."
+        q: "🎧 Какие глаза у брата?"
+        options: ["голубые", "карие", "зелёные", "чёрные"]
+        answer: 2
+      - type: choice
+        level: 2
+        audio: "Scusa, che ore sono? Sono le tre meno un quarto."
+        q: "🎧 Который час?"
+        options: ["3:15", "2:45", "3:45", "2:15"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Vieni a ballare sabato sera? Mi dispiace, sabato non posso: devo studiare."
+        q: "🎧 Принимает ли девушка приглашение?"
+        options: ["да", "нет, ей нужно учиться", "нет, она работает", "да, но в воскресенье"]
+        answer: 1
+
+  - title: "Грамматика"
+    intro: "Заполните пропуски."
+    exercises:
+      - type: cloze
+        level: 2
+        q: "Вставьте одно слово в каждый пропуск."
+        text: "Ciao, sono Paolo e [[ho]] 25 anni. [[Sono]] italiano e vivo [[a]] Firenze [[da]] tre anni. Lavoro [[in]] un ufficio in centro."
+      - type: cloze
+        level: 2
+        q: "Выберите правильный вариант."
+        text: "Sono a Milano, [[*a/in/su]] casa di mia sorella. L'appartamento è [[*in/a/su]] periferia, ma la fermata del tram è vicina e [[*posso/puoso/poso]] visitare la città. Stasera vado [[*al/a/in]] cinema."
+      - type: choice
+        level: 2
+        q: "Loro ___ al mare domenica."
+        options: ["va", "vanno", "andiamo", "vado"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ studente"
+        options: ["il", "lo", "la", "l'"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Noi ___ (dovere) partire presto."
+        answer: ["dobbiamo"]
+
+  - title: "Лексика"
+    intro: "Покажите словарный запас."
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините антонимы"
+        pairs:
+          - ["alto", "basso"]
+          - ["allegro", "triste"]
+          - ["aperto", "chiuso"]
+          - ["presto", "tardi"]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее."
+        options: ["cucina", "bagno", "camera da letto", "autobus"]
+        answer: 3
+      - type: odd
+        level: 2
+        q: "Найдите лишнее."
+        options: ["lunedì", "venerdì", "domenica", "stasera"]
+        answer: 3
+
+writing:
+  - task: "**Опишите себя** (20–30 слов): как вас зовут, сколько вам лет, откуда вы, как вы выглядите и какой у вас характер."
+    words: "20–30"
+    checklist:
+      - "Я написала имя и возраст (Mi chiamo…, Ho … anni)"
+      - "Я написала, откуда я (Sono russa, di …)"
+      - "Я описала внешность (Sono alta…, Ho i capelli…)"
+      - "Я описала характер (Sono allegra, gentile…)"
+    sample: "Ciao! Mi chiamo Sofia e ho ventidue anni. Sono russa, di Mosca, ma adesso abito a Milano. Sono alta e magra, ho i capelli lunghi e biondi e gli occhi azzurri. Sono allegra e gentile."
+  - task: "**Свободное время** (30–40 слов): что вы делаете в свободное время и в выходные? С кем? Куда ходите?"
+    words: "30–40"
+    checklist:
+      - "Я использовала глаголы andare, fare, giocare/suonare"
+      - "Я указала дни недели или время"
+      - "Я написала, с кем провожу время"
+    sample: "Nel tempo libero leggo e ascolto musica. Il sabato mattina vado in palestra e il pomeriggio esco con le mie amiche: andiamo in centro o al cinema. La domenica faccio una passeggiata al parco con il mio cane."

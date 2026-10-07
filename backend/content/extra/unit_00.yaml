@@ -1,0 +1,313 @@
+# Дополнения юнита 0: диалог, культура, самопроверка и новые типы заданий.
+# Тексты и задания написаны для платформы по темам учебника.
+
+lessons_before:
+  - slug: dialogo-benvenuti
+    kind: dialogue
+    title_it: "Sofia arriva a Milano"
+    title_ru: "София приезжает в Милан"
+    dialogue:
+      title: "Alla scuola di lingua"
+      scene: "София — студентка из Москвы. Сегодня её первый день в языковой школе в Милане. У входа она встречает Лоренцо."
+      lines:
+        - "Lorenzo: Ciao! Sei nuova? | Привет! Ты новенькая?"
+        - "Sofia: Sì, ciao! Io sono Sofia. E tu come ti chiami? | Да, привет! Я София. А тебя как зовут?"
+        - "Lorenzo: Mi chiamo Lorenzo. Piacere! | Меня зовут Лоренцо. Очень приятно!"
+        - "Sofia: Piacere mio! | И мне приятно!"
+        - "Lorenzo: Sofia... sei spagnola? | София... ты испанка?"
+        - "Sofia: No, sono russa, di Mosca. E tu? | Нет, я русская, из Москвы. А ты?"
+        - "Lorenzo: Io sono italiano, di Bologna. Studio qui a Milano. | Я итальянец, из Болоньи. Учусь здесь, в Милане."
+        - "Sofia: Che bello! Quanti anni hai? | Как здорово! Сколько тебе лет?"
+        - "Lorenzo: Ho ventiquattro anni. E tu? | Мне двадцать четыре. А тебе?"
+        - "Sofia: Io ho ventidue anni. | Мне двадцать два."
+        - "Lorenzo: Come si scrive il tuo cognome? | Как пишется твоя фамилия?"
+        - "Sofia: Ivanova: i, vu, a, enne, o, vu, a. | Иванова: и, ву, а, энне, о, ву, а."
+        - "Lorenzo: Perfetto. Ecco la lezione! Andiamo? | Отлично. Вот и урок! Идём?"
+        - "Sofia: Sì, andiamo! | Да, идём!"
+    words:
+      - "la scuola di lingua | языковая школа"
+      - "nuovo | новый, новенький"
+      - "piacere mio | и мне приятно"
+      - "andiamo | идём, пойдём"
+    phrases:
+      - "Sei nuova? | Ты новенькая?"
+      - "Piacere mio! | И мне приятно!"
+      - "Come si scrive il tuo cognome? | Как пишется твоя фамилия?"
+      - "Andiamo! | Идём!"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно? Прочитайте диалог."
+        items:
+          - ["Sofia è spagnola.", false]
+          - ["Lorenzo è di Bologna.", true]
+          - ["Sofia ha ventidue anni.", true]
+          - ["Lorenzo studia a Roma.", false]
+      - type: choice
+        level: 1
+        ref: dialogue
+        q: "Откуда София?"
+        options: ["Da Bologna", "Da Mosca", "Da Milano", "Da Madrid"]
+        answer: 1
+      - type: choice
+        level: 1
+        audio: "Ciao! Io sono Sofia. E tu come ti chiami?"
+        q: "🎧 Что спрашивает София?"
+        options: ["Как тебя зовут?", "Сколько тебе лет?", "Откуда ты?", "Где ты живёшь?"]
+        answer: 0
+      - type: choice
+        level: 2
+        audio: "Ho ventiquattro anni."
+        q: "🎧 Сколько лет Лоренцо?"
+        options: ["14", "22", "24", "34"]
+        answer: 2
+      - type: dialog
+        level: 2
+        q: "Восстановите порядок реплик диалога."
+        lines:
+          - "Ciao! Io sono Sofia. E tu?"
+          - "Mi chiamo Lorenzo. Piacere!"
+          - "Piacere mio! Sei italiano?"
+          - "Sì, sono di Bologna."
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Заполните пропуски."
+        text: "Io [[sono]] Sofia, sono [[*russa/russo/Russia]]. Ho ventidue [[anni]]. Lorenzo è di [[*Bologna/Mosca/Milano]]."
+      - type: input
+        level: 3
+        audio: "Piacere!"
+        q: "🎧 Диктант: напишите, что вы услышали."
+        answer: ["piacere", "piacere!"]
+
+lessons_after:
+  - slug: italia-in-breve
+    kind: culture
+    title_it: "L'Italia in breve"
+    title_ru: "Италия в двух словах"
+    reading:
+      title: "Benvenuti in Italia!"
+      photo: p-colosseo
+      text: |
+        L'Italia è un paese del Sud dell'Europa. Ha la forma di uno stivale. La capitale è Roma.
+        In Italia ci sono venti regioni e molte città famose: Roma, Milano, Venezia, Firenze, Napoli.
+        La lingua ufficiale è l'italiano. In Italia ci sono anche molti dialetti.
+        Gli italiani amano la buona cucina: la pizza, la pasta, il gelato e il caffè sono famosi in tutto il mondo.
+        A Roma c'è il Colosseo, a Pisa c'è la Torre pendente, a Venezia ci sono le gondole.
+      ru: |
+        Италия — страна на юге Европы. Она имеет форму сапога. Столица — Рим.
+        В Италии двадцать регионов и много знаменитых городов: Рим, Милан, Венеция, Флоренция, Неаполь.
+        Официальный язык — итальянский. В Италии также много диалектов.
+        Итальянцы любят хорошую кухню: пицца, паста, мороженое и кофе известны во всём мире.
+        В Риме есть Колизей, в Пизе — Падающая башня, в Венеции — гондолы.
+      glossary:
+        - "la forma | форма"
+        - "lo stivale | сапог"
+        - "la capitale | столица"
+        - "ufficiale | официальный"
+        - "il dialetto | диалект"
+        - "in tutto il mondo | во всём мире"
+    photos: [p-torre-pisa, p-gondola, p-pizza-margherita]
+    words:
+      - "la capitale | столица"
+      - "la forma | форма"
+      - "l'Europa | Европа | f"
+      - "ufficiale | официальный"
+      - "il mondo | мир"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["La capitale d'Italia è Milano.", false]
+          - ["L'Italia ha la forma di uno stivale.", true]
+          - ["In Italia ci sono venti regioni.", true]
+          - ["Il Colosseo è a Venezia.", false]
+      - type: match
+        level: 1
+        q: "Соедините город и достопримечательность"
+        pairs:
+          - ["Roma", "il Colosseo"]
+          - ["Pisa", "la Torre pendente"]
+          - ["Venezia", "le gondole"]
+      - type: choice
+        level: 1
+        img: p-gondola
+        q: "Что на фото?"
+        options: ["la gondola", "il Colosseo", "la torre", "la pizza"]
+        answer: 0
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: какое слово — не город?"
+        options: ["Roma", "Napoli", "Firenze", "gelato"]
+        answer: 3
+      - type: cloze
+        level: 2
+        ref: reading
+        q: "Заполните пропуски по тексту."
+        text: "La capitale d'Italia è [[Roma]]. In Italia ci sono [[*venti/dieci/trenta]] regioni. La lingua ufficiale è l'[[italiano]]."
+
+  - slug: autovalutazione-0
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 0"
+    theory: |
+      ## Что вы уже умеете
+
+      * читать итальянские слова по правилам: **c/g** перед e, i — [ч]/[дж], **ch/gh** — [к]/[г], **gn** — [нь], **gli** — [ль];
+      * определять род и число: **-o → -i**, **-a → -e**, **-e → -i**;
+      * ставить определённый артикль: **il, lo, l', la, i, gli, le**;
+      * знакомиться: *Come ti chiami? Di dove sei? Quanti anni hai?*;
+      * считать до 30.
+
+      Выполните задания ниже. Если результат меньше 70% — вернитесь к урокам, где были ошибки 🌷
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините вопрос и ответ"
+        pairs:
+          - ["Come ti chiami?", "Mi chiamo Anna."]
+          - ["Di dove sei?", "Sono di Roma."]
+          - ["Quanti anni hai?", "Ho vent'anni."]
+          - ["Sei italiana?", "No, sono russa."]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: какое слово женского рода?"
+        options: ["libro", "treno", "casa", "gatto"]
+        answer: 2
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: с каким словом НЕ употребляется артикль lo?"
+        options: ["zaino", "studente", "specchio", "albero"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "{{Il=>Lo}} studente è italiano."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Io {{sei=>sono}} russa."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Le ragazze sono {{alti=>alte}}."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "Ciao! Mi [[chiamo]] Sofia. [[Sono]] russa e [[ho]] ventidue anni. Ho [[*un/una/uno]] amico italiano."
+      - type: choice
+        level: 2
+        audio: "diciassette"
+        q: "🎧 Какое число вы услышали?"
+        options: ["7", "17", "70", "27"]
+        answer: 1
+
+exercises:
+  alfabeto:
+    - type: choice
+      level: 1
+      audio: "chiave"
+      q: "🎧 Послушайте и выберите слово."
+      options: ["chiave", "ciao", "cielo", "gelato"]
+      answer: 0
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: в каком слове НЕТ звука [ч]?"
+      options: ["cinema", "ciao", "cucina", "cena"]
+      answer: 2
+      explain: "В cucina буква c стоит перед u — звук [к]."
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: в каком слове звук [г], а не [дж]?"
+      options: ["gelato", "giallo", "spaghetti", "pagina"]
+      answer: 2
+    - type: input
+      level: 3
+      audio: "lavagna"
+      q: "🎧 Диктант: напишите слово."
+      answer: ["lavagna"]
+  genere-numero:
+    - type: odd
+      level: 1
+      q: "Найдите лишнее: какое слово мужского рода?"
+      options: ["casa", "finestra", "treno", "borsa"]
+      answer: 2
+    - type: error
+      level: 2
+      q: "Найдите ошибку в форме множественного числа."
+      text: "Ho due {{libre=>libri}} nuovi."
+    - type: cloze
+      level: 3
+      q: "Поставьте слова во множественное число."
+      text: "un ragazzo → due [[ragazzi]], una ragazza → due [[ragazze]], uno studente → due [[studenti]]"
+  presentarsi:
+    - type: dialog
+      level: 2
+      q: "Восстановите диалог знакомства."
+      lines:
+        - "Ciao, come ti chiami?"
+        - "Mi chiamo Marta. E tu?"
+        - "Io sono Paolo. Di dove sei?"
+        - "Sono di Torino."
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Noi {{siete=>siamo}} studenti."
+    - type: choice
+      level: 2
+      audio: "Lei come si chiama?"
+      q: "🎧 Как к собеседнику обращаются?"
+      options: ["на «ты»", "на «Вы» (вежливо)"]
+      answer: 1
+    - type: cloze
+      level: 3
+      q: "Заполните пропуски формами essere и avere."
+      text: "Loro [[sono]] americani e [[hanno]] un cane. Tu [[sei]] russa e [[hai]] un gatto."
+  articolo-determinativo:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какое слово употребляется с артиклем la?"
+      options: ["zaino", "pizza", "aereo", "museo"]
+      answer: 1
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "{{I=>Gli}} amici di Marco sono simpatici."
+    - type: cloze
+      level: 3
+      q: "Поставьте определённый артикль."
+      text: "[[il]] libro, [[lo]] specchio, [[l']] isola, [[le]] case, [[gli]] zii"
+  chi-e:
+    - type: choice
+      level: 1
+      audio: "quattordici"
+      q: "🎧 Какое число вы услышали?"
+      options: ["4", "14", "40", "24"]
+      answer: 1
+    - type: input
+      level: 3
+      audio: "ventisei"
+      q: "🎧 Напишите словами число, которое услышите."
+      answer: ["ventisei"]
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какое число больше двадцати?"
+      options: ["dodici", "diciotto", "ventitré", "quindici"]
+      answer: 2
+  nomi-particolari:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Ci sono due {{caffi=>caffè}} sul tavolo."
+    - type: odd
+      level: 3
+      q: "Найдите лишнее: какое слово НЕ изменяется во множественном числе?"
+      options: ["amica", "medico", "città", "turista"]
+      answer: 2
+    - type: cloze
+      level: 3
+      q: "Поставьте во множественное число."
+      text: "il problema → i [[problemi]], la farmacia → le [[farmacie]], l'albergo → gli [[alberghi]]"

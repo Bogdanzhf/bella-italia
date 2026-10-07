@@ -1,0 +1,541 @@
+id: 6
+title_it: "A cena fuori"
+title_ru: "Ужин в ресторане"
+level: A2
+icon: "🍝"
+description: >
+  Полная система притяжательных (nostro, vostro, loro), названия родственников,
+  ресторан и меню, vorrei, mi piace / mi piacciono, volerci и metterci,
+  quello и bello, приёмы пищи и посуда, итальянская кухня.
+goals:
+  - употреблять все притяжательные, в том числе с названиями родственников
+  - рассказывать о своей семье
+  - заказывать блюда в ресторане
+  - говорить, что нравится, с mi piace / mi piacciono
+  - "говорить, сколько времени нужно: ci vuole / ci vogliono, ci metto"
+  - правильно ставить quello и bello перед существительным
+
+lessons:
+  - slug: possessivi-completi
+    title_it: "È il suo compleanno"
+    title_ru: "Притяжательные: полная таблица"
+    theory: |
+      ## Все притяжательные
+
+      | | м. р. ед. | м. р. мн. | ж. р. ед. | ж. р. мн. |
+      |---|---|---|---|---|
+      | io | il mio | i miei | la mia | le mie |
+      | tu | il tuo | i tuoi | la tua | le tue |
+      | lui / lei / Lei | il suo | i suoi | la sua | le sue |
+      | **noi** | **il nostro** | **i nostri** | **la nostra** | **le nostre** |
+      | **voi** | **il vostro** | **i vostri** | **la vostra** | **le vostre** |
+      | **loro** | **il loro** | **i loro** | **la loro** | **le loro** |
+
+      **Loro** не изменяется: *il loro libro, la loro casa, i loro amici*.
+
+      Как и раньше, притяжательное согласуется с **предметом**: *le amiche di Paolo → le **sue** amiche; la professoressa di Anna e Marco → la **loro** professoressa*.
+
+      Притяжательное может заменять существительное: *La casa dei Bianchi è grande, **la nostra** è piccola.* — Дом Бьянки большой, наш — маленький.
+
+      ## Подарки и поздравления
+
+      * **Tanti auguri! / Buon compleanno!** — Поздравляю! / С днём рождения!
+      * **Macché!** — Да что ты! Вовсе нет!
+      * **Adoro i dolci!** — Обожаю сладкое!
+    words:
+      - "n`ostro | наш"
+      - "v`ostro | ваш"
+      - "loro | их"
+      - "il locale | заведение"
+      - "rom`antico | романтичный"
+      - "come mai? | как так? почему?"
+      - "discreto | скромный; неплохой"
+      - "per caso | случайно"
+      - "la madre | мать"
+      - "il padre | отец"
+      - "macché | да что ты, вовсе нет"
+      - "adorare | обожать"
+      - "dimenticare | забывать"
+      - "la sciarpa | шарф"
+      - "il volo | рейс, полёт"
+      - "il cucciolo | щенок, детёныш"
+      - "vivace | живой, бойкий"
+      - "il sale | соль"
+      - "salato | солёный"
+      - "tanti auguri | поздравляю, всего наилучшего"
+    phrases:
+      - "Tanti auguri! | Поздравляю!"
+      - "Buon compleanno! | С днём рождения!"
+      - "Questi sono i nostri libri. | Это наши книги."
+      - "La loro casa è molto bella. | Их дом очень красивый."
+      - "Come mai? | Как так? Почему?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "___ casa (наш)"
+        options: ["il nostro", "la nostra", "le nostre", "nostra"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "___ amici (ваши)"
+        options: ["i vostri", "le vostre", "il vostro", "vostri"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Anna e Marco e ___ macchina (их)"
+        options: ["la sua", "la loro", "le loro", "la lora"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "I ragazzi e ___ libri (их)"
+        options: ["i suoi", "i loro", "i lori", "le loro"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "La casa dei Bianchi è grande, ___ è piccola. (наша)"
+        options: ["il nostro", "la nostra", "nostra casa", "le nostre"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Le ___ amiche sono simpatiche. (ваши)"
+        answer: ["vostre"]
+      - type: input
+        level: 3
+        q: "Il ___ appartamento è in centro. (наш)"
+        answer: ["nostro"]
+      - type: input
+        level: 3
+        q: "Le ___ figlie studiano a Roma. (их)"
+        answer: ["loro"]
+      - type: input
+        level: 3
+        q: "Переведите: «С днём рождения!» — Buon ___!"
+        answer: ["compleanno"]
+
+  - slug: famiglia
+    title_it: "La famiglia di Gianna"
+    title_ru: "Семья и родственники"
+    theory: |
+      ## Родственники
+
+      | | |
+      |---|---|
+      | il padre — отец | la madre — мать |
+      | il marito — муж | la moglie — жена (мн. *le mogli*) |
+      | il figlio — сын | la figlia — дочь |
+      | il fratello — брат | la sorella — сестра |
+      | il nonno — дедушка | la nonna — бабушка |
+      | lo zio — дядя | la zia — тётя |
+      | il cugino — двоюродный брат | la cugina — двоюродная сестра |
+      | il / la nipote — племянник / племянница; внук / внучка | i genitori — родители |
+      | il suocero — свёкор, тесть | la suocera — свекровь, тёща |
+
+      ## Притяжательные с родственниками
+
+      С названием **одного** близкого родственника в **ед. ч.** артикль **не ставится**:
+      *mia sorella, tuo padre, suo marito, nostra zia, vostro nonno*.
+
+      Артикль **нужен**:
+      * во **множественном** числе: *le mie sorelle, i tuoi nonni*
+      * с **loro**: *la loro madre, il loro figlio*
+      * если есть прилагательное: *la mia sorella maggiore* (старшая сестра)
+      * с ласковыми формами: *la mia mamma, il mio papà, la mia sorellina*
+
+      > 💡 *mia madre*, но *la mia mamma*; *mio fratello*, но *i miei fratelli*.
+    words:
+      - "l'albero geneal`ogico | генеалогическое древо | m"
+      - "la pol`itica | политика"
+      - "il / la nipote | племянник, племянница; внук, внучка"
+      - "i c`oniugi | супруги"
+      - "il cugino | двоюродный брат"
+      - "la figlia | дочь"
+      - "il suocero | свёкор, тесть"
+      - "la suocera | свекровь, тёща"
+      - "maggiore | старший"
+      - "minore | младший"
+      - "la sorellina | сестрёнка"
+      - "povero | бедный"
+      - "arrabbiato | сердитый"
+    phrases:
+      - "Mia sorella si chiama Laura. | Мою сестру зовут Лаура."
+      - "I miei nonni abitano in campagna. | Мои бабушка и дедушка живут в деревне."
+      - "Povera te! | Бедняжка!"
+      - "Hai fratelli o sorelle? | У тебя есть братья или сёстры?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "*La moglie* — это:"
+        options: ["мать", "жена", "дочь", "тётя"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ sorella si chiama Anna. (моя)"
+        options: ["La mia", "Mia", "Il mio", "Le mie"]
+        answer: 1
+        explain: "С одним близким родственником в ед. ч. артикль не ставится."
+      - type: choice
+        level: 2
+        q: "___ fratelli sono alti. (мои)"
+        options: ["Miei", "I miei", "Mio", "Il mio"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ madre è italiana. (их)"
+        options: ["Loro", "La loro", "Sua", "La sua"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ mamma è simpatica. (моя)"
+        options: ["Mia", "La mia", "Il mio", "Mie"]
+        answer: 1
+        explain: "С ласковыми словами (mamma, papà) артикль ставится."
+      - type: input
+        level: 3
+        q: "Переведите: «родители» — i ___"
+        answer: ["genitori"]
+      - type: input
+        level: 3
+        q: "___ padre lavora in banca. (твой)"
+        answer: ["tuo"]
+      - type: input
+        level: 3
+        q: "Le ___ cugine abitano a Napoli. (мои)"
+        answer: ["mie"]
+      - type: match
+        level: 2
+        q: "Соедините родственников"
+        pairs:
+          - ["lo zio", "дядя"]
+          - ["la nonna", "бабушка"]
+          - ["il marito", "муж"]
+          - ["la cugina", "двоюродная сестра"]
+          - ["il figlio", "сын"]
+
+  - slug: al-ristorante
+    title_it: "Da «I due fratelli»"
+    title_ru: "В ресторане"
+    theory: |
+      ## Итальянское меню
+
+      Итальянский обед состоит из нескольких блюд:
+      1. **l'antipasto** — закуска (*bruschette, salumi misti*)
+      2. **il primo (piatto)** — первое: паста, ризотто, суп (*spaghetti alla carbonara, risotto alla milanese*)
+      3. **il secondo (piatto)** — второе: мясо или рыба (*bistecca ai ferri, cotoletta alla milanese*)
+      4. **il contorno** — гарнир (*patate al forno, verdure grigliate*)
+      5. **il dolce** — десерт (*tiramisù, panna cotta, torta di mele*)
+
+      ## Как заказать
+
+      * **Vorrei** — мне бы хотелось (вежливая форма от *volere*): ***Vorrei** un bicchiere d'acqua, per favore.*
+      * **Per me…** — Мне…; **Come primo prendo…** — На первое возьму…
+      * **Ben cotta, per favore!** — Хорошо прожаренную, пожалуйста!
+      * **Il conto, per favore.** — Счёт, пожалуйста.
+
+      ## Mi piace / mi piacciono
+
+      Глагол **piacere** (нравиться) обычно употребляется в двух формах:
+      * **mi piace** + ед. ч. или инфинитив: *Mi piace **la pasta**. Mi piace **cucinare**.*
+      * **mi piacciono** + мн. ч.: *Mi piacciono **i dolci**.*
+
+      Отрицание: *Non mi piace il pesce.* Кому? — **mi** (мне), **ti** (тебе), **gli** (ему), **le** (ей), **Le** (Вам), **ci** (нам), **vi** (вам), **gli** (им).
+
+      > 💡 Порядок как в русском «мне нравится»: тот, **что** нравится, — подлежащее. Поэтому глагол согласуется с ним: *mi piace la pizza*, но *mi piacciono le pizze*.
+    words:
+      - "il risotto | ризотто"
+      - "il secondo | второе блюдо"
+      - "il primo | первое блюдо"
+      - "la cotoletta | отбивная"
+      - "l'antipasto | закуска | m"
+      - "la bruschetta | брускетта"
+      - "misto | смешанный, ассорти"
+      - "il pollo | курица"
+      - "l'aglio | чеснок | m"
+      - "la bistecca | бифштекс"
+      - "ai ferri | на гриле"
+      - "il vitello | телятина"
+      - "le verdure | овощи"
+      - "la torta di mele | яблочный пирог"
+      - "la panna cotta | панна-котта"
+      - "il contorno | гарнир"
+      - "la patata | картофель"
+      - "al forno | запечённый в духовке"
+      - "il fungo | гриб"
+      - "il vino | вино"
+      - "ben cotto | хорошо прожаренный"
+      - "frizzante | газированный"
+      - "saporito | вкусный, ароматный"
+      - "al dente | «на зубок» (о пасте)"
+      - "affatto | совсем (не)"
+      - "la carne | мясо"
+      - "il conto | счёт"
+      - "il menù | меню"
+      - "vorrei | я бы хотел(а)"
+      - "piacere | нравиться"
+    phrases:
+      - "Vorrei prenotare un tavolo per due. | Я бы хотела забронировать столик на двоих."
+      - "Come primo prendo gli spaghetti alla carbonara. | На первое я возьму спагетти карбонара."
+      - "Il conto, per favore. | Счёт, пожалуйста."
+      - "Mi piace la pasta al dente. | Мне нравится паста аль денте."
+      - "Mi piacciono i dolci. | Мне нравятся сладости."
+      - "Non mi piace affatto! | Мне совсем не нравится!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Паста и ризотто в меню — это:"
+        options: ["antipasto", "primo", "secondo", "contorno"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Как попросить счёт?"
+        options: ["Il menù, per favore.", "Il conto, per favore.", "Il tavolo, per favore.", "Il resto, per favore."]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Mi ___ la pizza."
+        options: ["piace", "piacciono", "piaci", "piacete"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Mi ___ gli spaghetti."
+        options: ["piace", "piacciono", "piacere", "piacio"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Ti ___ cucinare?"
+        options: ["piace", "piacciono", "piaci", "piaccio"]
+        answer: 0
+        explain: "С инфинитивом — piace."
+      - type: choice
+        level: 2
+        q: "Patate al forno — это:"
+        options: ["primo", "contorno", "dolce", "antipasto"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "A Maria ___ (piacere) i fiori."
+        answer: ["piacciono"]
+      - type: input
+        level: 3
+        q: "Переведите вежливо: «Я бы хотела воды» — ___ dell'acqua."
+        answer: ["vorrei"]
+      - type: input
+        level: 3
+        q: "Переведите: «мясо» — la ___"
+        answer: ["carne"]
+      - type: order
+        level: 3
+        q: "Соберите: «На второе я возьму курицу.»"
+        answer: "Come secondo prendo il pollo."
+
+  - slug: spuntino-volerci
+    title_it: "Facciamo uno spuntino?"
+    title_ru: "Приёмы пищи. Volerci и metterci"
+    theory: |
+      ## Приёмы пищи
+
+      **la colazione** — завтрак, **il pranzo** — обед, **la merenda** — полдник, **la cena** — ужин, **lo spuntino** — перекус.
+
+      * *Faccio colazione alle sette.* — Я завтракаю в семь.
+      * *Salto sempre la cena.* — Я всегда пропускаю ужин.
+      * *Ho sempre fretta.* — Я всегда тороплюсь.
+
+      ## Ci vuole / ci vogliono — «нужно, требуется»
+
+      * **ci vuole** + ед. ч.: *Ci vuole **mezz'ora**.* — Нужно полчаса.
+      * **ci vogliono** + мн. ч.: *Ci vogliono **trenta minuti**.* — Нужно тридцать минут.
+      * *Per andare in Spagna **ci vuole** il passaporto?* — Для поездки в Испанию нужен паспорт?
+
+      ## Metterci — «тратить (время)»
+
+      Это личный глагол: кто-то конкретный тратит время. Спрягается как *mettere* с **ci** впереди:
+      **ci metto, ci metti, ci mette, ci mettiamo, ci mettete, ci mettono**.
+
+      * *Quanto tempo **ci metti** per andare a scuola?* — Сколько времени ты тратишь на дорогу до школы?
+      * *Non **ci metto** molto, dieci minuti.* — Немного, минут десять.
+
+      > 💡 **Ci vuole** — безличное (вообще нужно), **ci metto** — личное (я трачу).
+    words:
+      - "lo spuntino | перекус"
+      - "il biscotto | печенье"
+      - "siccome | так как"
+      - "la fretta | спешка"
+      - "al m`assimo | максимум"
+      - "le fette biscottate | сухарики, хлебцы"
+      - "il burro | сливочное масло"
+      - "il miele | мёд"
+      - "saltare | пропускать; прыгать"
+      - "la merenda | полдник"
+      - "a posto | в порядке"
+      - "in ogni caso | в любом случае"
+      - "i cereali | хлопья"
+      - "cu`ocere | варить, готовить"
+      - "il passaporto | паспорт"
+      - "volerci | требоваться"
+      - "metterci | тратить (время)"
+    phrases:
+      - "Facciamo uno spuntino? | Перекусим?"
+      - "Ho sempre fretta. | Я всегда тороплюсь."
+      - "Quanto tempo ci vuole? | Сколько времени нужно?"
+      - "Ci vogliono dieci minuti. | Нужно десять минут."
+      - "Quanto ci metti? | Сколько времени у тебя уходит?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "*La merenda* — это:"
+        options: ["завтрак", "полдник", "ужин", "обед"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Per arrivare alla stazione ___ venti minuti."
+        options: ["ci vuole", "ci vogliono", "ci metto", "ci mette"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Per fare la pizza ___ un'ora."
+        options: ["ci vuole", "ci vogliono", "ci mettono", "ci metti"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Io ___ mezz'ora per andare al lavoro."
+        options: ["ci vuole", "ci metto", "ci mette", "ci vogliono"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Quanto tempo ___ (metterci, tu) per prepararti?"
+        answer: ["ci metti"]
+      - type: input
+        level: 3
+        q: "Loro ___ (metterci) due ore."
+        answer: ["ci mettono"]
+      - type: input
+        level: 3
+        q: "Переведите: «мёд» — il ___"
+        answer: ["miele"]
+
+  - slug: quello-bello-cucina
+    title_it: "Quello e bello. In cucina"
+    title_ru: "Quello и bello. Посуда и кухня"
+    theory: |
+      ## Quello и bello перед существительным
+
+      **Quello** (тот) и **bello** (красивый) перед существительным меняются **как определённый артикль**:
+
+      | Артикль | quello | bello |
+      |---|---|---|
+      | il ristorante → i ristoranti | **quel** ristorante → **quei** ristoranti | **bel** ristorante → **bei** ristoranti |
+      | lo spettacolo → gli spettacoli | **quello** spettacolo → **quegli** spettacoli | **bello** spettacolo → **begli** spettacoli |
+      | l'uomo → gli uomini | **quell'**uomo → **quegli** uomini | **bell'**uomo → **begli** uomini |
+      | la casa → le case | **quella** casa → **quelle** case | **bella** casa → **belle** case |
+      | l'amica → le amiche | **quell'**amica → **quelle** amiche | **bell'**amica → **belle** amiche |
+
+      После существительного или как местоимение они **не меняются** так: *È un uomo **bello**. Gianna ha comprato questo libro, Lorenzo ha comprato **quello**.*
+
+      ## Накрываем на стол
+
+      **la tovaglia** (скатерть), **il tovagliolo** (салфетка), **la forchetta** (вилка), **il coltello** (нож), **il cucchiaio** (ложка), **il piatto** (тарелка), **il bicchiere** (стакан).
+
+      ## На кухне
+
+      **la pentola** (кастрюля), **la padella** (сковорода), **la grattugia** (тёрка), **il mestolo** (половник), **lo scolapasta / il colapasta** (дуршлаг).
+      Глаголы: **tagliare** (резать), **friggere** (жарить), **mescolare** (мешать), **grattugiare** (тереть), **bollire** (кипятить).
+    words:
+      - "quello | тот"
+      - "la t`avola | стол (обеденный)"
+      - "apparecchiare | накрывать на стол"
+      - "la tovaglia | скатерть"
+      - "il tovagliolo | салфетка"
+      - "la forchetta | вилка"
+      - "il pepe | перец"
+      - "il coltello | нож"
+      - "il cucchiaio | ложка"
+      - "il piatto | тарелка; блюдо"
+      - "il sugo | соус"
+      - "il salame | салями"
+      - "tagliare | резать"
+      - "fr`iggere | жарить"
+      - "mescolare | мешать"
+      - "grattugiare | тереть на тёрке"
+      - "la p`entola | кастрюля"
+      - "la grattugia | тёрка"
+      - "il tagliere | разделочная доска"
+      - "la padella | сковорода"
+      - "il m`estolo | половник"
+      - "il colapasta | дуршлаг"
+      - "bollire | кипятить"
+      - "il cuoco | повар"
+      - "la trattor`ia | траттория"
+      - "la pizzer`ia | пиццерия"
+      - "la notizia | новость"
+      - "econ`omico | недорогой"
+      - "assaggiare | пробовать (на вкус)"
+      - "la bandiera | флаг"
+      - "il bas`ilico | базилик"
+      - "la ricetta | рецепт"
+      - "il re | король"
+      - "la regina | королева"
+      - "l'ingrediente | ингредиент | m"
+      - "troppo | слишком"
+      - "costoso | дорогой"
+      - "pesante | тяжёлый"
+      - "divertente | весёлый, забавный"
+    phrases:
+      - "Che bel ristorante! | Какой красивый ресторан!"
+      - "Quel ragazzo è mio fratello. | Тот парень — мой брат."
+      - "Mi passi il sale, per favore? | Передай мне соль, пожалуйста."
+      - "Assaggia questo sugo! | Попробуй этот соус!"
+    exercises:
+      - type: choice
+        level: 2
+        q: "___ ristorante è caro. (тот)"
+        options: ["Quello", "Quel", "Quell'", "Quella"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Che ___ spettacolo! (красивый)"
+        options: ["bel", "bello", "bell'", "bei"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ uomini sono italiani. (те)"
+        options: ["Quei", "Quegli", "Quelli", "Quelle"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Che ___ fiori! (красивые)"
+        options: ["belli", "bei", "begli", "belle"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*La forchetta* — это:"
+        options: ["ложка", "нож", "вилка", "тарелка"]
+        answer: 2
+      - type: input
+        level: 3
+        q: "___ amica è simpatica. (та)"
+        answer: ["quell'", "quell’"]
+      - type: input
+        level: 3
+        q: "Che ___ ragazzi! (красивые)"
+        answer: ["bei"]
+      - type: input
+        level: 3
+        q: "Переведите: «ложка» — il ___"
+        answer: ["cucchiaio"]
+      - type: input
+        level: 3
+        q: "Переведите: «сковорода» — la ___"
+        answer: ["padella"]
+      - type: match
+        level: 2
+        q: "Соедините посуду"
+        pairs:
+          - ["il coltello", "нож"]
+          - ["il cucchiaio", "ложка"]
+          - ["la pentola", "кастрюля"]
+          - ["il bicchiere", "стакан"]
+          - ["il tovagliolo", "салфетка"]
+
+verbs:
+  - {inf: piacere, ru: нравиться, tense: presente, forms: [piaccio, piaci, piace, piacciamo, piacete, piacciono]}
+  - {inf: metterci, ru: тратить (время), tense: presente, forms: [ci metto, ci metti, ci mette, ci mettiamo, ci mettete, ci mettono]}
+  - {inf: mettere, ru: класть, tense: presente, forms: [metto, metti, mette, mettiamo, mettete, mettono]}

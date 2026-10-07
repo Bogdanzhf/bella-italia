@@ -1,0 +1,133 @@
+id: progress-4
+title: "Тест прогресса 4 · юниты 9–11"
+units: [9, 10, 11]
+description: "Возвратные глаголы и одежда, косвенные местоимения и imperativo, условное наклонение и музыка."
+sections:
+  - title: "Чтение"
+    intro: "Прочитайте текст и ответьте на вопросы."
+    reading:
+      title: "Una giornata di Elena"
+      text: |
+        Elena è una cantante di Torino. La mattina si sveglia tardi, verso le dieci, perché la sera canta nei concerti.
+        Si alza, si fa la doccia e fa colazione con un caffè e una fetta di torta.
+        Il pomeriggio prova le canzoni con il suo gruppo: suonano la chitarra, il pianoforte e la batteria.
+        Prima del concerto si veste con cura: le piace molto la moda, soprattutto i vestiti a fiori.
+        Elena dice: «Mi piacerebbe cantare al Festival di Sanremo. Sarebbe un sogno!»
+        L'anno scorso ha mandato una canzone al festival, ma purtroppo non l'hanno scelta. Quest'anno ci riproverà.
+    exercises:
+      - type: tf
+        level: 1
+        q: "Верно или неверно?"
+        items:
+          - ["Elena si sveglia presto.", false]
+          - ["Il pomeriggio prova le canzoni.", true]
+          - ["Ad Elena piacciono i vestiti a righe.", false]
+          - ["Elena ha già cantato a Sanremo.", false]
+      - type: choice
+        level: 2
+        q: "О чём мечтает Елена?"
+        options: ["стать актрисой", "спеть на фестивале в Сан-Ремо", "открыть магазин", "переехать в Рим"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Что Елена сделает в этом году?"
+        options: ["бросит музыку", "снова попробует отправить песню", "уедет на отдых", "запишет альбом"]
+        answer: 1
+
+  - title: "Аудирование"
+    intro: "Прослушайте тексты и выберите правильный ответ."
+    exercises:
+      - type: choice
+        level: 1
+        audio: "Che taglia porta? La quaranta, grazie."
+        q: "🎧 Какой размер?"
+        options: ["38", "40", "42", "44"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Scusi, per la stazione? Vada sempre dritto e al semaforo giri a destra."
+        q: "🎧 Где повернуть направо?"
+        options: ["на перекрёстке", "на светофоре", "у площади", "у моста"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Mi presti il tuo libro di italiano? Domani ho l'esame."
+        q: "🎧 Что просят одолжить?"
+        options: ["тетрадь", "учебник итальянского", "ручку", "словарь"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Ieri mi sono alzata alle sei perché dovevo prendere il treno."
+        q: "🎧 Почему девушка встала в шесть?"
+        options: ["у неё был экзамен", "нужно было успеть на поезд", "она не могла спать", "она пошла в спортзал"]
+        answer: 1
+      - type: choice
+        level: 3
+        audio: "Sarei venuta volentieri alla festa, ma ero malata."
+        q: "🎧 Пришла ли она на праздник?"
+        options: ["да", "нет, она болела", "нет, она работала", "да, но поздно"]
+        answer: 1
+
+  - title: "Грамматика"
+    intro: "Заполните пропуски."
+    exercises:
+      - type: cloze
+        level: 2
+        q: "Вставьте возвратные местоимения."
+        text: "La mattina io [[mi]] sveglio alle sette. Tu [[ti]] vesti in fretta. Noi [[ci]] vediamo alle otto."
+      - type: cloze
+        level: 3
+        q: "Поставьте глаголы в condizionale."
+        text: "Io [[vorrei]] (volere) un tè. Tu [[potresti]] (potere) aiutarmi? Al tuo posto non [[andrei]] (andare) a quella festa."
+      - type: choice
+        level: 2
+        q: "Hai telefonato a Luca? Sì, ___ ho telefonato ieri."
+        options: ["lo", "gli", "le", "li"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Ragazzi, non ___ rumore!"
+        options: ["fare", "fate", "fa'", "facciamo"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Le ragazze si sono ___ (divertirsi) alla festa."
+        answer: ["divertite"]
+
+  - title: "Лексика"
+    intro: "Покажите словарный запас."
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините"
+        pairs:
+          - ["la chitarra", "suonare"]
+          - ["il telecomando", "la televisione"]
+          - ["il camerino", "provare un vestito"]
+          - ["il semaforo", "la strada"]
+      - type: odd
+        level: 2
+        q: "Найдите лишнее."
+        options: ["giacca", "maglione", "cappotto", "batteria"]
+        answer: 3
+      - type: odd
+        level: 2
+        q: "Найдите лишнее."
+        options: ["telegiornale", "documentario", "serie tv", "tessuto"]
+        answer: 3
+
+writing:
+  - task: "**Мой обычный день** (40–50 слов): расскажите о своём дне с возвратными глаголами."
+    words: "40–50"
+    checklist:
+      - "Я использовала возвратные глаголы (mi sveglio, mi vesto…)"
+      - "Я указала время (alle sette, la sera…)"
+      - "Я использовала связки (prima, poi, dopo)"
+    sample: "Di solito mi sveglio alle sette. Prima mi lavo e mi vesto, poi faccio colazione con un cappuccino. Alle otto e mezza esco di casa e prendo la metro. La sera mi riposo, leggo un libro e verso le undici mi addormento."
+  - task: "**Мечты** (50–60 слов): что бы вы сделали, если бы у вас был год свободного времени? Используйте condizionale."
+    words: "50–60"
+    checklist:
+      - "Я использовала condizionale (vorrei, andrei, mi piacerebbe)"
+      - "Я назвала хотя бы три желания"
+      - "Я объяснила, почему"
+    sample: "Con un anno libero viaggerei per tutta l'Italia. Vorrei vivere qualche mese a Firenze per studiare l'arte e mi piacerebbe imparare a cucinare in una trattoria. Poi andrei in Sicilia: farei il bagno nel mare e assaggerei tutti i dolci. Sarebbe un anno bellissimo!"

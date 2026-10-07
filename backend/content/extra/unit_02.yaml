@@ -1,0 +1,267 @@
+lessons_before:
+  - slug: dialogo-tempo-libero
+    kind: dialogue
+    title_it: "Che cosa fai sabato?"
+    title_ru: "Что ты делаешь в субботу?"
+    dialogue:
+      title: "Un invito"
+      scene: "Лоренцо звонит Софии в пятницу вечером."
+      lines:
+        - "Lorenzo: Pronto, Sofia? Sono Lorenzo. Che cosa fai domani? | Алло, София? Это Лоренцо. Что ты делаешь завтра?"
+        - "Sofia: Ciao! La mattina vado in palestra. Perché? | Привет! Утром иду в спортзал. А что?"
+        - "Lorenzo: Il pomeriggio andiamo al lago con Gianna. Vieni con noi? | Днём мы едем на озеро с Джанной. Поедешь с нами?"
+        - "Sofia: Volentieri! A che ora partite? | С удовольствием! Во сколько вы выезжаете?"
+        - "Lorenzo: Alle due e mezza, dalla stazione Centrale. Prendiamo il treno. | В половине третьего, с Центрального вокзала. Едем на поезде."
+        - "Sofia: Perfetto. Devo comprare il biglietto? | Отлично. Мне нужно купить билет?"
+        - "Lorenzo: Sì, lo puoi comprare online o in biglietteria. | Да, можешь купить онлайн или в кассе."
+        - "Sofia: E la sera? Torniamo presto? | А вечером? Вернёмся рано?"
+        - "Lorenzo: Verso le nove. Poi, se vuoi, andiamo a mangiare una pizza. | Около девяти. Потом, если хочешь, пойдём съедим пиццу."
+        - "Sofia: Che bella idea! Allora a domani! | Отличная идея! Тогда до завтра!"
+        - "Lorenzo: A domani, ciao! | До завтра, пока!"
+    words:
+      - "verso | около (о времени)"
+      - "online | онлайн"
+      - "la stazione Centrale | Центральный вокзал"
+    phrases:
+      - "Che cosa fai domani? | Что ты делаешь завтра?"
+      - "Vieni con noi? | Пойдёшь с нами?"
+      - "A che ora partite? | Во сколько вы выезжаете?"
+      - "Che bella idea! | Отличная идея!"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["La mattina Sofia va in palestra.", true]
+          - ["Vanno al mare.", false]
+          - ["Partono alle due e mezza.", true]
+          - ["Tornano a mezzanotte.", false]
+      - type: choice
+        level: 1
+        ref: dialogue
+        q: "На чём ребята поедут на озеро?"
+        options: ["in macchina", "in treno", "in autobus", "a piedi"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Partiamo alle due e mezza."
+        q: "🎧 Во сколько они выезжают?"
+        options: ["2:00", "2:30", "12:30", "3:30"]
+        answer: 1
+      - type: dialog
+        level: 2
+        q: "Восстановите приглашение."
+        lines:
+          - "Vieni al cinema stasera?"
+          - "Volentieri! A che ora?"
+          - "Alle otto e mezza."
+          - "Perfetto, a stasera!"
+      - type: cloze
+        level: 3
+        ref: dialogue
+        q: "Заполните пропуски."
+        text: "Sofia [[va]] in palestra la mattina. Il pomeriggio Lorenzo, Gianna e Sofia [[vanno]] al lago. [[Prendono]] il treno."
+
+lessons_after:
+  - slug: tempo-libero-italiani
+    kind: culture
+    title_it: "Il tempo libero degli italiani"
+    title_ru: "Свободное время итальянцев"
+    reading:
+      title: "Che cosa fanno gli italiani nel tempo libero?"
+      photo: p-roma-trastevere
+      text: |
+        Nel tempo libero molti italiani guardano la televisione, leggono o ascoltano musica.
+        Il calcio è lo sport più amato: la domenica tanti tifosi vanno allo stadio o guardano la partita al bar con gli amici.
+        Gli italiani amano anche passeggiare: la sera, soprattutto d'estate, fanno la "passeggiata" in centro e prendono un gelato.
+        Nel fine settimana molte famiglie vanno al mare, in montagna o in campagna.
+        Nelle grandi città le persone usano i mezzi pubblici: l'autobus, il tram e la metropolitana. A Venezia c'è il vaporetto, un autobus sull'acqua!
+      ru: |
+        В свободное время многие итальянцы смотрят телевизор, читают или слушают музыку.
+        Футбол — самый любимый спорт: по воскресеньям многие болельщики ходят на стадион или смотрят матч в баре с друзьями.
+        Итальянцы любят и гулять: вечером, особенно летом, они устраивают «пасседжату» — прогулку по центру — и едят мороженое.
+        На выходных многие семьи едут на море, в горы или за город.
+        В больших городах люди пользуются общественным транспортом: автобусом, трамваем и метро. В Венеции есть вапоретто — автобус на воде!
+      glossary:
+        - "il tifoso | болельщик"
+        - "più amato | самый любимый"
+        - "soprattutto | особенно"
+        - "i mezzi pubblici | общественный транспорт"
+    photos: [p-gondola, p-spiaggia-italia, p-dolomiti]
+    words:
+      - "il tifoso | болельщик"
+      - "la partita | матч"
+      - "soprattutto | особенно"
+      - "i mezzi pubblici | общественный транспорт"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["Lo sport più amato in Italia è il tennis.", false]
+          - ["La sera gli italiani fanno la passeggiata.", true]
+          - ["Il vaporetto è un autobus sull'acqua.", true]
+      - type: match
+        level: 1
+        q: "Соедините место и занятие"
+        pairs:
+          - ["allo stadio", "guardare la partita"]
+          - ["al mare", "prendere il sole"]
+          - ["in montagna", "camminare"]
+          - ["in centro", "fare la passeggiata"]
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: что не транспорт?"
+        options: ["tram", "vaporetto", "metropolitana", "palestra"]
+        answer: 3
+      - type: cloze
+        level: 2
+        ref: reading
+        q: "Заполните пропуски по тексту."
+        text: "La domenica i tifosi vanno allo [[stadio]]. A Venezia c'è il [[*vaporetto/tram/treno]]."
+
+  - slug: autovalutazione-2
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 2"
+    theory: |
+      ## Что вы уже умеете
+
+      * говорить о свободном времени: неправильные глаголы **andare, venire, fare, uscire, bere, dire…**;
+      * приглашать, соглашаться и отказываться; модальные **potere, volere, dovere**;
+      * описывать квартиру, считать до 2000, называть порядковые числа;
+      * употреблять предлоги **di, a, da, in, con, su, per, tra/fra**;
+      * называть дни недели и говорить, который час; ездить на транспорте.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините ситуацию и фразу"
+        pairs:
+          - ["пригласить", "Vieni al cinema con me?"]
+          - ["принять приглашение", "Volentieri!"]
+          - ["отказаться", "Mi dispiace, non posso."]
+          - ["спросить время", "Che ore sono?"]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: что не день недели?"
+        options: ["lunedì", "sabato", "mese", "giovedì"]
+        answer: 2
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: что не комната?"
+        options: ["cucina", "bagno", "soggiorno", "balcone"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Io {{vengo=>vado}} al cinema stasera con Marco."
+        explain: "О движении «туда» говорим andare; venire — «прийти сюда / с кем-то»."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Tu {{puoi=>vuoi}} venire? Sì, voglio venire!"
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Abito {{in=>a}} Milano da tre anni."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски предлогами."
+        text: "Vado [[a]] scuola [[in]] autobus. Studio l'italiano [[da]] un anno. La lezione finisce [[tra|fra]] dieci minuti."
+      - type: choice
+        level: 2
+        audio: "Sono le sette meno un quarto."
+        q: "🎧 Который час?"
+        options: ["7:15", "6:45", "7:45", "6:15"]
+        answer: 1
+
+exercises:
+  tempo-libero:
+    - type: odd
+      level: 1
+      q: "Найдите лишнее: что делают с инструментом (suonare)?"
+      options: ["chitarra", "calcio", "carte", "videogiochi"]
+      answer: 0
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Il sabato {{gioco=>suono}} il pianoforte."
+    - type: cloze
+      level: 3
+      q: "Поставьте неправильные глаголы в нужную форму."
+      text: "Io [[faccio]] sport, tu [[esci]] con gli amici, loro [[vanno]] al cinema."
+  inviti-modali:
+    - type: dialog
+      level: 2
+      q: "Восстановите диалог."
+      lines:
+        - "Andiamo al mare domenica?"
+        - "Mi dispiace, non posso: devo studiare."
+        - "Peccato! Magari un'altra volta."
+        - "Sì, la prossima settimana!"
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Noi {{doviamo=>dobbiamo}} partire presto."
+    - type: choice
+      level: 2
+      audio: "Mi dispiace, ma non posso venire."
+      q: "🎧 Человек принимает приглашение или отказывается?"
+      options: ["принимает", "отказывается"]
+      answer: 1
+  dove-abiti:
+    - type: choice
+      level: 2
+      audio: "milleseicento"
+      q: "🎧 Какое число вы услышали?"
+      options: ["1060", "1600", "6100", "160"]
+      answer: 1
+    - type: cloze
+      level: 3
+      q: "Напишите порядковые числительные."
+      text: "1° [[primo]], 3° [[terzo]], 5° [[quinto]], 10° [[decimo]]"
+  preposizioni-semplici:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: с чем говорят «in», а не «a»?"
+      options: ["casa", "scuola", "Italia", "teatro"]
+      answer: 2
+    - type: error
+      level: 3
+      q: "Найдите ошибку."
+      text: "Il treno parte {{a=>per}} Roma alle otto."
+  giorni-settimana:
+    - type: error
+      level: 2
+      q: "Найдите ошибку (регулярное действие)."
+      text: "{{Domenica=>La}} domenica vado sempre dalla nonna."
+    - type: choice
+      level: 1
+      audio: "venerdì"
+      q: "🎧 Какой день недели?"
+      options: ["вторник", "четверг", "пятница", "суббота"]
+      answer: 2
+  che-ora-e:
+    - type: choice
+      level: 2
+      audio: "È mezzogiorno e mezzo."
+      q: "🎧 Который час?"
+      options: ["12:30", "00:30", "12:00", "11:30"]
+      answer: 0
+    - type: input
+      level: 3
+      audio: "Sono le dieci e un quarto."
+      q: "🎧 Напишите время цифрами (например, 10:15)."
+      answer: ["10:15", "10.15", "22:15", "22.15"]
+  mezzi-trasporto:
+    - type: odd
+      level: 1
+      q: "Найдите лишнее: где НЕ продают билеты?"
+      options: ["tabaccheria", "edicola", "biglietteria", "farmacia"]
+      answer: 3
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Vado al lavoro {{a=>in}} bicicletta."

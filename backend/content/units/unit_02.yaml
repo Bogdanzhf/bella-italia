@@ -1,0 +1,804 @@
+id: 2
+title_it: "Tempo libero"
+title_ru: "Свободное время"
+level: A1
+icon: "🎨"
+description: >
+  Хобби и свободное время, неправильные глаголы, модальные глаголы potere, volere, dovere,
+  приглашения, дом и квартира, числа до 2000, простые предлоги, дни недели и время.
+goals:
+  - рассказывать о своём свободном времени
+  - приглашать, принимать и вежливо отклонять приглашение
+  - спрягать неправильные и модальные глаголы
+  - описывать квартиру, называть числа до 2000 и порядковые числительные
+  - употреблять простые предлоги di, a, da, in, con, su, per, tra/fra
+  - называть дни недели и говорить, который час
+
+lessons:
+  - slug: tempo-libero
+    title_it: "Cosa fai nel tempo libero?"
+    title_ru: "Хобби и неправильные глаголы"
+    theory: |
+      ## Что ты делаешь в свободное время?
+
+      * **Cosa fai nel tempo libero?** — Что ты делаешь в свободное время?
+      * **Vado in palestra / al cinema / a teatro.** — Хожу в спортзал / в кино / в театр.
+      * **Gioco con i videogiochi.** — Играю в видеоигры.
+      * **Suono la chitarra.** — Играю на гитаре.
+      * **Mi piace ballare / leggere.** — Мне нравится танцевать / читать.
+
+      > 💡 «Играть» по-итальянски два глагола: **giocare** — в игру, спорт (*giocare a calcio, a carte*), **suonare** — на инструменте (*suonare il pianoforte*).
+
+      ## Неправильные глаголы
+
+      Самые частые глаголы спрягаются не по правилам — их нужно выучить:
+
+      | | **andare** (идти) | **venire** (приходить) | **fare** (делать) | **stare** (быть, находиться) | **uscire** (выходить) |
+      |---|---|---|---|---|---|
+      | io | vado | vengo | faccio | sto | esco |
+      | tu | vai | vieni | fai | stai | esci |
+      | lui / lei | va | viene | fa | sta | esce |
+      | noi | andiamo | veniamo | facciamo | stiamo | usciamo |
+      | voi | andate | venite | fate | state | uscite |
+      | loro | vanno | vengono | fanno | stanno | escono |
+
+      | | **bere** (пить) | **dire** (говорить) | **dare** (давать) | **sapere** (знать) | **rimanere** (оставаться) |
+      |---|---|---|---|---|---|
+      | io | bevo | dico | do | so | rimango |
+      | tu | bevi | dici | dai | sai | rimani |
+      | lui / lei | beve | dice | dà | sa | rimane |
+      | noi | beviamo | diciamo | diamo | sappiamo | rimaniamo |
+      | voi | bevete | dite | date | sapete | rimanete |
+      | loro | bevono | dicono | danno | sanno | rimangono |
+
+      Также: **salire** (salgo, sali, sale, saliamo, salite, salgono), **scegliere** (scelgo, scegli, sceglie, scegliamo, scegliete, scelgono), **tenere** (tengo, tieni, tiene, teniamo, tenete, tengono), **sedere** (siedo, siedi, siede, sediamo, sedete, siedono).
+
+      ## Особенности глаголов на -care, -gare, -ciare, -giare
+
+      * **-care / -gare**: перед окончаниями на *i* добавляем **h**, чтобы сохранить звук: *giocare → gio**ch**i, gio**ch**iamo; pagare → pa**gh**i, pa**gh**iamo*.
+      * **-ciare / -giare**: буква *i* не удваивается: *cominciare → comin**ci**, comin**ci**amo; mangiare → man**gi**, man**gi**amo*.
+    words:
+      - "il tempo l`ibero | свободное время"
+      - "noioso | скучный"
+      - "poco | мало"
+      - "giocare | играть (в игру, спорт)"
+      - "il videogioco | видеоигра"
+      - "la palestra | спортзал"
+      - "ballare | танцевать"
+      - "suonare | играть (на инструменте)"
+      - "lo strumento | инструмент"
+      - "la televisione | телевидение; телевизор"
+      - "il teatro | театр"
+      - "il pianoforte | фортепиано"
+      - "il violino | скрипка"
+      - "il fine settimana | выходные"
+      - "bere | пить"
+      - "qualcosa | что-нибудь"
+      - "adesso | сейчас"
+      - "la pensione | пенсия"
+      - "tanto | много"
+      - "la piscina | бассейн"
+      - "stare in forma | поддерживать форму"
+      - "venire | приходить, приезжать"
+      - "andare | идти, ехать"
+      - "fare | делать"
+      - "stare | находиться; чувствовать себя"
+      - "uscire | выходить"
+      - "dire | говорить, сказать"
+      - "dare | давать"
+      - "sapere | знать"
+      - "rimanere | оставаться"
+      - "la carta | бумага; карта (игральная)"
+      - "forse | может быть"
+      - "qualche volta | иногда"
+      - "amare | любить"
+      - "il / la giornalista | журналист"
+      - "l'aeroporto | аэропорт | m"
+      - "pagare | платить"
+      - "mangiare | есть, кушать"
+      - "cominciare | начинать"
+    phrases:
+      - "Cosa fai nel tempo libero? | Что ты делаешь в свободное время?"
+      - "Vado in palestra due volte alla settimana. | Я хожу в спортзал два раза в неделю."
+      - "Suono la chitarra in un gruppo musicale. | Я играю на гитаре в группе."
+      - "Mi piace / Non mi piace. | Мне нравится / Мне не нравится."
+      - "Sono in pensione. | Я на пенсии."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Io ___ al cinema stasera. (andare)"
+        options: ["vado", "vai", "va", "vanno"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "Cosa ___ nel tempo libero? (fare, tu)"
+        options: ["faccio", "fai", "fa", "fate"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Как сказать «играть на гитаре»?"
+        options: ["giocare la chitarra", "suonare la chitarra", "fare la chitarra", "ballare la chitarra"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Noi ___ a casa stasera. (rimanere)"
+        options: ["rimaniamo", "rimangiamo", "rimanete", "rimangono"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Loro ___ da Napoli. (venire)"
+        options: ["venono", "vengono", "vieneno", "veniamo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Tu ___ a calcio? (giocare)"
+        options: ["gioci", "giochi", "giocchi", "giocii"]
+        answer: 1
+        explain: "Глаголы на -care добавляют h: giochi."
+      - type: choice
+        level: 2
+        q: "Come ___, signora? (stare)"
+        options: ["sta", "stai", "sto", "stanno"]
+        answer: 0
+      - type: input
+        level: 2
+        q: "Io ___ (uscire) con gli amici."
+        answer: ["esco"]
+      - type: input
+        level: 3
+        q: "Voi ___ (dire) la verità?"
+        answer: ["dite"]
+      - type: input
+        level: 3
+        q: "Marco ___ (bere) un caffè."
+        answer: ["beve"]
+      - type: input
+        level: 3
+        q: "Noi ___ (pagare) il conto."
+        answer: ["paghiamo"]
+      - type: input
+        level: 3
+        q: "Tu ___ (mangiare) la pizza?"
+        answer: ["mangi"]
+      - type: input
+        level: 3
+        q: "Loro ___ (fare) sport."
+        answer: ["fanno"]
+      - type: order
+        level: 2
+        q: "Соберите: «Что ты делаешь в свободное время?»"
+        answer: "Cosa fai nel tempo libero?"
+
+  - slug: inviti-modali
+    title_it: "Vieni con noi?"
+    title_ru: "Приглашения и модальные глаголы"
+    theory: |
+      ## Пригласить, согласиться, отказаться
+
+      | Пригласить | Согласиться | Отказаться |
+      |---|---|---|
+      | **Vieni con noi?** — Пойдёшь с нами? | **Volentieri!** — С удовольствием! | **Mi dispiace, ma non posso.** — Мне жаль, но я не могу. |
+      | **Perché non andiamo al mare?** — Почему бы нам не пойти на море? | **D'accordo!** — Договорились! | **Purtroppo ho un impegno.** — К сожалению, я занят(а). |
+      | **Ti va di…?** — Хочешь…? | **Perché no?** — Почему бы и нет? | **Magari un'altra volta.** — Может, в другой раз. |
+      | **Hai voglia di…?** — Есть желание…? | **Ottima idea!** — Отличная идея! | **Non è che non voglio, è che…** — Не то чтобы не хочу, просто… |
+
+      ## Модальные глаголы
+
+      **potere** (мочь), **volere** (хотеть), **dovere** (быть должным) — неправильные. После них идёт **инфинитив**:
+
+      | | **potere** | **volere** | **dovere** |
+      |---|---|---|---|
+      | io | posso | voglio | devo |
+      | tu | puoi | vuoi | devi |
+      | lui / lei | può | vuole | deve |
+      | noi | possiamo | vogliamo | dobbiamo |
+      | voi | potete | volete | dovete |
+      | loro | possono | vogliono | devono |
+
+      * *Posso entrare?* — Можно войти?
+      * *Vuoi venire con me?* — Хочешь пойти со мной?
+      * *Devo studiare.* — Мне нужно заниматься.
+
+      > 💡 Вежливая просьба: **Posso…?** (Можно мне…?) — *Scusi, posso entrare?*
+    words:
+      - "il mare | море"
+      - "volentieri | с удовольствием"
+      - "la v`oglia | желание, охота"
+      - "restare | оставаться"
+      - "purtroppo | к сожалению"
+      - "ma dai! | да ладно!"
+      - "pensare | думать"
+      - "mi dispiace | мне жаль"
+      - "magari | может быть; хорошо бы"
+      - "qualcuno | кто-нибудь"
+      - "d'accordo | договорились; согласен"
+      - "l'impegno | дело, занятость | m"
+      - "`ottimo | отличный"
+      - "la mostra | выставка"
+      - "la spesa | покупки (продукты)"
+      - "entrare | входить"
+      - "il mondo | мир"
+      - "la natura | природа"
+      - "andare a piedi | ходить пешком"
+      - "aspettare | ждать"
+      - "il momento | момент, минутка"
+      - "il professore | преподаватель"
+      - "la gita | поездка, экскурсия"
+      - "tardi | поздно"
+      - "presto | рано; скоро"
+      - "sempre | всегда"
+      - "tornare | возвращаться"
+      - "la montagna | горы"
+      - "potere | мочь"
+      - "volere | хотеть"
+      - "dovere | быть должным"
+      - "giallo | жёлтый"
+    phrases:
+      - "Vieni con noi al mare? | Пойдёшь с нами на море?"
+      - "Volentieri! | С удовольствием!"
+      - "Mi dispiace, ma non posso. | Мне жаль, но я не могу."
+      - "Scusi, posso entrare? | Простите, можно войти?"
+      - "Aspetta un momento! | Подожди минутку!"
+      - "Perché no? | Почему бы и нет?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как согласиться на приглашение?"
+        options: ["Purtroppo non posso.", "Volentieri!", "Mi dispiace.", "Ho un impegno."]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Io ___ studiare stasera. (dovere)"
+        options: ["devo", "devi", "deve", "dobbiamo"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Tu ___ venire al cinema? (volere)"
+        options: ["voglio", "vuoi", "vuole", "volete"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Scusi, ___ entrare? (potere, io)"
+        options: ["può", "posso", "puoi", "possiamo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Noi ___ tornare presto. (dovere)"
+        options: ["doviamo", "dobbiamo", "devono", "devete"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Loro ___ (volere) andare al mare."
+        answer: ["vogliono"]
+      - type: input
+        level: 3
+        q: "Lei ___ (potere) aspettare un momento?"
+        answer: ["può"]
+      - type: input
+        level: 3
+        q: "Voi ___ (dovere) lavorare domani?"
+        answer: ["dovete"]
+      - type: input
+        level: 3
+        q: "Переведите: «К сожалению» —"
+        answer: ["purtroppo"]
+      - type: order
+        level: 3
+        q: "Соберите: «Мне жаль, но я не могу.»"
+        answer: "Mi dispiace, ma non posso."
+
+  - slug: dove-abiti
+    title_it: "Dove abiti?"
+    title_ru: "Дом, квартира и числа до 2000"
+    theory: |
+      ## Квартира
+
+      * **Abito in un appartamento in centro / in periferia.** — Я живу в квартире в центре / на окраине.
+      * **È al terzo piano.** — Она на четвёртом этаже (буквально «на третьем»).
+      * **C'è l'ascensore?** — Есть лифт?
+      * **Quanto paghi d'affitto?** — Сколько ты платишь за аренду?
+
+      > 💡 В Италии этажи считают иначе: **piano terra** — первый этаж, **primo piano** — второй и т. д.
+
+      **C'è** + ед. ч. / **ci sono** + мн. ч. — «есть, имеется»: *C'è un balcone. Ci sono tre stanze.*
+
+      ## Числа от 31 до 2000
+
+      | | | | |
+      |---|---|---|---|
+      | 31 trentuno | 70 settanta | 200 duecento | 1000 mille |
+      | 40 quaranta | 80 ottanta | 300 trecento | 1600 milleseicento |
+      | 50 cinquanta | 90 novanta | 500 cinquecento | 2000 duemila |
+      | 60 sessanta | 100 cento | 900 novecento | |
+
+      Составные числа пишутся **слитно**: *345 = trecentoquarantacinque*. **Mille** во мн. ч. — **mila**: *duemila, tremila*.
+
+      ## Порядковые числительные
+
+      1° **primo**, 2° **secondo**, 3° **terzo**, 4° **quarto**, 5° **quinto**, 6° **sesto**, 7° **settimo**, 8° **ottavo**, 9° **nono**, 10° **decimo**.
+
+      Начиная с 11-го: отбрасываем последнюю гласную и добавляем **-esimo**: *undici → undicesimo, venti → ventesimo*. Порядковые числительные согласуются как прилагательные: *la prima volta, il terzo piano*.
+    words:
+      - "l'appartamento | квартира | m"
+      - "l'indirizzo | адрес | m"
+      - "l'affitto | аренда | m"
+      - "la periferia | окраина"
+      - "lo stadio | стадион"
+      - "va bene | хорошо, ладно"
+      - "il piano | этаж"
+      - "c`omodo | удобный"
+      - "luminoso | светлый"
+      - "il soggiorno | гостиная"
+      - "la c`amera da letto | спальня"
+      - "il balcone | балкон"
+      - "l'euro | евро | m"
+      - "fortunato | везучий"
+      - "l'ascensore | лифт | m"
+      - "la stanza | комната"
+      - "l'ingresso | прихожая; вход | m"
+      - "il bagno | ванная"
+      - "la cucina | кухня"
+      - "lo studio | кабинет"
+      - "ideale | идеальный"
+      - "quaranta | сорок"
+      - "cinquanta | пятьдесят"
+      - "sessanta | шестьдесят"
+      - "settanta | семьдесят"
+      - "ottanta | восемьдесят"
+      - "novanta | девяносто"
+      - "cento | сто"
+      - "mille | тысяча"
+      - "duemila | две тысячи"
+      - "primo | первый"
+      - "secondo | второй"
+      - "terzo | третий"
+      - "quarto | четвёртый"
+      - "quinto | пятый"
+      - "`ultimo | последний"
+    phrases:
+      - "Dove abiti? | Где ты живёшь?"
+      - "Abito in un appartamento al secondo piano. | Я живу в квартире на третьем этаже (на втором по-итальянски)."
+      - "C'è un balcone? | Есть балкон?"
+      - "Ci sono due camere da letto. | Есть две спальни."
+      - "Quanto costa l'affitto? | Сколько стоит аренда?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Что означает *cinquanta*?"
+        options: ["15", "50", "500", "5"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*Primo* означает:"
+        options: ["первый", "пятый", "главный", "последний"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "___ tre stanze nell'appartamento."
+        options: ["C'è", "Ci sono", "È", "Sono"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "250 по-итальянски:"
+        options: ["due cento cinquanta", "duecentocinquanta", "duecinquanta", "duecentecinquanta"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Квартира на третьем этаже (piano):"
+        options: ["al tre piano", "al terzo piano", "al terza piano", "il terzo piano"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Напишите словами: 2000"
+        answer: ["duemila"]
+      - type: input
+        level: 3
+        q: "Напишите словами: 80"
+        answer: ["ottanta"]
+      - type: input
+        level: 3
+        q: "Напишите порядковое: 10°"
+        answer: ["decimo"]
+      - type: input
+        level: 3
+        q: "Напишите порядковое: 11°"
+        answer: ["undicesimo"]
+      - type: input
+        level: 3
+        q: "___ un balcone? (Есть ли балкон?)"
+        answer: ["c'è", "c’è"]
+
+  - slug: preposizioni-semplici
+    title_it: "È in centro?"
+    title_ru: "Простые предлоги"
+    theory: |
+      ## Простые предлоги
+
+      | Предлог | Значение | Пример |
+      |---|---|---|
+      | **di** | чей? откуда (родом)? о чём? из чего? | *il libro di Gianni, Sono di Roma, parliamo di calcio* |
+      | **a** | куда? где? (города), кому?, во сколько? | *Abito a Roma, Vado a casa, a mezzogiorno* |
+      | **da** | откуда? с какого времени? к кому? | *Vengo da Napoli, Studio da due anni, Vado da Franco* |
+      | **in** | где? куда? (страны, регионы), на чём (транспорт) | *in Italia, in centro, in treno* |
+      | **con** | с кем? с чем? | *Vado con Elisa* |
+      | **su** | на чём? о чём (тема)? | *su una sedia, un libro su Dante* |
+      | **per** | для кого? куда (направление)? на сколько? | *un regalo per Giulia, parto per Roma* |
+      | **tra / fra** | через (время), между | *tra dieci minuti, tra Roma e Napoli* |
+
+      ## A или IN?
+
+      | **a** | **in** |
+      |---|---|
+      | города и острова: *a Roma, a Capri* | страны и регионы: *in Italia, in Toscana* |
+      | *a casa, a scuola, a teatro, a letto* | *in centro, in ufficio, in banca, in città* |
+      | перед инфинитивом: *vado a studiare* | *in montagna, in farmacia, in biblioteca* |
+      | *a pranzo, a cena, a piedi* | *in vacanza, in treno, in macchina* |
+
+      > 💡 Перед гласной **a** может стать **ad**, а **di** — **d'**: *ad Andrea, un bicchiere d'acqua*.
+    words:
+      - "l'agenz`ia | агентство | f"
+      - "la banca | банк"
+      - "la campagna | деревня, сельская местность"
+      - "il letto | кровать"
+      - "il pranzo | обед"
+      - "il regalo | подарок"
+      - "la sedia | стул"
+      - "l'acqua | вода | f"
+      - "la scuola | школа"
+      - "il giardino | сад"
+      - "chiuso | закрытый"
+      - "la gara | соревнование"
+      - "partecipare | участвовать"
+      - "girare a sinistra | повернуть налево"
+      - "a destra | направо"
+      - "dritto | прямо"
+    phrases:
+      - "Vado a scuola a piedi. | Я хожу в школу пешком."
+      - "Studio l'italiano da due anni. | Я изучаю итальянский два года."
+      - "La lezione finisce tra dieci minuti. | Урок заканчивается через десять минут."
+      - "Stasera vado da Franco. | Сегодня вечером я иду к Франко."
+      - "Roma è tra Firenze e Napoli. | Рим находится между Флоренцией и Неаполем."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Abito ___ Milano."
+        options: ["in", "a", "da", "su"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Lavoro ___ Italia."
+        options: ["a", "in", "di", "per"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Questo è il libro ___ Gianni."
+        options: ["da", "di", "a", "per"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Studio l'italiano ___ due anni."
+        options: ["per", "tra", "da", "in"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Vado al lavoro ___ treno."
+        options: ["con", "in", "a", "di"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Vado ___ casa."
+        options: ["in", "a", "da", "su"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Il film inizia ___ dieci minuti. (через)"
+        answer: ["tra", "fra"]
+      - type: input
+        level: 3
+        q: "Domani vado ___ montagna."
+        answer: ["in"]
+      - type: input
+        level: 3
+        q: "Compro un regalo ___ Giulia. (для)"
+        answer: ["per"]
+      - type: input
+        level: 3
+        q: "Vado al cinema ___ Marco. (с)"
+        answer: ["con"]
+      - type: input
+        level: 3
+        q: "Vengo ___ Napoli. (из)"
+        answer: ["da"]
+
+  - slug: giorni-settimana
+    title_it: "Quando sei libera?"
+    title_ru: "Дни недели"
+    theory: |
+      ## Дни недели
+
+      | | | |
+      |---|---|---|
+      | **lunedì** — понедельник | **giovedì** — четверг | **sabato** — суббота |
+      | **martedì** — вторник | **venerdì** — пятница | **domenica** — воскресенье |
+      | **mercoledì** — среда | | |
+
+      Все дни недели **мужского** рода, кроме *la domenica*. Пишутся с маленькой буквы.
+
+      * **lunedì** (без артикля) — в этот понедельник: *Lunedì vado a Roma.*
+      * **il lunedì** (с артиклем) — по понедельникам: *Il lunedì vado in palestra.*
+
+      ## Договариваемся о встрече
+
+      * **Quando sei libera?** — Когда ты свободна?
+      * **Sabato prossimo?** — В следующую субботу?
+      * **Che ne dici di venerdì sera?** — Как насчёт вечера пятницы?
+      * **Ho molto da fare.** — У меня много дел.
+      * **Il mio compleanno è il 5 maggio.** — Мой день рождения 5 мая.
+    words:
+      - "lunedì | понедельник"
+      - "martedì | вторник"
+      - "mercoledì | среда"
+      - "giovedì | четверг"
+      - "venerdì | пятница"
+      - "s`abato | суббота"
+      - "dom`enica | воскресенье"
+      - "il mese | месяц"
+      - "la settimana | неделя"
+      - "pr`ossimo | следующий"
+      - "il compleanno | день рождения"
+      - "imposs`ibile | невозможный"
+      - "finalmente | наконец"
+      - "l'agenda | ежедневник | f"
+      - "abbastanza | достаточно"
+      - "raccontare | рассказывать"
+      - "inviare | отправлять"
+    phrases:
+      - "Quando sei libera? | Когда ты свободна?"
+      - "Che ne dici di sabato? | Как насчёт субботы?"
+      - "Ho molto da fare. | У меня много дел."
+      - "Il sabato vado in piscina. | По субботам я хожу в бассейн."
+      - "Ci vediamo lunedì prossimo! | Увидимся в следующий понедельник!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "*Mercoledì* — это:"
+        options: ["понедельник", "среда", "пятница", "четверг"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Какой день недели женского рода?"
+        options: ["sabato", "lunedì", "domenica", "venerdì"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Как сказать «по воскресеньям я сплю долго»?"
+        options: ["Domenica dormo molto.", "La domenica dormo molto.", "In domenica dormo molto.", "A domenica dormo molto."]
+        answer: 1
+        explain: "Регулярное действие — день недели с артиклем."
+      - type: choice
+        level: 2
+        q: "Какой день идёт после *giovedì*?"
+        options: ["mercoledì", "venerdì", "sabato", "martedì"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «вторник»"
+        answer: ["martedì", "martedi"]
+      - type: input
+        level: 3
+        q: "Переведите: «суббота»"
+        answer: ["sabato"]
+      - type: input
+        level: 3
+        q: "Переведите: «следующая неделя» — la settimana ___"
+        answer: ["prossima"]
+      - type: match
+        level: 2
+        q: "Соедините дни недели"
+        pairs:
+          - ["lunedì", "понедельник"]
+          - ["martedì", "вторник"]
+          - ["giovedì", "четверг"]
+          - ["venerdì", "пятница"]
+          - ["domenica", "воскресенье"]
+
+  - slug: che-ora-e
+    title_it: "Che ora è? / Che ore sono?"
+    title_ru: "Который час?"
+    theory: |
+      ## Который час?
+
+      Спросить можно двумя способами: **Che ora è?** или **Che ore sono?**
+
+      Отвечаем **Sono le** + число (часы во множественном числе):
+      * *Sono le tre.* — Три часа.
+      * *Sono le otto e dieci.* — Восемь десять.
+
+      Но в единственном числе:
+      * **È l'una.** — Час.
+      * **È mezzogiorno.** — Полдень.
+      * **È mezzanotte.** — Полночь.
+
+      ## Минуты
+
+      | | |
+      |---|---|
+      | 8:15 | Sono le otto **e un quarto** |
+      | 8:30 | Sono le otto **e mezzo** (e mezza, e trenta) |
+      | 8:45 | Sono le nove **meno un quarto** |
+      | 6:40 | Sono le sette **meno venti** |
+
+      **A che ora…?** — Во сколько…? — **Alle otto.** — В восемь. **All'una.** — В час. **A mezzogiorno.** — В полдень.
+
+      > 💡 В официальной речи (расписания, радио) используют 24-часовой формат: *Il treno parte alle diciotto e trenta* (18:30).
+    words:
+      - "l'ora | час | f"
+      - "l'orologio | часы | m"
+      - "l'orario | расписание; время | m"
+      - "mezzogiorno | полдень"
+      - "mezzanotte | полночь"
+      - "il quarto | четверть"
+      - "mezzo | половина"
+      - "meno | без, минус"
+      - "in ritardo | с опозданием"
+      - "in anticipo | заранее, рано"
+      - "in orario | вовремя"
+      - "il programma | программа, передача"
+    phrases:
+      - "Che ora è? / Che ore sono? | Который час?"
+      - "Sono le sette meno venti. | Без двадцати семь."
+      - "È l'una e mezza. | Половина второго."
+      - "A che ora parte il treno? | Во сколько отправляется поезд?"
+      - "Siamo in ritardo! | Мы опаздываем!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как спросить «Который час?»"
+        options: ["Quanti anni hai?", "Che ore sono?", "Come stai?", "Quando sei libero?"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "1:00 —"
+        options: ["Sono le una.", "È l'una.", "È una.", "Sono l'una."]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "3:15 —"
+        options: ["Sono le tre e un quarto.", "Sono le tre meno un quarto.", "È le tre e quindici.", "Sono tre e quarto."]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "12:00 (днём) —"
+        options: ["È mezzanotte.", "Sono le dodici notte.", "È mezzogiorno.", "Sono mezzogiorno."]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "7:45 —"
+        options: ["Sono le sette e tre quarti.", "Sono le otto meno un quarto.", "Оба варианта верны"]
+        answer: 2
+      - type: input
+        level: 3
+        q: "Напишите словами: 9:30 — Sono le nove e ___"
+        answer: ["mezzo", "mezza", "trenta"]
+      - type: input
+        level: 3
+        q: "Напишите: 5:40 — Sono le sei ___ venti"
+        answer: ["meno"]
+      - type: input
+        level: 3
+        q: "A che ora inizia il film? — ___ otto. (В восемь)"
+        answer: ["alle"]
+
+  - slug: mezzi-trasporto
+    title_it: "I mezzi di trasporto urbano"
+    title_ru: "Городской транспорт"
+    theory: |
+      ## Городской транспорт
+
+      Основные виды: **l'autobus**, **il tram**, **la metropolitana** (*la metro*), **il treno**, **il taxi**, в Венеции — **il vaporetto** (речной трамвай).
+
+      * **Prendo l'autobus / la metro.** — Я езжу на автобусе / на метро.
+      * **Vado in autobus / in treno / in macchina / in bicicletta.** — Еду на автобусе / поезде / машине / велосипеде.
+      * **Vado a piedi.** — Иду пешком.
+
+      ## Билеты
+
+      Билеты на автобус в Италии часто покупают заранее — в **tabaccheria** (табачная лавка), в **edicola** (газетный киоск), в автоматах или в приложении на **cellulare**. В транспорте билет нужно **convalidare / timbrare** — прокомпостировать. Для частых поездок есть **abbonamento** — проездной.
+
+      > 💡 Не забывайте компостировать билет — за поездку без отметки штрафуют, даже если билет куплен!
+    words:
+      - "il tram | трамвай"
+      - "la metropolitana | метро"
+      - "il passeggero | пассажир"
+      - "la tabaccher`ia | табачная лавка"
+      - "l'ed`icola | газетный киоск | f"
+      - "la stazione | станция, вокзал"
+      - "l'abbonamento | абонемент, проездной | m"
+      - "il cellulare | мобильный телефон"
+      - "comprare | покупать"
+      - "convalidare | компостировать"
+      - "timbrare | компостировать, отмечать"
+      - "la corsa | поездка"
+      - "salire | подниматься; садиться (в транспорт)"
+      - "scendere | спускаться; выходить (из транспорта)"
+      - "viaggiare | путешествовать, ездить"
+      - "il negozio | магазин"
+      - "v`endere | продавать"
+      - "l'oggetto | вещь, предмет | m"
+      - "il vaporetto | речной трамвай"
+      - "la bicicletta | велосипед"
+      - "il supermercato | супермаркет"
+      - "il lago | озеро"
+      - "il concerto | концерт"
+      - "tradurre | переводить"
+      - "stanco | усталый"
+      - "la colazione | завтрак"
+      - "il tel`efono | телефон"
+      - "l'esame | экзамен | m"
+      - "ancora | ещё"
+      - "l'`estero | заграница | m"
+      - "il vicino di casa | сосед"
+    phrases:
+      - "Dove posso comprare il biglietto? | Где можно купить билет?"
+      - "Prendo la metro tutti i giorni. | Я езжу на метро каждый день."
+      - "Vado al lavoro in bicicletta. | Я езжу на работу на велосипеде."
+      - "Devo scendere alla prossima fermata. | Мне нужно выйти на следующей остановке."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Где в Италии можно купить билет на автобус?"
+        options: ["in farmacia", "in tabaccheria", "in banca", "in biblioteca"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*Il vaporetto* — это:"
+        options: ["паровоз", "речной трамвай", "самолёт", "такси"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Vado al lavoro ___ macchina."
+        options: ["a", "in", "con la", "su"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Как сказать «идти пешком»?"
+        options: ["andare in piedi", "andare a piedi", "andare con piedi", "andare per piedi"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «проездной» — l'___"
+        answer: ["abbonamento"]
+      - type: input
+        level: 3
+        q: "Io ___ (scendere) alla prossima fermata."
+        answer: ["scendo"]
+      - type: input
+        level: 3
+        q: "Noi ___ (salire) sull'autobus."
+        answer: ["saliamo"]
+      - type: order
+        level: 3
+        q: "Соберите: «Где можно купить билет?»"
+        answer: "Dove posso comprare il biglietto?"
+
+verbs:
+  - {inf: andare, ru: идти, tense: presente, forms: [vado, vai, va, andiamo, andate, vanno]}
+  - {inf: venire, ru: приходить, tense: presente, forms: [vengo, vieni, viene, veniamo, venite, vengono]}
+  - {inf: fare, ru: делать, tense: presente, forms: [faccio, fai, fa, facciamo, fate, fanno]}
+  - {inf: stare, ru: находиться, tense: presente, forms: [sto, stai, sta, stiamo, state, stanno]}
+  - {inf: uscire, ru: выходить, tense: presente, forms: [esco, esci, esce, usciamo, uscite, escono]}
+  - {inf: bere, ru: пить, tense: presente, forms: [bevo, bevi, beve, beviamo, bevete, bevono]}
+  - {inf: dire, ru: говорить, tense: presente, forms: [dico, dici, dice, diciamo, dite, dicono]}
+  - {inf: dare, ru: давать, tense: presente, forms: [do, dai, dà, diamo, date, danno]}
+  - {inf: sapere, ru: знать, tense: presente, forms: [so, sai, sa, sappiamo, sapete, sanno]}
+  - {inf: rimanere, ru: оставаться, tense: presente, forms: [rimango, rimani, rimane, rimaniamo, rimanete, rimangono]}
+  - {inf: salire, ru: подниматься, tense: presente, forms: [salgo, sali, sale, saliamo, salite, salgono]}
+  - {inf: scegliere, ru: выбирать, tense: presente, forms: [scelgo, scegli, sceglie, scegliamo, scegliete, scelgono]}
+  - {inf: tenere, ru: держать, tense: presente, forms: [tengo, tieni, tiene, teniamo, tenete, tengono]}
+  - {inf: potere, ru: мочь, tense: presente, forms: [posso, puoi, può, possiamo, potete, possono]}
+  - {inf: volere, ru: хотеть, tense: presente, forms: [voglio, vuoi, vuole, vogliamo, volete, vogliono]}
+  - {inf: dovere, ru: быть должным, tense: presente, forms: [devo, devi, deve, dobbiamo, dovete, devono]}
+  - {inf: giocare, ru: играть, tense: presente, forms: [gioco, giochi, gioca, giochiamo, giocate, giocano]}
+  - {inf: pagare, ru: платить, tense: presente, forms: [pago, paghi, paga, paghiamo, pagate, pagano]}
+  - {inf: mangiare, ru: есть, tense: presente, forms: [mangio, mangi, mangia, mangiamo, mangiate, mangiano]}
+  - {inf: cominciare, ru: начинать, tense: presente, forms: [comincio, cominci, comincia, cominciamo, cominciate, cominciano]}

@@ -1,0 +1,3860 @@
+# Сгенерировано tools/build_images.py — не редактируйте вручную.
+images:
+  e-1st-place-medal:
+    alt: 1st place medal
+    kind: emoji
+    src: img/e/1st-place-medal.webp
+  e-2nd-place-medal:
+    alt: 2nd place medal
+    kind: emoji
+    src: img/e/2nd-place-medal.webp
+  e-3rd-place-medal:
+    alt: 3rd place medal
+    kind: emoji
+    src: img/e/3rd-place-medal.webp
+  e-abacus:
+    alt: abacus
+    kind: emoji
+    src: img/e/abacus.webp
+  e-admission-tickets:
+    alt: admission tickets
+    kind: emoji
+    src: img/e/admission-tickets.webp
+  e-airplane:
+    alt: airplane
+    kind: emoji
+    src: img/e/airplane.webp
+  e-airplane-arrival:
+    alt: airplane arrival
+    kind: emoji
+    src: img/e/airplane-arrival.webp
+  e-airplane-departure:
+    alt: airplane departure
+    kind: emoji
+    src: img/e/airplane-departure.webp
+  e-alarm-clock:
+    alt: alarm clock
+    kind: emoji
+    src: img/e/alarm-clock.webp
+  e-ambulance:
+    alt: ambulance
+    kind: emoji
+    src: img/e/ambulance.webp
+  e-amphora:
+    alt: amphora
+    kind: emoji
+    src: img/e/amphora.webp
+  e-anatomical-heart:
+    alt: anatomical heart
+    kind: emoji
+    src: img/e/anatomical-heart.webp
+  e-angry-face:
+    alt: angry face
+    kind: emoji
+    src: img/e/angry-face.webp
+  e-anxious-face-with-sweat:
+    alt: anxious face with sweat
+    kind: emoji
+    src: img/e/anxious-face-with-sweat.webp
+  e-artist-palette:
+    alt: artist palette
+    kind: emoji
+    src: img/e/artist-palette.webp
+  e-astonished-face:
+    alt: astonished face
+    kind: emoji
+    src: img/e/astonished-face.webp
+  e-automobile:
+    alt: automobile
+    kind: emoji
+    src: img/e/automobile.webp
+  e-baby:
+    alt: baby
+    kind: emoji
+    src: img/e/baby.webp
+  e-baby-chick:
+    alt: baby chick
+    kind: emoji
+    src: img/e/baby-chick.webp
+  e-backhand-index-pointing-right:
+    alt: backhand index pointing right
+    kind: emoji
+    src: img/e/backhand-index-pointing-right.webp
+  e-backpack:
+    alt: backpack
+    kind: emoji
+    src: img/e/backpack.webp
+  e-bacon:
+    alt: bacon
+    kind: emoji
+    src: img/e/bacon.webp
+  e-baguette-bread:
+    alt: baguette bread
+    kind: emoji
+    src: img/e/baguette-bread.webp
+  e-balance-scale:
+    alt: balance scale
+    kind: emoji
+    src: img/e/balance-scale.webp
+  e-banana:
+    alt: banana
+    kind: emoji
+    src: img/e/banana.webp
+  e-bank:
+    alt: bank
+    kind: emoji
+    src: img/e/bank.webp
+  e-barber-pole:
+    alt: barber pole
+    kind: emoji
+    src: img/e/barber-pole.webp
+  e-basket:
+    alt: basket
+    kind: emoji
+    src: img/e/basket.webp
+  e-bathtub:
+    alt: bathtub
+    kind: emoji
+    src: img/e/bathtub.webp
+  e-beach-with-umbrella:
+    alt: beach with umbrella
+    kind: emoji
+    src: img/e/beach-with-umbrella.webp
+  e-beaming-face-with-smiling-eyes:
+    alt: beaming face with smiling eyes
+    kind: emoji
+    src: img/e/beaming-face-with-smiling-eyes.webp
+  e-bed:
+    alt: bed
+    kind: emoji
+    src: img/e/bed.webp
+  e-beer-mug:
+    alt: beer mug
+    kind: emoji
+    src: img/e/beer-mug.webp
+  e-bellhop-bell:
+    alt: bellhop bell
+    kind: emoji
+    src: img/e/bellhop-bell.webp
+  e-beverage-box:
+    alt: beverage box
+    kind: emoji
+    src: img/e/beverage-box.webp
+  e-bicycle:
+    alt: bicycle
+    kind: emoji
+    src: img/e/bicycle.webp
+  e-birthday-cake:
+    alt: birthday cake
+    kind: emoji
+    src: img/e/birthday-cake.webp
+  e-black-circle:
+    alt: black circle
+    kind: emoji
+    src: img/e/black-circle.webp
+  e-blue-circle:
+    alt: blue circle
+    kind: emoji
+    src: img/e/blue-circle.webp
+  e-books:
+    alt: books
+    kind: emoji
+    src: img/e/books.webp
+  e-bottle-with-popping-cork:
+    alt: bottle with popping cork
+    kind: emoji
+    src: img/e/bottle-with-popping-cork.webp
+  e-bouquet:
+    alt: bouquet
+    kind: emoji
+    src: img/e/bouquet.webp
+  e-bowl-with-spoon:
+    alt: bowl with spoon
+    kind: emoji
+    src: img/e/bowl-with-spoon.webp
+  e-boy:
+    alt: boy
+    kind: emoji
+    src: img/e/boy.webp
+  e-brain:
+    alt: brain
+    kind: emoji
+    src: img/e/brain.webp
+  e-bread:
+    alt: bread
+    kind: emoji
+    src: img/e/bread.webp
+  e-brick:
+    alt: brick
+    kind: emoji
+    src: img/e/brick.webp
+  e-bridge-at-night:
+    alt: bridge at night
+    kind: emoji
+    src: img/e/bridge-at-night.webp
+  e-briefcase:
+    alt: briefcase
+    kind: emoji
+    src: img/e/briefcase.webp
+  e-broccoli:
+    alt: broccoli
+    kind: emoji
+    src: img/e/broccoli.webp
+  e-broken-heart:
+    alt: broken heart
+    kind: emoji
+    src: img/e/broken-heart.webp
+  e-broom:
+    alt: broom
+    kind: emoji
+    src: img/e/broom.webp
+  e-brown-circle:
+    alt: brown circle
+    kind: emoji
+    src: img/e/brown-circle.webp
+  e-brown-mushroom:
+    alt: brown mushroom
+    kind: emoji
+    src: img/e/brown-mushroom.webp
+  e-bus:
+    alt: bus
+    kind: emoji
+    src: img/e/bus.webp
+  e-bus-stop:
+    alt: bus stop
+    kind: emoji
+    src: img/e/bus-stop.webp
+  e-bust-in-silhouette:
+    alt: bust in silhouette
+    kind: emoji
+    src: img/e/bust-in-silhouette.webp
+  e-busts-in-silhouette:
+    alt: busts in silhouette
+    kind: emoji
+    src: img/e/busts-in-silhouette.webp
+  e-butter:
+    alt: butter
+    kind: emoji
+    src: img/e/butter.webp
+  e-butterfly:
+    alt: butterfly
+    kind: emoji
+    src: img/e/butterfly.webp
+  e-calendar:
+    alt: calendar
+    kind: emoji
+    src: img/e/calendar.webp
+  e-camel:
+    alt: camel
+    kind: emoji
+    src: img/e/camel.webp
+  e-camera:
+    alt: camera
+    kind: emoji
+    src: img/e/camera.webp
+  e-camera-with-flash:
+    alt: camera with flash
+    kind: emoji
+    src: img/e/camera-with-flash.webp
+  e-camping:
+    alt: camping
+    kind: emoji
+    src: img/e/camping.webp
+  e-candy:
+    alt: candy
+    kind: emoji
+    src: img/e/candy.webp
+  e-canned-food:
+    alt: canned food
+    kind: emoji
+    src: img/e/canned-food.webp
+  e-canoe:
+    alt: canoe
+    kind: emoji
+    src: img/e/canoe.webp
+  e-card-file-box:
+    alt: card file box
+    kind: emoji
+    src: img/e/card-file-box.webp
+  e-carrot:
+    alt: carrot
+    kind: emoji
+    src: img/e/carrot.webp
+  e-castle:
+    alt: castle
+    kind: emoji
+    src: img/e/castle.webp
+  e-cat:
+    alt: cat
+    kind: emoji
+    src: img/e/cat.webp
+  e-chair:
+    alt: chair
+    kind: emoji
+    src: img/e/chair.webp
+  e-check-mark-button:
+    alt: check mark button
+    kind: emoji
+    src: img/e/check-mark-button.webp
+  e-cheese-wedge:
+    alt: cheese wedge
+    kind: emoji
+    src: img/e/cheese-wedge.webp
+  e-chequered-flag:
+    alt: chequered flag
+    kind: emoji
+    src: img/e/chequered-flag.webp
+  e-cherry-blossom:
+    alt: cherry blossom
+    kind: emoji
+    src: img/e/cherry-blossom.webp
+  e-child:
+    alt: child
+    kind: emoji
+    src: img/e/child.webp
+  e-chocolate-bar:
+    alt: chocolate bar
+    kind: emoji
+    src: img/e/chocolate-bar.webp
+  e-christmas-tree:
+    alt: christmas tree
+    kind: emoji
+    src: img/e/christmas-tree.webp
+  e-church:
+    alt: church
+    kind: emoji
+    src: img/e/church.webp
+  e-cinema:
+    alt: cinema
+    kind: emoji
+    src: img/e/cinema.webp
+  e-cityscape:
+    alt: cityscape
+    kind: emoji
+    src: img/e/cityscape.webp
+  e-cityscape-at-dusk:
+    alt: cityscape at dusk
+    kind: emoji
+    src: img/e/cityscape-at-dusk.webp
+  e-clapper-board:
+    alt: clapper board
+    kind: emoji
+    src: img/e/clapper-board.webp
+  e-clapping-hands:
+    alt: clapping hands
+    kind: emoji
+    src: img/e/clapping-hands.webp
+  e-classical-building:
+    alt: classical building
+    kind: emoji
+    src: img/e/classical-building.webp
+  e-clipboard:
+    alt: clipboard
+    kind: emoji
+    src: img/e/clipboard.webp
+  e-closed-book:
+    alt: closed book
+    kind: emoji
+    src: img/e/closed-book.webp
+  e-closed-umbrella:
+    alt: closed umbrella
+    kind: emoji
+    src: img/e/closed-umbrella.webp
+  e-cloud:
+    alt: cloud
+    kind: emoji
+    src: img/e/cloud.webp
+  e-cloud-with-lightning-and-rain:
+    alt: cloud with lightning and rain
+    kind: emoji
+    src: img/e/cloud-with-lightning-and-rain.webp
+  e-cloud-with-rain:
+    alt: cloud with rain
+    kind: emoji
+    src: img/e/cloud-with-rain.webp
+  e-cloud-with-snow:
+    alt: cloud with snow
+    kind: emoji
+    src: img/e/cloud-with-snow.webp
+  e-clown-face:
+    alt: clown face
+    kind: emoji
+    src: img/e/clown-face.webp
+  e-coat:
+    alt: coat
+    kind: emoji
+    src: img/e/coat.webp
+  e-coin:
+    alt: coin
+    kind: emoji
+    src: img/e/coin.webp
+  e-cold-face:
+    alt: cold face
+    kind: emoji
+    src: img/e/cold-face.webp
+  e-collision:
+    alt: collision
+    kind: emoji
+    src: img/e/collision.webp
+  e-compass:
+    alt: compass
+    kind: emoji
+    src: img/e/compass.webp
+  e-computer-mouse:
+    alt: computer mouse
+    kind: emoji
+    src: img/e/computer-mouse.webp
+  e-confetti-ball:
+    alt: confetti ball
+    kind: emoji
+    src: img/e/confetti-ball.webp
+  e-confused-face:
+    alt: confused face
+    kind: emoji
+    src: img/e/confused-face.webp
+  e-construction-worker:
+    alt: construction worker
+    kind: emoji
+    src: img/e/construction-worker.webp
+  e-convenience-store:
+    alt: convenience store
+    kind: emoji
+    src: img/e/convenience-store.webp
+  e-cook:
+    alt: cook
+    kind: emoji
+    src: img/e/cook.webp
+  e-cookie:
+    alt: cookie
+    kind: emoji
+    src: img/e/cookie.webp
+  e-cooking:
+    alt: cooking
+    kind: emoji
+    src: img/e/cooking.webp
+  e-couch-and-lamp:
+    alt: couch and lamp
+    kind: emoji
+    src: img/e/couch-and-lamp.webp
+  e-counterclockwise-arrows-button:
+    alt: counterclockwise arrows button
+    kind: emoji
+    src: img/e/counterclockwise-arrows-button.webp
+  e-cow:
+    alt: cow
+    kind: emoji
+    src: img/e/cow.webp
+  e-crayon:
+    alt: crayon
+    kind: emoji
+    src: img/e/crayon.webp
+  e-credit-card:
+    alt: credit card
+    kind: emoji
+    src: img/e/credit-card.webp
+  e-crescent-moon:
+    alt: crescent moon
+    kind: emoji
+    src: img/e/crescent-moon.webp
+  e-croissant:
+    alt: croissant
+    kind: emoji
+    src: img/e/croissant.webp
+  e-cross-mark:
+    alt: cross mark
+    kind: emoji
+    src: img/e/cross-mark.webp
+  e-crossed-swords:
+    alt: crossed swords
+    kind: emoji
+    src: img/e/crossed-swords.webp
+  e-crown:
+    alt: crown
+    kind: emoji
+    src: img/e/crown.webp
+  e-crying-face:
+    alt: crying face
+    kind: emoji
+    src: img/e/crying-face.webp
+  e-crystal-ball:
+    alt: crystal ball
+    kind: emoji
+    src: img/e/crystal-ball.webp
+  e-cup-with-straw:
+    alt: cup with straw
+    kind: emoji
+    src: img/e/cup-with-straw.webp
+  e-cupcake:
+    alt: cupcake
+    kind: emoji
+    src: img/e/cupcake.webp
+  e-curry-rice:
+    alt: curry rice
+    kind: emoji
+    src: img/e/curry-rice.webp
+  e-custard:
+    alt: custard
+    kind: emoji
+    src: img/e/custard.webp
+  e-cut-of-meat:
+    alt: cut of meat
+    kind: emoji
+    src: img/e/cut-of-meat.webp
+  e-dagger:
+    alt: dagger
+    kind: emoji
+    src: img/e/dagger.webp
+  e-deciduous-tree:
+    alt: deciduous tree
+    kind: emoji
+    src: img/e/deciduous-tree.webp
+  e-department-store:
+    alt: department store
+    kind: emoji
+    src: img/e/department-store.webp
+  e-desert:
+    alt: desert
+    kind: emoji
+    src: img/e/desert.webp
+  e-desert-island:
+    alt: desert island
+    kind: emoji
+    src: img/e/desert-island.webp
+  e-desktop-computer:
+    alt: desktop computer
+    kind: emoji
+    src: img/e/desktop-computer.webp
+  e-disappointed-face:
+    alt: disappointed face
+    kind: emoji
+    src: img/e/disappointed-face.webp
+  e-dizzy:
+    alt: dizzy
+    kind: emoji
+    src: img/e/dizzy.webp
+  e-dog:
+    alt: dog
+    kind: emoji
+    src: img/e/dog.webp
+  e-dog-face:
+    alt: dog face
+    kind: emoji
+    src: img/e/dog-face.webp
+  e-dollar-banknote:
+    alt: dollar banknote
+    kind: emoji
+    src: img/e/dollar-banknote.webp
+  e-door:
+    alt: door
+    kind: emoji
+    src: img/e/door.webp
+  e-dove:
+    alt: dove
+    kind: emoji
+    src: img/e/dove.webp
+  e-down-arrow:
+    alt: down arrow
+    kind: emoji
+    src: img/e/down-arrow.webp
+  e-dress:
+    alt: dress
+    kind: emoji
+    src: img/e/dress.webp
+  e-drooling-face:
+    alt: drooling face
+    kind: emoji
+    src: img/e/drooling-face.webp
+  e-droplet:
+    alt: droplet
+    kind: emoji
+    src: img/e/droplet.webp
+  e-drum:
+    alt: drum
+    kind: emoji
+    src: img/e/drum.webp
+  e-ear:
+    alt: ear
+    kind: emoji
+    src: img/e/ear.webp
+  e-egg:
+    alt: egg
+    kind: emoji
+    src: img/e/egg.webp
+  e-elephant:
+    alt: elephant
+    kind: emoji
+    src: img/e/elephant.webp
+  e-elevator:
+    alt: elevator
+    kind: emoji
+    src: img/e/elevator.webp
+  e-empty-nest:
+    alt: empty nest
+    kind: emoji
+    src: img/e/empty-nest.webp
+  e-envelope:
+    alt: envelope
+    kind: emoji
+    src: img/e/envelope.webp
+  e-euro-banknote:
+    alt: euro banknote
+    kind: emoji
+    src: img/e/euro-banknote.webp
+  e-exploding-head:
+    alt: exploding head
+    kind: emoji
+    src: img/e/exploding-head.webp
+  e-eye:
+    alt: eye
+    kind: emoji
+    src: img/e/eye.webp
+  e-eyes:
+    alt: eyes
+    kind: emoji
+    src: img/e/eyes.webp
+  e-face-blowing-a-kiss:
+    alt: face blowing a kiss
+    kind: emoji
+    src: img/e/face-blowing-a-kiss.webp
+  e-face-exhaling:
+    alt: face exhaling
+    kind: emoji
+    src: img/e/face-exhaling.webp
+  e-face-savoring-food:
+    alt: face savoring food
+    kind: emoji
+    src: img/e/face-savoring-food.webp
+  e-face-screaming-in-fear:
+    alt: face screaming in fear
+    kind: emoji
+    src: img/e/face-screaming-in-fear.webp
+  e-face-with-diagonal-mouth:
+    alt: face with diagonal mouth
+    kind: emoji
+    src: img/e/face-with-diagonal-mouth.webp
+  e-face-with-hand-over-mouth:
+    alt: face with hand over mouth
+    kind: emoji
+    src: img/e/face-with-hand-over-mouth.webp
+  e-face-with-monocle:
+    alt: face with monocle
+    kind: emoji
+    src: img/e/face-with-monocle.webp
+  e-face-with-open-mouth:
+    alt: face with open mouth
+    kind: emoji
+    src: img/e/face-with-open-mouth.webp
+  e-face-with-raised-eyebrow:
+    alt: face with raised eyebrow
+    kind: emoji
+    src: img/e/face-with-raised-eyebrow.webp
+  e-face-with-rolling-eyes:
+    alt: face with rolling eyes
+    kind: emoji
+    src: img/e/face-with-rolling-eyes.webp
+  e-face-with-spiral-eyes:
+    alt: face with spiral eyes
+    kind: emoji
+    src: img/e/face-with-spiral-eyes.webp
+  e-face-with-tears-of-joy:
+    alt: face with tears of joy
+    kind: emoji
+    src: img/e/face-with-tears-of-joy.webp
+  e-face-with-thermometer:
+    alt: face with thermometer
+    kind: emoji
+    src: img/e/face-with-thermometer.webp
+  e-face-with-tongue:
+    alt: face with tongue
+    kind: emoji
+    src: img/e/face-with-tongue.webp
+  e-fallen-leaf:
+    alt: fallen leaf
+    kind: emoji
+    src: img/e/fallen-leaf.webp
+  e-fearful-face:
+    alt: fearful face
+    kind: emoji
+    src: img/e/fearful-face.webp
+  e-ferry:
+    alt: ferry
+    kind: emoji
+    src: img/e/ferry.webp
+  e-film-frames:
+    alt: film frames
+    kind: emoji
+    src: img/e/film-frames.webp
+  e-film-projector:
+    alt: film projector
+    kind: emoji
+    src: img/e/film-projector.webp
+  e-fire:
+    alt: fire
+    kind: emoji
+    src: img/e/fire.webp
+  e-fireworks:
+    alt: fireworks
+    kind: emoji
+    src: img/e/fireworks.webp
+  e-fish:
+    alt: fish
+    kind: emoji
+    src: img/e/fish.webp
+  e-flexed-biceps:
+    alt: flexed biceps
+    kind: emoji
+    src: img/e/flexed-biceps.webp
+  e-flower-playing-cards:
+    alt: flower playing cards
+    kind: emoji
+    src: img/e/flower-playing-cards.webp
+  e-flying-saucer:
+    alt: flying saucer
+    kind: emoji
+    src: img/e/flying-saucer.webp
+  e-fog:
+    alt: fog
+    kind: emoji
+    src: img/e/fog.webp
+  e-folded-hands:
+    alt: folded hands
+    kind: emoji
+    src: img/e/folded-hands.webp
+  e-footprints:
+    alt: footprints
+    kind: emoji
+    src: img/e/footprints.webp
+  e-fork-and-knife:
+    alt: fork and knife
+    kind: emoji
+    src: img/e/fork-and-knife.webp
+  e-fork-and-knife-with-plate:
+    alt: fork and knife with plate
+    kind: emoji
+    src: img/e/fork-and-knife-with-plate.webp
+  e-fountain:
+    alt: fountain
+    kind: emoji
+    src: img/e/fountain.webp
+  e-four-leaf-clover:
+    alt: four leaf clover
+    kind: emoji
+    src: img/e/four-leaf-clover.webp
+  e-framed-picture:
+    alt: framed picture
+    kind: emoji
+    src: img/e/framed-picture.webp
+  e-free-button:
+    alt: free button
+    kind: emoji
+    src: img/e/free-button.webp
+  e-game-die:
+    alt: game die
+    kind: emoji
+    src: img/e/game-die.webp
+  e-garlic:
+    alt: garlic
+    kind: emoji
+    src: img/e/garlic.webp
+  e-gem-stone:
+    alt: gem stone
+    kind: emoji
+    src: img/e/gem-stone.webp
+  e-ghost:
+    alt: ghost
+    kind: emoji
+    src: img/e/ghost.webp
+  e-giraffe:
+    alt: giraffe
+    kind: emoji
+    src: img/e/giraffe.webp
+  e-girl:
+    alt: girl
+    kind: emoji
+    src: img/e/girl.webp
+  e-glass-of-milk:
+    alt: glass of milk
+    kind: emoji
+    src: img/e/glass-of-milk.webp
+  e-glasses:
+    alt: glasses
+    kind: emoji
+    src: img/e/glasses.webp
+  e-globe-showing-americas:
+    alt: globe showing americas
+    kind: emoji
+    src: img/e/globe-showing-americas.webp
+  e-globe-showing-europe-africa:
+    alt: globe showing europe-africa
+    kind: emoji
+    src: img/e/globe-showing-europe-africa.webp
+  e-globe-with-meridians:
+    alt: globe with meridians
+    kind: emoji
+    src: img/e/globe-with-meridians.webp
+  e-gloves:
+    alt: gloves
+    kind: emoji
+    src: img/e/gloves.webp
+  e-graduation-cap:
+    alt: graduation cap
+    kind: emoji
+    src: img/e/graduation-cap.webp
+  e-green-apple:
+    alt: green apple
+    kind: emoji
+    src: img/e/green-apple.webp
+  e-green-book:
+    alt: green book
+    kind: emoji
+    src: img/e/green-book.webp
+  e-green-circle:
+    alt: green circle
+    kind: emoji
+    src: img/e/green-circle.webp
+  e-green-salad:
+    alt: green salad
+    kind: emoji
+    src: img/e/green-salad.webp
+  e-grey-heart:
+    alt: grey heart
+    kind: emoji
+    src: img/e/grey-heart.webp
+  e-grimacing-face:
+    alt: grimacing face
+    kind: emoji
+    src: img/e/grimacing-face.webp
+  e-grinning-face-with-big-eyes:
+    alt: grinning face with big eyes
+    kind: emoji
+    src: img/e/grinning-face-with-big-eyes.webp
+  e-grinning-face-with-smiling-eyes:
+    alt: grinning face with smiling eyes
+    kind: emoji
+    src: img/e/grinning-face-with-smiling-eyes.webp
+  e-grinning-squinting-face:
+    alt: grinning squinting face
+    kind: emoji
+    src: img/e/grinning-squinting-face.webp
+  e-growing-heart:
+    alt: growing heart
+    kind: emoji
+    src: img/e/growing-heart.webp
+  e-guard:
+    alt: guard
+    kind: emoji
+    src: img/e/guard.webp
+  e-guitar:
+    alt: guitar
+    kind: emoji
+    src: img/e/guitar.webp
+  e-hair-pick:
+    alt: hair pick
+    kind: emoji
+    src: img/e/hair-pick.webp
+  e-hamburger:
+    alt: hamburger
+    kind: emoji
+    src: img/e/hamburger.webp
+  e-hammer-and-wrench:
+    alt: hammer and wrench
+    kind: emoji
+    src: img/e/hammer-and-wrench.webp
+  e-handbag:
+    alt: handbag
+    kind: emoji
+    src: img/e/handbag.webp
+  e-handshake:
+    alt: handshake
+    kind: emoji
+    src: img/e/handshake.webp
+  e-headphone:
+    alt: headphone
+    kind: emoji
+    src: img/e/headphone.webp
+  e-health-worker:
+    alt: health worker
+    kind: emoji
+    src: img/e/health-worker.webp
+  e-heart-with-arrow:
+    alt: heart with arrow
+    kind: emoji
+    src: img/e/heart-with-arrow.webp
+  e-heart-with-ribbon:
+    alt: heart with ribbon
+    kind: emoji
+    src: img/e/heart-with-ribbon.webp
+  e-herb:
+    alt: herb
+    kind: emoji
+    src: img/e/herb.webp
+  e-hibiscus:
+    alt: hibiscus
+    kind: emoji
+    src: img/e/hibiscus.webp
+  e-high-heeled-shoe:
+    alt: high-heeled shoe
+    kind: emoji
+    src: img/e/high-heeled-shoe.webp
+  e-high-speed-train:
+    alt: high-speed train
+    kind: emoji
+    src: img/e/high-speed-train.webp
+  e-high-voltage:
+    alt: high voltage
+    kind: emoji
+    src: img/e/high-voltage.webp
+  e-honey-pot:
+    alt: honey pot
+    kind: emoji
+    src: img/e/honey-pot.webp
+  e-horizontal-traffic-light:
+    alt: horizontal traffic light
+    kind: emoji
+    src: img/e/horizontal-traffic-light.webp
+  e-hospital:
+    alt: hospital
+    kind: emoji
+    src: img/e/hospital.webp
+  e-hot-beverage:
+    alt: hot beverage
+    kind: emoji
+    src: img/e/hot-beverage.webp
+  e-hot-face:
+    alt: hot face
+    kind: emoji
+    src: img/e/hot-face.webp
+  e-hot-pepper:
+    alt: hot pepper
+    kind: emoji
+    src: img/e/hot-pepper.webp
+  e-hotel:
+    alt: hotel
+    kind: emoji
+    src: img/e/hotel.webp
+  e-hourglass-done:
+    alt: hourglass done
+    kind: emoji
+    src: img/e/hourglass-done.webp
+  e-hourglass-not-done:
+    alt: hourglass not done
+    kind: emoji
+    src: img/e/hourglass-not-done.webp
+  e-house:
+    alt: house
+    kind: emoji
+    src: img/e/house.webp
+  e-house-with-garden:
+    alt: house with garden
+    kind: emoji
+    src: img/e/house-with-garden.webp
+  e-houses:
+    alt: houses
+    kind: emoji
+    src: img/e/houses.webp
+  e-hugging-face:
+    alt: hugging face
+    kind: emoji
+    src: img/e/hugging-face.webp
+  e-hundred-points:
+    alt: hundred points
+    kind: emoji
+    src: img/e/hundred-points.webp
+  e-ice:
+    alt: ice
+    kind: emoji
+    src: img/e/ice.webp
+  e-ice-cream:
+    alt: ice cream
+    kind: emoji
+    src: img/e/ice-cream.webp
+  e-identification-card:
+    alt: identification card
+    kind: emoji
+    src: img/e/identification-card.webp
+  e-inbox-tray:
+    alt: inbox tray
+    kind: emoji
+    src: img/e/inbox-tray.webp
+  e-index-pointing-at-the-viewer:
+    alt: index pointing at the viewer
+    kind: emoji
+    src: img/e/index-pointing-at-the-viewer.webp
+  e-index-pointing-up:
+    alt: index pointing up
+    kind: emoji
+    src: img/e/index-pointing-up.webp
+  e-input-latin-letters:
+    alt: input latin letters
+    kind: emoji
+    src: img/e/input-latin-letters.webp
+  e-input-latin-uppercase:
+    alt: input latin uppercase
+    kind: emoji
+    src: img/e/input-latin-uppercase.webp
+  e-input-numbers:
+    alt: input numbers
+    kind: emoji
+    src: img/e/input-numbers.webp
+  e-jar:
+    alt: jar
+    kind: emoji
+    src: img/e/jar.webp
+  e-jeans:
+    alt: jeans
+    kind: emoji
+    src: img/e/jeans.webp
+  e-joystick:
+    alt: joystick
+    kind: emoji
+    src: img/e/joystick.webp
+  e-kangaroo:
+    alt: kangaroo
+    kind: emoji
+    src: img/e/kangaroo.webp
+  e-key:
+    alt: key
+    kind: emoji
+    src: img/e/key.webp
+  e-keycap-0:
+    alt: keycap 0
+    kind: emoji
+    src: img/e/keycap-0.webp
+  e-keycap-1:
+    alt: keycap 1
+    kind: emoji
+    src: img/e/keycap-1.webp
+  e-keycap-10:
+    alt: keycap 10
+    kind: emoji
+    src: img/e/keycap-10.webp
+  e-keycap-2:
+    alt: keycap 2
+    kind: emoji
+    src: img/e/keycap-2.webp
+  e-keycap-3:
+    alt: keycap 3
+    kind: emoji
+    src: img/e/keycap-3.webp
+  e-keycap-4:
+    alt: keycap 4
+    kind: emoji
+    src: img/e/keycap-4.webp
+  e-keycap-5:
+    alt: keycap 5
+    kind: emoji
+    src: img/e/keycap-5.webp
+  e-keycap-6:
+    alt: keycap 6
+    kind: emoji
+    src: img/e/keycap-6.webp
+  e-keycap-7:
+    alt: keycap 7
+    kind: emoji
+    src: img/e/keycap-7.webp
+  e-keycap-8:
+    alt: keycap 8
+    kind: emoji
+    src: img/e/keycap-8.webp
+  e-keycap-9:
+    alt: keycap 9
+    kind: emoji
+    src: img/e/keycap-9.webp
+  e-kiss-mark:
+    alt: kiss mark
+    kind: emoji
+    src: img/e/kiss-mark.webp
+  e-kitchen-knife:
+    alt: kitchen knife
+    kind: emoji
+    src: img/e/kitchen-knife.webp
+  e-kite:
+    alt: kite
+    kind: emoji
+    src: img/e/kite.webp
+  e-label:
+    alt: label
+    kind: emoji
+    src: img/e/label.webp
+  e-laptop:
+    alt: laptop
+    kind: emoji
+    src: img/e/laptop.webp
+  e-leaf-fluttering-in-wind:
+    alt: leaf fluttering in wind
+    kind: emoji
+    src: img/e/leaf-fluttering-in-wind.webp
+  e-leafy-green:
+    alt: leafy green
+    kind: emoji
+    src: img/e/leafy-green.webp
+  e-left-arrow:
+    alt: left arrow
+    kind: emoji
+    src: img/e/left-arrow.webp
+  e-left-arrow-curving-right:
+    alt: left arrow curving right
+    kind: emoji
+    src: img/e/left-arrow-curving-right.webp
+  e-lemon:
+    alt: lemon
+    kind: emoji
+    src: img/e/lemon.webp
+  e-light-blue-heart:
+    alt: light blue heart
+    kind: emoji
+    src: img/e/light-blue-heart.webp
+  e-light-bulb:
+    alt: light bulb
+    kind: emoji
+    src: img/e/light-bulb.webp
+  e-lipstick:
+    alt: lipstick
+    kind: emoji
+    src: img/e/lipstick.webp
+  e-locked:
+    alt: locked
+    kind: emoji
+    src: img/e/locked.webp
+  e-lollipop:
+    alt: lollipop
+    kind: emoji
+    src: img/e/lollipop.webp
+  e-lotion-bottle:
+    alt: lotion bottle
+    kind: emoji
+    src: img/e/lotion-bottle.webp
+  e-loudly-crying-face:
+    alt: loudly crying face
+    kind: emoji
+    src: img/e/loudly-crying-face.webp
+  e-loudspeaker:
+    alt: loudspeaker
+    kind: emoji
+    src: img/e/loudspeaker.webp
+  e-love-letter:
+    alt: love letter
+    kind: emoji
+    src: img/e/love-letter.webp
+  e-luggage:
+    alt: luggage
+    kind: emoji
+    src: img/e/luggage.webp
+  e-magnifying-glass-tilted-left:
+    alt: magnifying glass tilted left
+    kind: emoji
+    src: img/e/magnifying-glass-tilted-left.webp
+  e-magnifying-glass-tilted-right:
+    alt: magnifying glass tilted right
+    kind: emoji
+    src: img/e/magnifying-glass-tilted-right.webp
+  e-man:
+    alt: man
+    kind: emoji
+    src: img/e/man.webp
+  e-man-artist:
+    alt: man artist
+    kind: emoji
+    src: img/e/man-artist.webp
+  e-man-in-tuxedo:
+    alt: man in tuxedo
+    kind: emoji
+    src: img/e/man-in-tuxedo.webp
+  e-man-mechanic:
+    alt: man mechanic
+    kind: emoji
+    src: img/e/man-mechanic.webp
+  e-man-office-worker:
+    alt: man office worker
+    kind: emoji
+    src: img/e/man-office-worker.webp
+  e-man-raising-hand:
+    alt: man raising hand
+    kind: emoji
+    src: img/e/man-raising-hand.webp
+  e-man-singer:
+    alt: man singer
+    kind: emoji
+    src: img/e/man-singer.webp
+  e-man-student:
+    alt: man student
+    kind: emoji
+    src: img/e/man-student.webp
+  e-man-teacher:
+    alt: man teacher
+    kind: emoji
+    src: img/e/man-teacher.webp
+  e-man-walking:
+    alt: man walking
+    kind: emoji
+    src: img/e/man-walking.webp
+  e-mantelpiece-clock:
+    alt: mantelpiece clock
+    kind: emoji
+    src: img/e/mantelpiece-clock.webp
+  e-map-of-japan:
+    alt: map of japan
+    kind: emoji
+    src: img/e/map-of-japan.webp
+  e-maple-leaf:
+    alt: maple leaf
+    kind: emoji
+    src: img/e/maple-leaf.webp
+  e-memo:
+    alt: memo
+    kind: emoji
+    src: img/e/memo.webp
+  e-metro:
+    alt: metro
+    kind: emoji
+    src: img/e/metro.webp
+  e-microphone:
+    alt: microphone
+    kind: emoji
+    src: img/e/microphone.webp
+  e-mirror:
+    alt: mirror
+    kind: emoji
+    src: img/e/mirror.webp
+  e-mirror-ball:
+    alt: mirror ball
+    kind: emoji
+    src: img/e/mirror-ball.webp
+  e-moai:
+    alt: moai
+    kind: emoji
+    src: img/e/moai.webp
+  e-mobile-phone:
+    alt: mobile phone
+    kind: emoji
+    src: img/e/mobile-phone.webp
+  e-money-bag:
+    alt: money bag
+    kind: emoji
+    src: img/e/money-bag.webp
+  e-money-with-wings:
+    alt: money with wings
+    kind: emoji
+    src: img/e/money-with-wings.webp
+  e-motor-scooter:
+    alt: motor scooter
+    kind: emoji
+    src: img/e/motor-scooter.webp
+  e-motorway:
+    alt: motorway
+    kind: emoji
+    src: img/e/motorway.webp
+  e-mountain:
+    alt: mountain
+    kind: emoji
+    src: img/e/mountain.webp
+  e-mouse:
+    alt: mouse
+    kind: emoji
+    src: img/e/mouse.webp
+  e-mouth:
+    alt: mouth
+    kind: emoji
+    src: img/e/mouth.webp
+  e-movie-camera:
+    alt: movie camera
+    kind: emoji
+    src: img/e/movie-camera.webp
+  e-musical-keyboard:
+    alt: musical keyboard
+    kind: emoji
+    src: img/e/musical-keyboard.webp
+  e-musical-note:
+    alt: musical note
+    kind: emoji
+    src: img/e/musical-note.webp
+  e-musical-notes:
+    alt: musical notes
+    kind: emoji
+    src: img/e/musical-notes.webp
+  e-musical-score:
+    alt: musical score
+    kind: emoji
+    src: img/e/musical-score.webp
+  e-name-badge:
+    alt: name badge
+    kind: emoji
+    src: img/e/name-badge.webp
+  e-nesting-dolls:
+    alt: nesting dolls
+    kind: emoji
+    src: img/e/nesting-dolls.webp
+  e-new-moon:
+    alt: new moon
+    kind: emoji
+    src: img/e/new-moon.webp
+  e-newspaper:
+    alt: newspaper
+    kind: emoji
+    src: img/e/newspaper.webp
+  e-night-with-stars:
+    alt: night with stars
+    kind: emoji
+    src: img/e/night-with-stars.webp
+  e-nine-oclock:
+    alt: nine oclock
+    kind: emoji
+    src: img/e/nine-oclock.webp
+  e-ninja:
+    alt: ninja
+    kind: emoji
+    src: img/e/ninja.webp
+  e-no-entry:
+    alt: no entry
+    kind: emoji
+    src: img/e/no-entry.webp
+  e-nose:
+    alt: nose
+    kind: emoji
+    src: img/e/nose.webp
+  e-notebook:
+    alt: notebook
+    kind: emoji
+    src: img/e/notebook.webp
+  e-notebook-with-decorative-cover:
+    alt: notebook with decorative cover
+    kind: emoji
+    src: img/e/notebook-with-decorative-cover.webp
+  e-office-building:
+    alt: office building
+    kind: emoji
+    src: img/e/office-building.webp
+  e-office-worker:
+    alt: office worker
+    kind: emoji
+    src: img/e/office-worker.webp
+  e-ogre:
+    alt: ogre
+    kind: emoji
+    src: img/e/ogre.webp
+  e-ok-hand:
+    alt: ok hand
+    kind: emoji
+    src: img/e/ok-hand.webp
+  e-old-key:
+    alt: old key
+    kind: emoji
+    src: img/e/old-key.webp
+  e-old-man:
+    alt: old man
+    kind: emoji
+    src: img/e/old-man.webp
+  e-old-woman:
+    alt: old woman
+    kind: emoji
+    src: img/e/old-woman.webp
+  e-older-person:
+    alt: older person
+    kind: emoji
+    src: img/e/older-person.webp
+  e-olive:
+    alt: olive
+    kind: emoji
+    src: img/e/olive.webp
+  e-one-thirty:
+    alt: one-thirty
+    kind: emoji
+    src: img/e/one-thirty.webp
+  e-open-book:
+    alt: open book
+    kind: emoji
+    src: img/e/open-book.webp
+  e-open-hands:
+    alt: open hands
+    kind: emoji
+    src: img/e/open-hands.webp
+  e-open-mailbox-with-raised-flag:
+    alt: open mailbox with raised flag
+    kind: emoji
+    src: img/e/open-mailbox-with-raised-flag.webp
+  e-optical-disk:
+    alt: optical disk
+    kind: emoji
+    src: img/e/optical-disk.webp
+  e-outbox-tray:
+    alt: outbox tray
+    kind: emoji
+    src: img/e/outbox-tray.webp
+  e-p-button:
+    alt: p button
+    kind: emoji
+    src: img/e/p-button.webp
+  e-package:
+    alt: package
+    kind: emoji
+    src: img/e/package.webp
+  e-page-facing-up:
+    alt: page facing up
+    kind: emoji
+    src: img/e/page-facing-up.webp
+  e-palm-up-hand:
+    alt: palm up hand
+    kind: emoji
+    src: img/e/palm-up-hand.webp
+  e-palms-up-together:
+    alt: palms up together
+    kind: emoji
+    src: img/e/palms-up-together.webp
+  e-party-popper:
+    alt: party popper
+    kind: emoji
+    src: img/e/party-popper.webp
+  e-partying-face:
+    alt: partying face
+    kind: emoji
+    src: img/e/partying-face.webp
+  e-passenger-ship:
+    alt: passenger ship
+    kind: emoji
+    src: img/e/passenger-ship.webp
+  e-passport-control:
+    alt: passport control
+    kind: emoji
+    src: img/e/passport-control.webp
+  e-paw-prints:
+    alt: paw prints
+    kind: emoji
+    src: img/e/paw-prints.webp
+  e-pear:
+    alt: pear
+    kind: emoji
+    src: img/e/pear.webp
+  e-pen:
+    alt: pen
+    kind: emoji
+    src: img/e/pen.webp
+  e-pensive-face:
+    alt: pensive face
+    kind: emoji
+    src: img/e/pensive-face.webp
+  e-people-hugging:
+    alt: people hugging
+    kind: emoji
+    src: img/e/people-hugging.webp
+  e-performing-arts:
+    alt: performing arts
+    kind: emoji
+    src: img/e/performing-arts.webp
+  e-person:
+    alt: person
+    kind: emoji
+    src: img/e/person.webp
+  e-person-blonde-hair:
+    alt: person blonde hair
+    kind: emoji
+    src: img/e/person-blonde-hair.webp
+  e-person-curly-hair:
+    alt: person curly hair
+    kind: emoji
+    src: img/e/person-curly-hair.webp
+  e-person-in-lotus-position:
+    alt: person in lotus position
+    kind: emoji
+    src: img/e/person-in-lotus-position.webp
+  e-person-lifting-weights:
+    alt: person lifting weights
+    kind: emoji
+    src: img/e/person-lifting-weights.webp
+  e-person-running:
+    alt: person running
+    kind: emoji
+    src: img/e/person-running.webp
+  e-person-standing:
+    alt: person standing
+    kind: emoji
+    src: img/e/person-standing.webp
+  e-person-swimming:
+    alt: person swimming
+    kind: emoji
+    src: img/e/person-swimming.webp
+  e-person-walking:
+    alt: person walking
+    kind: emoji
+    src: img/e/person-walking.webp
+  e-person-walking-facing-right:
+    alt: person walking facing right
+    kind: emoji
+    src: img/e/person-walking-facing-right.webp
+  e-person-with-crown:
+    alt: person with crown
+    kind: emoji
+    src: img/e/person-with-crown.webp
+  e-pie:
+    alt: pie
+    kind: emoji
+    src: img/e/pie.webp
+  e-pig:
+    alt: pig
+    kind: emoji
+    src: img/e/pig.webp
+  e-pill:
+    alt: pill
+    kind: emoji
+    src: img/e/pill.webp
+  e-pink-heart:
+    alt: pink heart
+    kind: emoji
+    src: img/e/pink-heart.webp
+  e-pizza:
+    alt: pizza
+    kind: emoji
+    src: img/e/pizza.webp
+  e-placard:
+    alt: placard
+    kind: emoji
+    src: img/e/placard.webp
+  e-play-button:
+    alt: play button
+    kind: emoji
+    src: img/e/play-button.webp
+  e-pleading-face:
+    alt: pleading face
+    kind: emoji
+    src: img/e/pleading-face.webp
+  e-police-car:
+    alt: police car
+    kind: emoji
+    src: img/e/police-car.webp
+  e-police-car-light:
+    alt: police car light
+    kind: emoji
+    src: img/e/police-car-light.webp
+  e-police-officer:
+    alt: police officer
+    kind: emoji
+    src: img/e/police-officer.webp
+  e-popcorn:
+    alt: popcorn
+    kind: emoji
+    src: img/e/popcorn.webp
+  e-post-office:
+    alt: post office
+    kind: emoji
+    src: img/e/post-office.webp
+  e-postbox:
+    alt: postbox
+    kind: emoji
+    src: img/e/postbox.webp
+  e-pot-of-food:
+    alt: pot of food
+    kind: emoji
+    src: img/e/pot-of-food.webp
+  e-potato:
+    alt: potato
+    kind: emoji
+    src: img/e/potato.webp
+  e-potted-plant:
+    alt: potted plant
+    kind: emoji
+    src: img/e/potted-plant.webp
+  e-poultry-leg:
+    alt: poultry leg
+    kind: emoji
+    src: img/e/poultry-leg.webp
+  e-pouting-face:
+    alt: pouting face
+    kind: emoji
+    src: img/e/pouting-face.webp
+  e-pretzel:
+    alt: pretzel
+    kind: emoji
+    src: img/e/pretzel.webp
+  e-prince:
+    alt: prince
+    kind: emoji
+    src: img/e/prince.webp
+  e-princess:
+    alt: princess
+    kind: emoji
+    src: img/e/princess.webp
+  e-prohibited:
+    alt: prohibited
+    kind: emoji
+    src: img/e/prohibited.webp
+  e-purple-heart:
+    alt: purple heart
+    kind: emoji
+    src: img/e/purple-heart.webp
+  e-purse:
+    alt: purse
+    kind: emoji
+    src: img/e/purse.webp
+  e-puzzle-piece:
+    alt: puzzle piece
+    kind: emoji
+    src: img/e/puzzle-piece.webp
+  e-railway-car:
+    alt: railway car
+    kind: emoji
+    src: img/e/railway-car.webp
+  e-railway-track:
+    alt: railway track
+    kind: emoji
+    src: img/e/railway-track.webp
+  e-rainbow:
+    alt: rainbow
+    kind: emoji
+    src: img/e/rainbow.webp
+  e-raised-hand:
+    alt: raised hand
+    kind: emoji
+    src: img/e/raised-hand.webp
+  e-raising-hands:
+    alt: raising hands
+    kind: emoji
+    src: img/e/raising-hands.webp
+  e-razor:
+    alt: razor
+    kind: emoji
+    src: img/e/razor.webp
+  e-receipt:
+    alt: receipt
+    kind: emoji
+    src: img/e/receipt.webp
+  e-red-apple:
+    alt: red apple
+    kind: emoji
+    src: img/e/red-apple.webp
+  e-red-circle:
+    alt: red circle
+    kind: emoji
+    src: img/e/red-circle.webp
+  e-red-heart:
+    alt: red heart
+    kind: emoji
+    src: img/e/red-heart.webp
+  e-red-question-mark:
+    alt: red question mark
+    kind: emoji
+    src: img/e/red-question-mark.webp
+  e-registered:
+    alt: registered
+    kind: emoji
+    src: img/e/registered.webp
+  e-relieved-face:
+    alt: relieved face
+    kind: emoji
+    src: img/e/relieved-face.webp
+  e-repeat-button:
+    alt: repeat button
+    kind: emoji
+    src: img/e/repeat-button.webp
+  e-right-arrow:
+    alt: right arrow
+    kind: emoji
+    src: img/e/right-arrow.webp
+  e-right-arrow-curving-left:
+    alt: right arrow curving left
+    kind: emoji
+    src: img/e/right-arrow-curving-left.webp
+  e-right-arrow-curving-up:
+    alt: right arrow curving up
+    kind: emoji
+    src: img/e/right-arrow-curving-up.webp
+  e-ring:
+    alt: ring
+    kind: emoji
+    src: img/e/ring.webp
+  e-rock:
+    alt: rock
+    kind: emoji
+    src: img/e/rock.webp
+  e-rocket:
+    alt: rocket
+    kind: emoji
+    src: img/e/rocket.webp
+  e-roll-of-paper:
+    alt: roll of paper
+    kind: emoji
+    src: img/e/roll-of-paper.webp
+  e-rolled-up-newspaper:
+    alt: rolled-up newspaper
+    kind: emoji
+    src: img/e/rolled-up-newspaper.webp
+  e-rose:
+    alt: rose
+    kind: emoji
+    src: img/e/rose.webp
+  e-round-pushpin:
+    alt: round pushpin
+    kind: emoji
+    src: img/e/round-pushpin.webp
+  e-running-shoe:
+    alt: running shoe
+    kind: emoji
+    src: img/e/running-shoe.webp
+  e-sailboat:
+    alt: sailboat
+    kind: emoji
+    src: img/e/sailboat.webp
+  e-salt:
+    alt: salt
+    kind: emoji
+    src: img/e/salt.webp
+  e-sandwich:
+    alt: sandwich
+    kind: emoji
+    src: img/e/sandwich.webp
+  e-santa-claus:
+    alt: santa claus
+    kind: emoji
+    src: img/e/santa-claus.webp
+  e-scarf:
+    alt: scarf
+    kind: emoji
+    src: img/e/scarf.webp
+  e-school:
+    alt: school
+    kind: emoji
+    src: img/e/school.webp
+  e-scroll:
+    alt: scroll
+    kind: emoji
+    src: img/e/scroll.webp
+  e-seat:
+    alt: seat
+    kind: emoji
+    src: img/e/seat.webp
+  e-seedling:
+    alt: seedling
+    kind: emoji
+    src: img/e/seedling.webp
+  e-sewing-needle:
+    alt: sewing needle
+    kind: emoji
+    src: img/e/sewing-needle.webp
+  e-shallow-pan-of-food:
+    alt: shallow pan of food
+    kind: emoji
+    src: img/e/shallow-pan-of-food.webp
+  e-sheaf-of-rice:
+    alt: sheaf of rice
+    kind: emoji
+    src: img/e/sheaf-of-rice.webp
+  e-shield:
+    alt: shield
+    kind: emoji
+    src: img/e/shield.webp
+  e-shooting-star:
+    alt: shooting star
+    kind: emoji
+    src: img/e/shooting-star.webp
+  e-shopping-bags:
+    alt: shopping bags
+    kind: emoji
+    src: img/e/shopping-bags.webp
+  e-shopping-cart:
+    alt: shopping cart
+    kind: emoji
+    src: img/e/shopping-cart.webp
+  e-shortcake:
+    alt: shortcake
+    kind: emoji
+    src: img/e/shortcake.webp
+  e-shower:
+    alt: shower
+    kind: emoji
+    src: img/e/shower.webp
+  e-shushing-face:
+    alt: shushing face
+    kind: emoji
+    src: img/e/shushing-face.webp
+  e-six-thirty:
+    alt: six-thirty
+    kind: emoji
+    src: img/e/six-thirty.webp
+  e-skier:
+    alt: skier
+    kind: emoji
+    src: img/e/skier.webp
+  e-sleeping-face:
+    alt: sleeping face
+    kind: emoji
+    src: img/e/sleeping-face.webp
+  e-slightly-smiling-face:
+    alt: slightly smiling face
+    kind: emoji
+    src: img/e/slightly-smiling-face.webp
+  e-smiling-face-with-halo:
+    alt: smiling face with halo
+    kind: emoji
+    src: img/e/smiling-face-with-halo.webp
+  e-smiling-face-with-heart-eyes:
+    alt: smiling face with heart-eyes
+    kind: emoji
+    src: img/e/smiling-face-with-heart-eyes.webp
+  e-smiling-face-with-hearts:
+    alt: smiling face with hearts
+    kind: emoji
+    src: img/e/smiling-face-with-hearts.webp
+  e-smiling-face-with-horns:
+    alt: smiling face with horns
+    kind: emoji
+    src: img/e/smiling-face-with-horns.webp
+  e-smiling-face-with-smiling-eyes:
+    alt: smiling face with smiling eyes
+    kind: emoji
+    src: img/e/smiling-face-with-smiling-eyes.webp
+  e-snail:
+    alt: snail
+    kind: emoji
+    src: img/e/snail.webp
+  e-sneezing-face:
+    alt: sneezing face
+    kind: emoji
+    src: img/e/sneezing-face.webp
+  e-snow-capped-mountain:
+    alt: snow-capped mountain
+    kind: emoji
+    src: img/e/snow-capped-mountain.webp
+  e-snowflake:
+    alt: snowflake
+    kind: emoji
+    src: img/e/snowflake.webp
+  e-snowman:
+    alt: snowman
+    kind: emoji
+    src: img/e/snowman.webp
+  e-soap:
+    alt: soap
+    kind: emoji
+    src: img/e/soap.webp
+  e-soccer-ball:
+    alt: soccer ball
+    kind: emoji
+    src: img/e/soccer-ball.webp
+  e-socks:
+    alt: socks
+    kind: emoji
+    src: img/e/socks.webp
+  e-soft-ice-cream:
+    alt: soft ice cream
+    kind: emoji
+    src: img/e/soft-ice-cream.webp
+  e-spaghetti:
+    alt: spaghetti
+    kind: emoji
+    src: img/e/spaghetti.webp
+  e-sparkler:
+    alt: sparkler
+    kind: emoji
+    src: img/e/sparkler.webp
+  e-sparkles:
+    alt: sparkles
+    kind: emoji
+    src: img/e/sparkles.webp
+  e-sparkling-heart:
+    alt: sparkling heart
+    kind: emoji
+    src: img/e/sparkling-heart.webp
+  e-speaking-head:
+    alt: speaking head
+    kind: emoji
+    src: img/e/speaking-head.webp
+  e-speech-balloon:
+    alt: speech balloon
+    kind: emoji
+    src: img/e/speech-balloon.webp
+  e-spiral-calendar:
+    alt: spiral calendar
+    kind: emoji
+    src: img/e/spiral-calendar.webp
+  e-spiral-notepad:
+    alt: spiral notepad
+    kind: emoji
+    src: img/e/spiral-notepad.webp
+  e-spoon:
+    alt: spoon
+    kind: emoji
+    src: img/e/spoon.webp
+  e-sports-medal:
+    alt: sports medal
+    kind: emoji
+    src: img/e/sports-medal.webp
+  e-stadium:
+    alt: stadium
+    kind: emoji
+    src: img/e/stadium.webp
+  e-star:
+    alt: star
+    kind: emoji
+    src: img/e/star.webp
+  e-star-struck:
+    alt: star-struck
+    kind: emoji
+    src: img/e/star-struck.webp
+  e-station:
+    alt: station
+    kind: emoji
+    src: img/e/station.webp
+  e-statue-of-liberty:
+    alt: statue of liberty
+    kind: emoji
+    src: img/e/statue-of-liberty.webp
+  e-stethoscope:
+    alt: stethoscope
+    kind: emoji
+    src: img/e/stethoscope.webp
+  e-stop-sign:
+    alt: stop sign
+    kind: emoji
+    src: img/e/stop-sign.webp
+  e-stopwatch:
+    alt: stopwatch
+    kind: emoji
+    src: img/e/stopwatch.webp
+  e-straight-ruler:
+    alt: straight ruler
+    kind: emoji
+    src: img/e/straight-ruler.webp
+  e-studio-microphone:
+    alt: studio microphone
+    kind: emoji
+    src: img/e/studio-microphone.webp
+  e-sun:
+    alt: sun
+    kind: emoji
+    src: img/e/sun.webp
+  e-sun-behind-cloud:
+    alt: sun behind cloud
+    kind: emoji
+    src: img/e/sun-behind-cloud.webp
+  e-sun-behind-large-cloud:
+    alt: sun behind large cloud
+    kind: emoji
+    src: img/e/sun-behind-large-cloud.webp
+  e-sun-behind-rain-cloud:
+    alt: sun behind rain cloud
+    kind: emoji
+    src: img/e/sun-behind-rain-cloud.webp
+  e-sun-behind-small-cloud:
+    alt: sun behind small cloud
+    kind: emoji
+    src: img/e/sun-behind-small-cloud.webp
+  e-sun-with-face:
+    alt: sun with face
+    kind: emoji
+    src: img/e/sun-with-face.webp
+  e-sunflower:
+    alt: sunflower
+    kind: emoji
+    src: img/e/sunflower.webp
+  e-sunglasses:
+    alt: sunglasses
+    kind: emoji
+    src: img/e/sunglasses.webp
+  e-sunrise:
+    alt: sunrise
+    kind: emoji
+    src: img/e/sunrise.webp
+  e-sunrise-over-mountains:
+    alt: sunrise over mountains
+    kind: emoji
+    src: img/e/sunrise-over-mountains.webp
+  e-sunset:
+    alt: sunset
+    kind: emoji
+    src: img/e/sunset.webp
+  e-t-shirt:
+    alt: t-shirt
+    kind: emoji
+    src: img/e/t-shirt.webp
+  e-tangerine:
+    alt: tangerine
+    kind: emoji
+    src: img/e/tangerine.webp
+  e-teacup-without-handle:
+    alt: teacup without handle
+    kind: emoji
+    src: img/e/teacup-without-handle.webp
+  e-tear-off-calendar:
+    alt: tear-off calendar
+    kind: emoji
+    src: img/e/tear-off-calendar.webp
+  e-telephone:
+    alt: telephone
+    kind: emoji
+    src: img/e/telephone.webp
+  e-telephone-receiver:
+    alt: telephone receiver
+    kind: emoji
+    src: img/e/telephone-receiver.webp
+  e-television:
+    alt: television
+    kind: emoji
+    src: img/e/television.webp
+  e-tent:
+    alt: tent
+    kind: emoji
+    src: img/e/tent.webp
+  e-test-tube:
+    alt: test tube
+    kind: emoji
+    src: img/e/test-tube.webp
+  e-thermometer:
+    alt: thermometer
+    kind: emoji
+    src: img/e/thermometer.webp
+  e-thinking-face:
+    alt: thinking face
+    kind: emoji
+    src: img/e/thinking-face.webp
+  e-thought-balloon:
+    alt: thought balloon
+    kind: emoji
+    src: img/e/thought-balloon.webp
+  e-thread:
+    alt: thread
+    kind: emoji
+    src: img/e/thread.webp
+  e-thumbs-down:
+    alt: thumbs down
+    kind: emoji
+    src: img/e/thumbs-down.webp
+  e-thumbs-up:
+    alt: thumbs up
+    kind: emoji
+    src: img/e/thumbs-up.webp
+  e-ticket:
+    alt: ticket
+    kind: emoji
+    src: img/e/ticket.webp
+  e-tired-face:
+    alt: tired face
+    kind: emoji
+    src: img/e/tired-face.webp
+  e-tomato:
+    alt: tomato
+    kind: emoji
+    src: img/e/tomato.webp
+  e-tongue:
+    alt: tongue
+    kind: emoji
+    src: img/e/tongue.webp
+  e-tooth:
+    alt: tooth
+    kind: emoji
+    src: img/e/tooth.webp
+  e-toothbrush:
+    alt: toothbrush
+    kind: emoji
+    src: img/e/toothbrush.webp
+  e-trackball:
+    alt: trackball
+    kind: emoji
+    src: img/e/trackball.webp
+  e-train:
+    alt: train
+    kind: emoji
+    src: img/e/train.webp
+  e-tram:
+    alt: tram
+    kind: emoji
+    src: img/e/tram.webp
+  e-triangular-ruler:
+    alt: triangular ruler
+    kind: emoji
+    src: img/e/triangular-ruler.webp
+  e-trophy:
+    alt: trophy
+    kind: emoji
+    src: img/e/trophy.webp
+  e-tropical-drink:
+    alt: tropical drink
+    kind: emoji
+    src: img/e/tropical-drink.webp
+  e-tulip:
+    alt: tulip
+    kind: emoji
+    src: img/e/tulip.webp
+  e-tumbler-glass:
+    alt: tumbler glass
+    kind: emoji
+    src: img/e/tumbler-glass.webp
+  e-twelve-oclock:
+    alt: twelve oclock
+    kind: emoji
+    src: img/e/twelve-oclock.webp
+  e-twelve-thirty:
+    alt: twelve-thirty
+    kind: emoji
+    src: img/e/twelve-thirty.webp
+  e-two-hearts:
+    alt: two hearts
+    kind: emoji
+    src: img/e/two-hearts.webp
+  e-umbrella-with-rain-drops:
+    alt: umbrella with rain drops
+    kind: emoji
+    src: img/e/umbrella-with-rain-drops.webp
+  e-unamused-face:
+    alt: unamused face
+    kind: emoji
+    src: img/e/unamused-face.webp
+  e-up-arrow:
+    alt: up arrow
+    kind: emoji
+    src: img/e/up-arrow.webp
+  e-vertical-traffic-light:
+    alt: vertical traffic light
+    kind: emoji
+    src: img/e/vertical-traffic-light.webp
+  e-video-camera:
+    alt: video camera
+    kind: emoji
+    src: img/e/video-camera.webp
+  e-video-game:
+    alt: video game
+    kind: emoji
+    src: img/e/video-game.webp
+  e-violin:
+    alt: violin
+    kind: emoji
+    src: img/e/violin.webp
+  e-watch:
+    alt: watch
+    kind: emoji
+    src: img/e/watch.webp
+  e-water-wave:
+    alt: water wave
+    kind: emoji
+    src: img/e/water-wave.webp
+  e-watermelon:
+    alt: watermelon
+    kind: emoji
+    src: img/e/watermelon.webp
+  e-waving-hand:
+    alt: waving hand
+    kind: emoji
+    src: img/e/waving-hand.webp
+  e-wedding:
+    alt: wedding
+    kind: emoji
+    src: img/e/wedding.webp
+  e-white-circle:
+    alt: white circle
+    kind: emoji
+    src: img/e/white-circle.webp
+  e-wind-face:
+    alt: wind face
+    kind: emoji
+    src: img/e/wind-face.webp
+  e-window:
+    alt: window
+    kind: emoji
+    src: img/e/window.webp
+  e-wine-glass:
+    alt: wine glass
+    kind: emoji
+    src: img/e/wine-glass.webp
+  e-winking-face:
+    alt: winking face
+    kind: emoji
+    src: img/e/winking-face.webp
+  e-winking-face-with-tongue:
+    alt: winking face with tongue
+    kind: emoji
+    src: img/e/winking-face-with-tongue.webp
+  e-woman:
+    alt: woman
+    kind: emoji
+    src: img/e/woman.webp
+  e-woman-artist:
+    alt: woman artist
+    kind: emoji
+    src: img/e/woman-artist.webp
+  e-woman-blonde-hair:
+    alt: woman blonde hair
+    kind: emoji
+    src: img/e/woman-blonde-hair.webp
+  e-woman-dancing:
+    alt: woman dancing
+    kind: emoji
+    src: img/e/woman-dancing.webp
+  e-woman-gesturing-no:
+    alt: woman gesturing no
+    kind: emoji
+    src: img/e/woman-gesturing-no.webp
+  e-woman-office-worker:
+    alt: woman office worker
+    kind: emoji
+    src: img/e/woman-office-worker.webp
+  e-woman-raising-hand:
+    alt: woman raising hand
+    kind: emoji
+    src: img/e/woman-raising-hand.webp
+  e-woman-running:
+    alt: woman running
+    kind: emoji
+    src: img/e/woman-running.webp
+  e-woman-shrugging:
+    alt: woman shrugging
+    kind: emoji
+    src: img/e/woman-shrugging.webp
+  e-woman-singer:
+    alt: woman singer
+    kind: emoji
+    src: img/e/woman-singer.webp
+  e-woman-student:
+    alt: woman student
+    kind: emoji
+    src: img/e/woman-student.webp
+  e-woman-swimming:
+    alt: woman swimming
+    kind: emoji
+    src: img/e/woman-swimming.webp
+  e-woman-teacher:
+    alt: woman teacher
+    kind: emoji
+    src: img/e/woman-teacher.webp
+  e-woman-tipping-hand:
+    alt: woman tipping hand
+    kind: emoji
+    src: img/e/woman-tipping-hand.webp
+  e-woman-walking:
+    alt: woman walking
+    kind: emoji
+    src: img/e/woman-walking.webp
+  e-woman-with-headscarf:
+    alt: woman with headscarf
+    kind: emoji
+    src: img/e/woman-with-headscarf.webp
+  e-woman-with-veil:
+    alt: woman with veil
+    kind: emoji
+    src: img/e/woman-with-veil.webp
+  e-womans-boot:
+    alt: womans boot
+    kind: emoji
+    src: img/e/womans-boot.webp
+  e-womans-clothes:
+    alt: womans clothes
+    kind: emoji
+    src: img/e/womans-clothes.webp
+  e-womans-hat:
+    alt: womans hat
+    kind: emoji
+    src: img/e/womans-hat.webp
+  e-woozy-face:
+    alt: woozy face
+    kind: emoji
+    src: img/e/woozy-face.webp
+  e-world-map:
+    alt: world map
+    kind: emoji
+    src: img/e/world-map.webp
+  e-wrapped-gift:
+    alt: wrapped gift
+    kind: emoji
+    src: img/e/wrapped-gift.webp
+  e-wrench:
+    alt: wrench
+    kind: emoji
+    src: img/e/wrench.webp
+  e-writing-hand:
+    alt: writing hand
+    kind: emoji
+    src: img/e/writing-hand.webp
+  e-yarn:
+    alt: yarn
+    kind: emoji
+    src: img/e/yarn.webp
+  e-yawning-face:
+    alt: yawning face
+    kind: emoji
+    src: img/e/yawning-face.webp
+  e-yellow-circle:
+    alt: yellow circle
+    kind: emoji
+    src: img/e/yellow-circle.webp
+  p-bandiera-italia:
+    alt: Флаг Италии
+    credit: Bella Italia
+    kind: photo
+    license: собственный рисунок
+    source: ''
+    src: img/p/bandiera-italia.webp
+  p-bologna:
+    alt: Болонья
+    credit: Vanni Lazzari
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Due_Torri_di_Bologna_Asinelli_e_Garisenda.jpg
+    src: img/p/bologna.webp
+  p-carnevale-venezia:
+    alt: Венецианский карнавал
+    credit: Frank Kovalchek from Anchorage, Alaska, USA
+    kind: photo
+    license: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Venice_Carnival_-_Masked_Lovers_(2010).jpg
+    src: img/p/carnevale-venezia.webp
+  p-cinecitta:
+    alt: Киностудия «Чинечитта»
+    credit: JRibaX
+    kind: photo
+    license: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Cinecitt%C3%A0_-_Entrance.jpg
+    src: img/p/cinecitta.webp
+  p-colosseo:
+    alt: Колизей, Рим
+    credit: Wilfredor
+    kind: photo
+    license: CC0
+    source: https://commons.wikimedia.org/wiki/File:Colosseum_of_Rome_and_Roman_forum.jpg
+    src: img/p/colosseo.webp
+  p-dolomiti:
+    alt: Доломитовые Альпы
+    credit: "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me"
+    kind: photo
+    license: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Drei_Zinnen_Tre_Cime_di_Lavaredo_Dolomites.jpg
+    src: img/p/dolomiti.webp
+  p-duomo-milano:
+    alt: Миланский собор
+    credit: Jakub Hałun
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:20110724_Milan_Cathedral_5266.jpg
+    src: img/p/duomo-milano.webp
+  p-espresso-bar:
+    alt: Эспрессо в баре
+    credit: Fraapal
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Espresso_coffee.jpg
+    src: img/p/espresso-bar.webp
+  p-firenze:
+    alt: Флоренция
+    credit: Dllu
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Florence_Cathedral_seen_from_Piazzale_Michelangelo_night_dllu.jpg
+    src: img/p/firenze.webp
+  p-fontana-trevi:
+    alt: Фонтан Треви
+    credit: Wilfredor
+    kind: photo
+    license: CC0
+    source: https://commons.wikimedia.org/wiki/File:Fontaine_Trevi_-_Rome.jpg
+    src: img/p/fontana-trevi.webp
+  p-frecciarossa:
+    alt: Скоростной поезд «Фречароса»
+    credit: CAPTAIN RAJU
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Frecciarossa_train_(Rome)_in_2023.03.jpg
+    src: img/p/frecciarossa.webp
+  p-galleria-milano:
+    alt: Галерея Виктора Эммануила II
+    credit: Jakub Hałun
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:20110724_Galleria_Vittorio_Emanuele_II_Milan_5410.jpg
+    src: img/p/galleria-milano.webp
+  p-gelateria:
+    alt: Джелатерия
+    credit: Alessio Damato
+    kind: photo
+    license: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Italian_ice_cream.jpg
+    src: img/p/gelateria.webp
+  p-genova:
+    alt: Генуя
+    credit: EJBJane
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Boccadasse_Genova_Liguria.jpg
+    src: img/p/genova.webp
+  p-gondola:
+    alt: Гондола в Венеции
+    credit: Benh LIEU SONG (Flickr)
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Venice_awakes_(20618763815).jpg
+    src: img/p/gondola.webp
+  p-mercato-frutta:
+    alt: Овощной рынок
+    credit: JopkeB
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Market_stall_in_Aritzo_1996.jpg
+    src: img/p/mercato-frutta.webp
+  p-mercato-rialto:
+    alt: Рынок Риальто
+    credit: "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me"
+    kind: photo
+    license: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Pescaria_Rialto_Venice.jpg
+    src: img/p/mercato-rialto.webp
+  p-moka:
+    alt: Гейзерная кофеварка мока
+    credit: Berteun Damman (That's I)
+    kind: photo
+    license: Public domain
+    source: https://commons.wikimedia.org/wiki/File:Bialetti_Moka_Express_in_action.jpg
+    src: img/p/moka.webp
+  p-napoli:
+    alt: Неаполь и Везувий
+    credit: Sergey Ashmarin
+    kind: photo
+    license: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Bay_of_Naples_and_Volcano_Vesuvius_-_Italy_-_panoramio.jpg
+    src: img/p/napoli.webp
+  p-palermo:
+    alt: Палермо
+    credit: Berthold Werner
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Palermo_Cathedral_BW_2025-04-29_11-14-42.jpg
+    src: img/p/palermo.webp
+  p-panettone:
+    alt: Панеттоне
+    credit: N i c o l a from Fiumicino (Rome), Italy
+    kind: photo
+    license: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Panettone_-_Nicolettone_2017_-_IMG_7085_(31752542285).jpg
+    src: img/p/panettone.webp
+  p-parigi:
+    alt: Париж
+    credit: Benh LIEU SONG
+    kind: photo
+    license: Public domain
+    source: https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg
+    src: img/p/parigi.webp
+  p-parmigiano:
+    alt: Пармиджано-реджано
+    credit: Gilles Desjardins
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Parmigiano_Reggiano_-_meules.jpg
+    src: img/p/parmigiano.webp
+  p-pasta-tipi:
+    alt: Виды пасты
+    credit: David Adam Kess
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:(Pasta)_by_David_Adam_Kess_(pic.2).jpg
+    src: img/p/pasta-tipi.webp
+  p-pizza-margherita:
+    alt: Пицца «Маргарита»
+    credit: Mario56
+    kind: photo
+    license: CC BY-SA 3.0
+    source: https://commons.wikimedia.org/wiki/File:Margherita_Originale.JPG
+    src: img/p/pizza-margherita.webp
+  p-presepe:
+    alt: Рождественский вертеп
+    credit: Albarubescens
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Scene_da_un_Presepe_Napoletano.jpg
+    src: img/p/presepe.webp
+  p-roma-trastevere:
+    alt: Трастевере, Рим
+    credit: Jorge Franganillo
+    kind: photo
+    license: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Roma_Trastevere_(52345941595).jpg
+    src: img/p/roma-trastevere.webp
+  p-san-marco:
+    alt: Площадь Сан-Марко
+    credit: Canaletto
+    kind: photo
+    license: Public domain
+    source: https://commons.wikimedia.org/wiki/File:Canaletto_-_The_Piazza_San_Marco_in_Venice_-_Google_Art_Project.jpg
+    src: img/p/san-marco.webp
+  p-sanremo-ariston:
+    alt: Театр «Аристон», Сан-Ремо
+    credit: kallerna
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Teatro_Ariston_Sanremo.jpg
+    src: img/p/sanremo-ariston.webp
+  p-spiaggia-italia:
+    alt: Побережье Амальфи
+    credit: VV Nincic from Toronto, Canada
+    kind: photo
+    license: CC BY 2.0
+    source: https://commons.wikimedia.org/wiki/File:Positano,_Amalfi_Coast,_Italy_(21689385354).jpg
+    src: img/p/spiaggia-italia.webp
+  p-torino:
+    alt: Турин, Моле Антонеллиана
+    credit: Abbrey82
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Mole_Antonelliana_di_sera.jpg
+    src: img/p/torino.webp
+  p-torre-pisa:
+    alt: Пизанская башня
+    credit: MHoser
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:The_Duomo_and_Tower_of_Pisa_at_sunrise.jpg
+    src: img/p/torre-pisa.webp
+  p-venezia:
+    alt: Венеция
+    credit: kallerna
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Ponte_di_Rialto_Venice_1.jpg
+    src: img/p/venezia.webp
+  p-verona-arena:
+    alt: Арена ди Верона
+    credit: Didier Descouens
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Piazza_Bra_seen_from_the_arenas_(Verona).jpg
+    src: img/p/verona-arena.webp
+  p-vespa:
+    alt: Мотороллер «Веспа»
+    credit: Livioandronico2013
+    kind: photo
+    license: CC BY-SA 4.0
+    source: https://commons.wikimedia.org/wiki/File:Vespa_a_Todi.JPG
+    src: img/p/vespa.webp
+phrases:
+  a capodanno cosa farete: e-fireworks
+  a che ora apre: e-alarm-clock
+  a che ora apre la farmacia: e-pill
+  a che ora parte il treno: e-station
+  a che ora partite: e-alarm-clock
+  a che ora ti sei svegliata: e-alarm-clock
+  a domani: e-calendar
+  a presto: e-waving-hand
+  abbi pazienza: e-snail
+  abbiamo chiacchierato un'oretta: e-speech-balloon
+  abito a roma da due anni: e-house-with-garden
+  abito in un appartamento al secondo piano: e-office-building
+  accidenti, ho perso il treno: e-face-screaming-in-fear
+  al primo incrocio gira a destra: e-right-arrow
+  al semaforo gira a sinistra: e-vertical-traffic-light
+  al tuo posto andrei dal medico: e-stethoscope
+  al tuo posto avrei: e-thinking-face
+  anche per me, grazie: e-folded-hands
+  anche tu studi qui: e-school
+  andata e ritorno: e-counterclockwise-arrows-button
+  andiamo: e-woman-walking
+  andiamo a sciare: e-skier
+  andiamo in giro per i negozi: e-shopping-bags
+  andremo in montagna con i nostri amici: e-snow-capped-mountain
+  appena sarò arrivata, ti chiamerò: e-mobile-phone
+  aspetta un momento: e-hourglass-not-done
+  assaggia questo sugo: e-tomato
+  avevamo deciso di andare al cinema: e-popcorn
+  avrei dovuto comprarli prima: e-ticket
+  avresti dovuto dirmelo: e-face-with-rolling-eyes
+  basta: e-raised-hand
+  basta così, grazie: e-ok-hand
+  ben arrivata: e-bouquet
+  bene, grazie. e lei: e-slightly-smiling-face
+  bisogna studiare di più: e-books
+  buon anno: e-fireworks
+  buon compleanno: e-birthday-cake
+  buon inizio: e-rocket
+  buon natale: e-christmas-tree
+  buon viaggio: e-airplane
+  buona pasqua: e-egg
+  buone feste: e-wrapped-gift
+  buongiorno, signora rossi! come sta: e-sun-with-face
+  c'era una volta una principessa: e-princess
+  c'è un balcone: e-potted-plant
+  c'è uno sconto: e-label
+  cara giulia, come stai: e-love-letter
+  ce l'ho: e-raising-hands
+  che bel ristorante: e-fork-and-knife-with-plate
+  che bella idea: e-light-bulb
+  che bella sorpresa: e-wrapped-gift
+  che bello: e-star-struck
+  che c'è stasera in tv: e-television
+  che cos'è: e-red-question-mark
+  che cosa avete fatto: e-camera-with-flash
+  che cosa fai domani: e-spiral-calendar
+  che cosa farete a capodanno: e-fireworks
+  che cosa hai fatto di bello: e-sparkles
+  che cosa è successo: e-face-with-open-mouth
+  che film andiamo a vedere: e-film-frames
+  che fortuna: e-four-leaf-clover
+  che ne dici di sabato: e-calendar
+  che ne pensi: e-thinking-face
+  che ora è? / che ore sono: e-mantelpiece-clock
+  che peccato: e-disappointed-face
+  che ridere: e-face-with-tears-of-joy
+  che taglia porta: e-straight-ruler
+  che tempo fa oggi: e-sun-behind-small-cloud
+  che tempo farà: e-sun-behind-cloud
+  che tipo di musica ascolti: e-headphone
+  chi è: e-bust-in-silhouette
+  chi è il tuo cantante preferito: e-microphone
+  chissà: e-woman-shrugging
+  ci credo: e-ok-hand
+  ci devo pensare: e-thinking-face
+  ci siamo conosciuti a roma: e-two-hearts
+  ci sono due camere da letto: e-bed
+  ci vediamo domani: e-waving-hand
+  ci vediamo dopo: e-waving-hand
+  ci vediamo lunedì prossimo: e-tear-off-calendar
+  ci vogliono dieci minuti: e-stopwatch
+  ciao, io sono alice: e-waving-hand
+  ciao, maria! come va: e-waving-hand
+  com'era la tua infanzia: e-baby
+  com'è il tuo ragazzo: e-man
+  come hai passato il fine settimana: e-calendar
+  come mai: e-face-with-raised-eyebrow
+  come primo prendo gli spaghetti alla carbonara: e-spaghetti
+  come primo vorrei: e-spaghetti
+  come si dice: e-speech-balloon
+  come si dice in italiano: e-speech-balloon
+  come si scrive: e-memo
+  come si scrive il tuo cognome: e-writing-hand
+  come stai? — bene, e tu: e-smiling-face-with-smiling-eyes
+  come ti chiami: e-name-badge
+  come ti senti: e-face-with-thermometer
+  come ti sta: e-dress
+  cordiali saluti: e-envelope
+  cosa danno al cinema: e-clapper-board
+  cosa fai nel tempo libero: e-artist-palette
+  cosa gli chiederesti: e-microphone
+  così così: e-face-with-diagonal-mouth
+  da bambina ero molto tranquilla: e-girl
+  da quale binario parte il treno: e-high-speed-train
+  dagli il libro: e-closed-book
+  davvero: e-astonished-face
+  devo cambiare a bologna: e-railway-track
+  devo scendere alla prossima fermata: e-bus-stop
+  di chi è questo zaino: e-backpack
+  di dove sei: e-globe-showing-europe-africa
+  dimmi la verità: e-face-with-monocle
+  domani pioverà: e-cloud-with-rain
+  dov'è il camerino: e-mirror
+  dov'è il telecomando: e-television
+  dove abiti: e-house
+  dove li hai comprati: e-shopping-bags
+  dove posso comprare il biglietto: e-ticket
+  dovresti riposarti: e-sleeping-face
+  due caffè, per favore: e-hot-beverage
+  due giorni fa ho mangiato una pizza buonissima: e-pizza
+  e da bere: e-wine-glass
+  ecco il museo: e-classical-building
+  fa freddo e tira vento: e-wind-face
+  facciamo uno spuntino: e-sandwich
+  fallo subito: e-high-voltage
+  fate presto: e-high-voltage
+  figurati: e-smiling-face-with-smiling-eyes
+  gli ho regalato un libro: e-wrapped-gift
+  gli zaini sono nuovi: e-backpack
+  grazie mille! — di niente: e-smiling-face-with-hearts
+  grazie mille! — figurati: e-smiling-face-with-hearts
+  guarda che bello: e-rainbow
+  ha gli occhi azzurri e i capelli biondi: e-woman-blonde-hair
+  hai bisogno di qualcosa: e-open-hands
+  hai fratelli o sorelle: e-people-hugging
+  hai già fatto colazione: e-croissant
+  hai già mangiato: e-fork-and-knife-with-plate
+  hai ragione: e-check-mark-button
+  hai saputo la notizia: e-newspaper
+  hai visto la mostra: e-framed-picture
+  ho fame: e-face-savoring-food
+  ho letto un libro bellissimo: e-open-book
+  ho molto da fare: e-clipboard
+  ho sempre fretta: e-woman-running
+  ho sete: e-cup-with-straw
+  ho ventidue anni: e-birthday-cake
+  ho vinto una borsa di studio: e-graduation-cap
+  ho visto un film con gli amici: e-film-projector
+  i biglietti erano esauriti: e-admission-tickets
+  i miei nonni abitano in campagna: e-house-with-garden
+  il conto, per favore: e-receipt
+  il film non era un granché: e-face-with-diagonal-mouth
+  il latte? lo compro io: e-glass-of-milk
+  il libro è sul tavolo: e-green-book
+  il mio compleanno è il tre marzo: e-birthday-cake
+  il museo è chiuso il lunedì: e-locked
+  il sabato vado in piscina: e-woman-swimming
+  il treno è in ritardo: e-hourglass-not-done
+  in estate andiamo al mare: e-beach-with-umbrella
+  in italia si mangia bene: e-pizza
+  l'avrei visto volentieri, ma: e-film-projector
+  l'hai presa: e-shopping-bags
+  l'ho conosciuta alla festa di carla: e-party-popper
+  la lezione finisce tra dieci minuti: e-stopwatch
+  la loro casa è molto bella: e-house-with-garden
+  la mia migliore amica è allegra: e-grinning-face-with-smiling-eyes
+  la posso provare: e-dress
+  lascia stare: e-face-exhaling
+  le case nuove: e-houses
+  le chiavi sono nel cassetto: e-key
+  le città italiane sono belle: e-cityscape
+  le mele le prendi tu: e-red-apple
+  le telefono più tardi: e-telephone
+  lei come si chiama: e-name-badge
+  lei studia o lavora: e-briefcase
+  lei, di dov'è: e-globe-showing-americas
+  lo posso provare: e-t-shirt
+  lo prendo: e-shopping-bags
+  luca e la sua macchina: e-automobile
+  meno male: e-relieved-face
+  mentre camminavo, ho incontrato dino: e-man-walking
+  mi chiamo sofia: e-woman-raising-hand
+  mi dica: e-woman-tipping-hand
+  mi dispiace, ma non posso: e-pensive-face
+  mi fai un favore: e-folded-hands
+  mi lavo i denti: e-toothbrush
+  mi passi il sale, per favore: e-salt
+  mi passi il telecomando: e-television
+  mi piacciono i dolci: e-shortcake
+  mi piace / non mi piace: e-thumbs-up
+  mi piace la pasta al dente: e-spaghetti
+  mi piacerebbe andare in italia: e-airplane-departure
+  mi piacerebbe tanto: e-shooting-star
+  mi presti la tua penna: e-pen
+  mi puoi dare una mano: e-open-hands
+  mi sono divertita molto: e-partying-face
+  mi sono piaciute molto le tue foto: e-camera
+  mi sta bene: e-mirror
+  mi sta un po' stretto: e-grimacing-face
+  mi sveglio alle sette: e-alarm-clock
+  mia nonna è nata nel 1950: e-old-woman
+  mia sorella si chiama laura: e-girl
+  natale con i tuoi, pasqua con chi vuoi: e-people-hugging
+  ne prendo un chilo: e-balance-scale
+  ne vorrei mezzo chilo: e-balance-scale
+  nella stanza ci sono due poltrone: e-couch-and-lamp
+  nessun problema: e-ok-hand
+  nessuno mi invita: e-pleading-face
+  niente di grave: e-relieved-face
+  no, non ce l'ho: e-empty-nest
+  no, sono russa: e-nesting-dolls
+  non ancora: e-hourglass-done
+  non c'era molta gente in giro: e-cityscape
+  non c'è male: e-slightly-smiling-face
+  non capisco: e-woman-shrugging
+  non credo: e-thinking-face
+  non ho ancora deciso: e-thinking-face
+  non ho mai preso la patente: e-automobile
+  non ho potuto: e-pensive-face
+  non lo so: e-woman-shrugging
+  non mangiare troppi dolci: e-lollipop
+  non mi piace affatto: e-face-with-tongue
+  non mi sono potuta riposare: e-tired-face
+  non ne vale la pena: e-woman-gesturing-no
+  non sono d'accordo con te: e-thumbs-down
+  non sono mai stata in spagna: e-woman-dancing
+  non ti preoccupare: e-relieved-face
+  offro io: e-money-with-wings
+  oggi c'è il sole: e-sun-with-face
+  oggi c'è sciopero generale: e-loudspeaker
+  ogni estate andavamo al mare: e-water-wave
+  pago in contanti: e-dollar-banknote
+  partecipa e vinci: e-trophy
+  peccato: e-disappointed-face
+  penso di no: e-woman-gesturing-no
+  per me, un cappuccino e un cornetto: e-croissant
+  perché no: e-winking-face
+  piacere di conoscerti: e-handshake
+  piacere mio: e-handshake
+  possiamo darci del tu: e-handshake
+  posso pagare con la carta: e-credit-card
+  potrebbe aiutarmi, per favore: e-folded-hands
+  potresti insegnarmi: e-woman-teacher
+  povera te: e-hugging-face
+  prenderò le ferie ad agosto: e-desert-island
+  prendilo: e-backhand-index-pointing-right
+  prendilo pure: e-wrapped-gift
+  prendo la metro tutti i giorni: e-metro
+  pronto: e-telephone-receiver
+  puoi andare al bar eden: e-hot-beverage
+  quando sei libera: e-spiral-calendar
+  quando sono arrivata, il treno era già partito: e-train
+  quant'è: e-coin
+  quanti anni hai: e-birthday-cake
+  quanti ne vuole: e-shopping-cart
+  quanto ci metti: e-stopwatch
+  quanto costa: e-label
+  quanto costa l'affitto: e-key
+  quanto costano le pere: e-pear
+  quanto ne vuole: e-shopping-cart
+  quanto tempo ci vuole: e-hourglass-not-done
+  quel ragazzo è mio fratello: e-boy
+  questa canzone mi emoziona: e-musical-notes
+  questa è la mia borsa: e-handbag
+  questi sono i nostri libri: e-books
+  ripeti, per favore: e-repeat-button
+  roma è tra firenze e napoli: e-world-map
+  sa tutto di tutti: e-woman-with-headscarf
+  sai dov'è l'ufficio postale: e-postbox
+  sarebbe bello: e-rainbow
+  sarei venuta, ma ero malata: e-face-with-thermometer
+  sbrigati: e-woman-running
+  scarica l'app: e-mobile-phone
+  scendi all'ultima fermata: e-bus-stop
+  scrivimi quando arrivi: e-speech-balloon
+  scusi, dov'è il centro: e-world-map
+  scusi, dov'è la stazione: e-station
+  scusi, posso entrare: e-door
+  se farà bel tempo, andremo in montagna: e-mountain
+  secondo me, il film è bellissimo: e-star-struck
+  sei d'accordo: e-thumbs-up
+  sei italiana: e-pizza
+  sei libera stasera: e-night-with-stars
+  sei mai stata a venezia: p-gondola
+  sei nuova: e-woman-raising-hand
+  si può pagare in contanti: e-euro-banknote
+  siamo arrivati tardi: e-crescent-moon
+  siamo in ritardo: e-woman-running
+  siete pronti per ordinare: e-man-in-tuxedo
+  signora, la posso aiutare: e-woman-tipping-hand
+  sii gentile: e-smiling-face-with-halo
+  sono andata al cinema con paolo: e-clapper-board
+  sono di mosca, ma abito a roma: e-globe-showing-europe-africa
+  sono in pensione: e-old-woman
+  sono inglese, e lei: e-teacup-without-handle
+  sono le sette meno venti: e-six-thirty
+  stasera vado da franco: e-house-with-garden
+  studio l'italiano da due anni: e-books
+  sul serio: e-astonished-face
+  suono la chitarra da tre anni: e-guitar
+  suono la chitarra in un gruppo musicale: e-guitar
+  tanti auguri: e-birthday-cake
+  tanti baci: e-face-blowing-a-kiss
+  ti dispiace se apro la finestra: e-window
+  ti posso chiedere un favore: e-folded-hands
+  ti presento sofia: e-people-hugging
+  ti ricordi: e-thought-balloon
+  ti ricordi di me: e-thought-balloon
+  ti ringrazio per gli appunti: e-spiral-notepad
+  ti sta benissimo: e-smiling-face-with-heart-eyes
+  ti vedo un po' giù: e-pensive-face
+  ti voglio bene: e-growing-heart
+  ti è piaciuto il film: e-clapper-board
+  tienilo: e-wrapped-gift
+  un attimo: e-index-pointing-up
+  un biglietto per venezia, per favore: e-ticket
+  un libro rosso: e-closed-book
+  una mela al giorno toglie il medico di torno: e-red-apple
+  va' sempre dritto: e-up-arrow
+  va' sempre dritto e poi gira a destra: e-right-arrow-curving-up
+  vado a scuola a piedi: e-woman-walking
+  vado al lavoro in bicicletta: e-bicycle
+  vado dal fruttivendolo: e-basket
+  vado dal medico: e-health-worker
+  vado in palestra due volte alla settimana: e-person-lifting-weights
+  vai alla festa? — sì, ci vado: e-party-popper
+  venite a casa mia domani: e-house-with-garden
+  vieni con noi: e-people-hugging
+  vieni con noi al mare: e-beach-with-umbrella
+  volentieri: e-star-struck
+  vorrei prenotare un tavolo per due: e-fork-and-knife-with-plate
+  vorrei tre etti di prosciutto: e-cut-of-meat
+  vorrei un caffè: e-hot-beverage
+  vorrei una spremuta d'arancia: e-tangerine
+  vuoi dello zucchero: e-candy
+  vuoi un passaggio: e-automobile
+  vuoi una mano: e-open-hands
+  è alto, bruno e molto simpatico: e-man
+  è aperto dalle nove alle diciannove: e-nine-oclock
+  è colpa mia: e-face-with-hand-over-mouth
+  è l'una e mezza: e-one-thirty
+  è meglio partire presto: e-sunrise
+  è mio: e-raising-hands
+  è sul tavolino, accanto alla lampada: e-light-bulb
+  è una ragazza molto simpatica: e-smiling-face-with-smiling-eyes
+words:
+  a destra: e-right-arrow
+  a presto: e-waving-hand
+  abbigliamento: e-womans-clothes
+  abbonamento: e-ticket
+  abbraccio: e-people-hugging
+  abitare: e-house-with-garden
+  abito: e-dress
+  accessori: e-ring
+  acqua: e-droplet
+  acqua minerale: e-droplet
+  addormentarsi: e-sleeping-face
+  adorare: e-smiling-face-with-heart-eyes
+  aereo: e-airplane
+  aeroporto: e-airplane
+  affitto: e-key
+  affollato: e-busts-in-silhouette
+  agenda: e-notebook-with-decorative-cover
+  agenzia: e-office-building
+  aglio: e-garlic
+  agosto: e-beach-with-umbrella
+  aiutare: e-handshake
+  albergo: e-hotel
+  albero: e-deciduous-tree
+  albero genealogico: e-deciduous-tree
+  alfabeto: e-input-latin-uppercase
+  allegro: e-grinning-squinting-face
+  alpi: e-snow-capped-mountain
+  alto: e-giraffe
+  alzarsi: e-sunrise
+  amare: e-red-heart
+  ambulanza: e-ambulance
+  americano: e-statue-of-liberty
+  amica: e-woman-raising-hand
+  amico: e-man-raising-hand
+  andare: e-person-walking-facing-right
+  andare a piedi: e-footprints
+  andata: e-right-arrow
+  angolo: e-triangular-ruler
+  animale: e-paw-prints
+  anno: e-spiral-calendar
+  annoiarsi: e-yawning-face
+  antipasto: e-cheese-wedge
+  antipatico: e-unamused-face
+  anziano: e-older-person
+  aperitivo: e-tropical-drink
+  aperto: e-open-mailbox-with-raised-flag
+  appartamento: e-office-building
+  appuntamento: e-spiral-calendar
+  appunti: e-spiral-notepad
+  aprile: e-tulip
+  aprire: e-door
+  armadio: e-door
+  arrabbiarsi: e-angry-face
+  arrabbiato: e-angry-face
+  arrivare: e-airplane-arrival
+  arrivederci: e-waving-hand
+  arrivederla: e-waving-hand
+  arte: e-artist-palette
+  artista: e-artist-palette
+  ascensore: e-elevator
+  ascoltare: e-headphone
+  aspettare: e-hourglass-not-done
+  assaggiare: e-face-savoring-food
+  assassino: e-dagger
+  attore: e-man-artist
+  attraversare: e-horizontal-traffic-light
+  attrice: e-woman-artist
+  aula: e-school
+  australiano: e-kangaroo
+  auto: e-automobile
+  autobus: e-bus
+  autore: e-writing-hand
+  autunno: e-maple-leaf
+  avere: e-open-hands
+  avere ragione: e-check-mark-button
+  avere torto: e-cross-mark
+  avventura: e-compass
+  azzurro: e-blue-circle
+  babbo natale: e-santa-claus
+  bacio: e-kiss-mark
+  bagaglio: e-luggage
+  bagno: e-bathtub
+  balcone: e-potted-plant
+  ballare: e-woman-dancing
+  bambino: e-child
+  banana: e-banana
+  banca: e-bank
+  bancomat: e-credit-card
+  bandiera: p-bandiera-italia
+  bar: e-hot-beverage
+  barbiere: e-barber-pole
+  barca: e-sailboat
+  basilico: e-herb
+  basso: e-mouse
+  batteria: e-drum
+  bellezza: e-sparkles
+  bellissimo: e-sparkling-heart
+  bello: e-smiling-face-with-heart-eyes
+  ben arrivato: e-waving-hand
+  bene: e-thumbs-up
+  benissimo: e-star-struck
+  bere: e-cup-with-straw
+  bevanda: e-tropical-drink
+  bianco: e-white-circle
+  bibita: e-cup-with-straw
+  biblioteca: e-books
+  bicchiere: e-tumbler-glass
+  bici: e-bicycle
+  bicicletta: e-bicycle
+  biglietteria: e-ticket
+  biglietto: e-admission-tickets
+  binario: e-railway-track
+  biondo: e-person-blonde-hair
+  birra: e-beer-mug
+  biscotto: e-cookie
+  bistecca: e-cut-of-meat
+  bocca: e-mouth
+  bollire: e-pot-of-food
+  borsa: e-handbag
+  borsa di studio: e-graduation-cap
+  bottiglia: e-bottle-with-popping-cork
+  brasiliano: e-soccer-ball
+  bravissimo: e-clapping-hands
+  bruno: e-person
+  bruschetta: e-tomato
+  brutto: e-ogre
+  buio: e-new-moon
+  buon viaggio: e-airplane
+  buonanotte: e-crescent-moon
+  buonasera: e-sunset
+  buone feste: e-sparkler
+  buongiorno: e-sun-with-face
+  burro: e-butter
+  bustina: e-herb
+  c'era una volta: e-castle
+  caccia al tesoro: e-old-key
+  cadere: e-collision
+  caffè: e-hot-beverage
+  caffè macchiato: e-hot-beverage
+  calcio: e-soccer-ball
+  caldo: e-hot-face
+  calzature: e-running-shoe
+  calze: e-socks
+  calzini: e-socks
+  cambio: e-counterclockwise-arrows-button
+  camera da letto: e-bed
+  cameriere: e-man-in-tuxedo
+  camerino: e-mirror
+  camicetta: e-womans-clothes
+  camicia: e-womans-clothes
+  camino: e-fire
+  campagna: e-sunrise-over-mountains
+  campeggio: e-camping
+  canale: e-television
+  cane: e-dog
+  cantante: e-woman-singer
+  cantare: e-woman-singer
+  cantautore: e-man-singer
+  cantautrice: e-woman-singer
+  canzone: e-microphone
+  capelli: e-person-curly-hair
+  capire: e-light-bulb
+  capodanno: e-fireworks
+  capolavoro: e-trophy
+  cappello: e-womans-hat
+  cappotto: e-coat
+  cappuccino: e-hot-beverage
+  carattere: e-smiling-face-with-smiling-eyes
+  caricare: e-up-arrow
+  carino: e-smiling-face-with-hearts
+  carne: e-cut-of-meat
+  carnevale: e-performing-arts
+  caro: e-red-heart
+  carota: e-carrot
+  carrello: e-shopping-cart
+  carrozza: e-railway-car
+  carta: e-flower-playing-cards
+  carta di credito: e-credit-card
+  carta igienica: e-roll-of-paper
+  cartina: e-world-map
+  cartoni animati: e-television
+  casa: e-house
+  casa di moda: e-dress
+  cassa: e-coin
+  cassetto: e-card-file-box
+  castano: e-brown-circle
+  castello: e-castle
+  cattivo: e-smiling-face-with-horns
+  cavolo: e-leafy-green
+  celeste: e-light-blue-heart
+  cellulare: e-mobile-phone
+  cena: e-fork-and-knife-with-plate
+  cenare: e-fork-and-knife-with-plate
+  centesimo: e-coin
+  cento: e-hundred-points
+  centro: e-cityscape
+  centro commerciale: e-department-store
+  cereali: e-bowl-with-spoon
+  chattare: e-speech-balloon
+  chi: e-red-question-mark
+  chiacchierare: e-speech-balloon
+  chiamare: e-telephone-receiver
+  chiamarsi: e-name-badge
+  chiave: e-key
+  chiedere: e-red-question-mark
+  chiesa: e-church
+  chilo: e-balance-scale
+  chitarra: e-guitar
+  chiudere: e-locked
+  chiuso: e-locked
+  ciao: e-waving-hand
+  cielo: e-sun-behind-small-cloud
+  cinema: e-cinema
+  cinque: e-keycap-5
+  cintura: e-briefcase
+  cioccolata: e-chocolate-bar
+  città: e-cityscape-at-dusk
+  cliccare: e-computer-mouse
+  cliente: e-shopping-bags
+  cognome: e-identification-card
+  colazione: e-croissant
+  colonna sonora: e-musical-score
+  colore: e-artist-palette
+  colosseo: p-colosseo
+  coltello: e-kitchen-knife
+  comico: e-clown-face
+  cominciare: e-play-button
+  commedia: e-grinning-squinting-face
+  commessa: e-woman-office-worker
+  comodo: e-couch-and-lamp
+  compito: e-memo
+  compleanno: e-birthday-cake
+  compositore: e-musical-score
+  comprare: e-shopping-bags
+  concerto: e-microphone
+  confusione: e-dizzy
+  confuso: e-confused-face
+  coniugi: e-wedding
+  consiglio: e-light-bulb
+  contento: e-grinning-face-with-big-eyes
+  conto: e-receipt
+  contorno: e-green-salad
+  controllore: e-guard
+  convalidare: e-ticket
+  copertina: e-closed-book
+  coperto: e-sun-behind-large-cloud
+  cornetto: e-croissant
+  corso: e-school
+  corto: e-triangular-ruler
+  cosa: e-package
+  costo: e-money-bag
+  costoso: e-gem-stone
+  così così: e-face-with-diagonal-mouth
+  cotoletta: e-poultry-leg
+  cotone: e-t-shirt
+  credere: e-thinking-face
+  cucchiaio: e-spoon
+  cucciolo: e-dog-face
+  cucina: e-cooking
+  cucinare: e-cooking
+  cuffie: e-headphone
+  cugina: e-girl
+  cugino: e-boy
+  cuocere: e-cooking
+  cuoco: e-cook
+  cuscino: e-bed
+  d'accordo: e-handshake
+  dare: e-palm-up-hand
+  dare una mano: e-handshake
+  decidere: e-balance-scale
+  dente: e-tooth
+  dentifricio: e-toothbrush
+  dentista: e-tooth
+  deserto: e-desert
+  destinatario: e-inbox-tray
+  dicembre: e-christmas-tree
+  dieci: e-keycap-10
+  dieta: e-green-salad
+  differenza: e-balance-scale
+  difficile: e-exploding-head
+  dimagrire: e-person-running
+  dimenticare: e-face-with-spiral-eyes
+  dire: e-speaking-head
+  diretto: e-up-arrow
+  direttore: e-man-office-worker
+  direzione: e-compass
+  disco: e-optical-disk
+  discoteca: e-mirror-ball
+  divano: e-couch-and-lamp
+  diventare: e-butterfly
+  divertente: e-grinning-squinting-face
+  divertirsi: e-partying-face
+  doccia: e-shower
+  documentario: e-movie-camera
+  documento: e-page-facing-up
+  dolce: e-shortcake
+  domani: e-sunrise
+  domenica: e-sun-with-face
+  donna: e-woman
+  dono: e-wrapped-gift
+  dopodomani: e-spiral-calendar
+  dormire: e-sleeping-face
+  dottore: e-health-worker
+  dove: e-round-pushpin
+  dovere: e-memo
+  dozzina: e-egg
+  dritto: e-up-arrow
+  due: e-keycap-2
+  duomo: e-church
+  edicola: e-newspaper
+  elegante: e-womans-hat
+  emozionante: e-star-struck
+  entrare: e-door
+  epifania: e-broom
+  errore: e-cross-mark
+  esame: e-memo
+  esempio: e-memo
+  espresso: e-hot-beverage
+  essere: e-person-standing
+  estate: e-sun-with-face
+  estero: e-globe-showing-americas
+  etichetta: e-label
+  euro: e-euro-banknote
+  evento: e-confetti-ball
+  evviva: e-party-popper
+  facile: e-ok-hand
+  fame: e-drooling-face
+  famiglia: e-people-hugging
+  famoso: e-star-struck
+  fantascienza: e-flying-saucer
+  fantasma: e-ghost
+  fare: e-hammer-and-wrench
+  fare la fila: e-busts-in-silhouette
+  farina: e-sheaf-of-rice
+  farmacia: e-pill
+  farsi la barba: e-razor
+  favola: e-castle
+  favore: e-folded-hands
+  febbraio: e-performing-arts
+  febbre: e-face-with-thermometer
+  felice: e-beaming-face-with-smiling-eyes
+  ferie: e-beach-with-umbrella
+  fermarsi: e-stop-sign
+  fermata: e-bus-stop
+  ferragosto: e-beach-with-umbrella
+  festa: e-party-popper
+  festeggiare: e-partying-face
+  fetta: e-shortcake
+  figlia: e-girl
+  figlio: e-boy
+  figurati: e-winking-face
+  film: e-film-projector
+  finalmente: e-relieved-face
+  fine settimana: e-spiral-calendar
+  finestra: e-window
+  finire: e-chequered-flag
+  fioraio: e-bouquet
+  fiore: e-hibiscus
+  firenze: p-firenze
+  fontana: e-fountain
+  forchetta: e-fork-and-knife
+  formaggio: e-cheese-wedge
+  fortunato: e-four-leaf-clover
+  foto: e-camera
+  francese: e-baguette-bread
+  fratello: e-boy
+  freccia: e-right-arrow
+  freddo: e-cold-face
+  fretta: e-running-shoe
+  friggere: e-cooking
+  frigorifero: e-ice
+  frutta: e-red-apple
+  fruttivendolo: e-green-apple
+  fungo: e-brown-mushroom
+  galleria: e-framed-picture
+  gara: e-trophy
+  gatto: e-cat
+  gelato: e-ice-cream
+  geniale: e-brain
+  genitori: e-people-hugging
+  gennaio: e-snowman
+  gente: e-busts-in-silhouette
+  gentile: e-smiling-face-with-halo
+  germania: e-pretzel
+  ghiaccio: e-ice
+  giacca: e-coat
+  giallo: e-yellow-circle
+  giardino: e-sunflower
+  giocare: e-video-game
+  giocatore: e-soccer-ball
+  gioco: e-game-die
+  gioia: e-partying-face
+  gioiello: e-gem-stone
+  giornale: e-newspaper
+  giornalista: e-newspaper
+  giorno: e-sun
+  giovane: e-person-blonde-hair
+  giovedì: e-spiral-calendar
+  girare a sinistra: e-left-arrow
+  gita: e-bus
+  giubbotto: e-coat
+  giugno: e-sun
+  gondola: p-gondola
+  gonna: e-dress
+  grande: e-elephant
+  grasso: e-hamburger
+  gratis: e-free-button
+  grattugiare: e-cheese-wedge
+  grazie: e-folded-hands
+  grigio: e-grey-heart
+  grotta: e-mountain
+  guanto: e-gloves
+  guasto: e-wrench
+  guerra: e-crossed-swords
+  guida: e-world-map
+  idea: e-light-bulb
+  ieri: e-left-arrow-curving-right
+  impaziente: e-hourglass-not-done
+  impegno: e-briefcase
+  impossibile: e-no-entry
+  in anticipo: e-alarm-clock
+  in contanti: e-euro-banknote
+  in orario: e-check-mark-button
+  in ritardo: e-running-shoe
+  incontrare: e-handshake
+  incontro: e-handshake
+  incrocio: e-horizontal-traffic-light
+  indirizzo: e-envelope
+  inglese: e-teacup-without-handle
+  ingrediente: e-basket
+  ingresso: e-door
+  iniziare: e-play-button
+  innamorarsi: e-heart-with-arrow
+  innamorato: e-smiling-face-with-heart-eyes
+  insalata: e-green-salad
+  insegnante: e-woman-teacher
+  insieme: e-people-hugging
+  intelligente: e-brain
+  interessante: e-face-with-monocle
+  intervista: e-studio-microphone
+  inventare: e-light-bulb
+  inverno: e-snowflake
+  inviare: e-outbox-tray
+  io: e-index-pointing-at-the-viewer
+  isola: e-desert-island
+  italia: p-bandiera-italia
+  italiano: p-bandiera-italia
+  lago: e-canoe
+  lampada: e-light-bulb
+  lana: e-yarn
+  largo: e-t-shirt
+  lasciarsi: e-broken-heart
+  latte: e-glass-of-milk
+  lattina: e-beverage-box
+  lattuga: e-leafy-green
+  lavagna: e-school
+  lavare: e-soap
+  lavarsi: e-shower
+  lavorare: e-office-worker
+  leggere: e-open-book
+  lento: e-snail
+  lettera: e-input-latin-letters
+  letto: e-bed
+  lezione: e-school
+  libero: e-dove
+  libreria: e-books
+  libro: e-closed-book
+  liceo: e-school
+  lievito: e-bread
+  limoncello: e-lemon
+  limone: e-lemon
+  lingua: e-tongue
+  liscio: e-woman-blonde-hair
+  lista: e-clipboard
+  listino: e-memo
+  litro: e-glass-of-milk
+  luce: e-light-bulb
+  luglio: e-watermelon
+  luminoso: e-light-bulb
+  lunedì: e-spiral-calendar
+  lungo: e-straight-ruler
+  luogo: e-round-pushpin
+  lusso: e-gem-stone
+  macchina: e-automobile
+  macellaio: e-cut-of-meat
+  madre: e-woman
+  maggio: e-rose
+  maglia: e-t-shirt
+  maglietta: e-t-shirt
+  maglione: e-scarf
+  magro: e-woman-running
+  mai: e-prohibited
+  maiale: e-pig
+  male: e-thumbs-down
+  mamma: e-woman
+  mandare: e-outbox-tray
+  mangiare: e-face-savoring-food
+  maratona: e-person-running
+  marchio: e-registered
+  mare: e-water-wave
+  marito: e-man-in-tuxedo
+  marmellata: e-jar
+  marocchino: e-camel
+  marrone: e-brown-circle
+  martedì: e-spiral-calendar
+  marzo: e-seedling
+  maschera: e-performing-arts
+  matrimonio: e-wedding
+  mattina: e-sunrise
+  mazzo di fiori: e-bouquet
+  mazzo di rose: e-rose
+  medicina: e-pill
+  medico: e-health-worker
+  mela: e-red-apple
+  melodia: e-musical-note
+  mensa: e-bowl-with-spoon
+  menù: e-clipboard
+  mercoledì: e-spiral-calendar
+  merenda: e-cookie
+  mescolare: e-spoon
+  mese: e-tear-off-calendar
+  messaggio: e-speech-balloon
+  mestolo: e-spoon
+  meteo: e-sun-behind-rain-cloud
+  metropolitana: e-metro
+  mettere: e-inbox-tray
+  metà: e-pie
+  mezzanotte: e-twelve-thirty
+  mezzogiorno: e-twelve-oclock
+  mi dispiace: e-pensive-face
+  microfono: e-microphone
+  miele: e-honey-pot
+  migliore: e-1st-place-medal
+  milano: p-duomo-milano
+  milione: e-money-bag
+  mille: e-money-bag
+  minuto: e-stopwatch
+  mittente: e-outbox-tray
+  moda: e-dress
+  moderno: e-office-building
+  moglie: e-woman-with-veil
+  mondo: e-globe-with-meridians
+  montagna: e-mountain
+  monumento: e-classical-building
+  mostra: e-framed-picture
+  motorino: e-motor-scooter
+  mozzarella: e-cheese-wedge
+  mucca: e-cow
+  museo: e-classical-building
+  musica: e-musical-notes
+  musica classica: e-violin
+  napoli: p-napoli
+  nascere: e-baby
+  nascita: e-baby
+  naso: e-nose
+  natale: e-christmas-tree
+  natura: e-deciduous-tree
+  nave: e-passenger-ship
+  nazionalità: e-globe-showing-europe-africa
+  nebbia: e-fog
+  negozio: e-convenience-store
+  negozio di alimentari: e-shopping-cart
+  nero: e-black-circle
+  nervoso: e-anxious-face-with-sweat
+  neve: e-snowman
+  nevicare: e-cloud-with-snow
+  nipote: e-baby
+  'no': e-cross-mark
+  noia: e-yawning-face
+  noioso: e-yawning-face
+  nome: e-name-badge
+  nonna: e-old-woman
+  nonno: e-old-man
+  notizia: e-newspaper
+  notte: e-night-with-stars
+  nove: e-keycap-9
+  novembre: e-umbrella-with-rain-drops
+  nuotare: e-person-swimming
+  nuovo: e-sparkles
+  nuvola: e-cloud
+  nuvoloso: e-cloud
+  occhiali da sole: e-sunglasses
+  occhiali da vista: e-glasses
+  occhio: e-eye
+  oddio: e-face-screaming-in-fear
+  offerta: e-label
+  offrire: e-wrapped-gift
+  oggetto: e-package
+  oggi: e-tear-off-calendar
+  olio: e-olive
+  oliva: e-olive
+  ombrello: e-closed-umbrella
+  opera: e-performing-arts
+  operaio: e-construction-worker
+  ora: e-mantelpiece-clock
+  orario: e-alarm-clock
+  orologio: e-watch
+  orrore: e-ghost
+  ospedale: e-hospital
+  ospite: e-bellhop-bell
+  ottimo: e-hundred-points
+  otto: e-keycap-8
+  ottobre: e-fallen-leaf
+  pacco: e-package
+  pace: e-dove
+  padella: e-cooking
+  padre: e-man
+  paese: e-globe-showing-europe-africa
+  pagare: e-credit-card
+  pagina: e-page-facing-up
+  palestra: e-person-lifting-weights
+  pandoro: e-star
+  pane: e-bread
+  panetteria: e-baguette-bread
+  panettone: e-shortcake
+  panificio: e-bread
+  panino: e-sandwich
+  panna: e-soft-ice-cream
+  panna cotta: e-custard
+  pantaloni: e-jeans
+  papà: e-man
+  parcheggiare: e-p-button
+  parcheggio: e-p-button
+  parco: e-deciduous-tree
+  parenti: e-people-hugging
+  parete: e-brick
+  parigi: p-parigi
+  parlare: e-speaking-head
+  parmigiano: e-cheese-wedge
+  parola: e-speech-balloon
+  partecipare: e-raising-hands
+  partenza: e-airplane-departure
+  partire: e-airplane-departure
+  pasqua: e-egg
+  passaggio: e-automobile
+  passaporto: e-passport-control
+  passeggero: e-seat
+  passeggiare: e-person-walking
+  passeggiata: e-person-walking
+  pasta: e-spaghetti
+  pasticceria: e-cupcake
+  patata: e-potato
+  patente: e-identification-card
+  paura: e-fearful-face
+  pausa pranzo: e-fork-and-knife
+  pazienza: e-hourglass-not-done
+  pelle: e-handbag
+  penisola: e-map-of-japan
+  penna: e-pen
+  pennarello: e-crayon
+  pensare: e-thinking-face
+  pensione: e-older-person
+  pentola: e-pot-of-food
+  pepe: e-hot-pepper
+  pera: e-pear
+  perdere: e-magnifying-glass-tilted-right
+  periferia: e-houses
+  persona: e-person
+  pesante: e-rock
+  pesce: e-fish
+  pescivendolo: e-fish
+  pettinarsi: e-hair-pick
+  pezzo: e-puzzle-piece
+  piacere: e-handshake
+  piano: e-elevator
+  pianoforte: e-musical-keyboard
+  pianta: e-potted-plant
+  piatto: e-fork-and-knife-with-plate
+  piazza: e-fountain
+  piccolo: e-baby-chick
+  pinacoteca: e-framed-picture
+  pioggia: e-cloud-with-rain
+  piovere: e-umbrella-with-rain-drops
+  piovoso: e-cloud-with-rain
+  piscina: e-person-swimming
+  pizza: e-pizza
+  pizzeria: e-pizza
+  politica: e-classical-building
+  polizia: e-police-car
+  poliziotto: e-police-officer
+  pollo: e-poultry-leg
+  poltrona: e-seat
+  pomeriggio: e-sun-behind-small-cloud
+  pomodoro: e-tomato
+  ponte: e-bridge-at-night
+  popolo: e-busts-in-silhouette
+  porta: e-door
+  portafoglio: e-purse
+  portatile: e-laptop
+  portoghese: e-sailboat
+  posta: e-postbox
+  posto: e-seat
+  potere: e-flexed-biceps
+  povero: e-pensive-face
+  pranzare: e-pot-of-food
+  pranzo: e-pot-of-food
+  preferire: e-red-heart
+  prego: e-palms-up-together
+  premio: e-trophy
+  prendere: e-palm-up-hand
+  prendere il sole: e-beach-with-umbrella
+  prenotare: e-spiral-calendar
+  prenotazione: e-memo
+  prepararsi: e-lipstick
+  presepe: e-star
+  presto: e-sunrise
+  previsione: e-crystal-ball
+  prezzo: e-label
+  primavera: e-cherry-blossom
+  primo: e-1st-place-medal
+  principe: e-prince
+  principessa: e-princess
+  problema: e-thinking-face
+  professore: e-man-teacher
+  profumo: e-lotion-bottle
+  progetto: e-clipboard
+  programma: e-memo
+  promessa: e-handshake
+  promettere: e-handshake
+  pronto: e-telephone-receiver
+  prosciutto: e-cut-of-meat
+  provare: e-mirror
+  proverbio: e-scroll
+  pubblicare: e-newspaper
+  pubblicità: e-loudspeaker
+  pulire: e-broom
+  purtroppo: e-disappointed-face
+  quaderno: e-notebook
+  quadro: e-framed-picture
+  quanto: e-abacus
+  quaranta: e-input-numbers
+  quattro: e-keycap-4
+  qui: e-round-pushpin
+  raccontare: e-speaking-head
+  raffreddore: e-sneezing-face
+  ragazza: e-girl
+  ragazzo: e-boy
+  re: e-crown
+  recensione: e-memo
+  regalare: e-wrapped-gift
+  regalo: e-wrapped-gift
+  regia: e-clapper-board
+  regina: e-person-with-crown
+  regione: e-world-map
+  riccio: e-person-curly-hair
+  ricetta: e-memo
+  ricevere: e-inbox-tray
+  ricordarsi: e-thought-balloon
+  ricordo: e-framed-picture
+  ridere: e-face-with-tears-of-joy
+  rilassarsi: e-person-in-lotus-position
+  riordinare: e-broom
+  riposarsi: e-couch-and-lamp
+  riposo: e-sleeping-face
+  risata: e-face-with-tears-of-joy
+  risotto: e-curry-rice
+  rispondere: e-speech-balloon
+  ristorante: e-fork-and-knife-with-plate
+  ritorno: e-left-arrow
+  rivista: e-rolled-up-newspaper
+  roma: p-colosseo
+  romantico: e-heart-with-ribbon
+  romanzo: e-books
+  rosa: e-pink-heart
+  rosso: e-red-circle
+  rubare: e-ninja
+  rumore: e-loudspeaker
+  russia: e-nesting-dolls
+  russo: e-nesting-dolls
+  sabato: e-party-popper
+  sacchetto: e-shopping-bags
+  sala: e-performing-arts
+  salame: e-bacon
+  salato: e-salt
+  saldi: e-label
+  sale: e-salt
+  salire: e-up-arrow
+  salute: e-anatomical-heart
+  salve: e-waving-hand
+  sapere: e-brain
+  sapore: e-face-savoring-food
+  scaricare: e-down-arrow
+  scarpa: e-high-heeled-shoe
+  scarpe da tennis: e-running-shoe
+  scatola: e-package
+  scatoletta: e-canned-food
+  scendere: e-down-arrow
+  scherzare: e-winking-face-with-tongue
+  sciare: e-skier
+  sciarpa: e-scarf
+  scienza: e-test-tube
+  sciopero: e-placard
+  sconto: e-label
+  scontrino: e-receipt
+  scortese: e-pouting-face
+  scrivania: e-desktop-computer
+  scrivere: e-writing-hand
+  scultura: e-moai
+  scuola: e-school
+  secondo: e-2nd-place-medal
+  sedia: e-chair
+  segreto: e-shushing-face
+  sei: e-keycap-6
+  semaforo: e-vertical-traffic-light
+  sentire: e-ear
+  sera: e-sunset
+  serie tv: e-television
+  seta: e-thread
+  sete: e-droplet
+  sette: e-keycap-7
+  settembre: e-school
+  settimana: e-spiral-calendar
+  settimana bianca: e-skier
+  sicuro: e-shield
+  significato: e-magnifying-glass-tilted-left
+  signora: e-woman-with-headscarf
+  signore: e-man-in-tuxedo
+  signorina: e-woman
+  silenzio: e-shushing-face
+  simpatico: e-slightly-smiling-face
+  sito internet: e-globe-with-meridians
+  soggiorno: e-couch-and-lamp
+  soldi: e-money-bag
+  sole: e-sun
+  sorella: e-girl
+  sorellina: e-girl
+  sorpresa: e-wrapped-gift
+  spaghetti: e-spaghetti
+  spagna: e-woman-dancing
+  spagnolo: e-woman-dancing
+  specchio: e-mirror
+  spedire: e-package
+  spendere: e-money-with-wings
+  spesa: e-shopping-cart
+  spettacolo: e-performing-arts
+  spettatore: e-popcorn
+  spiegare: e-woman-teacher
+  sport: e-sports-medal
+  sportello: e-bank
+  sposa: e-woman-with-veil
+  sposarsi: e-wedding
+  sposo: e-man-in-tuxedo
+  spremuta d'arancia: e-tangerine
+  spuntino: e-cookie
+  squadra: e-soccer-ball
+  stadio: e-stadium
+  stagione: e-leaf-fluttering-in-wind
+  stamattina: e-sunrise
+  stampa: e-newspaper
+  stancarsi: e-tired-face
+  stanco: e-tired-face
+  stanza: e-door
+  stare in forma: e-person-running
+  stasera: e-cityscape-at-dusk
+  stazione: e-station
+  stella: e-star
+  stilista: e-sewing-needle
+  stivale: e-womans-boot
+  stoffa: e-yarn
+  storia: e-scroll
+  strada: e-motorway
+  strano: e-woozy-face
+  stretto: e-face-with-diagonal-mouth
+  strumento: e-musical-keyboard
+  studente: e-man-student
+  studentessa: e-woman-student
+  studiare: e-books
+  studio: e-desktop-computer
+  subito: e-high-voltage
+  successo: e-trophy
+  succo di frutta: e-beverage-box
+  sugo: e-tomato
+  suonare: e-violin
+  supermercato: e-shopping-cart
+  svegliarsi: e-alarm-clock
+  svizzero: e-snow-capped-mountain
+  sì: e-check-mark-button
+  tabaccheria: e-convenience-store
+  tacco: e-high-heeled-shoe
+  taglia: e-label
+  tagliare: e-kitchen-knife
+  tanti auguri: e-birthday-cake
+  tappeto: e-roll-of-paper
+  tardi: e-alarm-clock
+  tastiera: e-musical-keyboard
+  tavola: e-fork-and-knife-with-plate
+  tavolino: e-teacup-without-handle
+  tavolo: e-fork-and-knife-with-plate
+  tazza: e-hot-beverage
+  tazzina: e-hot-beverage
+  teatro: e-performing-arts
+  tecnico: e-man-mechanic
+  tedesco: e-pretzel
+  telecomando: e-trackball
+  telefonare: e-telephone-receiver
+  telefono: e-telephone
+  telegiornale: e-television
+  televisione: e-television
+  televisore: e-television
+  temperatura: e-thermometer
+  tempo libero: e-kite
+  temporale: e-cloud-with-lightning-and-rain
+  tenda: e-tent
+  terzo: e-3rd-place-medal
+  tesoro: e-gem-stone
+  tessuto: e-thread
+  testa: e-bust-in-silhouette
+  ti voglio bene: e-two-hearts
+  timbrare: e-ticket
+  tira vento: e-wind-face
+  tiramisù: e-shortcake
+  tisana: e-herb
+  titolo: e-label
+  tombola: e-game-die
+  tonno: e-fish
+  torino: p-torino
+  tornare: e-right-arrow-curving-left
+  torre: p-torre-pisa
+  torta: e-birthday-cake
+  torta al cioccolato: e-chocolate-bar
+  torta di mele: e-pie
+  tovaglia: e-roll-of-paper
+  tovagliolo: e-roll-of-paper
+  tradizione: e-scroll
+  tradurre: e-speech-balloon
+  traduzione: e-speech-balloon
+  traffico: e-vertical-traffic-light
+  tragedia: e-loudly-crying-face
+  tram: e-tram
+  trama: e-scroll
+  tramezzino: e-sandwich
+  tranquillo: e-relieved-face
+  trasloco: e-package
+  trattoria: e-shallow-pan-of-food
+  tre: e-keycap-3
+  treno: e-train
+  triste: e-crying-face
+  tu: e-backhand-index-pointing-right
+  tubetto: e-toothbrush
+  turista: e-camera-with-flash
+  tè: e-teacup-without-handle
+  ufficio: e-office-building
+  ufficio postale: e-post-office
+  ultimo: e-chequered-flag
+  università: e-graduation-cap
+  uno: e-keycap-1
+  uomo: e-man
+  uovo: e-egg
+  urgente: e-police-car-light
+  uscire: e-door
+  vacanza: e-beach-with-umbrella
+  valigia: e-luggage
+  vaporetto: e-ferry
+  vasetto: e-jar
+  vaso: e-amphora
+  vedere: e-eyes
+  veloce: e-high-speed-train
+  vendere: e-money-with-wings
+  venerdì: e-spiral-calendar
+  venezia: p-venezia
+  venire: e-person-walking
+  vento: e-wind-face
+  verde: e-green-circle
+  verdure: e-broccoli
+  vero: e-check-mark-button
+  vestirsi: e-womans-clothes
+  vestito: e-dress
+  vetrina: e-window
+  via: e-motorway
+  viaggiare: e-luggage
+  viaggiatore: e-luggage
+  viaggio: e-luggage
+  vicino di casa: e-house-with-garden
+  videochiamata: e-video-camera
+  videogioco: e-joystick
+  villa: e-house-with-garden
+  vincere: e-trophy
+  vino: e-wine-glass
+  viola: e-purple-heart
+  violino: e-violin
+  visitare: e-camera-with-flash
+  viso: e-slightly-smiling-face
+  vitello: e-cow
+  vivere: e-house-with-garden
+  voce: e-microphone
+  volentieri: e-grinning-face-with-smiling-eyes
+  volere: e-star-struck
+  volo: e-airplane
+  yogurt: e-bowl-with-spoon
+  zaino: e-backpack
+  zero: e-keycap-0
+  zia: e-woman
+  zio: e-man
+  zucchero: e-candy

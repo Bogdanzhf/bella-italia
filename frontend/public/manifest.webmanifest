@@ -1,0 +1,16 @@
+{
+  "name": "Bella Italia — итальянский по учебнику",
+  "short_name": "Bella Italia",
+  "description": "Итальянский язык для русскоговорящих: уроки, слова, тесты и игры.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff7fa",
+  "theme_color": "#ffd6e5",
+  "lang": "ru",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

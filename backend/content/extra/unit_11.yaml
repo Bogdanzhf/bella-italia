@@ -1,0 +1,196 @@
+lessons_before:
+  - slug: dialogo-musica
+    kind: dialogue
+    title_it: "Mi piacerebbe tanto…"
+    title_ru: "Мне бы так хотелось…"
+    dialogue:
+      title: "I biglietti del concerto"
+      scene: "Весна. София рассказывает Лоренцо о своих мечтах, а он — о концерте, на который не попал."
+      lines:
+        - "Lorenzo: Sofia, che cosa faresti con un mese di vacanza? | София, что бы ты делала с месяцем отпуска?"
+        - "Sofia: Viaggerei per tutta l'Italia! Vorrei vedere la Sicilia e mi piacerebbe tanto andare all'Arena di Verona. | Путешествовала бы по всей Италии! Я бы хотела увидеть Сицилию и очень хотела бы попасть в Арену ди Верона."
+        - "Lorenzo: All'opera? Che bella idea! Io invece sarei andato al concerto di Vasco Rossi ieri… | На оперу? Отличная идея! А я вот вчера пошёл бы на концерт Васко Росси…"
+        - "Sofia: E perché non ci sei andato? | А почему не пошёл?"
+        - "Lorenzo: I biglietti erano esauriti! Avrei dovuto comprarli un mese fa. | Билеты были распроданы! Надо было купить их месяц назад."
+        - "Sofia: Che peccato! Al tuo posto avrei comprato i biglietti online subito. | Как жаль! На твоём месте я бы сразу купила билеты онлайн."
+        - "Lorenzo: Lo so, lo so… La prossima volta potresti ricordarmelo tu? | Знаю, знаю… В следующий раз могла бы ты мне об этом напомнить?"
+        - "Sofia: Certo! E tu potresti insegnarmi qualche canzone italiana? | Конечно! А ты мог бы научить меня каким-нибудь итальянским песням?"
+        - "Lorenzo: Volentieri! Cominciamo con «Volare»: è facilissima! | С удовольствием! Начнём с «Volare»: она очень лёгкая!"
+    words:
+      - "esaurito | распроданный"
+      - "insegnare | учить, преподавать"
+      - "ricordare | напоминать"
+      - "facilissimo | очень лёгкий"
+    phrases:
+      - "Mi piacerebbe tanto… | Мне бы так хотелось…"
+      - "Al tuo posto avrei… | На твоём месте я бы…"
+      - "Avrei dovuto comprarli prima. | Надо было купить их раньше."
+      - "Potresti insegnarmi…? | Мог бы ты научить меня…?"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["Sofia vorrebbe vedere la Sicilia.", true]
+          - ["Lorenzo è andato al concerto.", false]
+          - ["I biglietti erano esauriti.", true]
+          - ["Lorenzo insegnerà a Sofia una canzone.", true]
+      - type: choice
+        level: 2
+        audio: "Avrei dovuto comprare i biglietti un mese fa."
+        q: "🎧 Когда надо было купить билеты?"
+        options: ["неделю назад", "месяц назад", "вчера", "год назад"]
+        answer: 1
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Поставьте глаголы в condizionale."
+        text: "Sofia [[viaggerebbe]] per tutta l'Italia. [[Vorrebbe]] vedere la Sicilia. Lorenzo [[sarebbe]] andato al concerto."
+      - type: dialog
+        level: 2
+        q: "Восстановите диалог."
+        lines:
+          - "Che cosa vorresti fare stasera?"
+          - "Mi piacerebbe andare a un concerto."
+          - "Ma i biglietti sono esauriti!"
+          - "Peccato! Allora restiamo a casa."
+
+lessons_after:
+  - slug: musica-cultura
+    kind: culture
+    title_it: "L'Italia e la musica"
+    title_ru: "Италия и музыка"
+    reading:
+      title: "Dall'opera a Sanremo"
+      photo: p-verona-arena
+      text: |
+        L'Italia è il paese dell'opera. Giuseppe Verdi e Giacomo Puccini hanno scritto opere famose in tutto il mondo, come "La traviata" e "La bohème".
+        D'estate all'Arena di Verona, un antico anfiteatro romano, si ascoltano le opere sotto le stelle: il pubblico accende piccole candele.
+        Molte parole della musica sono italiane: piano, forte, allegro, adagio, soprano.
+        Dal 1951 ogni anno c'è il Festival di Sanremo, la gara più importante della canzone italiana. Il vincitore spesso rappresenta l'Italia all'Eurovisione.
+        Anche oggi i cantanti italiani sono amati all'estero: Laura Pausini, Andrea Bocelli, Eros Ramazzotti e i Måneskin.
+      ru: |
+        Италия — страна оперы. Джузеппе Верди и Джакомо Пуччини написали оперы, известные всему миру, например «Травиату» и «Богему».
+        Летом в Арене ди Верона, древнем римском амфитеатре, оперы слушают под звёздами: публика зажигает маленькие свечи.
+        Многие музыкальные слова — итальянские: пиано, форте, аллегро, адажио, сопрано.
+        С 1951 года каждый год проходит фестиваль в Сан-Ремо — главный конкурс итальянской песни. Победитель часто представляет Италию на «Евровидении».
+        И сегодня итальянских певцов любят за границей: Лауру Паузини, Андреа Бочелли, Эроса Рамаццотти и группу Måneskin.
+      glossary:
+        - "l'anfiteatro | амфитеатр | m"
+        - "il pubblico | публика"
+        - "accendere | зажигать"
+        - "rappresentare | представлять"
+    photos: [p-sanremo-ariston]
+    words:
+      - "l'anfiteatro | амфитеатр | m"
+      - "il pubblico | публика"
+      - "accendere | зажигать, включать"
+      - "rappresentare | представлять"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["Verdi e Puccini hanno scritto opere.", true]
+          - ["L'Arena di Verona è un teatro moderno.", false]
+          - ["Il Festival di Sanremo esiste dal 1951.", true]
+      - type: match
+        level: 2
+        q: "Соедините"
+        pairs:
+          - ["Giuseppe Verdi", "La traviata"]
+          - ["Giacomo Puccini", "La bohème"]
+          - ["Arena di Verona", "opera sotto le stelle"]
+      - type: choice
+        level: 1
+        img: p-verona-arena
+        q: "Что на фото?"
+        options: ["l'Arena di Verona", "il Colosseo", "il Duomo di Milano", "la Torre di Pisa"]
+        answer: 0
+
+  - slug: autovalutazione-11
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 11"
+    theory: |
+      ## Что вы уже умеете
+
+      * образовывать **condizionale semplice**: *vorrei, potrei, sarei, mi piacerebbe*;
+      * вежливо просить, советовать, выражать желания и неподтверждённые новости;
+      * говорить о несбывшемся с **condizionale composto**: *sarei venuta, avrei comprato*;
+      * говорить о музыке и инструментах.
+
+      🎓 Поздравляем! Это последний юнит учебника. Пройдите итоговый тест прогресса и общий тест по всему курсу.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините инфинитив и condizionale (io)"
+        pairs:
+          - ["volere", "vorrei"]
+          - ["potere", "potrei"]
+          - ["essere", "sarei"]
+          - ["andare", "andrei"]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: что не музыкальный инструмент?"
+        options: ["chitarra", "violino", "batteria", "microfono"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Io {{volerei=>vorrei}} un caffè, per favore."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Noi {{andremo=>andremmo}} volentieri al mare, ma dobbiamo lavorare."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Ero sicura che lui {{verrà=>sarebbe venuto}}."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "Al tuo posto [[andrei]] dal medico. [[Potresti]] aiutarmi? Mi [[sarebbe]] piaciuto venire, ma ero stanca."
+      - type: choice
+        level: 2
+        audio: "Mi piacerebbe imparare a suonare il pianoforte."
+        q: "🎧 Чему хотел бы научиться человек?"
+        options: ["играть на гитаре", "играть на фортепиано", "петь", "танцевать"]
+        answer: 1
+
+exercises:
+  condizionale-semplice:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какая форма — будущее время, а не condizionale?"
+      options: ["parlerei", "parleresti", "parlerò", "parlerebbe"]
+      answer: 2
+    - type: choice
+      level: 2
+      audio: "Vorrei un bicchiere d'acqua, per favore."
+      q: "🎧 Что просит человек?"
+      options: ["стакан воды", "чашку кофе", "бокал вина", "сок"]
+      answer: 0
+  uso-condizionale:
+    - type: match
+      level: 2
+      q: "Соедините фразу и функцию"
+      pairs:
+        - ["Vorrei un caffè.", "вежливая просьба"]
+        - ["Dovresti dormire di più.", "совет"]
+        - ["Mi piacerebbe vivere a Roma.", "желание"]
+        - ["Il ladro sarebbe un uomo alto.", "неподтверждённая новость"]
+  condizionale-composto:
+    - type: error
+      level: 3
+      q: "Найдите ошибку."
+      text: "Ti avrei telefonato, ma non {{ho=>avevo}} il tuo numero."
+      explain: "Здесь нужно imperfetto: «у меня не было твоего номера» — состояние."
+  musica-italiana:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: кто не певец?"
+      options: ["Laura Pausini", "Andrea Bocelli", "Eros Ramazzotti", "Federico Fellini"]
+      answer: 3

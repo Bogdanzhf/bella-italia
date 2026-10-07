@@ -1,0 +1,223 @@
+lessons_before:
+  - slug: dialogo-vacanze
+    kind: dialogue
+    title_it: "Capodanno a Venezia?"
+    title_ru: "Новый год в Венеции?"
+    dialogue:
+      title: "Progetti per le feste"
+      scene: "Декабрь. Друзья обсуждают, где встретить Новый год."
+      lines:
+        - "Lorenzo: Ragazze, che cosa farete a Capodanno? | Девушки, что вы будете делать на Новый год?"
+        - "Gianna: Io andrò a Venezia con Michela. Ci sarà il concerto in Piazza San Marco! | Я поеду в Венецию с Микелой. На площади Сан-Марко будет концерт!"
+        - "Sofia: Che bello! Io non ho ancora deciso. Forse tornerò a Mosca. | Как здорово! Я ещё не решила. Может быть, вернусь в Москву."
+        - "Gianna: Ma no, vieni con noi! Prenderemo il Frecciarossa: in due ore e mezza saremo a Venezia. | Да нет, поехали с нами! Поедем на «Фречароссе»: через два с половиной часа будем в Венеции."
+        - "Sofia: Quanto costa il biglietto? | Сколько стоит билет?"
+        - "Lorenzo: Se lo prenoti adesso, costa meno. Dopo sarà più caro. | Если забронируешь сейчас, будет дешевле. Потом будет дороже."
+        - "Sofia: E che tempo farà a Venezia? | А какая погода будет в Венеции?"
+        - "Gianna: Farà freddo e forse ci sarà la nebbia. Porta una sciarpa e un cappotto! | Будет холодно и, может быть, туман. Возьми шарф и пальто!"
+        - "Sofia: D'accordo, verrò! Prenoto il biglietto stasera. | Договорились, я поеду! Забронирую билет сегодня вечером."
+        - "Lorenzo: E io? Nessuno mi invita? | А я? Меня никто не приглашает?"
+        - "Gianna: Ahah, vieni anche tu, Lorenzo! | Ха-ха, поехали и ты, Лоренцо!"
+    words:
+      - "il Frecciarossa | «Фречароса» (скоростной поезд)"
+      - "costare | стоить"
+      - "più caro | дороже"
+      - "nessuno | никто"
+    phrases:
+      - "Che cosa farete a Capodanno? | Что вы будете делать на Новый год?"
+      - "Non ho ancora deciso. | Я ещё не решила."
+      - "Che tempo farà? | Какая будет погода?"
+      - "Nessuno mi invita? | Меня никто не приглашает?"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["Gianna andrà a Venezia con Michela.", true]
+          - ["Prenderanno l'aereo.", false]
+          - ["A Venezia farà caldo.", false]
+          - ["Alla fine Sofia andrà a Venezia.", true]
+      - type: choice
+        level: 2
+        audio: "In due ore e mezza saremo a Venezia."
+        q: "🎧 Сколько времени ехать до Венеции?"
+        options: ["1,5 часа", "2 часа", "2,5 часа", "3 часа"]
+        answer: 2
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Поставьте глаголы в будущее время."
+        text: "Gianna [[andrà]] a Venezia. Ci [[sarà]] un concerto. A Venezia [[farà]] freddo."
+      - type: dialog
+        level: 2
+        q: "Восстановите диалог."
+        lines:
+          - "Dove andrai in vacanza?"
+          - "Andrò in montagna."
+          - "Con chi?"
+          - "Con la mia famiglia."
+
+lessons_after:
+  - slug: viaggio-italia
+    kind: culture
+    title_it: "In treno per l'Italia"
+    title_ru: "По Италии на поезде"
+    reading:
+      title: "Viaggiare in Italia"
+      photo: p-frecciarossa
+      text: |
+        In Italia è molto comodo viaggiare in treno. I treni veloci, come il Frecciarossa, collegano le grandi città: da Milano a Roma ci vogliono solo tre ore!
+        I treni regionali sono più lenti ma costano meno. Prima di salire sul treno regionale bisogna convalidare il biglietto.
+        D'inverno molti italiani vanno in montagna a sciare: le Dolomiti sono famose in tutto il mondo.
+        A dicembre le città sono piene di luci e di mercatini di Natale. Nelle case c'è il presepe e a tavola non mancano il panettone e il pandoro.
+        Il 6 gennaio arriva la Befana, una vecchietta che porta dolci ai bambini buoni e carbone ai bambini cattivi.
+      ru: |
+        В Италии очень удобно путешествовать на поезде. Скоростные поезда, такие как «Фречароса», соединяют крупные города: из Милана в Рим — всего три часа!
+        Региональные поезда медленнее, но дешевле. Перед посадкой в региональный поезд нужно прокомпостировать билет.
+        Зимой многие итальянцы едут в горы кататься на лыжах: Доломиты знамениты на весь мир.
+        В декабре города полны огней и рождественских ярмарок. В домах стоит вертеп, а на столе обязательно панеттоне и пандоро.
+        6 января приходит Бефана — старушка, которая приносит сладости хорошим детям и угольки — плохим.
+      glossary:
+        - "collegare | соединять"
+        - "lento | медленный"
+        - "il mercatino | ярмарка"
+        - "la vecchietta | старушка"
+        - "il carbone | уголь"
+    photos: [p-dolomiti, p-panettone, p-presepe]
+    words:
+      - "collegare | соединять"
+      - "il mercatino di Natale | рождественская ярмарка"
+      - "la Befana | Бефана (добрая ведьма)"
+      - "il carbone | уголь"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["Da Milano a Roma in Frecciarossa ci vogliono tre ore.", true]
+          - ["I treni regionali costano di più.", false]
+          - ["La Befana arriva il 25 dicembre.", false]
+          - ["Le Dolomiti sono montagne.", true]
+      - type: choice
+        level: 1
+        img: p-panettone
+        q: "Что на фото?"
+        options: ["il panettone", "la pizza", "il presepe", "la colomba"]
+        answer: 0
+      - type: match
+        level: 2
+        q: "Соедините"
+        pairs:
+          - ["il 25 dicembre", "Natale"]
+          - ["il 1° gennaio", "Capodanno"]
+          - ["il 6 gennaio", "la Befana"]
+          - ["il 15 agosto", "Ferragosto"]
+
+  - slug: autovalutazione-5
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 5"
+    theory: |
+      ## Что вы уже умеете
+
+      * говорить о планах, давать обещания и прогнозы в **futuro semplice**: *andrò, farò, sarò, avrò, verrò*;
+      * говорить о действии, которое закончится раньше другого: **futuro composto**;
+      * покупать билет на поезд и понимать объявления;
+      * рассказывать о погоде и праздниках.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините инфинитив и будущее время (io)"
+        pairs:
+          - ["essere", "sarò"]
+          - ["avere", "avrò"]
+          - ["andare", "andrò"]
+          - ["venire", "verrò"]
+          - ["fare", "farò"]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: что не погода?"
+        options: ["piove", "nevica", "tira vento", "binario"]
+        answer: 3
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: что не связано с поездом?"
+        options: ["binario", "carrozza", "controllore", "tenda"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Domani {{piovrà=>pioverà}} tutto il giorno."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Noi {{mangieremo=>mangeremo}} al ristorante."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "L'anno prossimo [[andrò]] (andare) in Italia. Se [[farà]] (fare) bel tempo, [[andremo]] (andare) al mare."
+      - type: choice
+        level: 2
+        audio: "Il treno per Firenze è in ritardo di dieci minuti."
+        q: "🎧 Что сообщают о поезде во Флоренцию?"
+        options: ["отменён", "опаздывает на 10 минут", "прибывает на 10-й путь", "отправляется через 10 минут"]
+        answer: 1
+
+exercises:
+  futuro-semplice:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Io {{tornarò=>tornerò}} alle otto."
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какая форма НЕ будущее время?"
+      options: ["andrò", "farò", "sarò", "vado"]
+      answer: 3
+    - type: choice
+      level: 2
+      audio: "A settembre cercherò un nuovo lavoro."
+      q: "🎧 Что человек будет делать в сентябре?"
+      options: ["отдыхать", "искать новую работу", "учиться", "переезжать"]
+      answer: 1
+  viaggiare-in-treno:
+    - type: dialog
+      level: 2
+      q: "Восстановите диалог в кассе."
+      lines:
+        - "Buongiorno, un biglietto per Bologna."
+        - "Solo andata?"
+        - "No, andata e ritorno."
+        - "Sono trenta euro."
+    - type: choice
+      level: 2
+      audio: "Il treno per Roma parte dal binario sette."
+      q: "🎧 С какого пути отправляется поезд в Рим?"
+      options: ["1", "6", "7", "17"]
+      answer: 2
+  in-montagna:
+    - type: error
+      level: 3
+      q: "Найдите ошибку."
+      text: "Appena {{arriverò=>sarò arrivato}} a casa, ti telefonerò."
+      explain: "Действие, которое закончится раньше другого в будущем, — futuro composto."
+  che-tempo-fa:
+    - type: choice
+      level: 1
+      audio: "Oggi fa caldo e c'è il sole."
+      q: "🎧 Какая погода?"
+      options: ["холодно и туман", "жарко и солнечно", "идёт снег", "гроза"]
+      answer: 1
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какое выражение о хорошей погоде?"
+      options: ["piove", "c'è il sole", "c'è la nebbia", "c'è un temporale"]
+      answer: 1
+  natale-in-italia:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: что не связано с Рождеством?"
+      options: ["presepe", "panettone", "Babbo Natale", "Ferragosto"]
+      answer: 3

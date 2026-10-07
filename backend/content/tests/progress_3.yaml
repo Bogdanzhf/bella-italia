@@ -1,0 +1,133 @@
+id: progress-3
+title: "Тест прогресса 3 · юниты 6–8"
+units: [6, 7, 8]
+description: "Семья и ресторан, imperfetto и кино, покупки и местоимения."
+sections:
+  - title: "Чтение"
+    intro: "Прочитайте текст и ответьте на вопросы."
+    reading:
+      title: "La nonna di Marco"
+      text: |
+        Quando Marco era piccolo, passava tutte le estati dalla nonna in un paese vicino a Napoli.
+        La casa della nonna era grande e aveva un bel giardino con un albero di limoni.
+        Ogni mattina Marco e la nonna andavano al mercato: compravano pomodori, mozzarella e pane fresco.
+        Una volta, mentre tornavano a casa, hanno incontrato un attore famoso che girava un film in piazza!
+        La nonna cucinava benissimo: la sua specialità erano gli gnocchi alla sorrentina.
+        Oggi Marco è un cuoco e nel suo ristorante prepara ancora le ricette della nonna.
+    exercises:
+      - type: tf
+        level: 1
+        q: "Верно или неверно?"
+        items:
+          - ["La nonna abitava vicino a Napoli.", true]
+          - ["Nel giardino c'era un albero di arance.", false]
+          - ["Ogni mattina andavano al mercato.", true]
+          - ["Oggi Marco è un attore.", false]
+      - type: choice
+        level: 2
+        q: "Что случилось однажды по дороге домой?"
+        options: ["Они потерялись", "Встретили известного актёра", "Пошёл дождь", "Нашли кошку"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Какое фирменное блюдо было у бабушки?"
+        options: ["пицца", "ньокки по-соррентински", "ризотто", "лазанья"]
+        answer: 1
+
+  - title: "Аудирование"
+    intro: "Прослушайте тексты и выберите правильный ответ."
+    exercises:
+      - type: choice
+        level: 1
+        audio: "Come primo prendo le lasagne e come secondo il pollo con le patate."
+        q: "🎧 Что человек берёт на второе?"
+        options: ["лазанью", "курицу с картофелем", "рыбу", "бифштекс"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Quanti pomodori vuole, signora? Ne vorrei due chili, grazie."
+        q: "🎧 Сколько помидоров покупает синьора?"
+        options: ["1 кг", "2 кг", "200 г", "2 штуки"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Da bambino abitavo in campagna e andavo a scuola in bicicletta."
+        q: "🎧 Как он ездил в школу в детстве?"
+        options: ["на автобусе", "пешком", "на велосипеде", "на машине"]
+        answer: 2
+      - type: choice
+        level: 2
+        audio: "Il film non mi è piaciuto: la storia era complicata e gli attori non erano bravi."
+        q: "🎧 Понравился ли фильм?"
+        options: ["да, очень", "нет", "не смотрел"]
+        answer: 1
+      - type: choice
+        level: 3
+        audio: "Quando sono arrivato al cinema, il film era già cominciato."
+        q: "🎧 Что произошло раньше?"
+        options: ["он пришёл в кино", "фильм начался"]
+        answer: 1
+
+  - title: "Грамматика"
+    intro: "Заполните пропуски."
+    exercises:
+      - type: cloze
+        level: 2
+        q: "Вставьте притяжательные (с артиклем или без)."
+        text: "[[Mia]] madre è insegnante. [[I miei]] nonni abitano a Roma. Anna e [[la sua]] amica."
+      - type: cloze
+        level: 3
+        q: "Imperfetto или passato prossimo?"
+        text: "Mentre io [[*guardavo/ho guardato]] la TV, [[*è arrivato/arrivava]] mio fratello. Da piccola [[*andavo/sono andata]] sempre al mare."
+      - type: choice
+        level: 2
+        q: "Il formaggio? ___ compro al mercato."
+        options: ["La", "Lo", "Li", "Ne"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Quante mele vuoi? ___ voglio tre."
+        options: ["Le", "Li", "Ne", "La"]
+        answer: 2
+      - type: input
+        level: 3
+        q: "Hai visto le ragazze? Sì, le ho ___ (vedere) ieri."
+        answer: ["viste", "vedute"]
+
+  - title: "Лексика"
+    intro: "Покажите словарный запас."
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините магазин и товар"
+        pairs:
+          - ["panetteria", "pane"]
+          - ["macelleria", "carne"]
+          - ["pescheria", "pesce"]
+          - ["fioraio", "rose"]
+      - type: odd
+        level: 2
+        q: "Найдите лишнее."
+        options: ["forchetta", "coltello", "cucchiaio", "cugino"]
+        answer: 3
+      - type: odd
+        level: 2
+        q: "Найдите лишнее."
+        options: ["commedia", "giallo", "documentario", "dentifricio"]
+        answer: 3
+
+writing:
+  - task: "**Воспоминание о детстве** (50–60 слов): где вы жили, что делали летом, какой вы были? Используйте imperfetto (и один раз passato prossimo для события)."
+    words: "50–60"
+    checklist:
+      - "Я описала привычки в imperfetto (andavo, giocavo…)"
+      - "Я рассказала об одном событии в passato prossimo"
+      - "Я использовала слова: da bambina, ogni estate, una volta"
+    sample: "Da bambina abitavo in una piccola città. Ogni estate andavo dai nonni in campagna: giocavo con il cane, aiutavo la nonna in giardino e la sera guardavamo le stelle. Una volta, mentre raccoglievo le fragole, ho visto un piccolo riccio! Ero molto felice e curiosa."
+  - task: "**Ужин в ресторане** (40–50 слов): напишите подруге, где вы ужинали, что заказали и понравилось ли вам."
+    words: "40–50"
+    checklist:
+      - "Я использовала primo / secondo / dolce"
+      - "Я использовала mi è piaciuto / mi sono piaciuti"
+      - "Я написала, с кем и когда ужинала"
+    sample: "Cara Giulia, ieri sera sono andata a cena in una trattoria con i miei colleghi. Come primo ho preso gli spaghetti alla carbonara e come secondo il pollo con le patate. Il tiramisù mi è piaciuto moltissimo! Ci torniamo insieme?"

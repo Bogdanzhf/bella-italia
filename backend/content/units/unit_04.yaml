@@ -1,0 +1,580 @@
+id: 4
+title_it: "Buon fine settimana!"
+title_ru: "Хороших выходных!"
+level: A1
+icon: "☕"
+description: >
+  Прошедшее время passato prossimo: вспомогательные глаголы avere и essere,
+  правильные и неправильные причастия, наречия с прошедшим временем, частица ci,
+  а также как заказать что-нибудь в итальянском баре.
+goals:
+  - рассказывать о событиях в прошлом (passato prossimo)
+  - выбирать вспомогательный глагол avere или essere
+  - знать самые частые неправильные причастия
+  - ставить наречия già, mai, ancora, appena, sempre в правильное место
+  - заказывать еду и напитки в баре
+
+lessons:
+  - slug: passato-avere
+    title_it: "Come hai passato il fine settimana?"
+    title_ru: "Passato prossimo с avere"
+    theory: |
+      ## Что такое passato prossimo
+
+      *Passato prossimo* — главное прошедшее время итальянского. Оно описывает **законченное действие** в прошлом: *Ieri **ho mangiato** un panino.* — Вчера я съела бутерброд.
+
+      Строится из двух частей: **avere / essere** в настоящем времени + **причастие прошедшего времени** (*participio passato*).
+
+      ## Причастие правильных глаголов
+
+      | Инфинитив | Причастие | Пример |
+      |---|---|---|
+      | -**are** | -**ato** | parlare → parl**ato** |
+      | -**ere** | -**uto** | credere → cred**uto** |
+      | -**ire** | -**ito** | finire → fin**ito** |
+
+      ## С avere
+
+      | | **studiare** |
+      |---|---|
+      | io | **ho** studiato |
+      | tu | **hai** studiato |
+      | lui / lei | **ha** studiato |
+      | noi | **abbiamo** studiato |
+      | voi | **avete** studiato |
+      | loro | **hanno** studiato |
+
+      С *avere* причастие **не меняется**: *Maria ha studiato, i ragazzi hanno studiato*.
+
+      ## Слова-маркеры прошлого
+
+      **ieri** (вчера), **l'altro ieri** (позавчера), **stamattina** (сегодня утром), **due giorni fa** (два дня назад), **la settimana scorsa** (на прошлой неделе), **l'anno scorso** (в прошлом году).
+
+      > 💡 Вопрос **Che cosa hai fatto di bello?** — «Чем интересным занималась?» — типичный вопрос в понедельник.
+    words:
+      - "riordinare | убирать, наводить порядок"
+      - "la compagn`ia | компания"
+      - "lo spett`acolo | спектакль, сеанс"
+      - "r`idere | смеяться"
+      - "la comm`edia | комедия"
+      - "il cameriere | официант"
+      - "sbagliato | ошибочный, неправильный"
+      - "la confusione | путаница"
+      - "un sacco di | куча, масса"
+      - "diverso | разный"
+      - "peccato! | жаль!"
+      - "il passato | прошлое"
+      - "la data | дата"
+      - "ordinare | заказывать"
+      - "la passeggiata | прогулка"
+      - "il fatto | факт, событие"
+      - "stamattina | сегодня утром"
+      - "il cornetto | круассан"
+      - "fa | назад (о времени)"
+      - "l'altro ieri | позавчера"
+      - "ieri | вчера"
+      - "scorso | прошлый"
+      - "la Germania | Германия"
+      - "la festa | праздник, вечеринка"
+      - "la torta | торт"
+      - "tranquillo | спокойный"
+      - "lasciare | оставлять"
+      - "sp`endere | тратить"
+      - "i soldi | деньги"
+    phrases:
+      - "Come hai passato il fine settimana? | Как ты провела выходные?"
+      - "Non c'è male. | Неплохо."
+      - "Che cosa hai fatto di bello? | Чем интересным занималась?"
+      - "Ho visto un film con gli amici. | Я посмотрела фильм с друзьями."
+      - "Peccato! | Жаль!"
+      - "Due giorni fa ho mangiato una pizza buonissima. | Два дня назад я ела очень вкусную пиццу."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Причастие от *parlare*:"
+        options: ["parlito", "parlato", "parluto", "parlando"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Причастие от *finire*:"
+        options: ["finato", "finuto", "finito", "finisco"]
+        answer: 2
+      - type: choice
+        level: 1
+        q: "Причастие от *credere*:"
+        options: ["creduto", "credito", "credato", "creso"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Ieri io ___ la pizza."
+        options: ["ho mangiato", "sono mangiato", "ha mangiato", "ho mangiata"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Maria e Luca ___ tutto il giorno."
+        options: ["hanno lavorato", "sono lavorati", "ha lavorato", "hanno lavorati"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "«Два дня назад» —"
+        options: ["due giorni fa", "fa due giorni", "da due giorni", "tra due giorni"]
+        answer: 0
+      - type: input
+        level: 2
+        q: "Tu ___ (ascoltare) la radio? (passato prossimo)"
+        answer: ["hai ascoltato"]
+      - type: input
+        level: 3
+        q: "Noi ___ (dormire) molto. (passato prossimo)"
+        answer: ["abbiamo dormito"]
+      - type: input
+        level: 3
+        q: "Voi ___ (comprare) il pane? (passato prossimo)"
+        answer: ["avete comprato"]
+      - type: input
+        level: 3
+        q: "Lei ___ (ricevere) un regalo. (passato prossimo)"
+        answer: ["ha ricevuto"]
+      - type: input
+        level: 3
+        q: "Переведите: «на прошлой неделе» — la settimana ___"
+        answer: ["scorsa"]
+      - type: order
+        level: 3
+        q: "Соберите: «Вчера я смотрела телевизор.»"
+        answer: "Ieri ho guardato la televisione."
+
+  - slug: passato-essere
+    title_it: "Ma che cosa è successo?"
+    title_ru: "Passato prossimo с essere"
+    theory: |
+      ## С essere
+
+      Некоторые глаголы образуют *passato prossimo* с **essere**. Тогда причастие **согласуется** с подлежащим, как прилагательное:
+
+      | | **andare** |
+      |---|---|
+      | io | **sono** andat**o** / andat**a** |
+      | tu | **sei** andat**o** / andat**a** |
+      | lui / lei | **è** andat**o** / andat**a** |
+      | noi | **siamo** andat**i** / andat**e** |
+      | voi | **siete** andat**i** / andat**e** |
+      | loro | **sono** andat**i** / andat**e** |
+
+      *Marco è andato al cinema. Maria è andat**a** al cinema. Le ragazze sono andat**e** al cinema.*
+
+      ## Essere или avere?
+
+      **essere** — с глаголами:
+      * движения: *andare, venire, tornare, uscire, partire, arrivare, entrare*
+      * состояния, нахождения: *stare, rimanere, restare, essere*
+      * изменения: *nascere* (родиться), *morire* (умереть), *diventare* (стать), *succedere* (случиться), *piacere*
+      * возвратными: *alzarsi, lavarsi, svegliarsi* (юнит 5)
+
+      **avere** — с переходными глаголами (отвечают на вопрос *кого? что?*): *mangiare un panino, fare colazione, finire un esercizio*. А также: *dormire, viaggiare, camminare, passeggiare, ridere*.
+
+      > 💡 Простая проверка: если после глагола можно поставить «что?» — скорее всего **avere**. Если глагол описывает перемещение — **essere**.
+
+      *Cosa è successo?* — Что случилось?
+    words:
+      - "r`ubare | красть"
+      - "interrogare | допрашивать; спрашивать (в школе)"
+      - "il poliziotto | полицейский"
+      - "la mensa | столовая"
+      - "il / la dentista | стоматолог"
+      - "n`ascere | родиться"
+      - "morire | умереть"
+      - "diventare | становиться"
+      - "succ`edere | случаться"
+      - "intero | целый"
+      - "l'aula | аудитория | f"
+      - "chiacchierare | болтать"
+      - "da solo | один, самостоятельно"
+      - "all'inizio | сначала"
+      - "v`incere | побеждать"
+      - "la lista | список"
+      - "la squadra | команда"
+      - "esattamente | именно, точно"
+      - "cantare | петь"
+    phrases:
+      - "Che cosa è successo? | Что случилось?"
+      - "Sono andata al cinema con Paolo. | Я ходила в кино с Паоло."
+      - "Siamo arrivati tardi. | Мы приехали поздно."
+      - "Mia nonna è nata nel 1950. | Моя бабушка родилась в 1950 году."
+      - "Abbiamo chiacchierato un'oretta. | Мы поболтали часок."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Какой вспомогательный глагол у *andare*?"
+        options: ["avere", "essere"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Какой вспомогательный глагол у *mangiare*?"
+        options: ["avere", "essere"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Giulia ___ a Roma ieri."
+        options: ["è arrivato", "è arrivata", "ha arrivato", "ha arrivata"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "I ragazzi ___ alle otto."
+        options: ["sono usciti", "hanno usciti", "sono uscito", "hanno uscito"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Io (Anna) ___ a casa tutto il giorno."
+        options: ["sono restato", "sono restata", "ho restato", "ho restata"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Ieri noi ___ molto. (dormire)"
+        options: ["siamo dormiti", "abbiamo dormito", "abbiamo dormiti", "siamo dormito"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Le ragazze ___ (partire) per Milano. (passato prossimo)"
+        answer: ["sono partite"]
+      - type: input
+        level: 3
+        q: "Marco ___ (tornare) a casa tardi. (passato prossimo)"
+        answer: ["è tornato"]
+      - type: input
+        level: 3
+        q: "Tu, Lucia, ___ (venire) alla festa? (passato prossimo)"
+        answer: ["sei venuta"]
+      - type: input
+        level: 3
+        q: "Mio nonno ___ (nascere) a Napoli. (passato prossimo)"
+        answer: ["è nato"]
+      - type: input
+        level: 3
+        q: "Che cosa ___ (succedere)? (passato prossimo)"
+        answer: ["è successo"]
+
+  - slug: participi-irregolari
+    title_it: "Un fine settimana al museo"
+    title_ru: "Неправильные причастия"
+    theory: |
+      ## Неправильные причастия
+
+      Многие частые глаголы (особенно на **-ere**) имеют неправильное причастие. Их нужно выучить:
+
+      | Инфинитив | Причастие | Инфинитив | Причастие |
+      |---|---|---|---|
+      | fare (делать) | (ha) **fatto** | prendere (брать) | (ha) **preso** |
+      | dire (сказать) | (ha) **detto** | mettere (класть) | (ha) **messo** |
+      | leggere (читать) | (ha) **letto** | vedere (видеть) | (ha) **visto** |
+      | scrivere (писать) | (ha) **scritto** | chiudere (закрывать) | (ha) **chiuso** |
+      | aprire (открывать) | (ha) **aperto** | chiedere (спрашивать) | (ha) **chiesto** |
+      | offrire (угощать) | (ha) **offerto** | rispondere (отвечать) | (ha) **risposto** |
+      | bere (пить) | (ha) **bevuto** | decidere (решать) | (ha) **deciso** |
+      | perdere (терять) | (ha) **perso** | spendere (тратить) | (ha) **speso** |
+      | scegliere (выбирать) | (ha) **scelto** | vincere (побеждать) | (ha) **vinto** |
+      | essere (быть) | (è) **stato** | venire (приходить) | (è) **venuto** |
+      | rimanere (оставаться) | (è) **rimasto** | nascere (родиться) | (è) **nato** |
+      | morire (умереть) | (è) **morto** | succedere (случиться) | (è) **successo** |
+      | scendere (спускаться) | (è) **sceso** | piacere (нравиться) | (è) **piaciuto** |
+
+      > 💡 У *essere* и *stare* одно и то же причастие — **stato**: *Sono stata a Roma* — Я была в Риме.
+
+      У глаголов на **-cere / -scere** перед *-uto* появляется **i**: *conoscere → conosciuto, piacere → piaciuto*.
+    words:
+      - "pubblicare | публиковать"
+      - "il progetto | проект"
+      - "fisso | постоянный"
+      - "ospitare | принимать (гостей)"
+      - "l'artista | художник, артист | m"
+      - "locale | местный"
+      - "la m`usica cl`assica | классическая музыка"
+      - "l'`ospite | гость | m"
+      - "il premio | премия, приз"
+      - "durare | длиться"
+      - "l'evento | событие, мероприятие | m"
+      - "la bellezza | красота"
+      - "lo spettatore | зритель"
+      - "inventare | изобретать"
+      - "geniale | гениальный"
+      - "appena | только что"
+      - "mai | никогда"
+      - "la patente | водительские права"
+      - "la verità | правда"
+      - "il lic`eo | лицей (старшая школа)"
+      - "m`ettere | класть, ставить"
+      - "ved`ere | видеть"
+      - "chi`edere | спрашивать, просить"
+      - "rispondere | отвечать"
+      - "dec`idere | решать"
+      - "p`erdere | терять; проигрывать"
+    phrases:
+      - "Hai visto la mostra? | Ты видела выставку?"
+      - "Ho letto un libro bellissimo. | Я прочитала прекрасную книгу."
+      - "Non ho mai preso la patente. | Я так и не получила права."
+      - "Sei mai stata a Venezia? | Ты когда-нибудь была в Венеции?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Причастие от *fare*:"
+        options: ["fato", "fatto", "faciuto", "fatuto"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Причастие от *vedere*:"
+        options: ["veduto / visto", "vedito", "vesto", "veso"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Причастие от *prendere*:"
+        options: ["prenduto", "preso", "presto", "prendito"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Ieri ___ una lettera a mia nonna. (scrivere)"
+        options: ["ho scrivuto", "ho scritto", "sono scritto", "ho scriveto"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Причастие от *essere*:"
+        options: ["essuto", "stato", "estato", "sato"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Причастие от *leggere*:"
+        answer: ["letto"]
+      - type: input
+        level: 3
+        q: "Причастие от *aprire*:"
+        answer: ["aperto"]
+      - type: input
+        level: 3
+        q: "Причастие от *dire*:"
+        answer: ["detto"]
+      - type: input
+        level: 3
+        q: "Причастие от *chiudere*:"
+        answer: ["chiuso"]
+      - type: input
+        level: 3
+        q: "Anna ___ (rimanere) a casa. (passato prossimo)"
+        answer: ["è rimasta"]
+      - type: input
+        level: 3
+        q: "Noi ___ (bere) un caffè. (passato prossimo)"
+        answer: ["abbiamo bevuto"]
+      - type: input
+        level: 3
+        q: "Chi ___ (vincere) la partita? (passato prossimo)"
+        answer: ["ha vinto"]
+
+  - slug: avverbi-ci
+    title_it: "Già, mai, ancora… e ci"
+    title_ru: "Наречия в прошедшем и частица ci"
+    theory: |
+      ## Наречия с passato prossimo
+
+      Наречия **sempre** (всегда), **già** (уже), **appena** (только что), **mai** (никогда), **ancora** (ещё), **più** (больше) ставятся **между** вспомогательным глаголом и причастием:
+
+      * *Hai **già** finito di lavorare?* — Ты уже закончила работать?
+      * *I ragazzi sono **appena** usciti.* — Ребята только что вышли.
+      * *Non sono **mai** stata a Parigi.* — Я никогда не была в Париже.
+      * *Il professore non è **ancora** arrivato.* — Преподаватель ещё не пришёл.
+      * *Non ha **più** chiamato.* — Он больше не звонил.
+
+      > 💡 С **mai, ancora, più** в отрицании нужна частица **non** перед глаголом — двойное отрицание, как в русском: *Non sono mai stata* — Я никогда не была.
+
+      ## Частица ci («туда, там»)
+
+      **Ci** заменяет место, уже упомянутое ранее, чтобы не повторяться:
+
+      * *Vai spesso in Italia? — Sì, **ci** vado ogni anno.* — Да, езжу туда каждый год.
+      * *Siete andati a teatro? — Sì, **ci** siamo andati.*
+      * *Vieni con noi in discoteca? — No, non **ci** posso venire.*
+
+      ## Модальные глаголы в прошедшем
+
+      Если модальный глагол стоит один, используется **avere**: *Non ho potuto.* Если за ним идёт инфинитив, вспомогательный выбирается по этому инфинитиву: *Non **ho** potuto studiare* (studiare → avere), *Carla non **è** potuta venire* (venire → essere).
+    words:
+      - "sempre | всегда"
+      - "già | уже"
+      - "appena | только что"
+      - "mai | никогда"
+      - "ancora | ещё"
+      - "più | больше"
+      - "spesso | часто"
+      - "ci | там, туда"
+      - "la Spagna | Испания"
+      - "Par`igi | Париж"
+    phrases:
+      - "Hai già mangiato? | Ты уже поела?"
+      - "Non sono mai stata in Spagna. | Я никогда не была в Испании."
+      - "Vai alla festa? — Sì, ci vado. | Ты пойдёшь на праздник? — Да, пойду."
+      - "Non ho potuto. | Я не смогла."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Где стоит *già*? «Ты уже закончила?»"
+        options: ["Già hai finito?", "Hai già finito?", "Hai finito già?", "Hai finito, già?"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "«Я никогда не была в Риме» —"
+        options: ["Sono mai stata a Roma.", "Non sono mai stata a Roma.", "Non mai sono stata a Roma.", "Mai sono stata a Roma."]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Vai spesso al mare? — Sì, ___ vado ogni estate."
+        options: ["ci", "lo", "ne", "si"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Carla non ___ venire con noi."
+        options: ["ha potuto / è potuta — оба возможны", "è potuto", "hanno potuto", "sono potuta"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Il treno non è ___ arrivato. (ещё)"
+        answer: ["ancora"]
+      - type: input
+        level: 3
+        q: "Sono ___ tornata a casa. (только что)"
+        answer: ["appena"]
+      - type: input
+        level: 3
+        q: "Siete stati a Venezia? — Sì, ___ siamo stati l'anno scorso."
+        answer: ["ci"]
+      - type: order
+        level: 3
+        q: "Соберите: «Ты уже видела этот фильм?»"
+        answer: "Hai già visto questo film?"
+
+  - slug: al-bar
+    title_it: "Per me, un panino"
+    title_ru: "В итальянском баре"
+    theory: |
+      ## Бар — сердце итальянской жизни
+
+      Итальянский **bar** — это не только бар, но и кафе, где пьют кофе, завтракают и перекусывают. Утром — **cappuccino e cornetto**, днём — **tramezzino** или **panino**, вечером — **aperitivo**.
+
+      В многих барах сначала платят на **кассе** (*cassa*), получают **чек** (*lo scontrino*) и с ним идут к **стойке** (*il banco*).
+
+      ## Как заказать
+
+      * **Per me, un caffè.** — Мне кофе.
+      * **Vorrei un cappuccino, per favore.** — Я бы хотела капучино, пожалуйста.
+      * **Prendo un tramezzino e un'acqua minerale.** — Я возьму сэндвич и минеральную воду.
+      * **Quanto pago? / Quant'è?** — Сколько с меня?
+      * **Ho fame / Ho sete.** — Я голодна / Я хочу пить.
+
+      ## Виды кофе
+
+      * **caffè (espresso)** — эспрессо
+      * **caffè macchiato** — эспрессо с капелькой молока
+      * **caffè lungo / ristretto** — более слабый / более крепкий
+      * **caffè corretto** — с ликёром
+      * **caffè decaffeinato** — без кофеина
+      * **caffellatte, latte macchiato** — кофе с большим количеством молока
+
+      > 💡 Капучино итальянцы пьют только утром. Заказать его после обеда — верный знак туриста!
+    words:
+      - "la fame | голод"
+      - "la sete | жажда"
+      - "il listino | прейскурант, меню"
+      - "il tramezzino | треугольный сэндвич"
+      - "la fetta | ломтик, кусок"
+      - "la torta al cioccolato | шоколадный торт"
+      - "anzi | наоборот, даже"
+      - "meglio | лучше"
+      - "dunque | итак"
+      - "il formaggio | сыр"
+      - "il caffè macchiato | кофе с каплей молока"
+      - "l'`acqua minerale | минеральная вода | f"
+      - "la mozzarella | моцарелла"
+      - "la lattina | жестяная банка"
+      - "il tè | чай"
+      - "la tisana | травяной чай"
+      - "la cioccolata | горячий шоколад"
+      - "la tazza | чашка"
+      - "la panna | сливки"
+      - "il pomodoro | помидор"
+      - "l'aperitivo | аперитив | m"
+      - "analc`olico | безалкогольный"
+      - "la b`ibita | напиток (прохладительный)"
+      - "la spremuta d'arancia | свежевыжатый апельсиновый сок"
+      - "il succo di frutta | фруктовый сок"
+      - "la birra | пиво"
+      - "il tiramisù | тирамису"
+      - "il banco | стойка"
+      - "lo scontrino | чек"
+      - "la cassa | касса"
+      - "il cliente | клиент"
+      - "la tazzina | чашечка"
+      - "il sapore | вкус"
+      - "caldo | горячий"
+      - "freddo | холодный"
+      - "la bevanda | напиток"
+      - "il colore | цвет"
+      - "il consiglio | совет"
+      - "la dieta | диета"
+      - "non importa | неважно"
+      - "la signorina | девушка, синьорина"
+    phrases:
+      - "Per me, un cappuccino e un cornetto. | Мне капучино и круассан."
+      - "Vorrei una spremuta d'arancia. | Я бы хотела свежевыжатый апельсиновый сок."
+      - "Quant'è? | Сколько с меня?"
+      - "Ho fame! | Я голодна!"
+      - "Ho sete! | Я хочу пить!"
+      - "Non ti preoccupare! | Не волнуйся!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как сказать «Я хочу пить»?"
+        options: ["Ho fame.", "Ho sete.", "Sono sete.", "Ho caldo."]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*Lo scontrino* — это:"
+        options: ["чек", "стойка", "касса", "официант"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Как вежливо заказать?"
+        options: ["Voglio un caffè!", "Vorrei un caffè, per favore.", "Dai un caffè!", "Caffè!"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "*Caffè macchiato* — это:"
+        options: ["кофе с ликёром", "эспрессо с каплей молока", "кофе без кофеина", "холодный кофе"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Что итальянцы обычно едят на завтрак в баре?"
+        options: ["pizza e birra", "cappuccino e cornetto", "pasta e vino", "tramezzino e aperitivo"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «Сколько с меня?» — Quant'___?"
+        answer: ["è"]
+      - type: input
+        level: 3
+        q: "Переведите: «сыр» — il ___"
+        answer: ["formaggio"]
+      - type: input
+        level: 3
+        q: "Переведите: «Я голодна» — Ho ___"
+        answer: ["fame"]
+      - type: order
+        level: 3
+        q: "Соберите: «Мне бутерброд и минеральную воду.»"
+        answer: "Per me, un panino e un'acqua minerale."
+
+verbs:
+  - {inf: mangiare, ru: есть, tense: passato prossimo, forms: [ho mangiato, hai mangiato, ha mangiato, abbiamo mangiato, avete mangiato, hanno mangiato]}
+  - {inf: studiare, ru: учиться, tense: passato prossimo, forms: [ho studiato, hai studiato, ha studiato, abbiamo studiato, avete studiato, hanno studiato]}
+  - {inf: fare, ru: делать, tense: passato prossimo, forms: [ho fatto, hai fatto, ha fatto, abbiamo fatto, avete fatto, hanno fatto]}
+  - {inf: vedere, ru: видеть, tense: passato prossimo, forms: [ho visto, hai visto, ha visto, abbiamo visto, avete visto, hanno visto]}
+  - {inf: prendere, ru: брать, tense: passato prossimo, forms: [ho preso, hai preso, ha preso, abbiamo preso, avete preso, hanno preso]}
+  - {inf: andare, ru: идти, tense: passato prossimo, forms: ["sono andato|sono andata", "sei andato|sei andata", "è andato|è andata", "siamo andati|siamo andate", "siete andati|siete andate", "sono andati|sono andate"]}
+  - {inf: venire, ru: приходить, tense: passato prossimo, forms: ["sono venuto|sono venuta", "sei venuto|sei venuta", "è venuto|è venuta", "siamo venuti|siamo venute", "siete venuti|siete venute", "sono venuti|sono venute"]}
+  - {inf: essere, ru: быть, tense: passato prossimo, forms: ["sono stato|sono stata", "sei stato|sei stata", "è stato|è stata", "siamo stati|siamo state", "siete stati|siete state", "sono stati|sono state"]}

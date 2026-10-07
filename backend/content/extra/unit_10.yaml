@@ -1,0 +1,212 @@
+lessons_before:
+  - slug: dialogo-tv
+    kind: dialogue
+    title_it: "Mi presti il telecomando?"
+    title_ru: "Дашь мне пульт?"
+    dialogue:
+      title: "Una serata in casa"
+      scene: "София ужинает у Джанны. После ужина они выбирают, что посмотреть, а потом София спрашивает дорогу."
+      lines:
+        - "Gianna: Che cosa guardiamo stasera? C'è un film su Rai Uno. | Что посмотрим сегодня? На «Раи Уно» идёт фильм."
+        - "Sofia: Che film è? | Какой фильм?"
+        - "Gianna: Una commedia con Paola Cortellesi. Ti piacciono le commedie? | Комедия с Паолой Кортеллези. Тебе нравятся комедии?"
+        - "Sofia: Sì, moltissimo! Mi passi il telecomando? Alzo il volume. | Да, очень! Передашь мне пульт? Сделаю погромче."
+        - "Gianna: Eccolo, prendilo! E non dimenticare: domani mi devi aiutare con il trasloco! | Вот, бери! И не забудь: завтра ты должна помочь мне с переездом!"
+        - "Sofia: Certo, ci vengo volentieri. Ma come arrivo a casa tua nuova? | Конечно, с удовольствием приду. Но как добраться до твоего нового дома?"
+        - "Gianna: È facile. Scendi dalla metro in piazza Duomo, va' sempre dritto e al primo incrocio gira a destra. | Легко. Выйди из метро на площади Дуомо, иди прямо и на первом перекрёстке поверни направо."
+        - "Sofia: Poi? | А потом?"
+        - "Gianna: Poi prendi la seconda strada a sinistra: è il numero dodici. Scrivimi quando arrivi! | Потом сверни на вторую улицу налево: дом номер двенадцать. Напиши мне, когда приедешь!"
+        - "Sofia: Va bene. Ah, Gianna, mi presti anche un ombrello? Domani pioverà. | Хорошо. Ах, Джанна, одолжишь мне ещё зонт? Завтра будет дождь."
+        - "Gianna: Ma certo, tienilo pure! | Ну конечно, оставь себе!"
+    words:
+      - "il volume | громкость"
+      - "alzare il volume | сделать громче"
+      - "scrivimi | напиши мне"
+      - "tienilo | оставь себе"
+    phrases:
+      - "Mi passi il telecomando? | Передашь мне пульт?"
+      - "Prendilo! | Бери!"
+      - "Va' sempre dritto. | Иди прямо."
+      - "Al primo incrocio gira a destra. | На первом перекрёстке поверни направо."
+      - "Scrivimi quando arrivi! | Напиши, когда приедешь!"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["Su Rai Uno c'è un film drammatico.", false]
+          - ["A Sofia piacciono le commedie.", true]
+          - ["Domani Sofia aiuterà Gianna con il trasloco.", true]
+          - ["La casa nuova di Gianna è al numero venti.", false]
+      - type: choice
+        level: 2
+        audio: "Al primo incrocio gira a destra, poi la seconda strada a sinistra."
+        q: "🎧 Куда повернуть на первом перекрёстке?"
+        options: ["налево", "направо", "прямо", "назад"]
+        answer: 1
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Заполните пропуски повелительным наклонением."
+        text: "[[Va']] sempre dritto e al primo incrocio [[gira]] a destra. [[Scrivimi]] quando arrivi!"
+      - type: dialog
+        level: 2
+        q: "Восстановите диалог."
+        lines:
+          - "Scusi, per il Duomo?"
+          - "Vada sempre dritto e poi giri a sinistra."
+          - "È lontano?"
+          - "No, cinque minuti a piedi."
+
+lessons_after:
+  - slug: tv-giornali
+    kind: culture
+    title_it: "Televisione e giornali in Italia"
+    title_ru: "Телевидение и газеты Италии"
+    reading:
+      title: "Che c'è in TV?"
+      photo: p-sanremo-ariston
+      text: |
+        La televisione italiana nasce nel 1954 con la RAI. All'inizio c'era un solo canale e le famiglie guardavano la TV tutte insieme, spesso al bar.
+        Negli anni Sessanta la TV ha aiutato molti italiani a imparare la lingua italiana: prima tante persone parlavano solo il dialetto!
+        Oggi ci sono molti canali: la RAI è la televisione pubblica, Mediaset è privata.
+        Tra i giornali più letti ci sono il Corriere della Sera e la Repubblica. La Gazzetta dello Sport è stampata su carta rosa e organizza il Giro d'Italia, una famosa corsa in bicicletta.
+        Ogni anno, a febbraio, milioni di italiani guardano in TV il Festival di Sanremo.
+      ru: |
+        Итальянское телевидение родилось в 1954 году вместе с RAI. Поначалу был только один канал, и семьи смотрели телевизор все вместе, часто в баре.
+        В шестидесятые телевидение помогло многим итальянцам выучить итальянский язык: раньше многие говорили только на диалекте!
+        Сегодня каналов много: RAI — общественное телевидение, Mediaset — частное.
+        Среди самых читаемых газет — «Коррьере делла Сера» и «Репубблика». «Гадзетта делло Спорт» печатается на розовой бумаге и организует «Джиро д'Италия» — знаменитую велогонку.
+        Каждый год в феврале миллионы итальянцев смотрят по телевизору фестиваль в Сан-Ремо.
+      glossary:
+        - "pubblico | общественный, государственный"
+        - "privato | частный"
+        - "stampato | напечатанный"
+        - "la corsa in bicicletta | велогонка"
+    words:
+      - "il canale | канал"
+      - "pubblico | общественный"
+      - "la corsa | гонка, забег"
+      - "stampare | печатать"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["La RAI nasce nel 1954.", true]
+          - ["Mediaset è la televisione pubblica.", false]
+          - ["La Gazzetta dello Sport è rosa.", true]
+          - ["Il Festival di Sanremo è a luglio.", false]
+      - type: choice
+        level: 2
+        ref: reading
+        q: "Как телевидение помогло итальянцам в шестидесятые?"
+        options: ["Научило готовить", "Помогло выучить итальянский язык", "Помогло найти работу", "Научило кататься на велосипеде"]
+        answer: 1
+      - type: match
+        level: 2
+        q: "Соедините"
+        pairs:
+          - ["la RAI", "televisione pubblica"]
+          - ["la Gazzetta dello Sport", "il Giro d'Italia"]
+          - ["Sanremo", "festival della musica"]
+
+  - slug: autovalutazione-10
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 10"
+    theory: |
+      ## Что вы уже умеете
+
+      * заменять дополнение «кому?» местоимениями **mi, ti, gli, le, Le, ci, vi**;
+      * говорить, что понравилось: *mi è piaciuto il film, mi sono piaciute le scarpe*;
+      * давать советы и инструкции в **imperativo**, в том числе отрицательно: *non mangiare!*;
+      * присоединять местоимения: *dimmi, fallo, prendilo*;
+      * объяснять дорогу и просить об одолжении.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините"
+        pairs:
+          - ["Mi dai una mano?", "Certo, volentieri!"]
+          - ["Scusi, per la stazione?", "Vada sempre dritto."]
+          - ["Ti è piaciuto il film?", "Sì, moltissimo!"]
+          - ["Mi presti la penna?", "Prendila pure!"]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: что не телепередача?"
+        options: ["telegiornale", "documentario", "cartoni animati", "semaforo"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Telefono a Maria e {{gli=>le}} dico tutto."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Paolo, non {{mangia=>mangiare}} troppi dolci!"
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Mi sono {{piaciuto=>piaciute}} molto le tue foto."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "Il libro? [[Prendilo]] pure! Di' a me la verità → [[Dimmi]] la verità! A Marco? [[Gli]] ho scritto ieri."
+      - type: choice
+        level: 2
+        audio: "Gira a sinistra al semaforo."
+        q: "🎧 Где нужно повернуть налево?"
+        options: ["на перекрёстке", "на светофоре", "у моста", "у церкви"]
+        answer: 1
+
+exercises:
+  pronomi-indiretti:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какое местоимение прямое (кого?)?"
+      options: ["gli", "le", "lo", "mi"]
+      answer: 2
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Hai scritto alla nonna? Sì, {{la=>le}} ho scritto una lettera."
+  favori-piacere-passato:
+    - type: choice
+      level: 2
+      audio: "Mi fai un favore? Mi presti la tua macchina?"
+      q: "🎧 Что просит человек?"
+      options: ["денег", "машину", "книгу", "телефон"]
+      answer: 1
+  imperativo:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какая форма НЕ повелительное наклонение?"
+      options: ["guarda!", "leggete!", "finisci!", "parlavo"]
+      answer: 3
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Marco, {{apre=>apri}} la finestra, per favore!"
+  imperativo-pronomi:
+    - type: error
+      level: 3
+      q: "Найдите ошибку."
+      text: "Il caffè? {{Fallolo=>Fallo}} subito!"
+  indicazioni-stradali:
+    - type: choice
+      level: 1
+      audio: "Vai sempre dritto."
+      q: "🎧 Куда идти?"
+      options: ["налево", "направо", "прямо", "назад"]
+      answer: 2
+    - type: dialog
+      level: 2
+      q: "Восстановите диалог."
+      lines:
+        - "Scusi, dov'è la farmacia?"
+        - "Prenda la prima strada a destra."
+        - "Grazie mille!"
+        - "Prego!"

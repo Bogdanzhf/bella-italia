@@ -1,0 +1,230 @@
+lessons_before:
+  - slug: dialogo-in-contatto
+    kind: dialogue
+    title_it: "Un pacco per la nonna"
+    title_ru: "Посылка для бабушки"
+    dialogue:
+      title: "Dov'è l'ufficio postale?"
+      scene: "София хочет отправить посылку бабушке в Москву. Она пишет Микеле, коллеге Джанны."
+      lines:
+        - "Sofia: Ciao Michela! Sai dov'è l'ufficio postale? | Привет, Микела! Ты знаешь, где почта?"
+        - "Michela: Sì, è in piazza, davanti alla banca. Che cosa devi spedire? | Да, на площади, напротив банка. Что тебе нужно отправить?"
+        - "Sofia: Un pacco per mia nonna. A che ora apre? | Посылку для моей бабушки. Во сколько открывается?"
+        - "Michela: Apre alle otto e mezza e chiude all'una e mezza. | Открывается в полвосьмого и закрывается в полвторого."
+        - "Sofia: E il pomeriggio? | А днём?"
+        - "Michela: Il pomeriggio è chiuso. Il sabato è aperto solo la mattina. | Днём закрыто. В субботу открыто только утром."
+        - "Sofia: Allora vado subito! C'è anche un bar vicino? | Тогда иду сразу! А рядом есть бар?"
+        - "Michela: Sì, c'è il bar Eden, accanto alla farmacia. Fanno dei cornetti buonissimi! | Да, бар «Эден», рядом с аптекой. Там очень вкусные круассаны!"
+        - "Sofia: Grazie mille, Michela! | Огромное спасибо, Микела!"
+        - "Michela: Figurati! A presto! | Не за что! До скорого!"
+    words:
+      - "spedire | отправлять"
+      - "accanto a | рядом с"
+      - "solo | только"
+    phrases:
+      - "Sai dov'è l'ufficio postale? | Ты знаешь, где почта?"
+      - "A che ora apre? | Во сколько открывается?"
+      - "Grazie mille! — Figurati! | Огромное спасибо! — Не за что!"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["L'ufficio postale è davanti alla banca.", true]
+          - ["Il pomeriggio l'ufficio postale è aperto.", false]
+          - ["Il bar Eden è accanto alla farmacia.", true]
+          - ["Sofia spedisce un pacco a sua madre.", false]
+      - type: choice
+        level: 2
+        audio: "Apre alle otto e mezza e chiude all'una e mezza."
+        q: "🎧 Во сколько закрывается почта?"
+        options: ["12:30", "13:30", "8:30", "1:00"]
+        answer: 1
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Заполните пропуски сочленёнными предлогами."
+        text: "L'ufficio postale è davanti [[alla]] banca. Il bar è accanto [[alla]] farmacia. Apre [[alle]] otto e mezza."
+      - type: dialog
+        level: 2
+        q: "Восстановите диалог."
+        lines:
+          - "Scusi, a che ora chiude la banca?"
+          - "Alle quattro."
+          - "E il sabato è aperta?"
+          - "No, il sabato è chiusa."
+
+lessons_after:
+  - slug: piazze-italiane
+    kind: culture
+    title_it: "Piazze, fontane e numeri utili"
+    title_ru: "Площади, фонтаны и полезные номера"
+    reading:
+      title: "La piazza: il cuore della città"
+      photo: p-fontana-trevi
+      text: |
+        In Italia ogni città ha la sua piazza. In piazza ci sono spesso una chiesa, un bar, dei negozi e una fontana.
+        Le persone si incontrano in piazza, parlano, prendono un caffè o un aperitivo.
+        A Roma c'è la Fontana di Trevi. La tradizione dice: se lanci una moneta nella fontana, tornerai a Roma!
+        A Venezia c'è Piazza San Marco, con la basilica e il campanile.
+        In Italia il numero per le emergenze è il 112. Per chiamare l'Italia dall'estero il prefisso è +39.
+      ru: |
+        В Италии у каждого города есть своя площадь. На площади часто есть церковь, бар, магазины и фонтан.
+        Люди встречаются на площади, разговаривают, пьют кофе или аперитив.
+        В Риме есть фонтан Треви. Традиция гласит: если бросишь монетку в фонтан, вернёшься в Рим!
+        В Венеции есть площадь Сан-Марко с базиликой и колокольней.
+        В Италии номер экстренных служб — 112. Чтобы позвонить в Италию из-за границы, код +39.
+      glossary:
+        - "il cuore | сердце"
+        - "incontrarsi | встречаться"
+        - "lanciare | бросать"
+        - "la moneta | монета"
+        - "il campanile | колокольня"
+    photos: [p-san-marco, p-galleria-milano]
+    words:
+      - "il cuore | сердце"
+      - "la moneta | монета"
+      - "il campanile | колокольня"
+      - "l'emergenza | экстренный случай | f"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["La Fontana di Trevi è a Venezia.", false]
+          - ["In piazza le persone prendono un caffè.", true]
+          - ["Il numero per le emergenze è il 112.", true]
+      - type: choice
+        level: 1
+        img: p-san-marco
+        q: "Что на фото?"
+        options: ["Piazza San Marco", "il Colosseo", "la Torre di Pisa", "il Duomo di Milano"]
+        answer: 0
+      - type: choice
+        level: 2
+        audio: "Per chiamare l'Italia il prefisso è più trentanove."
+        q: "🎧 Какой телефонный код Италии?"
+        options: ["+7", "+39", "+33", "+49"]
+        answer: 1
+
+  - slug: autovalutazione-3
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 3"
+    theory: |
+      ## Что вы уже умеете
+
+      * сливать предлоги с артиклями: **al, dello, nella, sui…**;
+      * спрашивать часы работы, описывать комнату с **c'è / ci sono**;
+      * выражать принадлежность: **il mio, la tua, i suoi**;
+      * благодарить и отвечать; называть месяцы и времена года;
+      * писать короткие письма и сообщения.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините"
+        pairs:
+          - ["Grazie mille!", "Di niente!"]
+          - ["Di chi è?", "È mio."]
+          - ["A che ora apre?", "Alle nove."]
+          - ["Dov'è la lampada?", "Sul tavolo."]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: что не месяц?"
+        options: ["marzo", "estate", "luglio", "ottobre"]
+        answer: 1
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: что не мебель?"
+        options: ["divano", "armadio", "poltrona", "finestra"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Il libro è {{su=>sul}} tavolo."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Nella stanza {{c'è=>ci sono}} due poltrone."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Maria e {{la=>il}} suo fratello sono a Roma."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "Vado [[al]] cinema. Le chiavi sono [[nella]] borsa. Vuoi [[*dello/del/della]] zucchero?"
+      - type: choice
+        level: 2
+        audio: "In primavera andiamo in campagna."
+        q: "🎧 Когда они едут за город?"
+        options: ["зимой", "весной", "летом", "осенью"]
+        answer: 1
+
+exercises:
+  preposizioni-articolate:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какая форма — не сочленённый предлог?"
+      options: ["nello", "dagli", "sulla", "nella casa"]
+      answer: 3
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Vengo {{dai=>dagli}} Stati Uniti."
+    - type: cloze
+      level: 3
+      q: "Слейте предлог с артиклем."
+      text: "di + il = [[del]], a + gli = [[agli]], in + lo = [[nello]], su + le = [[sulle]]"
+  orari-apertura:
+    - type: choice
+      level: 2
+      audio: "Il museo è aperto dalle nove alle diciannove."
+      q: "🎧 До скольки открыт музей?"
+      options: ["9:00", "17:00", "19:00", "21:00"]
+      answer: 2
+  dove-c-e:
+    - type: odd
+      level: 1
+      q: "Найдите лишнее: что НЕ предлог места?"
+      options: ["sopra", "sotto", "dietro", "subito"]
+      answer: 3
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Il gatto è {{sopra=>sotto}} il letto: non lo vedo!"
+  possessivi:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Luca e la {{suo=>sua}} macchina."
+    - type: cloze
+      level: 3
+      q: "Поставьте притяжательные с артиклем."
+      text: "(io) [[il mio]] libro, (tu) [[la tua]] borsa, (lui) [[i suoi]] amici"
+  partitivo-grazie:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какая фраза — не ответ на «grazie»?"
+      options: ["Prego!", "Di niente!", "Figurati!", "Piacere!"]
+      answer: 3
+  mesi-stagioni:
+    - type: choice
+      level: 1
+      audio: "settembre"
+      q: "🎧 Какой месяц?"
+      options: ["июль", "сентябрь", "ноябрь", "декабрь"]
+      answer: 1
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какой месяц не летний?"
+      options: ["giugno", "luglio", "agosto", "gennaio"]
+      answer: 3
+  messaggi-informatica:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: как НЕ начинают официальное письмо?"
+      options: ["Gentile signora", "Gentile Direttore", "Cara Anna", "Gentile dottore"]
+      answer: 2

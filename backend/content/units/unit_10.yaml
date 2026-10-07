@@ -1,0 +1,472 @@
+id: 10
+title_it: "Che c'è stasera in TV?"
+title_ru: "Что сегодня по телевизору?"
+level: A2
+icon: "📺"
+description: >
+  Косвенные местоимения mi, ti, gli, le, piacere в прошедшем времени,
+  повелительное наклонение (утвердительное, отрицательное, с местоимениями),
+  просьбы об одолжении, как объяснить дорогу, телевидение и пресса в Италии.
+goals:
+  - заменять дополнение «кому?» местоимениями gli, le, ci…
+  - "говорить, что понравилось в прошлом: mi è piaciuto, mi sono piaciute"
+  - давать советы, инструкции и запреты (imperativo)
+  - "присоединять местоимения к повелительному наклонению: dimmi, fallo, prendilo"
+  - объяснять дорогу и просить о помощи
+
+lessons:
+  - slug: pronomi-indiretti
+    title_it: "C'è un film su…"
+    title_ru: "Косвенные местоимения"
+    theory: |
+      ## Кому? — косвенное местоимение
+
+      Косвенное местоимение заменяет дополнение с предлогом **a** (отвечает на вопрос *кому?*), как русский дательный падеж:
+      *Telefono **a Carla**.* → ***Le** telefono.* — Я ей позвоню.
+
+      | | Безударная | Ударная |
+      |---|---|---|
+      | мне | **mi** | a me |
+      | тебе | **ti** | a te |
+      | ему / ей / Вам | **gli / le / Le** | a lui / a lei / a Lei |
+      | нам | **ci** | a noi |
+      | вам | **vi** | a voi |
+      | им | **gli** (loro) | a loro |
+
+      * *Gli amici **mi** hanno regalato un libro.* — Друзья подарили мне книгу.
+      * *Signora, **Le** piace questa camicetta?* — Синьора, Вам нравится эта блузка?
+      * *Ho scritto **a Francesca e Giulia**.* → ***Gli** ho scritto.* (разговорное, «им»)
+
+      > 💡 Сравните: *Lo vedo* (вижу **его** — прямое) и *Gli parlo* (говорю **ему** — косвенное). В русском различие то же: винительный и дательный падежи.
+
+      ## Часто с косвенными
+
+      **telefonare a, scrivere a, dire a, dare a, regalare a, chiedere a, rispondere a, mandare a, spiegare a, piacere a**.
+
+      В сложных временах причастие с косвенными **не согласуется**: *Le ho detto la verità.*
+
+      С модальными — как и с прямыми: ***Le** voglio comprare un regalo* = *Voglio comprar**le** un regalo*.
+    words:
+      - "il programma televisivo | телепрограмма"
+      - "il documentario | документальный фильм"
+      - "la s`erie tv | телесериал"
+      - "sm`ettere | прекращать"
+      - "illegale | незаконный"
+      - "la trasmissione | передача"
+      - "l'opportunità | возможность | f"
+      - "la voce | голос"
+      - "l'animale | животное | m"
+      - "il favore | одолжение"
+      - "il prestito | заём"
+      - "il dispiacere | огорчение"
+      - "il provino | проба (кастинг)"
+      - "il vaso | ваза"
+      - "prestare | одалживать"
+      - "il curriculum vitae | резюме"
+      - "telefonare | звонить"
+      - "regalare | дарить"
+      - "spiegare | объяснять"
+    phrases:
+      - "Le telefono più tardi. | Я ей позвоню позже."
+      - "Gli ho regalato un libro. | Я подарила ему книгу."
+      - "Mi presti la tua penna? | Одолжишь мне свою ручку?"
+      - "Ti posso chiedere un favore? | Можно попросить тебя об одолжении?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Telefono a Marco. → ___ telefono."
+        options: ["Lo", "Gli", "Le", "Li"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Scrivo a Maria. → ___ scrivo."
+        options: ["La", "Gli", "Le", "Lo"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Signora, ___ piace la pizza?"
+        options: ["La", "Le", "Gli", "Lo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Rispondo a voi. → ___ rispondo."
+        options: ["Vi", "Ci", "Li", "Gli"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Vedo Luca. → ___ vedo."
+        options: ["Gli", "Lo", "Le", "Li"]
+        answer: 1
+        explain: "vedere кого? — прямое дополнение: lo."
+      - type: input
+        level: 3
+        q: "Hai scritto a tua madre? — Sì, ___ ho scritto ieri."
+        answer: ["le"]
+      - type: input
+        level: 3
+        q: "Cosa regali a tuo padre? — ___ regalo una cravatta."
+        answer: ["gli"]
+      - type: input
+        level: 3
+        q: "Mi dai il tuo numero? — Sì, ___ do il mio numero. (тебе)"
+        answer: ["ti"]
+      - type: input
+        level: 3
+        q: "Voglio parlar___ subito. (ей)"
+        answer: ["le"]
+
+  - slug: favori-piacere-passato
+    title_it: "Mi puoi dare una mano?"
+    title_ru: "Просьбы. Piacere в прошедшем"
+    theory: |
+      ## Попросить об одолжении
+
+      | Просьба | Согласие | Отказ |
+      |---|---|---|
+      | **Mi puoi dare una mano?** — Поможешь мне? | **Certo! / Volentieri!** | **Mi dispiace, ma…** |
+      | **Mi fai un favore?** — Сделаешь одолжение? | **Come no!** — Конечно! | **Purtroppo non posso.** |
+      | **Ti dispiace se…?** — Ты не против, если…? | **Ma figurati! / Fai pure!** — Пожалуйста! | **Veramente sì…** — Вообще-то против… |
+      | **Mi presti…?** — Одолжишь мне…? | **Sì, prendilo pure!** — Бери! | |
+
+      ## Piacere в passato prossimo
+
+      *Piacere* образует прошедшее с **essere**, причастие согласуется с тем, **что** понравилось:
+
+      * *Mi **è** sempre piaciut**a** la cioccolata.* (la cioccolata)
+      * *Non ti **è** piaciut**o** il tiramisù?* (il tiramisù)
+      * *Le **sono** piaciut**e** le scarpe.* (le scarpe)
+      * *Ci **sono** piaciut**i** tutti i libri.* (i libri)
+      * *Non gli **è** mai piaciut**o** andare a sciare.* (инфинитив → м. р. ед. ч.)
+    words:
+      - "l`ogico | логичный"
+      - "il comportamento | поведение"
+      - "lamentarsi | жаловаться"
+      - "continuamente | постоянно"
+      - "spostare | передвигать"
+      - "dare una mano | помочь"
+      - "fare un favore | сделать одолжение"
+      - "come no! | конечно!"
+      - "pure | же, пожалуйста (разрешение)"
+    phrases:
+      - "Mi puoi dare una mano? | Можешь мне помочь?"
+      - "Mi fai un favore? | Сделаешь мне одолжение?"
+      - "Ti dispiace se apro la finestra? | Ты не против, если я открою окно?"
+      - "Ti è piaciuto il film? | Тебе понравился фильм?"
+      - "Mi sono piaciute molto le tue foto. | Мне очень понравились твои фото."
+    exercises:
+      - type: choice
+        level: 2
+        q: "Ti ___ il film?"
+        options: ["è piaciuto", "ha piaciuto", "è piaciuta", "sono piaciuti"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Mi ___ le scarpe nuove."
+        options: ["è piaciuto", "sono piaciute", "sono piaciuti", "ha piaciuto"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "A Marco ___ la pizza."
+        options: ["è piaciuta", "è piaciuto", "ha piaciuto", "sono piaciuta"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "Как попросить о помощи?"
+        options: ["Mi puoi dare una mano?", "Mi dai la mano?", "Hai una mano?", "Dove è la mano?"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Ci ___ (piacere) molto i tuoi amici. (passato prossimo)"
+        answer: ["sono piaciuti"]
+      - type: input
+        level: 3
+        q: "Vi ___ (piacere) la festa? (passato prossimo)"
+        answer: ["è piaciuta"]
+      - type: input
+        level: 3
+        q: "Ti ___ se chiudo la porta? (ты не против)"
+        answer: ["dispiace"]
+
+  - slug: imperativo
+    title_it: "Partecipa e vinci!"
+    title_ru: "Повелительное наклонение"
+    theory: |
+      ## Imperativo — формы tu, noi, voi
+
+      | | **guardare** | **leggere** | **aprire** | **finire** |
+      |---|---|---|---|---|
+      | tu | guard**a**! | legg**i**! | apr**i**! | fin**isci**! |
+      | noi | guardiamo! | leggiamo! | apriamo! | finiamo! |
+      | voi | guardate! | leggete! | aprite! | finite! |
+
+      Совпадает с настоящим временем, **кроме формы tu у глаголов на -are**: она оканчивается на **-a**: *Mangi**a** la frutta! Ascolt**a**! Guard**a**!*
+
+      ## Отрицание
+
+      * для **noi, voi** — просто **non** + форма: *Non prendiamo l'autobus! Non aprite la finestra!*
+      * для **tu** — **non + инфинитив**: ***Non mangiare** altri dolci! **Non aprire** la finestra!*
+
+      ## Неправильные
+
+      | | essere | avere | sapere | andare | dare | dire | fare | stare |
+      |---|---|---|---|---|---|---|---|---|
+      | tu | **sii** | **abbi** | **sappi** | **va'** (vai) | **da'** (dai) | **di'** | **fa'** (fai) | **sta'** (stai) |
+      | noi | siamo | abbiamo | sappiamo | andiamo | diamo | diciamo | facciamo | stiamo |
+      | voi | siate | abbiate | sappiate | andate | date | dite | fate | state |
+
+      > 💡 Imperativo на «ты» звучит по-дружески, а не грубо — так дают советы и инструкции: *Prova questo! Guarda che bello!*
+    words:
+      - "il messaggio pubblicitario | рекламное объявление"
+      - "la freccia | стрелка"
+      - "fermare | останавливать"
+      - "il bullismo | травля, буллинг"
+      - "realizzare | осуществлять"
+      - "il concorso | конкурс"
+      - "la luce | свет"
+      - "acceso | включённый"
+      - "rovinare | портить"
+      - "fate presto! | поторопитесь!"
+      - "la funzione | функция"
+      - "dimagrire | худеть"
+      - "il rumore | шум"
+      - "proibire | запрещать"
+      - "partecipare | участвовать"
+    phrases:
+      - "Partecipa e vinci! | Участвуй и побеждай!"
+      - "Guarda che bello! | Смотри, как красиво!"
+      - "Non mangiare troppi dolci! | Не ешь слишком много сладкого!"
+      - "Fate presto! | Поторопитесь!"
+      - "Sii gentile! | Будь вежлив(а)!"
+      - "Abbi pazienza! | Наберись терпения!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Marco, ___ la finestra! (aprire)"
+        options: ["apra", "apri", "apre", "aprite"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Giulia, ___ questa canzone! (ascoltare)"
+        options: ["ascolti", "ascolta", "ascolto", "ascoltate"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Anna, non ___! (parlare)"
+        options: ["parla", "parli", "parlare", "parlate"]
+        answer: 2
+        explain: "Отрицательный императив для tu = non + инфинитив."
+      - type: choice
+        level: 2
+        q: "Ragazzi, non ___ rumore! (fare)"
+        options: ["fate", "fare", "fa'", "facciate"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Paolo, ___ paziente! (essere)"
+        options: ["sei", "sii", "essere", "sia"]
+        answer: 1
+      - type: input
+        level: 2
+        q: "Luca, ___ (finire) i compiti!"
+        answer: ["finisci"]
+      - type: input
+        level: 3
+        q: "Ragazzi, ___ (leggere) il testo!"
+        answer: ["leggete"]
+      - type: input
+        level: 3
+        q: "Sara, non ___ (aprire) la porta!"
+        answer: ["aprire"]
+      - type: input
+        level: 3
+        q: "Mamma, ___ (dire) la verità! (tu)"
+        answer: ["di'", "di’"]
+      - type: input
+        level: 3
+        q: "___ (andare, noi) al cinema!"
+        answer: ["andiamo"]
+
+  - slug: imperativo-pronomi
+    title_it: "Prendilo pure!"
+    title_ru: "Повелительное наклонение с местоимениями"
+    theory: |
+      ## Местоимение — в конце
+
+      В утвердительном императиве местоимения (lo, la, gli, ne, ci, mi…) пишутся **слитно в конце** глагола. Ударение не сдвигается:
+
+      * *Scrivi**la** subito!* — Напиши её сейчас же!
+      * *Regaliamo**gli** un orologio!* — Подарим ему часы!
+      * *Prendete**ne** solo tre!* — Возьмите только три (из них)!
+      * *Prendi**lo** pure!* — Бери!
+
+      В отрицании — до или после: ***Non le** telefonare ora!* = *Non telefonar**le** ora!*
+
+      ## Удвоение согласной
+
+      У коротких форм **va', da', fa', sta', di'** согласная местоимения **удваивается**:
+
+      * *Va' a Roma!* → **Vacci!** — Езжай туда!
+      * *Da' questo libro a tuo padre!* → **Dallo** a tuo padre!
+      * *Fa' quello che ti dico!* → **Fallo!** — Сделай это!
+      * *Di' a me la verità!* → **Dimmi** la verità! — Скажи мне правду!
+      * *Sta' accanto a Stefania!* → **Stalle** accanto!
+
+      Исключение — **gli**: *Da' il libro a Riccardo!* → **Dagli** il libro!
+    words:
+      - "le vacanze studio | учебные каникулы"
+      - "tenere | держать, оставлять себе"
+      - "strappare | вырывать, рвать"
+      - "la redazione | редакция"
+      - "la statistica | статистика"
+      - "la v`endita | продажа"
+      - "il quotidiano | ежедневная газета"
+    phrases:
+      - "Prendilo pure! | Бери, пожалуйста!"
+      - "Dimmi la verità! | Скажи мне правду!"
+      - "Fallo subito! | Сделай это немедленно!"
+      - "Dagli il libro! | Дай ему книгу!"
+      - "Tienilo! | Оставь себе!"
+    exercises:
+      - type: choice
+        level: 2
+        q: "Il libro? ___ subito! (leggere, tu)"
+        options: ["Lo leggi", "Leggilo", "Leggi lo", "Leggelo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Di' a me la verità! →"
+        options: ["Dimi la verità!", "Dimmi la verità!", "Mi di' la verità!", "Dime la verità!"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Fa' i compiti! →"
+        options: ["Fali!", "Falli!", "Li fa'!", "Fagli!"]
+        answer: 1
+      - type: choice
+        level: 3
+        q: "Da' il regalo a Marco! →"
+        options: ["Daglielo!", "Dagli il regalo!", "Dalli il regalo!", "Gli da' il regalo!"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "La lettera? Scrivi___ oggi!"
+        answer: ["la"]
+      - type: input
+        level: 3
+        q: "Telefona a Maria! → Telefona___!"
+        answer: ["le"]
+      - type: input
+        level: 3
+        q: "Va' a scuola! → Va___!"
+        answer: ["cci"]
+      - type: input
+        level: 3
+        q: "Prendete le mele! Prendete___ solo due! (из них)"
+        answer: ["ne"]
+
+  - slug: indicazioni-stradali
+    title_it: "Gira a destra!"
+    title_ru: "Как пройти? Объяснить дорогу"
+    theory: |
+      ## Спросить дорогу
+
+      * **Scusi, dov'è la stazione?** — Простите, где вокзал?
+      * **Scusi, per andare in piazza Navona?** — Простите, как пройти на площадь Навона?
+      * **È lontano? / È vicino?** — Это далеко? / Близко?
+
+      ## Объяснить дорогу
+
+      * **Va' / Vada sempre dritto.** — Иди / Идите всё время прямо.
+      * **Gira / Giri a destra / a sinistra.** — Поверни / Поверните направо / налево.
+      * **Prendi / Prenda la prima traversa a sinistra.** — Сверни(те) в первый переулок налево.
+      * **All'incrocio / Al semaforo gira a destra.** — На перекрёстке / светофоре поверни направо.
+      * **Attraversa la piazza.** — Перейди площадь.
+      * **È di fronte alla chiesa.** — Это напротив церкви.
+
+      > 💡 В вежливой форме на «Вы» используется другое повелительное: *vada, giri, prenda, attraversi* — пока достаточно узнавать эти формы.
+
+      ## Телевидение и пресса в Италии
+
+      Государственное телевидение — **RAI** (каналы Rai 1, 2, 3), частное — **Mediaset** (Canale 5, Italia 1, Rete 4). Популярные газеты: **Corriere della Sera**, **la Repubblica**, **La Stampa**, спортивная **La Gazzetta dello Sport** (на розовой бумаге!).
+    words:
+      - "l'incrocio | перекрёсток | m"
+      - "sempre dritto | всё время прямо"
+      - "la traversa | поперечная улица"
+      - "il sem`aforo | светофор"
+      - "girare | поворачивать"
+      - "la caccia al tesoro | охота за сокровищами"
+      - "il giocatore | игрок"
+      - "il telecomando | пульт"
+      - "interrompere | прерывать"
+      - "in onda | в эфире"
+      - "il tesoro | сокровище"
+      - "il segreto | секрет"
+      - "i cartoni animati | мультфильмы"
+      - "l'attualità | актуальные новости | f"
+      - "l'intervista | интервью | f"
+      - "la pazienza | терпение"
+      - "la fantascienza | фантастика"
+      - "incred`ibile | невероятный"
+      - "il livello | уровень"
+      - "la scienza | наука"
+      - "privato | частный"
+      - "la classifica | рейтинг"
+      - "il dialetto | диалект"
+      - "la paura | страх"
+      - "la salute | здоровье"
+      - "dimenticarsi | забывать"
+      - "mettersi | надевать"
+      - "calmarsi | успокаиваться"
+      - "iscriversi | записываться"
+      - "a prop`osito | кстати"
+      - "ovviamente | разумеется"
+      - "l'esperto | эксперт | m"
+    phrases:
+      - "Scusi, dov'è la stazione? | Простите, где вокзал?"
+      - "Va' sempre dritto e poi gira a destra. | Иди прямо, потом поверни направо."
+      - "Al semaforo gira a sinistra. | На светофоре поверни налево."
+      - "Che c'è stasera in TV? | Что сегодня по телевизору?"
+      - "Una mela al giorno toglie il medico di torno. | Кто яблоко в день съедает, у того доктор не бывает."
+    exercises:
+      - type: choice
+        level: 1
+        q: "«Поверни направо» —"
+        options: ["Gira a sinistra!", "Gira a destra!", "Va' dritto!", "Attraversa!"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "*Il semaforo* — это:"
+        options: ["перекрёсток", "светофор", "переход", "площадь"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "*L'incrocio* — это:"
+        options: ["перекрёсток", "мост", "тупик", "переулок"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Как называется государственное ТВ Италии?"
+        options: ["Mediaset", "RAI", "Sky", "La7"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «всё время прямо» — sempre ___"
+        answer: ["dritto", "diritto"]
+      - type: input
+        level: 3
+        q: "Переведите: «пульт» — il ___"
+        answer: ["telecomando"]
+      - type: order
+        level: 3
+        q: "Соберите: «Простите, где вокзал?»"
+        answer: "Scusi, dov'è la stazione?"
+
+verbs:
+  - {inf: guardare, ru: смотреть, tense: imperativo, forms: ["—", guarda!, "—", guardiamo!, guardate!, "—"]}
+  - {inf: leggere, ru: читать, tense: imperativo, forms: ["—", leggi!, "—", leggiamo!, leggete!, "—"]}
+  - {inf: finire, ru: заканчивать, tense: imperativo, forms: ["—", finisci!, "—", finiamo!, finite!, "—"]}
+  - {inf: essere, ru: быть, tense: imperativo, forms: ["—", sii!, "—", siamo!, siate!, "—"]}
+  - {inf: avere, ru: иметь, tense: imperativo, forms: ["—", abbi!, "—", abbiamo!, abbiate!, "—"]}
+  - {inf: andare, ru: идти, tense: imperativo, forms: ["—", "va'!|vai!", "—", andiamo!, andate!, "—"]}
+  - {inf: fare, ru: делать, tense: imperativo, forms: ["—", "fa'!|fai!", "—", facciamo!, fate!, "—"]}
+  - {inf: dire, ru: говорить, tense: imperativo, forms: ["—", "di'!", "—", diciamo!, dite!, "—"]}

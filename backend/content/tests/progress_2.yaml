@@ -1,0 +1,133 @@
+id: progress-2
+title: "Тест прогресса 2 · юниты 3–5"
+units: [3, 4, 5]
+description: "Предлоги, притяжательные, passato prossimo, бар, будущее время, путешествия и погода."
+sections:
+  - title: "Чтение"
+    intro: "Прочитайте письмо и ответьте на вопросы."
+    reading:
+      title: "Un'email da Venezia"
+      text: |
+        Cara Anna,
+        sono a Venezia da tre giorni con la mia amica Giulia. Siamo arrivate lunedì in treno: il viaggio è durato due ore e mezza.
+        Martedì abbiamo visitato Piazza San Marco e abbiamo preso un caffè in un bar storico: buonissimo, ma molto caro!
+        Ieri è piovuto tutto il giorno, così siamo rimaste in albergo e abbiamo letto. Oggi invece c'è il sole.
+        Domani andremo a Murano, un'isola famosa per il vetro, e sabato torneremo a Milano.
+        Un abbraccio, Laura
+    exercises:
+      - type: tf
+        level: 1
+        q: "Верно или неверно?"
+        items:
+          - ["Laura è a Venezia con Giulia.", true]
+          - ["Sono arrivate in aereo.", false]
+          - ["Ieri hanno visitato Murano.", false]
+          - ["Torneranno a Milano sabato.", true]
+      - type: choice
+        level: 2
+        q: "Почему вчера девушки остались в гостинице?"
+        options: ["Они устали", "Весь день шёл дождь", "Был праздник", "Музеи были закрыты"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Чем знаменит остров Мурано?"
+        options: ["рыбой", "стеклом", "пляжами", "кофе"]
+        answer: 1
+
+  - title: "Аудирование"
+    intro: "Прослушайте тексты и выберите правильный ответ."
+    exercises:
+      - type: choice
+        level: 1
+        audio: "L'ufficio postale apre alle otto e mezza e chiude alle due."
+        q: "🎧 Во сколько закрывается почта?"
+        options: ["12:00", "13:30", "14:00", "8:30"]
+        answer: 2
+      - type: choice
+        level: 2
+        audio: "Ieri sera sono andata a un concerto con mia sorella e siamo tornate a casa molto tardi."
+        q: "🎧 С кем девушка ходила на концерт?"
+        options: ["с подругой", "с сестрой", "с мамой", "с братом"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Per me un cappuccino e un cornetto alla marmellata, grazie."
+        q: "🎧 Что заказали?"
+        options: ["эспрессо и бутерброд", "капучино и круассан с джемом", "чай и печенье", "капучино и пиццу"]
+        answer: 1
+      - type: choice
+        level: 2
+        audio: "Domani al Nord pioverà, al Sud invece ci sarà il sole e farà caldo."
+        q: "🎧 Какая погода будет завтра на юге?"
+        options: ["дождь", "снег", "солнце и жара", "туман"]
+        answer: 2
+      - type: choice
+        level: 3
+        audio: "Il treno regionale per Bologna è in partenza dal binario quattro."
+        q: "🎧 С какого пути отправляется поезд в Болонью?"
+        options: ["2", "4", "14", "40"]
+        answer: 1
+
+  - title: "Грамматика"
+    intro: "Заполните пропуски."
+    exercises:
+      - type: cloze
+        level: 2
+        q: "Вставьте сочленённые предлоги."
+        text: "Il libro è [[sul]] tavolo. Le chiavi sono [[nella]] borsa. Vado [[dal]] medico [[alle]] cinque."
+      - type: cloze
+        level: 3
+        q: "Поставьте глаголы в passato prossimo."
+        text: "Sabato io [[sono andata|sono andato]] (andare) al mare e [[ho preso]] (prendere) il sole. Gli amici [[sono arrivati]] (arrivare) tardi."
+      - type: choice
+        level: 2
+        q: "L'anno prossimo noi ___ in Italia."
+        options: ["andiamo", "andremo", "siamo andati", "andavamo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Maria e ___ fratello"
+        options: ["il suo", "suo", "la sua", "sua"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Hai già mangiato? — No, non ho ___ mangiato. (ещё)"
+        answer: ["ancora"]
+
+  - title: "Лексика"
+    intro: "Покажите словарный запас."
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините месяц и время года"
+        pairs:
+          - ["gennaio", "inverno"]
+          - ["aprile", "primavera"]
+          - ["luglio", "estate"]
+          - ["ottobre", "autunno"]
+      - type: odd
+        level: 2
+        q: "Найдите лишнее."
+        options: ["binario", "biglietteria", "carrozza", "divano"]
+        answer: 3
+      - type: odd
+        level: 2
+        q: "Найдите лишнее."
+        options: ["cornetto", "spremuta", "cappuccino", "lampada"]
+        answer: 3
+
+writing:
+  - task: "**Ваши выходные** (40–50 слов): расскажите, как вы провели прошлые выходные. Используйте passato prossimo."
+    words: "40–50"
+    checklist:
+      - "Я использовала passato prossimo с avere и essere"
+      - "Я согласовала причастие с essere (sono andata)"
+      - "Я указала, где и с кем была"
+    sample: "Sabato mattina ho dormito fino alle dieci. Poi sono andata in centro con la mia amica: abbiamo fatto spese e abbiamo mangiato una pizza. Domenica sono rimasta a casa, ho letto un libro e la sera ho telefonato ai miei genitori."
+  - task: "**Планы на каникулы** (40–50 слов): куда вы поедете, на чём, с кем, что будете делать? Используйте futuro."
+    words: "40–50"
+    checklist:
+      - "Я использовала futuro semplice (andrò, visiterò…)"
+      - "Я указала транспорт и время"
+      - "Я написала о погоде или планах"
+    sample: "Quest'estate andrò in Sicilia con mia sorella. Prenderemo l'aereo e staremo dieci giorni a Palermo. Visiteremo i mercati, andremo al mare e mangeremo tanti cannoli. Spero che farà bel tempo!"

@@ -1,0 +1,222 @@
+lessons_before:
+  - slug: dialogo-cena-fuori
+    kind: dialogue
+    title_it: "Il compleanno di Gianna"
+    title_ru: "День рождения Джанны"
+    dialogue:
+      title: "Al ristorante"
+      scene: "Друзья празднуют день рождения Джанны в траттории. Подходит официант."
+      lines:
+        - "Cameriere: Buonasera! Siete pronti per ordinare? | Добрый вечер! Готовы сделать заказ?"
+        - "Gianna: Sì. Come primo vorrei le tagliatelle ai funghi. | Да. На первое я бы хотела тальятелле с грибами."
+        - "Sofia: Per me il risotto alla milanese. È la vostra specialità, vero? | Мне ризотто по-милански. Это ваше фирменное блюдо, правда?"
+        - "Cameriere: Esatto, signorina. E come secondo? | Именно, синьорина. А на второе?"
+        - "Lorenzo: Io prendo la bistecca ai ferri, ben cotta, per favore. | Я возьму бифштекс на гриле, хорошо прожаренный, пожалуйста."
+        - "Cameriere: E da bere? | А что будете пить?"
+        - "Gianna: Una bottiglia di acqua frizzante e del vino rosso. | Бутылку газированной воды и красного вина."
+        - "Sofia: Gianna, questa è per te. Tanti auguri! | Джанна, это тебе. С днём рождения!"
+        - "Gianna: Oh, grazie! Che bella sciarpa! Ma non dovevi! | Ой, спасибо! Какой красивый шарф! Ну зачем ты!"
+        - "Lorenzo: E alla fine prendiamo il tiramisù con le candeline! | А в конце возьмём тирамису со свечками!"
+        - "Gianna: Ragazzi, siete i migliori amici del mondo! | Ребята, вы лучшие друзья на свете!"
+    words:
+      - "la specialità | фирменное блюдо"
+      - "la candelina | свечка (на торте)"
+      - "non dovevi | не стоило, ну зачем ты"
+    phrases:
+      - "Siete pronti per ordinare? | Готовы сделать заказ?"
+      - "Come primo vorrei… | На первое я бы хотела…"
+      - "E da bere? | А что будете пить?"
+      - "Tanti auguri! | С днём рождения! Всего наилучшего!"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["Sofia prende il risotto alla milanese.", true]
+          - ["Lorenzo vuole la bistecca poco cotta.", false]
+          - ["Sofia regala una sciarpa a Gianna.", true]
+          - ["Alla fine prendono la panna cotta.", false]
+      - type: choice
+        level: 2
+        audio: "Come secondo prendo la bistecca ai ferri, ben cotta."
+        q: "🎧 Что человек заказывает на второе?"
+        options: ["курицу", "бифштекс на гриле", "рыбу", "отбивную"]
+        answer: 1
+      - type: dialog
+        level: 2
+        q: "Восстановите заказ в ресторане."
+        lines:
+          - "Buonasera, siete pronti per ordinare?"
+          - "Sì, per me gli spaghetti alla carbonara."
+          - "E da bere?"
+          - "Un'acqua minerale, grazie."
+      - type: cloze
+        level: 3
+        ref: dialogue
+        q: "Заполните пропуски."
+        text: "Come [[primo]] Gianna prende le tagliatelle. Lorenzo vuole la bistecca ben [[cotta]]. Sofia dice: «Tanti [[auguri]]!»"
+
+lessons_after:
+  - slug: cucina-italiana
+    kind: culture
+    title_it: "La cucina italiana: un po' di storia"
+    title_ru: "Итальянская кухня: немного истории"
+    reading:
+      title: "La pizza Margherita"
+      photo: p-pizza-margherita
+      text: |
+        La cucina italiana è famosa in tutto il mondo, ma ogni regione ha i suoi piatti tipici.
+        La pizza nasce a Napoli. Nel 1889 il pizzaiolo Raffaele Esposito prepara una pizza per la regina Margherita: pomodoro rosso, mozzarella bianca e basilico verde, i colori della bandiera italiana. Da allora questa pizza si chiama "Margherita".
+        Anche la pasta è antichissima. Esistono centinaia di tipi di pasta: spaghetti, penne, fusilli, farfalle, tagliatelle…
+        Gli italiani mangiano la pasta "al dente", cioè non troppo cotta.
+        Dove mangiano gli italiani? Al ristorante, in trattoria, in pizzeria. Per un pranzo veloce vanno al bar o in paninoteca.
+      ru: |
+        Итальянская кухня известна во всём мире, но у каждого региона свои типичные блюда.
+        Пицца родилась в Неаполе. В 1889 году пиццайоло Раффаэле Эспозито приготовил пиццу для королевы Маргариты: красные помидоры, белая моцарелла и зелёный базилик — цвета итальянского флага. С тех пор эта пицца называется «Маргарита».
+        Паста тоже очень древняя. Существуют сотни видов пасты: спагетти, пенне, фузилли, фарфалле, тальятелле…
+        Итальянцы едят пасту «аль денте», то есть не переваренную.
+        Где едят итальянцы? В ресторане, траттории, пиццерии. Для быстрого обеда — в баре или панинотеке.
+      glossary:
+        - "il pizzaiolo | пиццайоло (пекарь пиццы)"
+        - "da allora | с тех пор"
+        - "centinaia | сотни"
+        - "cioè | то есть"
+    photos: [p-pasta-tipi, p-gelateria]
+    words:
+      - "il pizzaiolo | пиццайоло"
+      - "la paninoteca | закусочная с бутербродами"
+      - "da allora | с тех пор"
+      - "cioè | то есть"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["La pizza nasce a Milano.", false]
+          - ["La pizza Margherita ha i colori della bandiera italiana.", true]
+          - ["Gli italiani mangiano la pasta molto cotta.", false]
+      - type: match
+        level: 1
+        q: "Соедините ингредиент и цвет флага"
+        pairs:
+          - ["il pomodoro", "rosso"]
+          - ["la mozzarella", "bianco"]
+          - ["il basilico", "verde"]
+      - type: choice
+        level: 1
+        img: p-pizza-margherita
+        q: "Что на фото?"
+        options: ["la pizza Margherita", "il risotto", "la lasagna", "il tiramisù"]
+        answer: 0
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: что не вид пасты?"
+        options: ["penne", "fusilli", "farfalle", "cotoletta"]
+        answer: 3
+
+  - slug: autovalutazione-6
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 6"
+    theory: |
+      ## Что вы уже умеете
+
+      * употреблять все притяжательные (**nostro, vostro, loro**), в том числе с родственниками: *mia madre*, но *le mie sorelle*;
+      * заказывать в ресторане (**vorrei**, *come primo / secondo*);
+      * говорить, что нравится: **mi piace / mi piacciono**;
+      * говорить, сколько нужно времени: **ci vuole / ci vogliono, ci metto**;
+      * ставить **quello** и **bello** перед существительным.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините часть меню и блюдо"
+        pairs:
+          - ["antipasto", "bruschette"]
+          - ["primo", "spaghetti alla carbonara"]
+          - ["secondo", "pollo all'aglio"]
+          - ["contorno", "patate al forno"]
+          - ["dolce", "panna cotta"]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: что не посуда?"
+        options: ["forchetta", "cucchiaio", "coltello", "cugino"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Mia {{madri=>madre}} è italiana e mio padre è russo."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Mi {{piace=>piacciono}} i dolci."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Per arrivare in centro ci {{vuole=>vogliono}} venti minuti."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "Che [[bel]] ristorante! [[Quei]] ragazzi sono i [[loro]] figli."
+      - type: choice
+        level: 2
+        audio: "Il conto, per favore."
+        q: "🎧 Что просит человек?"
+        options: ["меню", "счёт", "воду", "соль"]
+        answer: 1
+
+exercises:
+  possessivi-completi:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "I ragazzi e i {{suoi=>loro}} amici."
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какая форма не изменяется?"
+      options: ["nostro", "vostro", "loro", "mio"]
+      answer: 2
+  famiglia:
+    - type: match
+      level: 1
+      q: "Соедините родственников"
+      pairs:
+        - ["il padre", "la madre"]
+        - ["il marito", "la moglie"]
+        - ["il nonno", "la nonna"]
+        - ["lo zio", "la zia"]
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "{{Miei=>I miei}} nonni abitano in campagna."
+  al-ristorante:
+    - type: choice
+      level: 1
+      audio: "Vorrei un'acqua minerale frizzante."
+      q: "🎧 Что заказывает человек?"
+      options: ["вино", "газированную воду", "пиво", "кофе"]
+      answer: 1
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: что не напиток?"
+      options: ["vino", "birra", "acqua", "bistecca"]
+      answer: 3
+  spuntino-volerci:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Io ci {{vuole=>metto}} dieci minuti per prepararmi."
+  quello-bello-cucina:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Che {{bello=>bel}} ragazzo!"
+    - type: match
+      level: 2
+      q: "Соедините глагол и действие на кухне"
+      pairs:
+        - ["tagliare", "il pane"]
+        - ["grattugiare", "il formaggio"]
+        - ["cuocere", "la pasta"]
+        - ["friggere", "le patate"]

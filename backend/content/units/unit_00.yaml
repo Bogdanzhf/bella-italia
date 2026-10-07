@@ -1,0 +1,783 @@
+# Вводный юнит. Формат описан в backend/content/README.md
+id: 0
+title_it: "Benvenuti!"
+title_ru: "Добро пожаловать!"
+level: A0
+icon: "🌸"
+description: >
+  Самое начало: алфавит и правила чтения, род и число существительных,
+  определённый артикль, первые фразы для знакомства и числа до 30.
+goals:
+  - читать итальянские слова по правилам
+  - отличать мужской и женский род, образовывать множественное число
+  - ставить определённый артикль il, lo, l', la, i, gli, le
+  - представляться и спрашивать имя, возраст, национальность
+  - считать от 0 до 30
+
+lessons:
+  - slug: alfabeto
+    title_it: "Parole e lettere"
+    title_ru: "Алфавит и правила чтения"
+    theory: |
+      ## Итальянский алфавит
+
+      В итальянском алфавите **21 буква**. Ещё 5 букв — **j, k, w, x, y** — встречаются только в иностранных словах (*jeans, karaoke, web, taxi, yogurt*).
+
+      | Буква | Название | Буква | Название | Буква | Название |
+      |---|---|---|---|---|---|
+      | A a | а | H h | акка | Q q | ку |
+      | B b | би | I i | и | R r | эрре |
+      | C c | чи | L l | элле | S s | эссе |
+      | D d | ди | M m | эмме | T t | ти |
+      | E e | э | N n | энне | U u | у |
+      | F f | эффе | O o | о | V v | ву (ви) |
+      | G g | джи | P p | пи | Z z | дзета |
+
+      Иностранные буквы: **J** — i lunga, **K** — kappa, **W** — doppia vu, **X** — ics, **Y** — ipsilon (i greca).
+
+      ## Главные правила чтения
+
+      Итальянский читается почти так же, как пишется. Запомните несколько сочетаний:
+
+      | Написание | Звук | Примеры |
+      |---|---|---|
+      | **c** + a, o, u / **ch** | [к] | *cucina, Colosseo, chiave* |
+      | **c** + e, i | [ч] | *cinema, ciao, limoncello* |
+      | **g** + a, o, u / **gh** | [г] | *gatto, gondola, spaghetti* |
+      | **g** + e, i | [дж] | *gelato, pagina, parmigiano* |
+      | **sc** + e, i | [ш] | *pesce, uscita* |
+      | **sc** + a, o, u / **sch** | [ск] | *scuola, maschera, tedeschi* |
+      | **gn** | [нь] | *lavagna, spagnolo* |
+      | **gli** | [ль] | *famiglia, figlio* |
+      | **qu** | [кв] | *quattro, quando* |
+      | **h** | не читается | *ho, hanno, chiave* |
+
+      > 💡 Буква **i** после c, g, sc в сочетаниях *cia, cio, ciu, gia, gio, giu, scia…* не читается, а только «смягчает» согласный: *ciao* — [чао], *giovane* — [джóване].
+
+      **Буква s** звучит как [з] между гласными (*casa, musica*) и перед звонкими согласными b, d, g, l, m, n, r, v (*svizzero*). В остальных случаях — [с]: *sette, studente, borsa*.
+
+      **Буква z** — это [дз] (*zero, zaino*) или [ц] (*azione, pizza*).
+
+      ## Двойные согласные
+
+      Двойные согласные произносятся **дольше и сильнее** — и это важно, потому что они меняют смысл слова:
+
+      * *nonno* (дедушка) — *nono* (девятый)
+      * *palla* (мяч) — *pala* (лопата)
+
+      Примеры: *piccolo, cappuccino, oggi, otto, caffè, bello, mamma, anno, terra*.
+
+      ## Ударение
+
+      Чаще всего ударение падает на **предпоследний слог**: *gelàto, ragàzza*. Если ударение на последнем слоге, его обязательно пишут: *caffè, città, perché*. Бывает и ударение на третий слог с конца: *mùsica, pàgina, òpera* — такие слова нужно запоминать. На платформе ударный гласный всегда отмечен в транскрипции.
+    words:
+      - "la parola | слово"
+      - "la l`ettera | буква"
+      - "l'alfabeto | алфавит | m"
+      - "il caffè | кофе"
+      - "il Colosseo | Колизей"
+      - "la cucina | кухня"
+      - "la galler`ia | галерея"
+      - "la g`ondola | гондола"
+      - "la lingua | язык"
+      - "ciao | привет; пока"
+      - "il limoncello | лимончелло (ликёр)"
+      - "il parmigiano | пармезан"
+      - "il gelato | мороженое"
+      - "la chiave | ключ"
+      - "lo z`ucchero | сахар"
+      - "il ghiaccio | лёд"
+      - "gli spaghetti | спагетти"
+      - "la moda | мода"
+      - "l'espresso | эспрессо | m"
+      - "l'`opera | опера | f"
+      - "il cappuccino | капучино"
+      - "il c`inema | кинотеатр"
+      - "la m`usica | музыка"
+      - "l'arte | искусство | f"
+      - "il gatto | кот"
+      - "la p`agina | страница"
+      - "la chitarra | гитара"
+      - "la m`aschera | маска"
+      - "il prosciutto | ветчина"
+      - "la piazza | площадь"
+      - "la lavagna | доска (школьная)"
+      - "il biglietto | билет"
+    phrases:
+      - "Come si scrive? | Как это пишется?"
+      - "Come si dice in italiano? | Как это сказать по-итальянски?"
+      - "Ripeti, per favore. | Повтори, пожалуйста."
+      - "Non capisco. | Я не понимаю."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как читается буква **c** в слове *cinema*?"
+        options: ["[к]", "[ч]", "[ц]", "[с]"]
+        answer: 1
+        explain: "Перед e и i буква c читается как [ч]."
+      - type: choice
+        level: 1
+        q: "Как читается **ch** в слове *chiave*?"
+        options: ["[ч]", "[х]", "[к]", "[ш]"]
+        answer: 2
+        explain: "Сочетание ch всегда даёт звук [к]: chiave — [кьяве]."
+      - type: choice
+        level: 1
+        q: "В каком слове есть звук [дж]?"
+        options: ["gatto", "gelato", "gondola", "spaghetti"]
+        answer: 1
+        explain: "g перед e, i читается [дж]: gelato. В spaghetti буква h делает звук твёрдым — [г]."
+      - type: choice
+        level: 1
+        q: "Какое сочетание читается как [нь]?"
+        options: ["gl", "gn", "sc", "ch"]
+        answer: 1
+        explain: "gn = [нь]: lavagna, spagnolo, insegnante."
+      - type: choice
+        level: 2
+        q: "В каком слове **sc** читается как [ш]?"
+        options: ["scuola", "maschera", "pesce", "tedeschi"]
+        answer: 2
+        explain: "sc + e/i = [ш]: pesce. sc + a/o/u или sch = [ск]."
+      - type: choice
+        level: 2
+        q: "В каком слове буква **s** звучит как [з]?"
+        options: ["sette", "borsa", "musica", "studente"]
+        answer: 2
+        explain: "s между двумя гласными читается как [з]: musica [музика]."
+      - type: choice
+        level: 2
+        q: "Какое слово означает «девятый»?"
+        options: ["nonno", "nono"]
+        answer: 1
+        explain: "nono — девятый, nonno (с двойной n) — дедушка. Двойные согласные меняют смысл!"
+      - type: choice
+        level: 2
+        q: "Где в слове *caffè* падает ударение?"
+        options: ["на первый слог: CAffè", "на последний слог: caffÈ"]
+        answer: 1
+        explain: "Знак над гласной (è) показывает ударение на последнем слоге."
+      - type: input
+        level: 3
+        q: "Напишите по-итальянски слово, которое читается [ча́о] (привет)."
+        answer: ["ciao"]
+      - type: input
+        level: 3
+        q: "Напишите по-итальянски: [кья́ве] — ключ."
+        answer: ["chiave"]
+      - type: input
+        level: 3
+        q: "Напишите по-итальянски: [дже-ла́-то] — мороженое."
+        answer: ["gelato"]
+      - type: match
+        level: 2
+        q: "Соедините слово и его чтение"
+        pairs:
+          - ["ciao", "[чао]"]
+          - ["chiave", "[кьяве]"]
+          - ["gnocchi", "[ньокки]"]
+          - ["famiglia", "[фамилья]"]
+          - ["pesce", "[пеше]"]
+
+  - slug: genere-numero
+    title_it: "Italiano o italiana?"
+    title_ru: "Род и число существительных"
+    theory: |
+      ## Мужской и женский род
+
+      В итальянском **нет среднего рода** — только мужской (*maschile*) и женский (*femminile*). Обычно род видно по окончанию:
+
+      | | Единственное число | Множественное число |
+      |---|---|---|
+      | **Мужской род** | -**o**: libr**o** | -**i**: libr**i** |
+      | **Женский род** | -**a**: cas**a** | -**e**: cas**e** |
+      | **Оба рода** | -**e**: student**e**, nott**e** | -**i**: student**i**, nott**i** |
+
+      Слова на **-e** бывают и мужского (*il pesce, lo studente*), и женского рода (*la notte, la chiave*) — их род нужно запоминать вместе с артиклем.
+
+      ## Прилагательные
+
+      Прилагательное согласуется с существительным в роде и числе и обычно стоит **после** него:
+
+      * *il libro ross**o*** → *i libri ross**i*** — красная книга → красные книги
+      * *la casa nuov**a*** → *le case nuov**e*** — новый дом → новые дома
+
+      Прилагательные на **-e** одинаковы для обоих родов: *un ragazzo inglese, una ragazza inglese* → *ragazzi inglesi, ragazze inglesi*.
+
+      > 💡 Национальности в итальянском пишутся с маленькой буквы: *italiano, russa, inglese*.
+    words:
+      - "lo studente | студент"
+      - "la studentessa | студентка"
+      - "la finestra | окно"
+      - "il pesce | рыба"
+      - "la notte | ночь"
+      - "il treno | поезд"
+      - "la borsa | сумка"
+      - "il ragazzo | парень"
+      - "la ragazza | девушка"
+      - "la casa | дом"
+      - "la cosa | вещь, предмет"
+      - "la persona | человек, лицо"
+      - "il libro | книга"
+      - "la m`acchina | машина"
+      - "nuovo | новый"
+      - "aperto | открытый"
+      - "rosso | красный"
+      - "alto | высокий"
+      - "basso | низкий"
+      - "bello | красивый"
+      - "piccolo | маленький"
+      - "grande | большой"
+      - "m`aschile | мужского рода"
+      - "femminile | женского рода"
+      - "singolare | единственное число"
+      - "plurale | множественное число"
+    phrases:
+      - "un libro rosso | красная книга"
+      - "le case nuove | новые дома"
+      - "Che cos'è? | Что это?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Какой род у слова *casa*?"
+        options: ["мужской", "женский"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Множественное число от *libro*:"
+        options: ["libra", "libri", "libre", "libro"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Множественное число от *ragazza*:"
+        options: ["ragazzi", "ragazza", "ragazze", "ragazzo"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Множественное число от *studente*:"
+        options: ["studenti", "studente", "studenta", "studentes"]
+        answer: 0
+        explain: "Слова на -e во множественном числе получают окончание -i."
+      - type: choice
+        level: 2
+        q: "Выберите правильное сочетание:"
+        options: ["la casa nuovo", "la casa nuova", "la casa nuovi", "la casa nuove"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Выберите правильное сочетание:"
+        options: ["i libri rosse", "i libri rosso", "i libri rossi", "i libri rossa"]
+        answer: 2
+      - type: input
+        level: 2
+        q: "Напишите множественное число: *la finestra* → le ___"
+        answer: ["finestre"]
+      - type: input
+        level: 3
+        q: "Напишите множественное число: *il treno* → i ___"
+        answer: ["treni"]
+      - type: input
+        level: 3
+        q: "Согласуйте: *le macchine* (rosso) → le macchine ___"
+        answer: ["rosse"]
+      - type: input
+        level: 3
+        q: "Согласуйте: *i ragazzi* (alto) → i ragazzi ___"
+        answer: ["alti"]
+      - type: input
+        level: 3
+        q: "Множественное число от *la notte* → le ___"
+        answer: ["notti"]
+
+  - slug: presentarsi
+    title_it: "Ciao, io sono Alice."
+    title_ru: "Знакомство: кто я и откуда"
+    theory: |
+      ## Как представиться
+
+      * **Ciao, io sono Alice.** — Привет, я Алиса.
+      * **Mi chiamo Alice.** — Меня зовут Алиса.
+      * **Come ti chiami?** — Как тебя зовут?
+      * **Sono russa.** — Я русская.
+      * **Di dove sei?** — Откуда ты? — **Sono di Mosca.** — Я из Москвы.
+      * **Piacere!** — Очень приятно!
+
+      ## Глаголы essere, avere, chiamarsi
+
+      | | **essere** (быть) | **avere** (иметь) | **chiamarsi** (называться) |
+      |---|---|---|---|
+      | io (я) | sono | ho | mi chiamo |
+      | tu (ты) | sei | hai | ti chiami |
+      | lui / lei / Lei (он / она / Вы) | è | ha | si chiama |
+      | noi (мы) | siamo | abbiamo | ci chiamiamo |
+      | voi (вы) | siete | avete | vi chiamate |
+      | loro (они) | sono | hanno | si chiamano |
+
+      > 💡 Местоимение-подлежащее в итальянском обычно **опускается** — лицо видно по окончанию глагола: *Sono italiana* = Я итальянка.
+
+      Обратите внимание: **è** (есть, является) пишется с ударением, а **e** без ударения — это союз «и». Буква **h** в формах *ho, hai, ha, hanno* не читается: [о], [ай], [а], [а́нно].
+
+      ## Национальности
+
+      Многие прилагательные национальности имеют две формы — на **-o/-a**: *italiano / italiana, russo / russa, spagnolo / spagnola, tedesco / tedesca*. Другие одинаковы для обоих родов (**-e**): *inglese, francese, cinese, portoghese*.
+    words:
+      - "buongiorno | добрый день; здравствуйте"
+      - "piacere | очень приятно"
+      - "sì | да"
+      - "no | нет"
+      - "`io | я"
+      - "tu | ты"
+      - "lui | он"
+      - "lei | она"
+      - "noi | мы"
+      - "voi | вы"
+      - "loro | они"
+      - "essere | быть"
+      - "avere | иметь"
+      - "chiamarsi | называться"
+      - "il nome | имя"
+      - "la nazionalità | национальность"
+      - "italiano | итальянец; итальянский"
+      - "russo | русский"
+      - "spagnolo | испанец; испанский"
+      - "tedesco | немец; немецкий"
+      - "inglese | англичанин; английский"
+      - "francese | француз; французский"
+      - "americano | американец; американский"
+      - "australiano | австралиец; австралийский"
+      - "brasiliano | бразилец; бразильский"
+      - "portoghese | португалец; португальский"
+      - "sv`izzero | швейцарец; швейцарский"
+      - "marocchino | марокканец; марокканский"
+    phrases:
+      - "Ciao, io sono Alice. | Привет, я Алиса."
+      - "Come ti chiami? | Как тебя зовут?"
+      - "Mi chiamo Sofia. | Меня зовут София."
+      - "Lei come si chiama? | Как Вас зовут?"
+      - "Sei italiana? | Ты итальянка?"
+      - "No, sono russa. | Нет, я русская."
+      - "Piacere di conoscerti! | Приятно познакомиться!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Io ___ Marco."
+        options: ["sei", "sono", "è", "siamo"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Как спросить «Как тебя зовут?»"
+        options: ["Come si chiama?", "Come ti chiami?", "Chi sei?", "Come stai?"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Tu ___ italiano?"
+        options: ["sei", "sono", "è", "siete"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Lei ___ una sorella."
+        options: ["hai", "ho", "ha", "hanno"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Maria è ___ (spagnolo)."
+        options: ["spagnolo", "spagnola", "spagnoli", "spagnole"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "John è ___ (inglese), anche Mary è ___."
+        options: ["inglese / inglesa", "inglese / inglese", "ingleso / inglesa", "inglesi / inglese"]
+        answer: 1
+        explain: "Прилагательные на -e одинаковы в мужском и женском роде."
+      - type: input
+        level: 2
+        q: "Noi ___ (essere) studenti."
+        answer: ["siamo"]
+      - type: input
+        level: 3
+        q: "Loro ___ (avere) un gatto."
+        answer: ["hanno"]
+      - type: input
+        level: 3
+        q: "Voi ___ (essere) russi?"
+        answer: ["siete"]
+      - type: input
+        level: 3
+        q: "Io mi ___ (chiamarsi) Anna."
+        answer: ["chiamo"]
+      - type: order
+        level: 2
+        q: "Соберите фразу: «Меня зовут Лаура, я итальянка.»"
+        answer: "Mi chiamo Laura, sono italiana."
+      - type: order
+        level: 3
+        q: "Соберите вопрос: «Как Вас зовут?»"
+        answer: "Lei come si chiama?"
+
+  - slug: articolo-determinativo
+    title_it: "Il ragazzo o la ragazza?"
+    title_ru: "Определённый артикль"
+    theory: |
+      ## Определённый артикль
+
+      Перед существительным в итальянском почти всегда стоит **артикль**. Определённый артикль (*articolo determinativo*) указывает на конкретный, известный предмет. Его форма зависит от **рода**, **числа** и **первой буквы** слова.
+
+      | Род | Слово начинается на… | Ед. ч. | Мн. ч. | Пример |
+      |---|---|---|---|---|
+      | муж. | согласный | **il** | **i** | il libro → i libri |
+      | муж. | гласный | **l'** | **gli** | l'amico → gli amici |
+      | муж. | s + согласный, z, ps, gn, y, x | **lo** | **gli** | lo zaino → gli zaini, lo studente → gli studenti |
+      | жен. | согласный | **la** | **le** | la ragazza → le ragazze |
+      | жен. | гласный | **l'** | **le** | l'amica → le amiche |
+
+      > 💡 Учите существительные **сразу с артиклем**: не просто *zaino*, а *lo zaino*. Так вы запомните и род, и форму артикля.
+
+      Артикль употребляется чаще, чем кажется русскоговорящему: *Mi piace **la** musica* — Мне нравится музыка.
+    words:
+      - "l'`albero | дерево | m"
+      - "lo z`io | дядя"
+      - "la z`ia | тётя"
+      - "l'`isola | остров | f"
+      - "lo stivale | сапог"
+      - "lo zaino | рюкзак"
+      - "il panino | бутерброд"
+      - "l'a`ereo | самолёт | m"
+      - "il museo | музей"
+      - "l'`autobus | автобус | m"
+      - "il centro | центр"
+      - "il calcio | футбол"
+      - "il ristorante | ресторан"
+      - "il vestito | платье; костюм"
+      - "moderno | современный"
+      - "gi`ovane | молодой"
+      - "l'insegnante | преподаватель | m"
+      - "il figlio | сын"
+      - "la famiglia | семья"
+      - "la canzone | песня"
+      - "la pizza | пицца"
+      - "lo specchio | зеркало"
+      - "l'amico | друг | m"
+      - "l'amica | подруга | f"
+      - "lo sport | спорт"
+      - "ecco | вот"
+      - "molto | много; очень"
+    phrases:
+      - "Ecco il museo! | Вот музей!"
+      - "Scusi, dov'è il centro? | Простите, где центр?"
+      - "Gli zaini sono nuovi. | Рюкзаки новые."
+    exercises:
+      - type: choice
+        level: 1
+        q: "___ libro"
+        options: ["il", "lo", "la", "l'"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "___ ragazza"
+        options: ["il", "lo", "la", "le"]
+        answer: 2
+      - type: choice
+        level: 1
+        q: "___ zaino"
+        options: ["il", "lo", "la", "l'"]
+        answer: 1
+        explain: "Перед z мужской род требует артикль lo."
+      - type: choice
+        level: 2
+        q: "___ amica"
+        options: ["la", "il", "l'", "lo"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "___ studenti"
+        options: ["i", "gli", "le", "li"]
+        answer: 1
+        explain: "lo studente → gli studenti."
+      - type: choice
+        level: 2
+        q: "___ alberi"
+        options: ["i", "gli", "le", "l'"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ case"
+        options: ["i", "gli", "le", "la"]
+        answer: 2
+      - type: input
+        level: 3
+        q: "Напишите артикль: ___ specchio"
+        answer: ["lo"]
+      - type: input
+        level: 3
+        q: "Напишите артикль: ___ aerei"
+        answer: ["gli"]
+      - type: input
+        level: 3
+        q: "Напишите артикль: ___ isola"
+        answer: ["l'", "l’"]
+      - type: input
+        level: 3
+        q: "Поставьте во множественное число: *lo zaino* → ___"
+        answer: ["gli zaini"]
+      - type: input
+        level: 3
+        q: "Поставьте во множественное число: *l'amico* → ___"
+        answer: ["gli amici"]
+
+  - slug: chi-e
+    title_it: "Chi è?"
+    title_ru: "Кто это? Числа до 30"
+    theory: |
+      ## Вопросы о человеке
+
+      * **Chi è?** — Кто это? — **È Marco, mio fratello.** — Это Марко, мой брат.
+      * **Quanti anni hai?** — Сколько тебе лет? — **Ho venti anni.** — Мне двадцать лет.
+      * **Dove abiti?** — Где ты живёшь? — **Abito a Roma.** — Я живу в Риме.
+
+      > 💡 Возраст в итальянском «имеют»: **Ho 18 anni** — буквально «я имею 18 лет». Глагол *avere*, а не *essere*!
+
+      ## Числа 0–30
+
+      | | | | |
+      |---|---|---|---|
+      | 0 zero | 8 otto | 16 sedici | 24 ventiquattro |
+      | 1 uno | 9 nove | 17 diciassette | 25 venticinque |
+      | 2 due | 10 dieci | 18 diciotto | 26 ventisei |
+      | 3 tre | 11 undici | 19 diciannove | 27 ventisette |
+      | 4 quattro | 12 dodici | 20 venti | 28 ventotto |
+      | 5 cinque | 13 tredici | 21 ventuno | 29 ventinove |
+      | 6 sei | 14 quattordici | 22 ventidue | 30 trenta |
+      | 7 sette | 15 quindici | 23 ventitré | |
+
+      Обратите внимание: в *ventuno* и *ventotto* конечная **-i** у *venti* исчезает перед гласной, а в *ventitré* появляется знак ударения.
+    words:
+      - "chi | кто"
+      - "dove | где"
+      - "quanto | сколько"
+      - "l'anno | год | m"
+      - "il fratello | брат"
+      - "la sorella | сестра"
+      - "la mamma | мама"
+      - "il papà | папа"
+      - "la nonna | бабушка"
+      - "il nonno | дедушка"
+      - "il cognome | фамилия"
+      - "oggi | сегодня"
+      - "domani | завтра"
+      - "zero | ноль"
+      - "uno | один"
+      - "due | два"
+      - "tre | три"
+      - "quattro | четыре"
+      - "cinque | пять"
+      - "sei | шесть"
+      - "sette | семь"
+      - "otto | восемь"
+      - "nove | девять"
+      - "dieci | десять"
+      - "`undici | одиннадцать"
+      - "d`odici | двенадцать"
+      - "tr`edici | тринадцать"
+      - "quatt`ordici | четырнадцать"
+      - "qu`indici | пятнадцать"
+      - "s`edici | шестнадцать"
+      - "diciassette | семнадцать"
+      - "diciotto | восемнадцать"
+      - "diciannove | девятнадцать"
+      - "venti | двадцать"
+      - "ventuno | двадцать один"
+      - "ventitré | двадцать три"
+      - "ventotto | двадцать восемь"
+      - "trenta | тридцать"
+    phrases:
+      - "Chi è? | Кто это?"
+      - "Quanti anni hai? | Сколько тебе лет?"
+      - "Ho ventidue anni. | Мне двадцать два года."
+      - "Davvero? | Правда?"
+      - "Come si scrive il tuo cognome? | Как пишется твоя фамилия?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как будет 7 по-итальянски?"
+        options: ["sei", "sette", "otto", "nove"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Что означает *quindici*?"
+        options: ["5", "50", "15", "14"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Как сказать «Мне 20 лет»?"
+        options: ["Sono venti anni.", "Ho venti anni.", "Ha venti anni.", "Ho anni venti."]
+        answer: 1
+        explain: "Возраст выражается глаголом avere: Ho venti anni."
+      - type: choice
+        level: 2
+        q: "21 по-итальянски:"
+        options: ["ventiuno", "ventuno", "vent'uno", "ventiun"]
+        answer: 1
+      - type: input
+        level: 2
+        q: "Напишите словами: 12"
+        answer: ["dodici"]
+      - type: input
+        level: 3
+        q: "Напишите словами: 18"
+        answer: ["diciotto"]
+      - type: input
+        level: 3
+        q: "Напишите словами: 23"
+        answer: ["ventitré", "ventitre"]
+      - type: input
+        level: 3
+        q: "Напишите словами: 30"
+        answer: ["trenta"]
+      - type: input
+        level: 3
+        q: "Quanti anni ___ (avere) tuo fratello?"
+        answer: ["ha"]
+      - type: match
+        level: 2
+        q: "Соедините число и слово"
+        pairs:
+          - ["11", "undici"]
+          - ["13", "tredici"]
+          - ["16", "sedici"]
+          - ["19", "diciannove"]
+          - ["28", "ventotto"]
+
+  - slug: nomi-particolari
+    kind: grammar
+    title_it: "Nomi particolari"
+    title_ru: "Особые существительные"
+    theory: |
+      ## Существительные на -a мужского рода
+
+      Некоторые слова греческого происхождения на **-a** — мужского рода, во множественном числе получают **-i**:
+      *il problema → i problemi, il programma → i programmi, il tema → i temi, il clima → i climi*.
+
+      Слова на **-ista** (часто профессии) одинаковы для обоих родов в единственном числе: *il / la turista, il / la barista*. Во множественном числе: мужской род **-i** (*i turisti*), женский **-e** (*le turiste*).
+
+      ## Неизменяемые существительные
+
+      Не меняются во множественном числе:
+
+      * с ударением на последнем слоге: *il caffè → i caffè, la città → le città*
+      * оканчивающиеся на согласный: *il bar → i bar, il film → i film, lo sport → gli sport*
+      * сокращённые слова: *la foto(grafia) → le foto, l'auto(mobile) → le auto, la bici(cletta) → le bici, il cinema → i cinema*
+      * женского рода на **-i**: *la crisi → le crisi, l'ipotesi → le ipotesi*
+
+      ## Слова на -co / -go и -ca / -ga
+
+      * **-ca / -ga** (жен. род) → **-che / -ghe**: *l'amica → le amiche, la collega → le colleghe*. Буква **h** сохраняет твёрдый звук [к]/[г].
+      * **-co / -go** с ударением на предпоследний слог → **-chi / -ghi**: *il fuoco → i fuochi, l'albergo → gli alberghi, fresco → freschi*.
+      * **-co / -go** с ударением на третий слог с конца → **-ci / -gi**: *il medico → i medici, fantastico → fantastici*.
+      * Исключения: *l'amico → gli amici, greco → greci*.
+
+      ## Слова на -io, -cia / -gia
+
+      * **-io** без ударения на i: одна **i** во множественном: *l'esempio → gli esempi*. С ударной i — две: *lo zio → gli zii*.
+      * **-cia / -gia**: если перед ними согласный → **-ce / -ge** (*l'arancia → le arance, la pioggia → le piogge*); если гласный или ударная i → **-cie / -gie** (*la camicia → le camicie, la farmacia → le farmacie*).
+    words:
+      - "il problema | проблема"
+      - "il programma | программа"
+      - "il turista | турист"
+      - "la turista | туристка"
+      - "il / la barista | бармен"
+      - "il / la regista | режиссёр"
+      - "la città | город"
+      - "l'università | университет | f"
+      - "il bar | бар; кафе"
+      - "il film | фильм"
+      - "la foto | фотография"
+      - "l'`auto | автомобиль | f"
+      - "la bici | велосипед"
+      - "il m`edico | врач"
+      - "l'albergo | гостиница | m"
+      - "la collega | коллега (жен.)"
+      - "l'esempio | пример | m"
+      - "la farmac`ia | аптека"
+      - "la pioggia | дождь"
+      - "la doccia | душ"
+      - "il bicchiere | стакан"
+      - "la bottiglia | бутылка"
+      - "la stella | звезда"
+      - "la penna | ручка"
+      - "la torre | башня"
+      - "il latte | молоко"
+      - "la lezione | урок"
+      - "il giornale | газета"
+      - "la porta | дверь"
+      - "diff`icile | трудный"
+      - "f`acile | лёгкий"
+    phrases:
+      - "Due caffè, per favore! | Два кофе, пожалуйста!"
+      - "Le città italiane sono belle. | Итальянские города красивые."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Множественное число от *il caffè*:"
+        options: ["i caffi", "i caffè", "le caffè", "i caffe"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Какой род у слова *problema*?"
+        options: ["мужской", "женский"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Множественное число от *l'amica*:"
+        options: ["le amice", "le amiche", "gli amici", "le amica"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Множественное число от *il medico*:"
+        options: ["i medichi", "i medici", "i medico", "gli medici"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Множественное число от *il film*:"
+        options: ["i filmi", "i film", "le film", "i filme"]
+        answer: 1
+      - type: choice
+        level: 3
+        q: "Множественное число от *la farmacia*:"
+        options: ["le farmace", "le farmacie", "le farmaci", "le farmacia"]
+        answer: 1
+        explain: "Ударение падает на i (farmacìa), поэтому -cie."
+      - type: choice
+        level: 3
+        q: "Множественное число от *l'albergo*:"
+        options: ["gli albergi", "gli alberghi", "le alberghe", "gli albergo"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Множественное число: *la città* → le ___"
+        answer: ["città"]
+      - type: input
+        level: 3
+        q: "Множественное число: *il problema* → i ___"
+        answer: ["problemi"]
+      - type: input
+        level: 3
+        q: "Множественное число: *la turista* → le ___"
+        answer: ["turiste"]
+      - type: input
+        level: 3
+        q: "Множественное число: *lo zio* → gli ___"
+        answer: ["zii"]
+
+verbs:
+  - inf: essere
+    ru: быть
+    tense: presente
+    forms: [sono, sei, è, siamo, siete, sono]
+  - inf: avere
+    ru: иметь
+    tense: presente
+    forms: [ho, hai, ha, abbiamo, avete, hanno]
+  - inf: chiamarsi
+    ru: называться
+    tense: presente
+    forms: [mi chiamo, ti chiami, si chiama, ci chiamiamo, vi chiamate, si chiamano]

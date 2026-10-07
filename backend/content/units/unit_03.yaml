@@ -1,0 +1,673 @@
+id: 3
+title_it: "In contatto"
+title_ru: "На связи"
+level: A1
+icon: "💌"
+description: >
+  Сочленённые предлоги (al, della, nel…), часы работы, мебель и расположение предметов,
+  c'è / ci sono, притяжательные mio, tuo, suo, частичный артикль, благодарность,
+  месяцы и времена года, язык сообщений и интернета.
+goals:
+  - "сливать предлоги с артиклями: al, dello, nella, sui…"
+  - спрашивать о часах работы и о местоположении
+  - описывать комнату с помощью c'è / ci sono и предлогов места
+  - "выражать принадлежность: il mio, la tua, il suo"
+  - благодарить и отвечать на благодарность
+  - называть месяцы, времена года и большие числа
+
+lessons:
+  - slug: preposizioni-articolate
+    title_it: "Puoi andare al bar Eden"
+    title_ru: "Сочленённые предлоги"
+    theory: |
+      ## Предлог + артикль = одно слово
+
+      Предлоги **di, a, da, in, su** сливаются с определённым артиклем, образуя *preposizioni articolate*:
+
+      | | + il | + lo | + l' | + la | + i | + gli | + le |
+      |---|---|---|---|---|---|---|---|
+      | **di** | del | dello | dell' | della | dei | degli | delle |
+      | **a** | al | allo | all' | alla | ai | agli | alle |
+      | **da** | dal | dallo | dall' | dalla | dai | dagli | dalle |
+      | **in** | nel | nello | nell' | nella | nei | negli | nelle |
+      | **su** | sul | sullo | sull' | sulla | sui | sugli | sulle |
+
+      Предлоги **con, per, tra/fra** не сливаются: *con il, per la, tra i*.
+
+      ## Когда нужен артикль?
+
+      Если место названо **в общем** — простой предлог. Если оно **уточнено** — сочленённый:
+
+      | Простой | Сочленённый |
+      |---|---|
+      | *a scuola* | *alla scuola americana* |
+      | *in Italia* | *nell'Italia del Nord* |
+      | *in ufficio* | *nell'ufficio del direttore* |
+      | *a mezzogiorno* | *alle due* (часы) |
+      | *da Maria* (имя) | *dal dottore* (профессия) |
+      | *in Francia* | *negli Stati Uniti* (мн. ч.) |
+
+      Всегда с артиклем: **al cinema, al bar, al ristorante, al mare, al supermercato**.
+    words:
+      - "il contatto | контакт, связь"
+      - "la videochiamata | видеозвонок"
+      - "il pacco | посылка"
+      - "il t`ecnico | техник, мастер"
+      - "durante | во время"
+      - "la pausa pranzo | обеденный перерыв"
+      - "la posta | почта"
+      - "davanti a | перед, напротив"
+      - "il port`atile | ноутбук"
+      - "lontano da | далеко от"
+      - "incontrare | встречать"
+      - "mandare | отправлять"
+      - "s`ubito | сразу"
+      - "figurati! | не за что! да брось!"
+      - "di s`olito | обычно"
+      - "il luogo | место"
+      - "il direttore | директор"
+      - "il guanto | перчатка"
+      - "il cassetto | ящик"
+      - "la rivista | журнал"
+      - "il t`avolo | стол"
+      - "il panificio | булочная"
+      - "il pane | хлеб"
+      - "la frutta | фрукты"
+      - "restituire | возвращать (вещь)"
+    phrases:
+      - "Puoi andare al bar Eden. | Можешь сходить в бар «Эден»."
+      - "Il libro è sul tavolo. | Книга на столе."
+      - "Vado dal medico. | Я иду к врачу."
+      - "Le chiavi sono nel cassetto. | Ключи в ящике."
+      - "Figurati! | Не за что!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "a + il ="
+        options: ["al", "allo", "alla", "ai"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "in + la ="
+        options: ["nel", "nella", "nello", "nelle"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Il gatto dorme ___ divano. (su)"
+        options: ["sul", "sullo", "sulla", "sui"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Stasera andiamo ___ cinema."
+        options: ["a", "al", "in", "nel"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Questa è la macchina ___ professore. (di)"
+        options: ["del", "dello", "della", "dei"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Vengo ___ Stati Uniti. (da)"
+        options: ["dai", "dagli", "dalle", "dal"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "di + lo = ___"
+        answer: ["dello"]
+      - type: input
+        level: 3
+        q: "a + le = ___"
+        answer: ["alle"]
+      - type: input
+        level: 3
+        q: "in + gli = ___"
+        answer: ["negli"]
+      - type: input
+        level: 3
+        q: "su + l' = ___"
+        answer: ["sull'", "sull’"]
+      - type: input
+        level: 3
+        q: "Le chiavi sono ___ borsa. (in + la)"
+        answer: ["nella"]
+      - type: input
+        level: 3
+        q: "Vado ___ dottore. (da + il)"
+        answer: ["dal"]
+
+  - slug: orari-apertura
+    title_it: "A che ora?"
+    title_ru: "Часы работы"
+    theory: |
+      ## Часы работы
+
+      * **A che ora apre / chiude la banca?** — Во сколько открывается / закрывается банк?
+      * **Apre alle 8:30 e chiude alle 13:30.** — Открывается в 8:30 и закрывается в 13:30.
+      * **L'ufficio postale è aperto dalle 8 alle 14.** — Почта открыта с 8 до 14.
+      * **Il museo è chiuso il lunedì.** — Музей закрыт по понедельникам.
+
+      > 💡 С часами всегда сочленённые предлоги: **alle** (в), **dalle … alle** (с … до). Но: *a mezzogiorno, all'una, dall'una*.
+
+      В Италии многие магазины закрываются на обеденный перерыв примерно с 13 до 16 часов — особенно в небольших городах.
+
+      ## Неуверенность
+
+      * **Sei sicuro?** — Ты уверен? — **Non credo.** — Не думаю. — **Probabilmente sì.** — Вероятно, да.
+    words:
+      - "l'ufficio postale | почтовое отделение | m"
+      - "cr`edere | верить, думать"
+      - "chi`udere | закрывать"
+      - "sicuro | уверенный"
+      - "probabilmente | вероятно"
+      - "pranzare | обедать"
+      - "cenare | ужинать"
+      - "l'orario di lavoro | рабочее время | m"
+      - "urgente | срочный"
+      - "lo sportello | окошко (кассы)"
+      - "l'orario di apertura | часы работы | m"
+      - "aperto | открытый"
+      - "chiuso | закрытый"
+      - "il canale | канал"
+    phrases:
+      - "A che ora apre la farmacia? | Во сколько открывается аптека?"
+      - "È aperto dalle nove alle diciannove. | Открыто с девяти до девятнадцати."
+      - "Il museo è chiuso il lunedì. | Музей закрыт по понедельникам."
+      - "Non credo. | Не думаю."
+    exercises:
+      - type: choice
+        level: 1
+        q: "La banca apre ___ otto e mezza."
+        options: ["a", "alle", "al", "le"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Il negozio è aperto ___ 9 ___ 13."
+        options: ["da / a", "dalle / alle", "dal / al", "alle / dalle"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Pranziamo ___ mezzogiorno."
+        options: ["alle", "a", "al", "il"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Антоним к *aperto*:"
+        options: ["chiuso", "libero", "pronto", "sicuro"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Il museo chiude ___ una. (в час)"
+        answer: ["all'", "all’"]
+      - type: input
+        level: 3
+        q: "La farmacia ___ (chiudere) alle venti."
+        answer: ["chiude"]
+      - type: order
+        level: 3
+        q: "Соберите: «Во сколько открывается почта?»"
+        answer: "A che ora apre l'ufficio postale?"
+
+  - slug: dove-c-e
+    title_it: "Dov'è?"
+    title_ru: "Где это? Мебель и расположение"
+    theory: |
+      ## C'è / ci sono
+
+      **C'è** (+ ед. ч.) и **ci sono** (+ мн. ч.) — «есть, находится, имеется»:
+
+      * *In piazza **c'è** una farmacia.* — На площади есть аптека.
+      * *Sul divano **ci sono** i cuscini.* — На диване лежат подушки.
+      * *Sabato **c'è** la festa di Giulia.* — В субботу вечеринка у Джулии.
+      * *Oggi **c'è** traffico.* — Сегодня пробки.
+
+      ## Предлоги места
+
+      | | |
+      |---|---|
+      | **sopra** — над, на | **sotto** — под |
+      | **dentro** — внутри | **fuori** — снаружи |
+      | **davanti a** — перед | **dietro** — за, позади |
+      | **accanto a / vicino a** — рядом с | **lontano da** — далеко от |
+      | **a destra di** — справа от | **a sinistra di** — слева от |
+      | **tra / fra** — между | **intorno a** — вокруг |
+      | **di fronte a** — напротив | **in fondo a** — в глубине, в конце |
+
+      * *Il gatto è **sotto** il tavolo.* — Кот под столом.
+      * *La lampada è **accanto al** divano.* — Лампа рядом с диваном.
+    words:
+      - "l'`abito | платье, костюм | m"
+      - "dentro | внутри"
+      - "fuori | снаружи"
+      - "l'armadio | шкаф (для одежды) | m"
+      - "il televisore | телевизор"
+      - "il camino | камин"
+      - "il divano | диван"
+      - "la librer`ia | книжный шкаф"
+      - "dietro | за, позади"
+      - "la scrivan`ia | письменный стол"
+      - "la sedia | стул"
+      - "intorno a | вокруг"
+      - "la parete | стена"
+      - "il tavolino | журнальный столик"
+      - "la poltrona | кресло"
+      - "il tappeto | ковёр"
+      - "sotto | под"
+      - "la l`ampada | лампа"
+      - "il quadro | картина"
+      - "sopra | над, на"
+      - "la pianta | растение"
+      - "la sc`atola | коробка"
+      - "lo specchio | зеркало"
+      - "il cuscino | подушка"
+      - "infatti | действительно"
+      - "lo sci`opero | забастовка"
+      - "veramente | на самом деле"
+      - "il tr`affico | дорожное движение, пробки"
+    phrases:
+      - "Dov'è il telecomando? | Где пульт?"
+      - "È sul tavolino, accanto alla lampada. | На журнальном столике, рядом с лампой."
+      - "Nella stanza ci sono due poltrone. | В комнате два кресла."
+      - "Oggi c'è sciopero generale! | Сегодня всеобщая забастовка!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Nella stanza ___ un divano."
+        options: ["c'è", "ci sono", "è", "sono"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "Sul tavolo ___ due libri."
+        options: ["c'è", "ci sono", "ha", "hanno"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Антоним к *sopra*:"
+        options: ["dietro", "sotto", "dentro", "davanti"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Il gatto è ___ il letto. (под)"
+        options: ["sopra", "sotto", "fuori", "intorno"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "*Lo specchio* — это:"
+        options: ["окно", "зеркало", "шкаф", "ковёр"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «диван» — il ___"
+        answer: ["divano"]
+      - type: input
+        level: 3
+        q: "Переведите: «шкаф (для одежды)» — l'___"
+        answer: ["armadio"]
+      - type: input
+        level: 3
+        q: "La lampada è accanto ___ poltrona. (a + la)"
+        answer: ["alla"]
+      - type: match
+        level: 2
+        q: "Соедините предлоги места"
+        pairs:
+          - ["sopra", "над"]
+          - ["sotto", "под"]
+          - ["dietro", "позади"]
+          - ["davanti a", "перед"]
+          - ["dentro", "внутри"]
+
+  - slug: possessivi
+    title_it: "Di chi è?"
+    title_ru: "Чей это? Притяжательные"
+    theory: |
+      ## Притяжательные прилагательные
+
+      | | м. р. ед. | ж. р. ед. | м. р. мн. | ж. р. мн. |
+      |---|---|---|---|---|
+      | io — мой | il **mio** | la **mia** | i **miei** | le **mie** |
+      | tu — твой | il **tuo** | la **tua** | i **tuoi** | le **tue** |
+      | lui / lei — его / её | il **suo** | la **sua** | i **suoi** | le **sue** |
+      | Lei — Ваш | il **Suo** | la **Sua** | i **Suoi** | le **Sue** |
+
+      > 💡 Главное отличие от русского: притяжательное согласуется с **предметом**, а не с хозяином!
+      > *il libro di Maria* → **il suo libro** (её книга — *suo*, потому что *libro* м. р.)
+      > *la macchina di Luca* → **la sua macchina** (его машина — *sua*, потому что *macchina* ж. р.)
+
+      Обычно перед притяжательным стоит **артикль**: *il mio libro, la tua borsa*. Со словом *casa* притяжательное ставится после, без артикля: *Venite a casa mia!*
+
+      После *essere* артикль можно опустить: *Questo telefono è tuo? — No, non è mio, è suo.*
+
+      **Di chi è?** — Чей это? — *È di Marco.* — Это Марко.
+    words:
+      - "il motorino | мопед"
+      - "perciò | поэтому"
+      - "di chi | чей"
+      - "m`io | мой"
+      - "t`uo | твой"
+      - "s`uo | его, её; Ваш"
+      - "il quaderno | тетрадь"
+      - "la compagna di banco | соседка по парте"
+    phrases:
+      - "Di chi è questo zaino? | Чей это рюкзак?"
+      - "È mio! | Мой!"
+      - "Questa è la mia borsa. | Это моя сумка."
+      - "Luca e la sua macchina. | Лука и его машина."
+      - "Venite a casa mia domani? | Придёте ко мне домой завтра?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "___ libro (мой)"
+        options: ["la mia", "il mio", "i miei", "le mie"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "___ borsa (твоя)"
+        options: ["il tuo", "la tua", "le tue", "i tuoi"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Maria e ___ fratello. (её брат)"
+        options: ["la sua", "il suo", "il sua", "la suo"]
+        answer: 1
+        explain: "Согласуем с fratello (м. р.): il suo."
+      - type: choice
+        level: 2
+        q: "Luca e ___ macchina. (его машина)"
+        options: ["il suo", "la sua", "la suo", "il sua"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ amici (мои друзья)"
+        options: ["i mii", "i miei", "le mie", "i mio"]
+        answer: 1
+      - type: choice
+        level: 3
+        q: "Signora, è ___ questa borsa? (Ваша)"
+        options: ["Sua", "Suo", "tua", "vostra"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Le ___ amiche sono italiane. (мои)"
+        answer: ["mie"]
+      - type: input
+        level: 3
+        q: "I ___ genitori sono simpatici. (твои)"
+        answer: ["tuoi"]
+      - type: input
+        level: 3
+        q: "Переведите: «Чей это?» — Di ___ è?"
+        answer: ["chi"]
+
+  - slug: partitivo-grazie
+    title_it: "Grazie!"
+    title_ru: "Благодарность и частичный артикль"
+    theory: |
+      ## Как поблагодарить
+
+      | Благодарность | Ответ |
+      |---|---|
+      | **Grazie!** — Спасибо! | **Prego!** — Пожалуйста! |
+      | **Grazie mille! / Grazie tante!** — Огромное спасибо! | **Di niente! / Di nulla!** — Не за что! |
+      | **Ti ringrazio!** — Благодарю тебя! | **Non c'è di che!** — Не стоит благодарности! |
+      | | **Figurati! / Si figuri!** — Ну что ты! / Ну что Вы! |
+
+      ## Частичный артикль
+
+      Когда говорим о **неопределённом количестве** («немного», «несколько»), используем частичный артикль — он совпадает с формами **di + артикль**:
+
+      | | м. р. | ж. р. |
+      |---|---|---|
+      | **ед. ч.** (= un po' di — немного) | **del** pane, **dello** zucchero, **dell'**olio | **della** pasta, **dell'**insalata |
+      | **мн. ч.** (= alcuni / alcune — несколько) | **dei** ragazzi, **degli** studenti | **delle** ragazze |
+
+      * *Vuoi **dello** zucchero?* = *Vuoi un po' di zucchero?* — Хочешь сахару?
+      * *Ho comprato **delle** mele.* — Я купила яблок (несколько яблок).
+      * *Ci sono **degli** studenti in classe.* — В классе (какие-то) студенты.
+    words:
+      - "grazie mille | огромное спасибо"
+      - "la val`igia | чемодан"
+      - "nessun problema | без проблем"
+      - "gli appunti | конспект, записи"
+      - "grazie tante | большое спасибо"
+      - "di niente | не за что"
+      - "non c'è di che | не стоит благодарности"
+      - "ringraziare | благодарить"
+      - "il parco | парк"
+      - "un po' di | немного"
+      - "alcuni | несколько, некоторые"
+      - "l'olio | масло (растительное) | m"
+      - "la pasta | макароны; паста"
+      - "l'insalata | салат | f"
+      - "la mela | яблоко"
+    phrases:
+      - "Grazie mille! — Di niente! | Огромное спасибо! — Не за что!"
+      - "Ti ringrazio per gli appunti. | Спасибо тебе за конспекты."
+      - "Vuoi dello zucchero? | Хочешь сахару?"
+      - "Nessun problema! | Без проблем!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как ответить на «Grazie mille!»?"
+        options: ["Di niente!", "Buonasera!", "Mi dispiace!", "Ciao!"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Vuoi ___ pane? (немного хлеба)"
+        options: ["del", "dello", "della", "dei"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Compro ___ mele. (несколько яблок)"
+        options: ["dei", "delle", "degli", "della"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Ci sono ___ studenti in biblioteca."
+        options: ["dei", "degli", "delle", "dello"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Vuoi ___ zucchero? (частичный артикль)"
+        answer: ["dello"]
+      - type: input
+        level: 3
+        q: "Metto ___ olio nell'insalata."
+        answer: ["dell'", "dell’"]
+      - type: input
+        level: 3
+        q: "Переведите: «Не стоит благодарности!» — Non c'è ___ che!"
+        answer: ["di"]
+
+  - slug: mesi-stagioni
+    title_it: "I mesi e le stagioni"
+    title_ru: "Месяцы, времена года, большие числа"
+    theory: |
+      ## Месяцы
+
+      Месяцы пишутся с **маленькой** буквы и все мужского рода:
+
+      | | | |
+      |---|---|---|
+      | gennaio — январь | maggio — май | settembre — сентябрь |
+      | febbraio — февраль | giugno — июнь | ottobre — октябрь |
+      | marzo — март | luglio — июль | novembre — ноябрь |
+      | aprile — апрель | agosto — август | dicembre — декабрь |
+
+      * **a / in** + месяц: *a maggio, in maggio* — в мае
+      * **Il 15 agosto** — 15 августа (дата с артиклем *il*); **il primo maggio** — 1 мая
+
+      ## Времена года
+
+      **la primavera** (весна), **l'estate** (f, лето), **l'autunno** (m, осень), **l'inverno** (m, зима).
+      *In primavera, d'estate / in estate, in autunno, d'inverno / in inverno.*
+
+      ## Большие числа
+
+      * 2.500 — *duemilacinquecento*
+      * 10.500 — *diecimilacinquecento*
+      * 1.000.000 — *un milione*; 5.000.000 — *cinque milioni*
+
+      > 💡 В итальянском разряды разделяют **точкой**, а дробную часть — **запятой**: 1.500,50 €.
+    words:
+      - "gennaio | январь"
+      - "febbraio | февраль"
+      - "marzo | март"
+      - "aprile | апрель"
+      - "maggio | май"
+      - "giugno | июнь"
+      - "luglio | июль"
+      - "agosto | август"
+      - "settembre | сентябрь"
+      - "ottobre | октябрь"
+      - "novembre | ноябрь"
+      - "dicembre | декабрь"
+      - "la stagione | время года"
+      - "la primavera | весна"
+      - "l'estate | лето | f"
+      - "l'autunno | осень | m"
+      - "l'inverno | зима | m"
+      - "il milione | миллион"
+      - "il prezzo | цена"
+      - "il costo | стоимость"
+      - "la nascita | рождение"
+      - "l'abitante | житель | m"
+      - "la villa | вилла"
+    phrases:
+      - "Il mio compleanno è il tre marzo. | Мой день рождения третьего марта."
+      - "In estate andiamo al mare. | Летом мы ездим на море."
+      - "Quanto costa? | Сколько стоит?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "*Luglio* — это:"
+        options: ["июнь", "июль", "август", "январь"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Какое время года *l'autunno*?"
+        options: ["весна", "лето", "осень", "зима"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Как пишутся месяцы по-итальянски?"
+        options: ["с большой буквы", "с маленькой буквы"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "1.000.000 —"
+        options: ["mille mille", "un milione", "un miliardo", "centomila"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «декабрь»"
+        answer: ["dicembre"]
+      - type: input
+        level: 3
+        q: "Переведите: «весна» — la ___"
+        answer: ["primavera"]
+      - type: input
+        level: 3
+        q: "Переведите: «февраль»"
+        answer: ["febbraio"]
+      - type: match
+        level: 2
+        q: "Соедините месяцы"
+        pairs:
+          - ["gennaio", "январь"]
+          - ["maggio", "май"]
+          - ["giugno", "июнь"]
+          - ["ottobre", "октябрь"]
+          - ["novembre", "ноябрь"]
+
+  - slug: messaggi-informatica
+    title_it: "Messaggi, email e telefono"
+    title_ru: "Сообщения, письма и интернет"
+    theory: |
+      ## Письмо и email
+
+      **Неформально:** *Cara Anna / Caro Marco* (Дорогая Анна / Дорогой Марко) … *Un bacio, Un abbraccio, Tanti baci* (Целую, Обнимаю).
+
+      **Формально:** *Gentile signora Rossi / Gentile Direttore* (Уважаемая синьора Росси / Уважаемый директор) … *Cordiali saluti* (С уважением).
+
+      В адресе: **il mittente** — отправитель, **il destinatario** — получатель, **il CAP** — почтовый индекс.
+
+      ## Язык мессенджеров
+
+      Итальянцы в сообщениях сокращают слова: **cmq** = comunque, **xké** = perché, **tvb** = ti voglio bene (я тебя люблю — друзьям и родным), **grz** = grazie, **nn** = non.
+
+      ## Интернет
+
+      **cliccare** (кликнуть), **caricare** (загрузить), **scaricare** (скачать), **chattare** (переписываться), **il sito internet** (сайт).
+
+      ## Телефон
+
+      Код Италии — **0039** (+39). Номера экстренных служб: **112** — единый номер, **113** — полиция, **115** — пожарные, **118** — скорая помощь.
+    words:
+      - "il mittente | отправитель"
+      - "il destinatario | получатель"
+      - "ric`evere | получать"
+      - "un bacio | поцелуй"
+      - "un abbraccio | объятие"
+      - "caro | дорогой"
+      - "condiv`idere | делиться"
+      - "veloce | быстрый"
+      - "t`ipico | типичный"
+      - "il significato | значение"
+      - "ti voglio bene | я тебя люблю (родным, друзьям)"
+      - "cliccare | кликать"
+      - "caricare | загружать"
+      - "scaricare | скачивать"
+      - "il sito internet | сайт"
+      - "chattare | переписываться в чате"
+      - "il prefisso | код (телефонный)"
+      - "chiamare | звонить; звать"
+      - "naturalmente | естественно"
+      - "l'ambulanza | скорая помощь | f"
+      - "la polizia | полиция"
+      - "il fiore | цветок"
+      - "la chiesa | церковь"
+      - "il castello | замок"
+      - "la fontana | фонтан"
+      - "il monumento | памятник"
+      - "il ponte | мост"
+      - "bianco | белый"
+    phrases:
+      - "Cara Giulia, come stai? | Дорогая Джулия, как дела?"
+      - "Tanti baci! | Целую крепко!"
+      - "Ti voglio bene! | Я тебя люблю!"
+      - "Cordiali saluti | С уважением"
+      - "Scarica l'app! | Скачай приложение!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как начать письмо подруге?"
+        options: ["Gentile signora", "Cara Anna", "Egregio Direttore", "Cordiali saluti"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Что означает *scaricare*?"
+        options: ["загрузить", "скачать", "кликнуть", "удалить"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Сокращение *tvb* означает:"
+        options: ["ti vedo bene", "ti voglio bene", "tutto va bene", "tra venti baci"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Кто такой *il mittente*?"
+        options: ["получатель", "почтальон", "отправитель", "директор"]
+        answer: 2
+      - type: input
+        level: 3
+        q: "Переведите: «получатель» — il ___"
+        answer: ["destinatario"]
+      - type: input
+        level: 3
+        q: "Переведите: «Целую» (в конце письма) — Un ___"
+        answer: ["bacio"]
+      - type: order
+        level: 3
+        q: "Соберите: «Я тебя люблю, бабушка!»"
+        answer: "Ti voglio bene, nonna!"

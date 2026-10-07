@@ -1,0 +1,202 @@
+lessons_before:
+  - slug: dialogo-fare-spese
+    kind: dialogue
+    title_it: "I saldi!"
+    title_ru: "Распродажа!"
+    dialogue:
+      title: "In un negozio di abbigliamento"
+      scene: "Начались распродажи. София и Джанна идут по магазинам в центре Милана."
+      lines:
+        - "Gianna: Sofia, guarda questo vestito rosa! Ti piace? | София, смотри, какое розовое платье! Тебе нравится?"
+        - "Sofia: È bellissimo! Lo posso provare? | Очень красивое! Можно его примерить?"
+        - "Commessa: Certo! Che taglia porta? | Конечно! Какой у вас размер?"
+        - "Sofia: La 42, credo. | 42-й, кажется."
+        - "Commessa: Ecco a Lei. Il camerino è in fondo a destra. | Вот, пожалуйста. Примерочная в конце справа."
+        - "Gianna: Allora? Come ti sta? | Ну что? Как сидит?"
+        - "Sofia: Mi sta un po' stretto. Avete la 44? | Немного узковато. У вас есть 44-й?"
+        - "Commessa: Sì, eccolo. E oggi c'è lo sconto del trenta per cento. | Да, вот. И сегодня скидка тридцать процентов."
+        - "Sofia: Perfetto, lo prendo! Posso pagare con la carta? | Отлично, беру! Можно оплатить картой?"
+        - "Commessa: Certo, si può pagare anche con il cellulare. | Конечно, можно оплатить и телефоном."
+        - "Gianna: Brava! Adesso andiamo a cercare le scarpe! | Умница! А теперь пойдём искать туфли!"
+        - "Sofia: Gianna, mi sono già stancata… Prima un caffè! | Джанна, я уже устала… Сначала кофе!"
+    words:
+      - "il per cento | процент"
+      - "in fondo a destra | в конце справа"
+      - "stancarsi | уставать"
+    phrases:
+      - "Lo posso provare? | Можно примерить?"
+      - "Come ti sta? | Как сидит? Идёт тебе?"
+      - "Mi sta un po' stretto. | Немного узковато."
+      - "Lo prendo! | Беру!"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["Il vestito è rosa.", true]
+          - ["La taglia 42 va benissimo.", false]
+          - ["C'è uno sconto del 30%.", true]
+          - ["Sofia paga in contanti.", false]
+      - type: choice
+        level: 2
+        audio: "Mi sta un po' stretto. Avete la quarantaquattro?"
+        q: "🎧 Какой размер просит София?"
+        options: ["40", "42", "44", "46"]
+        answer: 2
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Заполните пропуски."
+        text: "Lo posso [[provare]]? Che [[taglia]] porta? Il [[camerino]] è in fondo a destra."
+      - type: dialog
+        level: 2
+        q: "Восстановите диалог в магазине."
+        lines:
+          - "Buongiorno, posso provare questa giacca?"
+          - "Certo! Che taglia porta?"
+          - "La 46."
+          - "Ecco a Lei, il camerino è lì."
+
+lessons_after:
+  - slug: moda-milano
+    kind: culture
+    title_it: "Milano, capitale della moda"
+    title_ru: "Милан — столица моды"
+    reading:
+      title: "Il Made in Italy"
+      photo: p-galleria-milano
+      text: |
+        Milano è una delle capitali mondiali della moda. Due volte all'anno, a febbraio e a settembre, c'è la Settimana della moda: stilisti di tutto il mondo presentano le loro collezioni.
+        Nel centro di Milano c'è la Galleria Vittorio Emanuele II, con negozi eleganti, bar storici e un bellissimo tetto di vetro.
+        Il "Made in Italy" non è solo vestiti: anche scarpe, borse, occhiali e gioielli italiani sono famosi in tutto il mondo.
+        Molti italiani amano vestirsi bene anche nella vita di tutti i giorni. In Italia si dice: "Non c'è una seconda occasione per fare una buona prima impressione".
+        I saldi in Italia ci sono due volte all'anno: a gennaio e a luglio.
+      ru: |
+        Милан — одна из мировых столиц моды. Дважды в год, в феврале и сентябре, проходит Неделя моды: модельеры со всего мира показывают свои коллекции.
+        В центре Милана находится Галерея Виктора Эммануила II с элегантными магазинами, историческими барами и красивой стеклянной крышей.
+        «Сделано в Италии» — это не только одежда: итальянские туфли, сумки, очки и украшения тоже знамениты во всём мире.
+        Многие итальянцы любят хорошо одеваться и в повседневной жизни. В Италии говорят: «Второго шанса произвести первое впечатление не бывает».
+        Распродажи в Италии бывают дважды в год: в январе и в июле.
+      glossary:
+        - "la collezione | коллекция"
+        - "il tetto di vetro | стеклянная крыша"
+        - "la vita di tutti i giorni | повседневная жизнь"
+        - "l'impressione | впечатление | f"
+    photos: [p-duomo-milano]
+    words:
+      - "la Settimana della moda | Неделя моды"
+      - "il tetto | крыша"
+      - "il vetro | стекло"
+      - "l'impressione | впечатление | f"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["La Settimana della moda c'è una volta all'anno.", false]
+          - ["La Galleria ha un tetto di vetro.", true]
+          - ["I saldi ci sono a gennaio e a luglio.", true]
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: что не входит в «Made in Italy» из текста?"
+        options: ["scarpe", "borse", "occhiali", "computer"]
+        answer: 3
+      - type: choice
+        level: 2
+        ref: reading
+        q: "Когда в Италии распродажи?"
+        options: ["в феврале и сентябре", "в январе и июле", "только в декабре", "каждый месяц"]
+        answer: 1
+
+  - slug: autovalutazione-9
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 9"
+    theory: |
+      ## Что вы уже умеете
+
+      * спрягать возвратные глаголы: *mi alzo, ti vesti, si diverte, ci vediamo*;
+      * образовывать их прошедшее время с **essere**: *mi sono svegliata*;
+      * ставить местоимение с модальными: *mi devo alzare = devo alzarmi*;
+      * говорить безлично: *si mangia bene, bisogna studiare*;
+      * покупать одежду: размер, цвет, примерка, оплата.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините глагол и перевод"
+        pairs:
+          - ["svegliarsi", "просыпаться"]
+          - ["vestirsi", "одеваться"]
+          - ["divertirsi", "веселиться"]
+          - ["addormentarsi", "засыпать"]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: что не одежда?"
+        options: ["gonna", "giacca", "maglione", "taglia"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Noi {{si=>ci}} svegliamo alle sette."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Ieri Anna si {{ha=>è}} alzata tardi."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Dopo il lavoro noi {{si=>ci}} riposiamo sempre."
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "Le ragazze si sono [[divertite]] alla festa. [[Bisogna]] studiare di più. Qui [[si]] parla italiano."
+      - type: choice
+        level: 2
+        audio: "Posso pagare con la carta di credito?"
+        q: "🎧 О чём спрашивает покупатель?"
+        options: ["о размере", "об оплате картой", "о скидке", "о цвете"]
+        answer: 1
+
+exercises:
+  verbi-riflessivi:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какой глагол НЕ возвратный?"
+      options: ["alzarsi", "lavarsi", "mangiare", "vestirsi"]
+      answer: 2
+    - type: choice
+      level: 2
+      audio: "La mattina mi sveglio alle sette e mi preparo in fretta."
+      q: "🎧 Во сколько человек просыпается?"
+      options: ["в 6", "в 7", "в 8", "в 9"]
+      answer: 1
+  riflessivi-passato:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "I bambini si sono {{divertito=>divertiti}} al parco."
+  la-posso-provare:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: что не узор ткани?"
+      options: ["a righe", "a quadri", "a fiori", "a destra"]
+      answer: 3
+    - type: choice
+      level: 1
+      audio: "C'è anche in nero?"
+      q: "🎧 О чём спрашивают?"
+      options: ["о размере", "о цвете", "о цене", "о примерочной"]
+      answer: 1
+  forma-impersonale:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "In questo ristorante si {{mangiano=>mangia}} bene."
+  moda-italiana:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: кто не модельер?"
+      options: ["Armani", "Versace", "Prada", "Fellini"]
+      answer: 3

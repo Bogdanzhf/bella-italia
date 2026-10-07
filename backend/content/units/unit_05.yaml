@@ -1,0 +1,485 @@
+id: 5
+title_it: "Tempo di vacanze"
+title_ru: "Время каникул"
+level: A1
+icon: "🏔️"
+description: >
+  Будущее время futuro semplice и futuro composto, планы и обещания,
+  путешествие на поезде, отпуск в горах, прогноз погоды и итальянские праздники.
+goals:
+  - говорить о планах, обещаниях и предположениях (futuro semplice)
+  - "знать неправильные формы будущего: sarò, avrò, andrò, verrò…"
+  - покупать билет на поезд и понимать объявления на вокзале
+  - рассказывать о погоде
+  - знать главные итальянские праздники и традиции
+
+lessons:
+  - slug: futuro-semplice
+    title_it: "A Capodanno cosa farete?"
+    title_ru: "Будущее время: futuro semplice"
+    theory: |
+      ## Образование
+
+      Отбрасываем последнюю **-e** инфинитива и добавляем окончания. У глаголов на **-are** гласная **a** меняется на **e**:
+
+      | | **tornare** | **prendere** | **partire** |
+      |---|---|---|---|
+      | io | torn**erò** | prend**erò** | part**irò** |
+      | tu | torn**erai** | prend**erai** | part**irai** |
+      | lui / lei | torn**erà** | prend**erà** | part**irà** |
+      | noi | torn**eremo** | prend**eremo** | part**iremo** |
+      | voi | torn**erete** | prend**erete** | part**irete** |
+      | loro | torn**eranno** | prend**eranno** | part**iranno** |
+
+      * **-care / -gare** добавляют **h**: *cercare → cercherò, pagare → pagherò*
+      * **-ciare / -giare** теряют **i**: *cominciare → comincerò, mangiare → mangerò*
+
+      ## Неправильные формы
+
+      | | | |
+      |---|---|---|
+      | essere → **sarò** | andare → **andrò** | venire → **verrò** |
+      | avere → **avrò** | potere → **potrò** | volere → **vorrò** |
+      | fare → **farò** | dovere → **dovrò** | rimanere → **rimarrò** |
+      | stare → **starò** | sapere → **saprò** | bere → **berrò** |
+      | dare → **darò** | vedere → **vedrò** | tenere → **terrò** |
+
+      ## Когда употребляется
+
+      * планы: *I miei amici **andranno** in vacanza a settembre.*
+      * прогнозы: *Domenica non **pioverà**.*
+      * обещания: *Domani **studierò** tutto il giorno!*
+      * предположения: *Che ora è? — **Saranno** le dieci.* (Наверное, десять.)
+
+      > 💡 В разговорной речи о ближайшем будущем часто говорят в **настоящем** времени: *Domani vado al mare.*
+    words:
+      - "prendere il sole | загорать"
+      - "il sole | солнце"
+      - "passeggiare | гулять"
+      - "la nave | корабль, теплоход"
+      - "la scarpa | туфля, ботинок"
+      - "elegante | элегантный"
+      - "l'ombrello | зонт | m"
+      - "gli occhiali da sole | солнечные очки"
+      - "il campeggio | кемпинг"
+      - "l'avventura | приключение | f"
+      - "il documento | документ"
+      - "il bagaglio | багаж"
+      - "il viaggio | путешествие, поездка"
+      - "buon viaggio! | счастливого пути!"
+      - "la partenza | отъезд, отправление"
+      - "i parenti | родственники"
+      - "festeggiare | праздновать"
+      - "il Capodanno | Новый год"
+      - "il Natale | Рождество"
+      - "i genitori | родители"
+      - "buone feste! | с праздниками!"
+      - "la cugina | двоюродная сестра"
+      - "la previsione | прогноз"
+      - "la promessa | обещание"
+      - "prenotare | бронировать"
+      - "dopodomani | послезавтра"
+      - "la tenda | палатка"
+      - "il bambino | ребёнок, мальчик"
+      - "il marito | муж"
+      - "la moglie | жена"
+      - "l'offerta | предложение (акция) | f"
+      - "insomma | в общем"
+      - "cattivo | плохой, злой"
+    phrases:
+      - "A Capodanno cosa farete? | Что вы будете делать на Новый год?"
+      - "Andremo in montagna con i nostri amici. | Мы поедем в горы с друзьями."
+      - "Buon viaggio! | Счастливого пути!"
+      - "Buone feste! | С праздниками!"
+      - "Ci devo pensare. | Мне надо подумать."
+      - "Domani pioverà. | Завтра будет дождь."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Io ___ a casa alle otto. (tornare)"
+        options: ["tornarò", "tornerò", "tornirò", "tornerà"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Futuro от *essere* (io):"
+        options: ["esserò", "sarò", "sono", "starò"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Noi ___ in vacanza ad agosto. (andare)"
+        options: ["anderemo", "andremo", "andiamo", "andaremo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Tu ___ la pizza stasera? (mangiare)"
+        options: ["mangierai", "mangerai", "mangiarai", "mangerà"]
+        answer: 1
+        explain: "Глаголы на -giare теряют i: mangerai."
+      - type: choice
+        level: 2
+        q: "Loro ___ il conto. (pagare)"
+        options: ["pagheranno", "pageranno", "pagaranno", "pagherano"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Che ora è? — ___ le dieci. (предположение)"
+        options: ["Sono", "Saranno", "Erano", "Siano"]
+        answer: 1
+      - type: input
+        level: 2
+        q: "Voi ___ (partire) domani? (futuro)"
+        answer: ["partirete"]
+      - type: input
+        level: 3
+        q: "Io ___ (avere) tempo sabato. (futuro)"
+        answer: ["avrò"]
+      - type: input
+        level: 3
+        q: "Marco ___ (venire) con noi. (futuro)"
+        answer: ["verrà"]
+      - type: input
+        level: 3
+        q: "Noi ___ (fare) una festa. (futuro)"
+        answer: ["faremo"]
+      - type: input
+        level: 3
+        q: "Tu ___ (potere) venire? (futuro)"
+        answer: ["potrai"]
+      - type: input
+        level: 3
+        q: "Loro ___ (rimanere) a Roma. (futuro)"
+        answer: ["rimarranno"]
+      - type: input
+        level: 3
+        q: "Io ___ (cercare) un albergo. (futuro)"
+        answer: ["cercherò"]
+
+  - slug: viaggiare-in-treno
+    title_it: "Viaggiare in treno"
+    title_ru: "Путешествие на поезде"
+    theory: |
+      ## На вокзале
+
+      * **Vorrei un biglietto per Firenze.** — Я бы хотела билет до Флоренции.
+      * **Solo andata o andata e ritorno?** — Только туда или туда и обратно?
+      * **Il treno è diretto o devo cambiare?** — Поезд прямой или нужна пересадка?
+      * **Da quale binario parte?** — С какого пути отправляется?
+      * **Il treno è in ritardo di dieci minuti.** — Поезд опаздывает на десять минут.
+
+      ## Объявления на вокзале
+
+      *Il treno regionale veloce proveniente da Roma e diretto a Milano è in arrivo al binario 3.* — Скорый региональный поезд из Рима в Милан прибывает на 3-й путь.
+
+      ## Поезда в Италии
+
+      **Frecciarossa** и **Italo** — скоростные поезда (нужна бронь места), **Regionale / Regionale veloce** — региональные (билет надо **прокомпостировать** перед посадкой!).
+
+      Где купить билет: в **biglietteria** (касса), в автомате, в приложении. В поезде билеты проверяет **il controllore**.
+    words:
+      - "la biglietter`ia | билетная касса"
+      - "il controllore | контролёр"
+      - "il viaggiatore | путешественник"
+      - "il binario | путь (на вокзале)"
+      - "la carrozza | вагон"
+      - "il cambio | пересадка"
+      - "diretto | прямой"
+      - "l'andata | дорога туда | f"
+      - "il ritorno | возвращение, обратный путь"
+      - "il cent`esimo | цент"
+      - "proveniente da | прибывающий из"
+      - "in arrivo | прибывает"
+      - "la direzione | направление"
+      - "infine | наконец"
+      - "la prenotazione | бронирование"
+      - "obbligatorio | обязательный"
+      - "fermarsi | останавливаться"
+      - "fare la fila | стоять в очереди"
+      - "la guida | путеводитель; гид"
+    phrases:
+      - "Un biglietto per Venezia, per favore. | Билет до Венеции, пожалуйста."
+      - "Andata e ritorno. | Туда и обратно."
+      - "Da quale binario parte il treno? | С какого пути отправляется поезд?"
+      - "Il treno è in ritardo. | Поезд опаздывает."
+      - "Devo cambiare a Bologna? | Мне нужна пересадка в Болонье?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "*Il binario* — это:"
+        options: ["билет", "путь (платформа)", "вагон", "касса"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Билет «туда и обратно» —"
+        options: ["solo andata", "andata e ritorno", "ritorno e andata", "diretto"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Где купить билет на вокзале?"
+        options: ["in biglietteria", "in libreria", "in pasticceria", "in carrozza"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Кто проверяет билеты в поезде?"
+        options: ["il cameriere", "il controllore", "il viaggiatore", "il binario"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Переведите: «вагон» — la ___"
+        answer: ["carrozza"]
+      - type: input
+        level: 3
+        q: "Переведите: «Поезд опаздывает» — Il treno è in ___"
+        answer: ["ritardo"]
+      - type: order
+        level: 3
+        q: "Соберите: «С какого пути отправляется поезд?»"
+        answer: "Da quale binario parte il treno?"
+
+  - slug: in-montagna
+    title_it: "In montagna"
+    title_ru: "Отпуск в горах. Futuro composto"
+    theory: |
+      ## Отпуск
+
+      * **Prendere le ferie** — взять отпуск. *Ad agosto prendo le ferie.*
+      * **La settimana bianca** — «белая неделя», зимний отпуск на горнолыжном курорте.
+      * **Andare a sciare** — поехать кататься на лыжах.
+
+      ## Если… то… (реальное условие)
+
+      *Se **farà** bel tempo, **andremo** al mare.* — Если будет хорошая погода, мы поедем на море.
+      В разговорной речи можно и в настоящем: *Se **vieni** anche tu, ci **divertiamo** di più.*
+
+      ## Futuro composto (предбудущее)
+
+      **avere / essere в futuro** + **причастие**: *avrò finito, sarò arrivato/a*.
+
+      Показывает действие, которое **закончится раньше** другого будущего действия. Часто после **quando, dopo che, appena** (как только):
+      * *Uscirete solo **dopo che avrete finito** i compiti.* — Выйдете только после того, как сделаете уроки.
+      * ***Appena sarò arrivata**, ti chiamerò.* — Как только приеду, позвоню тебе.
+
+      Также — предположение о прошлом: *Perché non risponde? **Avrà perso** il telefono.* — Наверное, потеряла телефон.
+
+      > 💡 В разговорной речи futuro composto часто заменяют простым: *Appena arriverò, ti chiamo.*
+    words:
+      - "la settimana bianca | неделя на горнолыжном курорте"
+      - "le Alpi | Альпы"
+      - "il permesso | разрешение, отгул"
+      - "le ferie | отпуск"
+      - "cucinare | готовить (еду)"
+      - "sciare | кататься на лыжах"
+      - "scherzare | шутить"
+      - "l'esperienza | опыт | f"
+      - "appena | как только"
+      - "dopo che | после того как"
+      - "divertirsi | веселиться"
+    phrases:
+      - "Prenderò le ferie ad agosto. | Я возьму отпуск в августе."
+      - "Andiamo a sciare! | Поедем кататься на лыжах!"
+      - "Appena sarò arrivata, ti chiamerò. | Как только приеду, позвоню тебе."
+      - "Se farà bel tempo, andremo in montagna. | Если будет хорошая погода, поедем в горы."
+    exercises:
+      - type: choice
+        level: 2
+        q: "Appena ___ i compiti, uscirò. (finire)"
+        options: ["avrò finito", "ho finito", "avevo finito", "finivo"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Quando ___ a Roma, ti telefonerò. (arrivare, io — Anna)"
+        options: ["sarò arrivata", "avrò arrivato", "sarò arrivato", "sono arrivata"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Se ___ bel tempo, andremo al mare."
+        options: ["farà", "fa", "Оба варианта возможны"]
+        answer: 2
+      - type: choice
+        level: 1
+        q: "*Le ferie* — это:"
+        options: ["праздники", "отпуск", "ярмарки", "поездки"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Non risponde… ___ perso il telefono! (наверное, потеряла — futuro composto)"
+        answer: ["avrà"]
+      - type: input
+        level: 3
+        q: "Переведите: «кататься на лыжах» —"
+        answer: ["sciare"]
+      - type: input
+        level: 3
+        q: "Dopo che ___ (mangiare, noi), faremo una passeggiata. (futuro composto)"
+        answer: ["avremo mangiato"]
+
+  - slug: che-tempo-fa
+    title_it: "Che tempo farà domani?"
+    title_ru: "Погода"
+    theory: |
+      ## Какая погода?
+
+      **Che tempo fa?** — Какая погода? **Che tempo farà domani?** — Какая погода будет завтра?
+
+      | | |
+      |---|---|
+      | **Fa bel tempo.** — Хорошая погода. | **Fa brutto tempo.** — Плохая погода. |
+      | **Fa caldo.** — Жарко. | **Fa freddo.** — Холодно. |
+      | **C'è il sole.** — Солнечно. | **È nuvoloso.** — Облачно. |
+      | **Piove.** — Идёт дождь. | **Nevica.** — Идёт снег. |
+      | **Tira vento.** — Ветрено. | **C'è nebbia.** — Туман. |
+      | **C'è un temporale.** — Гроза. | **Il cielo è coperto.** — Пасмурно. |
+
+      > 💡 О погоде говорят с глаголом **fare**: *fa caldo, fa freddo*. А *piovere* (идти о дожде) и *nevicare* (идти о снеге) — безличные: *piove, pioverà, è piovuto*.
+
+      ## Прогноз (meteo)
+
+      *Domani **pioverà** al Nord, al Centro il cielo **sarà** nuvoloso, al Sud **ci sarà** il sole. Temperature in aumento.* — Завтра на севере будет дождь, в центре облачно, на юге солнце. Температура повышается.
+    words:
+      - "tira vento | ветрено"
+      - "il vento | ветер"
+      - "il cielo | небо"
+      - "nuvoloso | облачный"
+      - "la n`uvola | облако"
+      - "all'improvviso | вдруг, неожиданно"
+      - "il m`eteo | прогноз погоды"
+      - "la temperatura | температура"
+      - "vari`abile | переменный"
+      - "il temporale | гроза"
+      - "la neve | снег"
+      - "la n`ebbia | туман"
+      - "calmo | спокойный"
+      - "mosso | неспокойный (о море)"
+      - "d`ebole | слабый"
+      - "in aumento | повышается"
+      - "in diminuzione | понижается"
+      - "nevicare | идти (о снеге)"
+      - "piovere | идти (о дожде)"
+      - "coperto | пасмурный"
+      - "la penisola | полуостров"
+      - "il mattino | утро"
+    phrases:
+      - "Che tempo fa oggi? | Какая сегодня погода?"
+      - "Fa freddo e tira vento. | Холодно и ветрено."
+      - "Domani pioverà. | Завтра будет дождь."
+      - "Oggi c'è il sole! | Сегодня солнечно!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "*Nevica* означает:"
+        options: ["идёт дождь", "идёт снег", "ветрено", "туман"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "«Жарко» —"
+        options: ["È caldo.", "Fa caldo.", "Ha caldo.", "C'è caldo."]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "«Ветрено» —"
+        options: ["Fa vento.", "Tira vento.", "È vento.", "Ha vento."]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "*La nebbia* — это:"
+        options: ["небо", "туман", "облако", "гроза"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Domani ___ (piovere). (futuro)"
+        answer: ["pioverà"]
+      - type: input
+        level: 3
+        q: "Переведите: «Какая погода?» — Che tempo ___?"
+        answer: ["fa"]
+      - type: input
+        level: 3
+        q: "Переведите: «гроза» — il ___"
+        answer: ["temporale"]
+      - type: match
+        level: 2
+        q: "Соедините погоду"
+        pairs:
+          - ["piove", "идёт дождь"]
+          - ["nevica", "идёт снег"]
+          - ["fa freddo", "холодно"]
+          - ["c'è il sole", "солнечно"]
+          - ["è nuvoloso", "облачно"]
+
+  - slug: natale-in-italia
+    title_it: "Natale in Italia"
+    title_ru: "Праздники и традиции"
+    theory: |
+      ## Главные праздники
+
+      | Праздник | Дата | Традиции |
+      |---|---|---|
+      | **Natale** — Рождество | 25 декабря | *il presepe* (рождественский вертеп), *il panettone* и *il pandoro*, игра *la tombola* |
+      | **Capodanno** — Новый год | 1 января | *il cenone* (праздничный ужин), фейерверки, чечевица на счастье |
+      | **Epifania** | 6 января | ведьма **Befana** приносит детям сладости в чулке |
+      | **Carnevale** — Карнавал | февраль | маски, Венецианский карнавал |
+      | **Pasqua** — Пасха | весной | пирог *la colomba*, шоколадные яйца |
+      | **Ferragosto** | 15 августа | разгар летних отпусков, вся Италия на море |
+
+      **Babbo Natale** — Дед Мороз (Санта-Клаус). Поздравления: **Buon Natale!** (С Рождеством!), **Buon anno!** (С Новым годом!), **Buona Pasqua!** (С Пасхой!), **Buone feste!** (С праздниками!).
+
+      > 💡 Пословица: *Natale con i tuoi, Pasqua con chi vuoi* — «Рождество — с семьёй, Пасху — с кем хочешь».
+    words:
+      - "Babbo Natale | Дед Мороз, Санта-Клаус"
+      - "il presepe | рождественский вертеп"
+      - "il gioco | игра"
+      - "la t`ombola | томбола (лото)"
+      - "il dolce | десерт, сладкое"
+      - "tradizionale | традиционный"
+      - "il panettone | панеттоне (рождественский кекс)"
+      - "la tradizione | традиция"
+      - "la curiosità | любопытный факт"
+      - "il prov`erbio | пословица"
+      - "il pandoro | пандоро (рождественский кекс)"
+      - "il dono | подарок"
+      - "la Pasqua | Пасха"
+      - "il carnevale | карнавал"
+      - "il Ferragosto | Феррагосто (15 августа)"
+      - "l'Epifan`ia | Крещение (6 января) | f"
+      - "la pasticcer`ia | кондитерская"
+      - "il popolo | народ"
+    phrases:
+      - "Buon Natale! | С Рождеством!"
+      - "Buon anno! | С Новым годом!"
+      - "Buona Pasqua! | С Пасхой!"
+      - "Natale con i tuoi, Pasqua con chi vuoi. | Рождество с семьёй, Пасха — с кем хочешь."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Когда отмечают Ferragosto?"
+        options: ["25 декабря", "1 января", "15 августа", "6 января"]
+        answer: 2
+      - type: choice
+        level: 1
+        q: "Кто приносит подарки детям 6 января?"
+        options: ["Babbo Natale", "la Befana", "il presepe", "la colomba"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Какой сладкий пирог едят на Пасху?"
+        options: ["il panettone", "la colomba", "il pandoro", "il tiramisù"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Как поздравить с Рождеством? Buon ___!"
+        answer: ["natale"]
+      - type: input
+        level: 3
+        q: "Как поздравить с Новым годом? Buon ___!"
+        answer: ["anno"]
+
+verbs:
+  - {inf: tornare, ru: возвращаться, tense: futuro semplice, forms: [tornerò, tornerai, tornerà, torneremo, tornerete, torneranno]}
+  - {inf: prendere, ru: брать, tense: futuro semplice, forms: [prenderò, prenderai, prenderà, prenderemo, prenderete, prenderanno]}
+  - {inf: partire, ru: уезжать, tense: futuro semplice, forms: [partirò, partirai, partirà, partiremo, partirete, partiranno]}
+  - {inf: essere, ru: быть, tense: futuro semplice, forms: [sarò, sarai, sarà, saremo, sarete, saranno]}
+  - {inf: avere, ru: иметь, tense: futuro semplice, forms: [avrò, avrai, avrà, avremo, avrete, avranno]}
+  - {inf: andare, ru: идти, tense: futuro semplice, forms: [andrò, andrai, andrà, andremo, andrete, andranno]}
+  - {inf: fare, ru: делать, tense: futuro semplice, forms: [farò, farai, farà, faremo, farete, faranno]}
+  - {inf: venire, ru: приходить, tense: futuro semplice, forms: [verrò, verrai, verrà, verremo, verrete, verranno]}
+  - {inf: potere, ru: мочь, tense: futuro semplice, forms: [potrò, potrai, potrà, potremo, potrete, potranno]}
+  - {inf: mangiare, ru: есть, tense: futuro semplice, forms: [mangerò, mangerai, mangerà, mangeremo, mangerete, mangeranno]}

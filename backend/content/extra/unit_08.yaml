@@ -1,0 +1,212 @@
+lessons_before:
+  - slug: dialogo-spesa
+    kind: dialogue
+    title_it: "Al mercato"
+    title_ru: "На рынке"
+    dialogue:
+      title: "La spesa del sabato"
+      scene: "Суббота. София и Джанна идут на рынок, чтобы купить продукты для ужина."
+      lines:
+        - "Gianna: Hai la lista della spesa? | У тебя есть список покупок?"
+        - "Sofia: Sì, ce l'ho! Pomodori, mozzarella, basilico e frutta. | Да, есть! Помидоры, моцарелла, базилик и фрукты."
+        - "Fruttivendolo: Buongiorno, signorine! Che cosa desiderate? | Доброе утро, синьорины! Что желаете?"
+        - "Sofia: Vorrei dei pomodori, per favore. | Мне бы помидоров, пожалуйста."
+        - "Fruttivendolo: Quanti ne vuole? | Сколько вам?"
+        - "Sofia: Ne prendo un chilo. Sono buoni? | Возьму килограмм. Они хорошие?"
+        - "Fruttivendolo: Buonissimi, li ho raccolti ieri! Altro? | Отличные, я собрал их вчера! Что-нибудь ещё?"
+        - "Gianna: Sì, delle pesche. Ne vorrei sei. | Да, персиков. Мне бы шесть."
+        - "Fruttivendolo: Ecco. E il basilico ve lo regalo io! | Вот. А базилик я вам дарю!"
+        - "Sofia: Che gentile! Grazie mille! | Как мило! Огромное спасибо!"
+        - "Gianna: E la mozzarella? L'hai presa? | А моцарелла? Ты её взяла?"
+        - "Sofia: Mannaggia, no! La compriamo al negozio di alimentari. | Ой, нет! Купим её в продуктовом магазине."
+    words:
+      - "la lista della spesa | список покупок"
+      - "raccogliere | собирать (урожай)"
+      - "la pesca | персик"
+      - "regalare | дарить"
+    phrases:
+      - "Quanti ne vuole? | Сколько вам (этого)?"
+      - "Ne prendo un chilo. | Возьму килограмм."
+      - "Ce l'ho! | Есть! (у меня)"
+      - "L'hai presa? | Ты её взяла?"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        items:
+          - ["Sofia ha la lista della spesa.", true]
+          - ["Sofia prende due chili di pomodori.", false]
+          - ["Il fruttivendolo regala il basilico.", true]
+          - ["Hanno comprato la mozzarella al mercato.", false]
+      - type: choice
+        level: 2
+        audio: "Delle pesche, per favore. Ne vorrei sei."
+        q: "🎧 Сколько персиков хочет Джанна?"
+        options: ["2", "3", "6", "10"]
+        answer: 2
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Вставьте местоимения."
+        text: "Quanti [[ne]] vuole? — [[Ne]] prendo un chilo. La mozzarella? [[La]] compriamo al negozio."
+      - type: dialog
+        level: 2
+        q: "Восстановите диалог в магазине."
+        lines:
+          - "Buongiorno, desidera?"
+          - "Vorrei del formaggio."
+          - "Quanto ne vuole?"
+          - "Due etti, grazie."
+
+lessons_after:
+  - slug: mercati-prodotti
+    kind: culture
+    title_it: "Mercati e prodotti tipici"
+    title_ru: "Рынки и типичные продукты"
+    reading:
+      title: "Al mercato di Rialto"
+      photo: p-mercato-rialto
+      text: |
+        In Italia i mercati sono un luogo di incontro. Al mercato si comprano frutta, verdura, pesce, formaggi, ma si chiacchiera anche con i venditori.
+        A Venezia c'è il mercato di Rialto: ha più di mille anni! I veneziani ci vanno la mattina presto per comprare il pesce fresco.
+        A Palermo ci sono mercati colorati e rumorosi, come Ballarò e la Vucciria.
+        Molti prodotti italiani hanno il marchio DOP: questo significa che vengono da una zona precisa e sono fatti in modo tradizionale.
+        Il Parmigiano Reggiano, il Prosciutto di Parma e la Mozzarella di bufala campana sono prodotti DOP famosi in tutto il mondo.
+      ru: |
+        В Италии рынки — место встреч. На рынке покупают фрукты, овощи, рыбу, сыры, но и болтают с продавцами.
+        В Венеции есть рынок Риальто: ему больше тысячи лет! Венецианцы ходят туда рано утром за свежей рыбой.
+        В Палермо есть яркие и шумные рынки — Балларо и Вуччирия.
+        У многих итальянских продуктов есть знак DOP: это значит, что они происходят из определённой местности и сделаны по традиции.
+        Пармиджано-реджано, пармская ветчина и моцарелла из молока буйволиц — знаменитые на весь мир продукты DOP.
+      glossary:
+        - "il venditore | продавец"
+        - "fresco | свежий"
+        - "rumoroso | шумный"
+        - "una zona precisa | определённая местность"
+    photos: [p-parmigiano, p-mercato-frutta]
+    words:
+      - "il venditore | продавец"
+      - "fresco | свежий"
+      - "rumoroso | шумный"
+      - "il marchio DOP | знак защищённого происхождения"
+    exercises:
+      - type: tf
+        level: 1
+        ref: reading
+        q: "Верно или неверно?"
+        items:
+          - ["Il mercato di Rialto è a Venezia.", true]
+          - ["Il mercato di Rialto è nuovo.", false]
+          - ["Ballarò è un mercato di Palermo.", true]
+      - type: choice
+        level: 1
+        img: p-parmigiano
+        q: "Что на фото?"
+        options: ["il Parmigiano Reggiano", "il prosciutto", "la mozzarella", "il pane"]
+        answer: 0
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: что НЕ продукт DOP из текста?"
+        options: ["Parmigiano Reggiano", "Prosciutto di Parma", "Mozzarella di bufala", "Coca-Cola"]
+        answer: 3
+
+  - slug: autovalutazione-8
+    kind: review
+    title_it: "Che cosa hai imparato?"
+    title_ru: "Самопроверка: юнит 8"
+    theory: |
+      ## Что вы уже умеете
+
+      * заменять дополнение местоимениями **lo, la, li, le, mi, ti, ci, vi**;
+      * говорить о количестве с **ne**: *ne prendo due chili*;
+      * согласовывать причастие: *l'ho vista, li ho comprati*;
+      * различать **conoscere** и **sapere**; говорить **ce l'ho**;
+      * выражать радость и досаду, предлагать помощь; делать покупки.
+    exercises:
+      - type: match
+        level: 1
+        q: "Соедините продукт и упаковку"
+        pairs:
+          - ["l'acqua", "una bottiglia"]
+          - ["il tonno", "una scatoletta"]
+          - ["la marmellata", "un vasetto"]
+          - ["il dentifricio", "un tubetto"]
+          - ["la pasta", "un pacco"]
+      - type: odd
+        level: 1
+        q: "Найдите лишнее: что не выражает досаду?"
+        options: ["Che rabbia!", "Mannaggia!", "Accidenti!", "Che bello!"]
+        answer: 3
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Le mele? {{Li=>Le}} compro al mercato."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Maria? Sì, l'ho {{visto=>vista}} ieri al bar."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "{{Sai=>Conosci}} mio fratello Marco?"
+      - type: cloze
+        level: 3
+        q: "Заполните пропуски."
+        text: "Quanti anni hai? — [[Ne]] ho venti. Hai la chiave? — Sì, ce [[l']]ho. I biglietti? Li ho [[comprati]]."
+      - type: choice
+        level: 2
+        audio: "Vuoi una mano? — Grazie, faccio da sola."
+        q: "🎧 Девушка принимает помощь?"
+        options: ["да", "нет, справится сама"]
+        answer: 1
+
+exercises:
+  pronomi-diretti:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Il giornale? {{La=>Lo}} leggo ogni mattina."
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какое местоимение — косвенное (кому?), а не прямое?"
+      options: ["lo", "la", "li", "gli"]
+      answer: 3
+  emozioni:
+    - type: choice
+      level: 1
+      audio: "Che bella sorpresa!"
+      q: "🎧 Человек рад или расстроен?"
+      options: ["рад", "расстроен"]
+      answer: 0
+  ne-quantita:
+    - type: error
+      level: 2
+      q: "Найдите ошибку."
+      text: "Quante pere vuoi? {{Le=>Ne}} voglio tre."
+    - type: choice
+      level: 2
+      audio: "Vorrei tre etti di prosciutto."
+      q: "🎧 Сколько ветчины просит покупатель?"
+      options: ["30 г", "300 г", "3 кг", "100 г"]
+      answer: 1
+  pronomi-tempi-composti:
+    - type: cloze
+      level: 3
+      q: "Согласуйте причастие."
+      text: "Le chiavi? Le ho [[messe]] sul tavolo. Le pizze? Ne abbiamo [[mangiate]] due."
+  ti-posso-aiutare:
+    - type: odd
+      level: 2
+      q: "Найдите лишнее: какая фраза НЕ предложение помощи?"
+      options: ["Vuoi una mano?", "Posso aiutarti?", "Hai bisogno di qualcosa?", "Faccio da solo."]
+      answer: 3
+  negozi-mercati:
+    - type: match
+      level: 1
+      q: "Соедините магазин и товар"
+      pairs:
+        - ["la panetteria", "il pane"]
+        - ["la farmacia", "le medicine"]
+        - ["il fioraio", "le rose"]
+        - ["la pescheria", "il pesce"]

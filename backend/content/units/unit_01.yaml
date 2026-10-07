@@ -1,0 +1,679 @@
+id: 1
+title_it: "Un nuovo inizio"
+title_ru: "Новое начало"
+level: A1
+icon: "🕊️"
+description: >
+  Настоящее время правильных глаголов на -are, -ere, -ire, неопределённый артикль,
+  приветствия и вежливая форма на «Вы», описание внешности и характера.
+goals:
+  - спрягать правильные глаголы в настоящем времени
+  - употреблять неопределённый артикль un, uno, una, un'
+  - здороваться и прощаться формально и неформально
+  - обращаться к человеку на «ты» и на «Вы»
+  - описывать внешность и характер
+
+lessons:
+  - slug: presente-regolare
+    title_it: "Sono molto contenta"
+    title_ru: "Настоящее время: правильные глаголы"
+    theory: |
+      ## Три спряжения
+
+      Итальянские глаголы делятся на три группы по окончанию инфинитива: **-are**, **-ere**, **-ire**. Чтобы получить форму, отбросьте окончание инфинитива и добавьте личное окончание:
+
+      | | **lavorare** (работать) | **prendere** (брать) | **aprire** (открывать) | **finire** (заканчивать) |
+      |---|---|---|---|---|
+      | io | lavor**o** | prend**o** | apr**o** | fin**isco** |
+      | tu | lavor**i** | prend**i** | apr**i** | fin**isci** |
+      | lui / lei / Lei | lavor**a** | prend**e** | apr**e** | fin**isce** |
+      | noi | lavor**iamo** | prend**iamo** | apr**iamo** | fin**iamo** |
+      | voi | lavor**ate** | prend**ete** | apr**ite** | fin**ite** |
+      | loro | lav**o**rano | pr**e**ndono | **a**prono | fin**iscono** |
+
+      * Как *aprire* спрягаются: **dormire** (спать), **partire** (уезжать), **sentire** (чувствовать, слышать), **offrire** (предлагать).
+      * Как *finire* (с суффиксом **-isc-** в формах io, tu, lui, loro): **capire** (понимать), **preferire** (предпочитать), **spedire** (отправлять), **pulire** (чистить).
+
+      > 💡 В форме *loro* ударение не на окончании: **lavorano** [лаво́рано], **prendono** [пре́ндоно]. Это частая ошибка!
+
+      В глаголах на **-care / -gare** во 2-м лице ед. ч. и 1-м мн. ч. добавляется **h**, чтобы сохранить звук: *cercare → cerchi, cerchiamo; pagare → paghi, paghiamo*. В глаголах на **-iare** одна i: *mangiare → mangi, mangiamo*.
+    words:
+      - "lavorare | работать"
+      - "prendere | брать; садиться (на транспорт)"
+      - "aprire | открывать"
+      - "finire | заканчивать"
+      - "dormire | спать"
+      - "partire | уезжать"
+      - "sentire | слышать; чувствовать"
+      - "offrire | предлагать; угощать"
+      - "capire | понимать"
+      - "preferire | предпочитать"
+      - "spedire | отправлять"
+      - "pulire | чистить, убирать"
+      - "abitare | жить, проживать"
+      - "parlare | говорить"
+      - "studiare | изучать, учиться"
+      - "ascoltare | слушать"
+      - "scr`ivere | писать"
+      - "l`eggere | читать"
+      - "v`ivere | жить"
+      - "arrivare | приезжать"
+      - "iniziare | начинать"
+      - "il giorno | день"
+      - "l'ufficio | офис | m"
+      - "il minuto | минута"
+      - "contento | довольный, радостный"
+      - "pronto | готовый; алло (по телефону)"
+      - "allora | тогда, итак"
+      - "grazie | спасибо"
+      - "vicino a | рядом с"
+      - "il posto | место"
+    phrases:
+      - "Pronto? | Алло?"
+      - "Come stai? — Bene, e tu? | Как дела? — Хорошо, а у тебя?"
+      - "Che fortuna! | Вот повезло!"
+      - "Buon inizio! | Удачного начала!"
+      - "Che tipo di musica ascolti? | Какую музыку ты слушаешь?"
+      - "Abito a Roma da due anni. | Я живу в Риме уже два года."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Io ___ in un ufficio. (lavorare)"
+        options: ["lavora", "lavoro", "lavori", "lavorano"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Tu ___ il caffè? (prendere)"
+        options: ["prendi", "prende", "prendo", "prendete"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "К какой группе относится глагол *dormire*?"
+        options: ["-are", "-ere", "-ire"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Lei ___ bene l'italiano. (capire)"
+        options: ["cape", "capisce", "capisci", "capiscono"]
+        answer: 1
+        explain: "capire спрягается как finire — с суффиксом -isc-."
+      - type: choice
+        level: 2
+        q: "Noi ___ alle otto. (partire)"
+        options: ["partiamo", "partono", "partite", "partisco"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Loro ___ il tè. (preferire)"
+        options: ["preferono", "preferiscono", "preferiamo", "preferisce"]
+        answer: 1
+      - type: input
+        level: 2
+        q: "Voi ___ (parlare) italiano?"
+        answer: ["parlate"]
+      - type: input
+        level: 2
+        q: "Marco ___ (dormire) molto."
+        answer: ["dorme"]
+      - type: input
+        level: 3
+        q: "Io ___ (finire) di lavorare alle sei."
+        answer: ["finisco"]
+      - type: input
+        level: 3
+        q: "Loro ___ (abitare) a Milano."
+        answer: ["abitano"]
+      - type: input
+        level: 3
+        q: "Tu ___ (studiare) l'italiano?"
+        answer: ["studi"]
+      - type: input
+        level: 3
+        q: "Noi ___ (scrivere) una email."
+        answer: ["scriviamo"]
+      - type: order
+        level: 2
+        q: "Соберите: «Я живу в Риме два года.»"
+        answer: "Abito a Roma da due anni."
+
+  - slug: articolo-indeterminativo
+    title_it: "Una pizza con i colleghi"
+    title_ru: "Неопределённый артикль"
+    theory: |
+      ## Неопределённый артикль
+
+      Неопределённый артикль (*articolo indeterminativo*) употребляется, когда предмет упоминается впервые или он «какой-то, один из». По смыслу он близок к русскому «один, какой-то».
+
+      | Род | Слово начинается на… | Артикль | Пример |
+      |---|---|---|---|
+      | муж. | согласный или гласный | **un** | un libro, un amico |
+      | муж. | s + согласный, z, ps, gn, y, x | **uno** | uno studente, uno zaino |
+      | жен. | согласный | **una** | una ragazza, una pizza |
+      | жен. | гласный | **un'** | un'amica, un'idea |
+
+      > 💡 Перед мужским родом **un** никогда не пишется с апострофом: *un amico* (друг), но *un'amica* (подруга). Так по письму сразу виден род!
+
+      Множественного числа у неопределённого артикля нет: *un libro → libri* (или *dei libri* — «несколько книг», это вы изучите позже).
+
+      ## Прилагательные на -e
+
+      Прилагательные на **-e** имеют одну форму для обоих родов: *il ragazzo gentil**e** / la ragazza gentil**e*** → *i ragazzi gentil**i** / le ragazze gentil**i***.
+
+      ## Описание внешности
+
+      * **Ha gli occhi verdi.** — У неё зелёные глаза.
+      * **Ha i capelli biondi / castani / neri.** — У него светлые / каштановые / чёрные волосы.
+      * **È alto e magro.** — Он высокий и худой.
+
+      Обратите внимание: в итальянском «у неё зелёные глаза» = «она *имеет* зелёные глаза» — глагол **avere** и определённый артикль.
+    words:
+      - "il messaggio | сообщение"
+      - "l`ibero | свободный"
+      - "il pomeriggio | день (после полудня)"
+      - "l'appuntamento | встреча, свидание | m"
+      - "la cena | ужин"
+      - "il collega | коллега"
+      - "dopo | после, потом"
+      - "stasera | сегодня вечером"
+      - "dolce | милый; сладкий"
+      - "l'`occhio | глаз | m"
+      - "i capelli | волосы"
+      - "verde | зелёный"
+      - "biondo | светлый (о волосах), блондин"
+      - "castano | каштановый"
+      - "nero | чёрный"
+      - "azzurro | голубой"
+      - "marrone | коричневый; карий"
+      - "lungo | длинный"
+      - "corto | короткий"
+      - "gentile | вежливый, любезный"
+      - "intelligente | умный"
+      - "interessante | интересный"
+      - "simp`atico | симпатичный, приятный"
+      - "carino | милый, хорошенький"
+      - "però | но, однако"
+      - "qui | здесь"
+      - "il corso | курс"
+      - "l'idea | идея | f"
+      - "l'attore | актёр | m"
+      - "famoso | знаменитый"
+    phrases:
+      - "Sei libera stasera? | Ты свободна сегодня вечером?"
+      - "Ci vediamo dopo! | Увидимся позже!"
+      - "Ha gli occhi azzurri e i capelli biondi. | У неё голубые глаза и светлые волосы."
+      - "È una ragazza molto simpatica. | Она очень приятная девушка."
+    exercises:
+      - type: choice
+        level: 1
+        q: "___ libro"
+        options: ["un", "uno", "una", "un'"]
+        answer: 0
+      - type: choice
+        level: 1
+        q: "___ pizza"
+        options: ["un", "uno", "una", "un'"]
+        answer: 2
+      - type: choice
+        level: 1
+        q: "___ studente"
+        options: ["un", "uno", "una", "un'"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "___ amica"
+        options: ["un", "uno", "una", "un'"]
+        answer: 3
+      - type: choice
+        level: 2
+        q: "___ amico"
+        options: ["un", "uno", "una", "un'"]
+        answer: 0
+        explain: "Перед мужским родом un не пишется с апострофом."
+      - type: choice
+        level: 2
+        q: "Lucia ha gli occhi ___."
+        options: ["verde", "verdi", "verda", "verdo"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Le ragazze sono ___."
+        options: ["gentile", "gentili", "gentilo", "gentila"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Напишите артикль: ___ zaino"
+        answer: ["uno"]
+      - type: input
+        level: 3
+        q: "Напишите артикль: ___ idea"
+        answer: ["un'", "un’"]
+      - type: input
+        level: 3
+        q: "Напишите артикль: ___ appuntamento"
+        answer: ["un"]
+      - type: input
+        level: 3
+        q: "Переведите: «Он высокий и умный.» — È alto e ___."
+        answer: ["intelligente"]
+      - type: order
+        level: 3
+        q: "Соберите: «У Марко голубые глаза.»"
+        answer: "Marco ha gli occhi azzurri."
+
+  - slug: di-dove-sei
+    title_it: "Di dove sei?"
+    title_ru: "Откуда ты? Города и страны"
+    theory: |
+      ## Откуда ты?
+
+      * **Di dove sei?** — Откуда ты? — **Sono di Roma.** — Я из Рима.
+      * **Sono russa, di San Pietroburgo.** — Я русская, из Санкт-Петербурга.
+      * **Dove abiti?** — Где ты живёшь? — **Abito a Firenze.** — Я живу во Флоренции.
+
+      > 💡 С **городами** употребляется предлог **a** (*abito a Milano*) и **di** для происхождения (*sono di Milano*). Со **странами** — **in**: *abito in Italia, vivo in Russia*.
+
+      ## Короткие полезные слова
+
+      * **già** — уже: *Sei già qui?* — Ты уже здесь?
+      * **comunque** — всё равно, тем не менее
+      * **prego** — пожалуйста (в ответ на «спасибо»), «прошу»
+      * **vero?** — правда? не так ли?
+      * **A presto!** — До скорой встречи!
+
+      ## Италия: регионы и города
+
+      Италия разделена на **20 регионов**. Столица — **Roma** (регион Лацио). Другие крупные города: **Milano** (Ломбардия), **Napoli** (Кампания), **Torino** (Пьемонт), **Firenze** (Тоскана), **Venezia** (Венето), **Bologna** (Эмилия-Романья), **Palermo** (Сицилия).
+    words:
+      - "l'incontro | встреча | m"
+      - "la fermata | остановка"
+      - "`ultimo | последний"
+      - "prego | пожалуйста (в ответ на спасибо)"
+      - "vero | правда, верный"
+      - "ben arrivato | с приездом"
+      - "comunque | всё равно, тем не менее"
+      - "già | уже"
+      - "la v`ia | улица"
+      - "a presto | до скорой встречи"
+      - "il Duomo | собор"
+      - "sopra | над, наверху"
+      - "la regione | регион, область"
+      - "la cartina | карта"
+      - "la città | город"
+      - "il paese | страна; деревня"
+      - "l'Italia | Италия | f"
+      - "la Russia | Россия"
+      - "Roma | Рим"
+      - "Milano | Милан"
+      - "Firenze | Флоренция"
+      - "Venezia | Венеция"
+      - "N`apoli | Неаполь"
+      - "Torino | Турин"
+    phrases:
+      - "Di dove sei? | Откуда ты?"
+      - "Sono di Mosca, ma abito a Roma. | Я из Москвы, но живу в Риме."
+      - "Scendi all'ultima fermata. | Выходи на последней остановке."
+      - "Ben arrivata! | С приездом! (девушке)"
+      - "A presto! | До скорого!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Sono ___ Milano."
+        options: ["a", "di", "in", "da"]
+        answer: 1
+        explain: "Происхождение: essere di + город."
+      - type: choice
+        level: 1
+        q: "Abito ___ Roma."
+        options: ["in", "di", "a", "su"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Vivo ___ Italia."
+        options: ["a", "in", "di", "da"]
+        answer: 1
+        explain: "Со странами употребляется in."
+      - type: choice
+        level: 2
+        q: "Столица Италии:"
+        options: ["Milano", "Roma", "Napoli", "Firenze"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Что ответить на «Grazie!»?"
+        options: ["Prego!", "Pronto!", "Piacere!", "Ciao!"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Переведите: «Откуда ты?»"
+        answer: ["di dove sei?", "di dove sei"]
+      - type: input
+        level: 3
+        q: "Anna abita ___ Russia."
+        answer: ["in"]
+      - type: input
+        level: 3
+        q: "Как по-итальянски Флоренция?"
+        answer: ["Firenze"]
+      - type: match
+        level: 2
+        q: "Соедините город и перевод"
+        pairs:
+          - ["Venezia", "Венеция"]
+          - ["Napoli", "Неаполь"]
+          - ["Firenze", "Флоренция"]
+          - ["Milano", "Милан"]
+          - ["Torino", "Турин"]
+
+  - slug: saluti
+    title_it: "Ciao Maria!"
+    title_ru: "Приветствия и прощания"
+    theory: |
+      ## Как поздороваться
+
+      | Неформально (на «ты») | Формально (на «Вы») |
+      |---|---|
+      | **Ciao!** — Привет! / Пока! | **Buongiorno!** — Добрый день! (до ~17:00) |
+      | **Salve!** — Здравствуй(те)! (нейтрально) | **Buonasera!** — Добрый вечер! |
+      | **Come stai?** — Как дела? | **Come sta?** — Как Ваши дела? |
+      | **Come va?** — Как дела? (и так, и так) | |
+
+      ## Как попрощаться
+
+      * **Ciao! / Ci vediamo!** — Пока! / Увидимся!
+      * **Arrivederci!** — До свидания!
+      * **ArrivederLa!** — До свидания! (очень вежливо, одному человеку на «Вы»)
+      * **Buonanotte!** — Спокойной ночи!
+      * **A domani! / A presto!** — До завтра! / До скорого!
+
+      ## Как ответить на «Как дела?»
+
+      **Benissimo!** (отлично) → **Bene, grazie!** (хорошо, спасибо) → **Così così.** (так себе) → **Male.** (плохо)
+
+      > 💡 *Buonasera* в Италии говорят уже с середины дня, примерно после 16–17 часов. *Buonanotte* — только перед сном.
+    words:
+      - "il signore | господин, мужчина"
+      - "la signora | госпожа, женщина"
+      - "il dottore | доктор"
+      - "salve | здравствуй(те)"
+      - "arrivederci | до свидания"
+      - "arrivederLa | до свидания (вежливо)"
+      - "buonasera | добрый вечер"
+      - "buonanotte | спокойной ночи"
+      - "bene | хорошо"
+      - "male | плохо"
+      - "così così | так себе"
+      - "benissimo | отлично"
+      - "formale | официальный, формальный"
+      - "informale | неформальный"
+      - "l'università | университет | f"
+      - "la biblioteca | библиотека"
+      - "la serata | вечер (время)"
+      - "la disc`oteca | дискотека"
+      - "la sera | вечер"
+      - "la mattina | утро"
+    phrases:
+      - "Buongiorno, signora Rossi! Come sta? | Добрый день, синьора Росси! Как Ваши дела?"
+      - "Bene, grazie. E Lei? | Хорошо, спасибо. А Вы?"
+      - "Ciao, Maria! Come va? | Привет, Мария! Как дела?"
+      - "Così così. | Так себе."
+      - "A domani! | До завтра!"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как вежливо поздороваться утром с преподавателем?"
+        options: ["Ciao!", "Buongiorno!", "Buonanotte!", "Arrivederci!"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Что сказать перед сном?"
+        options: ["Buonasera!", "Buongiorno!", "Buonanotte!", "Salve!"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Как спросить у пожилой синьоры «Как Ваши дела?»"
+        options: ["Come stai?", "Come sta?", "Come stanno?", "Come state?"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Что значит «così così»?"
+        options: ["отлично", "так себе", "очень плохо", "спасибо"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Какое прощание самое официальное?"
+        options: ["Ciao!", "Ci vediamo!", "ArrivederLa!", "A presto!"]
+        answer: 2
+      - type: input
+        level: 3
+        q: "Переведите: «Добрый вечер!»"
+        answer: ["buonasera!", "buonasera", "buona sera", "buona sera!"]
+      - type: input
+        level: 3
+        q: "Переведите: «До свидания!» (нейтрально)"
+        answer: ["arrivederci!", "arrivederci"]
+      - type: order
+        level: 3
+        q: "Соберите: «Хорошо, спасибо. А Вы?»"
+        answer: "Bene, grazie. E Lei?"
+
+  - slug: forma-cortesia
+    title_it: "Lei, di dov'è?"
+    title_ru: "Вежливая форма: на «ты» и на «Вы»"
+    theory: |
+      ## Dare del tu / dare del Lei
+
+      В итальянском, как и в русском, к человеку можно обращаться на «ты» (**dare del tu**) или на «Вы» (**dare del Lei**).
+
+      На «Вы» говорят с незнакомыми, старшими, в магазине, на работе. Но, в отличие от русского, для вежливого «Вы» используется местоимение **Lei** (с большой буквы) и глагол в форме **3-го лица единственного числа** — как «она»:
+
+      | На «ты» | На «Вы» |
+      |---|---|
+      | Tu, di dove **sei**? | Lei, di dov'**è**? |
+      | Come **ti chiami**? | Come **si chiama**? |
+      | **Parli** italiano? | **Parla** italiano? |
+      | **Abiti** qui? | **Abita** qui? |
+
+      > 💡 *Lei* — вежливая форма и к мужчине, и к женщине: *Signor Bianchi, Lei è italiano?*
+
+      Если обращаемся вежливо к **нескольким** людям, используем **voi**: *Di dove siete?*
+    words:
+      - "la vacanza | отпуск; каникулы"
+      - "visitare | посещать"
+      - "dare del tu | обращаться на «ты»"
+      - "dare del Lei | обращаться на «Вы»"
+      - "oppure | или"
+      - "poss`ibile | возможный"
+      - "s`imile | похожий"
+      - "la differenza | разница, различие"
+      - "studiare | учиться"
+      - "così | так"
+    phrases:
+      - "Lei, di dov'è? | Откуда Вы?"
+      - "Sono inglese, e Lei? | Я англичанин, а Вы?"
+      - "Lei studia o lavora? | Вы учитесь или работаете?"
+      - "Possiamo darci del tu? | Можем перейти на «ты»?"
+    exercises:
+      - type: choice
+        level: 1
+        q: "Какое местоимение используется для вежливого «Вы» к одному человеку?"
+        options: ["tu", "voi", "Lei", "loro"]
+        answer: 2
+      - type: choice
+        level: 2
+        q: "Signora, come ___?"
+        options: ["ti chiami", "si chiama", "mi chiamo", "vi chiamate"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Dottore, Lei ___ italiano?"
+        options: ["sei", "è", "siete", "sono"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Переведите на «Вы»: *Dove abiti?*"
+        options: ["Dove abita?", "Dove abitate?", "Dove abito?", "Dove abitano?"]
+        answer: 0
+      - type: input
+        level: 3
+        q: "Переведите вежливо: «Вы говорите по-итальянски?» — Lei ___ italiano?"
+        answer: ["parla"]
+      - type: input
+        level: 3
+        q: "Переведите на «Вы»: *Tu, di dove sei?* → Lei, di dov'___?"
+        answer: ["è"]
+      - type: order
+        level: 3
+        q: "Соберите: «Вы учитесь или работаете?»"
+        answer: "Lei studia o lavora?"
+
+  - slug: come-e
+    title_it: "Com'è?"
+    title_ru: "Какой он? Внешность и характер"
+    theory: |
+      ## Описываем человека
+
+      **Com'è?** — Какой он / она? Отвечаем с глаголом **essere** (рост, фигура, характер) или **avere** (глаза, волосы):
+
+      * *È **alta**, **magra** e **bruna**.* — Она высокая, стройная, брюнетка.
+      * *Ha i capelli **lunghi** e **ricci**.* — У неё длинные кудрявые волосы.
+      * *È **allegro** e **simpatico**.* — Он весёлый и приятный.
+
+      ## Пары-антонимы
+
+      | | |
+      |---|---|
+      | alto — высокий | basso — низкий |
+      | magro — худой | grasso — полный |
+      | giovane — молодой | anziano — пожилой |
+      | bello — красивый | brutto — некрасивый |
+      | simpatico — приятный | antipatico — неприятный |
+      | allegro — весёлый | triste — грустный |
+      | gentile — вежливый | scortese — невежливый |
+
+      > 💡 *Bellissimo* — очень красивый. Суффикс **-issimo** усиливает прилагательное: *bravissimo, simpaticissima*.
+    words:
+      - "magro | худой, стройный"
+      - "grasso | полный, толстый"
+      - "bruno | темноволосый, брюнет"
+      - "anziano | пожилой"
+      - "brutto | некрасивый"
+      - "antip`atico | неприятный"
+      - "allegro | весёлый"
+      - "triste | грустный"
+      - "scortese | невежливый"
+      - "bell`issimo | очень красивый"
+      - "riccio | кудрявый"
+      - "liscio | прямой (о волосах)"
+      - "il viso | лицо"
+      - "il naso | нос"
+      - "la testa | голова"
+      - "la bocca | рот"
+      - "l'`uomo | мужчина, человек | m"
+      - "la donna | женщина"
+      - "la storia | история"
+      - "il carattere | характер"
+      - "l'aspetto | внешность | m"
+      - "insieme | вместе"
+      - "migliore | лучший"
+      - "la gonna | юбка"
+      - "il cane | собака"
+    phrases:
+      - "Com'è il tuo ragazzo? | Какой твой парень?"
+      - "È alto, bruno e molto simpatico. | Он высокий, темноволосый и очень приятный."
+      - "La mia migliore amica è allegra. | Моя лучшая подруга весёлая."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Антоним к *alto*:"
+        options: ["magro", "basso", "brutto", "triste"]
+        answer: 1
+      - type: choice
+        level: 1
+        q: "Антоним к *allegro*:"
+        options: ["triste", "giovane", "gentile", "grasso"]
+        answer: 0
+      - type: choice
+        level: 2
+        q: "Giulia ___ i capelli lunghi."
+        options: ["è", "ha", "sono", "hanno"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Marco e Luca sono ___."
+        options: ["simpatico", "simpatici", "simpatiche", "simpatica"]
+        answer: 1
+      - type: choice
+        level: 2
+        q: "Le ragazze sono ___."
+        options: ["allegri", "allegre", "allegra", "allegro"]
+        answer: 1
+      - type: input
+        level: 3
+        q: "Антоним к *giovane*:"
+        answer: ["anziano", "vecchio"]
+      - type: input
+        level: 3
+        q: "Антоним к *simpatico*:"
+        answer: ["antipatico"]
+      - type: input
+        level: 3
+        q: "Переведите: «Она очень красивая.» — È ___."
+        answer: ["bellissima", "molto bella"]
+      - type: order
+        level: 3
+        q: "Соберите: «У Анны карие глаза и светлые волосы.»"
+        answer: "Anna ha gli occhi marroni e i capelli biondi."
+
+verbs:
+  - inf: lavorare
+    ru: работать
+    tense: presente
+    forms: [lavoro, lavori, lavora, lavoriamo, lavorate, lavorano]
+  - inf: parlare
+    ru: говорить
+    tense: presente
+    forms: [parlo, parli, parla, parliamo, parlate, parlano]
+  - inf: abitare
+    ru: жить
+    tense: presente
+    forms: [abito, abiti, abita, abitiamo, abitate, abitano]
+  - inf: studiare
+    ru: учиться
+    tense: presente
+    forms: [studio, studi, studia, studiamo, studiate, studiano]
+  - inf: prendere
+    ru: брать
+    tense: presente
+    forms: [prendo, prendi, prende, prendiamo, prendete, prendono]
+  - inf: scrivere
+    ru: писать
+    tense: presente
+    forms: [scrivo, scrivi, scrive, scriviamo, scrivete, scrivono]
+  - inf: leggere
+    ru: читать
+    tense: presente
+    forms: [leggo, leggi, legge, leggiamo, leggete, leggono]
+  - inf: aprire
+    ru: открывать
+    tense: presente
+    forms: [apro, apri, apre, apriamo, aprite, aprono]
+  - inf: dormire
+    ru: спать
+    tense: presente
+    forms: [dormo, dormi, dorme, dormiamo, dormite, dormono]
+  - inf: partire
+    ru: уезжать
+    tense: presente
+    forms: [parto, parti, parte, partiamo, partite, partono]
+  - inf: finire
+    ru: заканчивать
+    tense: presente
+    forms: [finisco, finisci, finisce, finiamo, finite, finiscono]
+  - inf: capire
+    ru: понимать
+    tense: presente
+    forms: [capisco, capisci, capisce, capiamo, capite, capiscono]
+  - inf: preferire
+    ru: предпочитать
+    tense: presente
+    forms: [preferisco, preferisci, preferisce, preferiamo, preferite, preferiscono]
