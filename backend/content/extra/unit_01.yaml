@@ -129,6 +129,145 @@ lessons_after:
         options: ["Milano", "Torino", "Venezia", "Napoli"]
         answer: 3
 
+  - slug: praktikum-1
+    kind: practice
+    title_it: "Esercizi: presente, essere e avere"
+    title_ru: "Практикум: настоящее время, essere и avere"
+    theory: |
+      ## Памятка
+
+      **Правильные глаголы** — отбросьте -are / -ere / -ire и добавьте окончание:
+
+      | | parl**are** | prend**ere** | dorm**ire** | fin**ire** (-isc-) |
+      |---|---|---|---|---|
+      | io | parl**o** | prend**o** | dorm**o** | fin**isco** |
+      | tu | parl**i** | prend**i** | dorm**i** | fin**isci** |
+      | lui / lei / Lei | parl**a** | prend**e** | dorm**e** | fin**isce** |
+      | noi | parl**iamo** | prend**iamo** | dorm**iamo** | fin**iamo** |
+      | voi | parl**ate** | prend**ete** | dorm**ite** | fin**ite** |
+      | loro | parl**ano** | prend**ono** | dorm**ono** | fin**iscono** |
+
+      **essere:** sono, sei, è, siamo, siete, sono · **avere:** ho, hai, ha, abbiamo, avete, hanno
+
+      **Неопределённый артикль:** **un** (м. р.), **uno** (м. р. перед s + согл., z, gn, ps), **una** (ж. р.), **un'** (ж. р. перед гласной).
+
+      **Вежливая форма Lei** = глагол в 3-м лице ед. ч.: *Lei è italiana?* — Вы итальянка?
+
+      > 💡 Подлежащее (io, tu…) обычно опускают — лицо видно по окончанию: *Parlo italiano.*
+    exercises:
+      - type: choice
+        level: 1
+        q: "Tu ___ (parlare) italiano molto bene!"
+        options: ["parlo", "parli", "parla", "parlate"]
+        answer: 1
+        hint: "Лицо **tu** во всех спряжениях оканчивается на **-i**."
+        ru: "Ты очень хорошо говоришь по-итальянски!"
+      - type: choice
+        level: 1
+        q: "Noi ___ (abitare) a Roma."
+        options: ["abitiamo", "abitamo", "abitate", "abitano"]
+        answer: 0
+        hint: "Лицо **noi** — всегда **-iamo**, для всех трёх спряжений."
+        ru: "Мы живём в Риме."
+      - type: choice
+        level: 1
+        q: "Loro ___ (prendere) un caffè."
+        options: ["prendano", "prendono", "prendeno", "prende"]
+        answer: 1
+        hint: "II спряжение (-ere): loro → **-ono**."
+        ru: "Они берут кофе."
+      - type: choice
+        level: 2
+        q: "Io ___ (capire) bene la lezione."
+        options: ["capo", "capisco", "capiso", "capisci"]
+        answer: 1
+        hint: "capire — глагол на **-isc-**: io cap**isco**, tu cap**isci**…"
+        ru: "Я хорошо понимаю урок."
+      - type: choice
+        level: 2
+        q: "Signora, Lei ___ russa?"
+        options: ["sei", "è", "siete", "sono"]
+        answer: 1
+        hint: "Вежливое **Lei** требует глагола в **3-м лице ед. ч.**: è."
+        ru: "Синьора, Вы русская?"
+      - type: cloze
+        level: 2
+        q: "Поставьте essere или avere."
+        text: "Io [[sono]] Sofia e [[ho]] ventidue anni. Mia sorella [[è]] a Mosca, [[ha]] un gatto."
+        hint: "Имя, место, качество — **essere**; возраст и владение — **avere** (по-итальянски «имею 22 года»)."
+        ru: "Я София, мне двадцать два года. Моя сестра в Москве, у неё есть кот."
+      - type: input
+        level: 2
+        q: "Voi ___ (scrivere) una lettera."
+        answer: ["scrivete"]
+        hint: "II спряжение: voi → **-ete**."
+        ru: "Вы пишете письмо."
+      - type: input
+        level: 2
+        q: "Marco ___ (dormire) fino alle nove."
+        answer: ["dorme"]
+        hint: "III спряжение без -isc-: lui → **-e**."
+        ru: "Марко спит до девяти."
+      - type: input
+        level: 3
+        q: "I bambini ___ (finire) i compiti."
+        answer: ["finiscono"]
+        hint: "finire с -isc-: loro → fin**iscono**."
+        ru: "Дети заканчивают уроки."
+      - type: choice
+        level: 1
+        q: "___ studente"
+        options: ["un", "uno", "una", "un'"]
+        answer: 1
+        hint: "Мужской род перед **s + согласная** → **uno**."
+        ru: "студент"
+      - type: choice
+        level: 1
+        q: "___ amica"
+        options: ["un", "una", "un'", "uno"]
+        answer: 2
+        hint: "Женский род перед гласной → **un'** (с апострофом). Мужской род перед гласной — un без апострофа: *un amico*."
+        ru: "подруга"
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Anna e Marco {{è=>sono}} italiani."
+        hint: "Подлежащее — **два человека** (они) → loro sono."
+        ru: "Анна и Марко итальянцы."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Ho conosciuto {{un=>un'}} attrice famosa."
+        hint: "attrice — **женского** рода и начинается с гласной → un'."
+        ru: "Я познакомилась с известной актрисой."
+      - type: match
+        level: 2
+        q: "Соедините страну и национальность (ж. р.)"
+        hint: "Прилагательные на -o меняют окончание на -a, на -e — не меняются."
+        pairs:
+          - ["Italia", "italiana"]
+          - ["Russia", "russa"]
+          - ["Francia", "francese"]
+          - ["Spagna", "spagnola"]
+          - ["Inghilterra", "inglese"]
+        ru: "Италия — итальянка, Россия — русская, Франция — француженка, Испания — испанка, Англия — англичанка"
+      - type: order
+        level: 2
+        q: "Соберите: «Как Вас зовут?» (вежливо)"
+        answer: "Come si chiama Lei?"
+        hint: "Вежливая форма: глагол chiamarsi в 3-м лице — **si chiama**."
+        ru: "Как Вас зовут?"
+      - type: dialog
+        level: 1
+        q: "Восстановите знакомство."
+        hint: "Приветствие → вопрос об имени → ответ → «приятно познакомиться»."
+        lines:
+          - "Ciao, come ti chiami?"
+          - "Mi chiamo Sofia. E tu?"
+          - "Io sono Marco. Piacere!"
+          - "Piacere mio!"
+        ru: "— Привет, как тебя зовут? — Меня зовут София. А тебя? — Я Марко. Очень приятно! — Мне тоже!"
+
   - slug: autovalutazione-1
     kind: review
     title_it: "Che cosa hai imparato?"

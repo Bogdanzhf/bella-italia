@@ -13,6 +13,7 @@ import { useApp } from './state'
 // редкие разделы грузятся по требованию — первая страница открывается быстрее
 const Dictionary = lazy(() => import('./pages/Dictionary'))
 const Flashcards = lazy(() => import('./pages/Flashcards'))
+const MyWords = lazy(() => import('./pages/MyWords'))
 const Games = lazy(() => import('./pages/Games'))
 const Verbs = lazy(() => import('./pages/Verbs'))
 const Tests = lazy(() => import('./pages/Tests'))
@@ -51,6 +52,7 @@ export default function App() {
           <Route path="lesson/:unitId/:slug" element={<Lesson />} />
           <Route path="dictionary" element={<Dictionary />} />
           <Route path="flashcards" element={<Flashcards />} />
+          <Route path="my-words" element={<MyWords />} />
           <Route path="games" element={<Games />} />
           <Route path="games/:game" element={<Games />} />
           <Route path="verbs" element={<Verbs />} />

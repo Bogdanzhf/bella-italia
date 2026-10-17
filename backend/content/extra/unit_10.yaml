@@ -113,6 +113,494 @@ lessons_after:
           - ["la Gazzetta dello Sport", "il Giro d'Italia"]
           - ["Sanremo", "festival della musica"]
 
+  - slug: dialogo-telefonata
+    kind: dialogue
+    title_it: "Dove sei? Sto arrivando!"
+    title_ru: "Ты где? Я уже иду!"
+    dialogue:
+      title: "Una telefonata in ritardo"
+      scene: "Лоренцо приехал в Рим. Они с Софией договорились встретиться у фонтана Треви, но София опаздывает."
+      lines:
+        - "Lorenzo: Pronto, Sofia? Dove sei? Ti sto aspettando da venti minuti! | Алло, София? Ты где? Я жду тебя уже двадцать минут!"
+        - "Sofia: Scusa, scusa! Sto arrivando, sto correndo verso la fermata. | Прости, прости! Я уже иду, бегу к остановке."
+        - "Lorenzo: Ma che cosa stavi facendo? | Да чем ты была занята?"
+        - "Sofia: Stavo finendo i compiti di italiano e non ho guardato l'orologio. | Заканчивала домашнее задание по итальянскому и не посмотрела на часы."
+        - "Lorenzo: Va bene, va bene. Intanto sto prendendo un caffè al bar qui di fronte. | Ладно, ладно. Пока я пью кофе в баре напротив."
+        - "Sofia: Perfetto! L'autobus sta per partire, ci vediamo tra dieci minuti. | Отлично! Автобус вот-вот отправится, увидимся через десять минут."
+        - "Lorenzo: Ti sento malissimo… Stai parlando in autobus? | Я тебя очень плохо слышу… Ты говоришь из автобуса?"
+        - "Sofia: Sì, e c'è un signore che sta cantando! Ti richiamo appena scendo. | Да, и тут какой-то синьор поёт! Перезвоню, как только выйду."
+        - "Lorenzo: Non preoccuparti. Mentre ti aspetto, guardo la fontana. È bellissima! | Не волнуйся. Пока жду тебя, смотрю на фонтан. Он прекрасен!"
+    words:
+      - "aspettare | ждать"
+      - "c`orrere | бежать"
+      - "la fermata | остановка"
+      - "l'orologio | часы | m"
+      - "intanto | тем временем, пока"
+      - "di fronte | напротив"
+      - "richiamare | перезвонить"
+      - "appena | как только; едва"
+      - "la fontana | фонтан"
+      - "la telefonata | телефонный звонок"
+      - "il messaggio | сообщение"
+      - "la batteria | батарея, аккумулятор"
+      - "la l`inea | линия, связь"
+    phrases:
+      - "Ti sto aspettando da venti minuti! | Я жду тебя уже двадцать минут!"
+      - "Sto arrivando! | Я уже иду! (Уже подъезжаю!)"
+      - "L'autobus sta per partire. | Автобус вот-вот отправится."
+      - "Ti richiamo appena scendo. | Перезвоню, как только выйду."
+      - "Ti sento malissimo. | Я тебя очень плохо слышу."
+      - "Il telefono è quasi scarico. | Телефон почти разрядился."
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        hint: "Обратите внимание на формы **stare + gerundio**: они описывают, кто что делает прямо сейчас."
+        items:
+          - ["Lorenzo sta aspettando Sofia.", true]
+          - ["Sofia stava dormendo.", false]
+          - ["Lorenzo sta prendendo un caffè.", true]
+          - ["Sofia è già arrivata alla fontana.", false]
+        ru: "1. Лоренцо ждёт Софию. 2. София спала. 3. Лоренцо пьёт кофе. 4. София уже пришла к фонтану."
+      - type: choice
+        level: 1
+        ref: dialogue
+        q: "Что делала София, когда опоздала?"
+        options: ["Stava finendo i compiti", "Stava cucinando", "Stava telefonando alla mamma", "Stava facendo la spesa"]
+        answer: 0
+        hint: "**stavo + gerundio** — «я как раз делала» в прошлом. Ищите реплику со словом stavo."
+        ru: "Она заканчивала домашнее задание."
+      - type: choice
+        level: 2
+        audio: "L'autobus sta per partire."
+        q: "🎧 Что сейчас произойдёт?"
+        options: ["Автобус уже уехал", "Автобус вот-вот отправится", "Автобус сломался", "Автобус опаздывает"]
+        answer: 1
+        hint: "**stare per + инфинитив** = «вот-вот, сейчас» (действие ещё не началось)."
+        ru: "«Автобус вот-вот отправится»."
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Заполните пропуски по диалогу."
+        text: "Ti sto [[aspettando]] da venti minuti! — Scusa, sto [[arrivando]]! — Ma che cosa stavi [[facendo]]?"
+        hint: "После форм **stare** — герундий: aspettare → aspettando, arrivare → arrivando, fare → facendo (особая форма)."
+        ru: "Я жду тебя уже двадцать минут! — Прости, я уже иду! — Да чем ты была занята?"
+      - type: dialog
+        level: 2
+        q: "Восстановите телефонный разговор."
+        hint: "Алло → где ты → ответ со stare + gerundio → договорённость о встрече."
+        lines:
+          - "Pronto, dove sei?"
+          - "Sto arrivando, sono quasi in piazza."
+          - "Va bene, ti aspetto al bar."
+          - "Perfetto, a tra poco!"
+        ru: "— Алло, ты где? — Я уже иду, почти на площади. — Хорошо, жду тебя в баре. — Отлично, до скорого!"
+  - slug: gerundio-stare
+    kind: grammar
+    title_it: "Che cosa stai facendo?"
+    title_ru: "Герундий и stare + gerundio"
+    theory: |
+      ## Как образовать герундий
+
+      | спряжение | окончание | пример |
+      |---|---|---|
+      | -are | **-ando** | parl**ando**, guard**ando** |
+      | -ere | **-endo** | prend**endo**, legg**endo** |
+      | -ire | **-endo** | part**endo**, fin**endo** |
+
+      Герундий **не изменяется** по лицам и родам.
+
+      **Особые формы** (от старой основы глагола):
+
+      | | | |
+      |---|---|---|
+      | fare → **facendo** | dire → **dicendo** | bere → **bevendo** |
+      | porre → **ponendo** | tradurre → **traducendo** | trarre → **traendo** |
+
+      *essere → essendo, avere → avendo* — правильные.
+
+      ## Stare + gerundio: «прямо сейчас»
+
+      **stare** (спрягается) + **герундий** = действие в процессе, как английское *-ing*:
+
+      | | | |
+      |---|---|---|
+      | io **sto** | noi **stiamo** | + mangiando |
+      | tu **stai** | voi **state** | + leggendo |
+      | lui / lei **sta** | loro **stanno** | + dormendo |
+
+      * *Che cosa **stai facendo**? — **Sto studiando**.* — Что ты делаешь (сейчас)? — Занимаюсь.
+      * В прошлом — **imperfetto** от stare: *Quando hai chiamato, **stavo cucinando**.* — Когда ты позвонил, я (как раз) готовила.
+
+      > 💡 Не используйте stare + gerundio с глаголами состояния (*essere, avere, sapere, conoscere*): не *sto sapendo*, а *so*.
+
+      ## Stare per + infinito: «вот-вот»
+
+      * *Il film **sta per cominciare**.* — Фильм вот-вот начнётся.
+      * *Stavo per uscire, quando è arrivata Gianna.* — Я уже собиралась выходить, когда пришла Джанна.
+
+      ## Местоимения и герундий
+
+      Безударные местоимения **присоединяются** к герундию: *guardando**la***, *leggendo**lo***.
+      С **stare** их можно поставить и перед stare: ***Lo** sto leggendo* = *Sto leggendo**lo***.
+    words:
+      - "studiare | заниматься, учиться"
+      - "cucinare | готовить (еду)"
+      - "dormire | спать"
+      - "piovere | идти (о дожде)"
+      - "cominciare | начинать(ся)"
+      - "finire | заканчивать(ся)"
+      - "uscire | выходить"
+      - "tradurre | переводить"
+      - "il compito | задание"
+      - "la lettera | письмо"
+      - "il giornale | газета"
+      - "adesso | сейчас"
+      - "proprio | именно, как раз"
+    phrases:
+      - "Che cosa stai facendo? — Sto studiando. | Что ты делаешь? — Занимаюсь."
+      - "Sta piovendo. | Идёт дождь."
+      - "Il film sta per cominciare. | Фильм вот-вот начнётся."
+      - "Stavo per uscire. | Я как раз собиралась выходить."
+      - "Lo sto leggendo adesso. | Я как раз читаю это сейчас."
+    exercises:
+      - type: input
+        level: 1
+        q: "parlare → ___ (герундий)"
+        answer: ["parlando"]
+        hint: "Глаголы на **-are** → основа + **-ando**."
+        ru: "говорить → говоря"
+      - type: input
+        level: 1
+        q: "leggere → ___ (герундий)"
+        answer: ["leggendo"]
+        hint: "Глаголы на **-ere** → основа + **-endo**."
+        ru: "читать → читая"
+      - type: input
+        level: 1
+        q: "partire → ___ (герундий)"
+        answer: ["partendo"]
+        hint: "Глаголы на **-ire** тоже получают **-endo** (не -indo!)."
+        ru: "уезжать → уезжая"
+      - type: input
+        level: 2
+        q: "fare → ___ (герундий)"
+        answer: ["facendo"]
+        hint: "Особая форма от старой основы fac- (лат. facere)."
+        ru: "делать → делая"
+      - type: input
+        level: 2
+        q: "dire → ___ (герундий)"
+        answer: ["dicendo"]
+        hint: "Особая форма от основы dic-: как в dico, dici."
+        ru: "говорить → говоря"
+      - type: input
+        level: 2
+        q: "bere → ___ (герундий)"
+        answer: ["bevendo"]
+        hint: "Основа bev- (как в bevo, bevi)."
+        ru: "пить → выпивая"
+      - type: choice
+        level: 1
+        q: "Che cosa ___ facendo, ragazzi?"
+        options: ["state", "stanno", "stiamo", "stai"]
+        answer: 0
+        hint: "**ragazzi** — обращаемся к «вам» (voi) → **state**."
+        ru: "Что вы делаете, ребята?"
+      - type: choice
+        level: 2
+        q: "Quando mi hai telefonato, ___ la doccia."
+        options: ["sto facendo", "stavo facendo", "ho fatto", "starò facendo"]
+        answer: 1
+        hint: "Длительное действие **в прошлом**, прерванное звонком → **imperfetto** от stare + gerundio."
+        ru: "Когда ты мне позвонил, я принимала душ."
+      - type: choice
+        level: 2
+        q: "Corri! Il treno ___ partire!"
+        options: ["sta per", "sta", "sta a", "stava"]
+        answer: 0
+        hint: "«Вот-вот» = **stare per + инфинитив**."
+        ru: "Беги! Поезд вот-вот отправится!"
+      - type: choice
+        level: 3
+        q: "Как правильно сказать «Я это знаю»?"
+        options: ["Lo sto sapendo.", "Lo so.", "Sto saperlo.", "Lo sto per sapere."]
+        answer: 1
+        hint: "Глаголы состояния (essere, avere, **sapere**, conoscere) не употребляются в stare + gerundio."
+        ru: "Я это знаю."
+      - type: cloze
+        level: 2
+        q: "Поставьте stare + gerundio в настоящем."
+        text: "Io [[sto]] leggendo, Marco sta [[dormendo]] (dormire), i bambini [[stanno]] giocando, e voi cosa [[state]] facendo?"
+        hint: "Спрягайте stare: io sto, lui sta, loro stanno, voi state. Герундий от dormire — dormendo."
+        ru: "Я читаю, Марко спит, дети играют, а вы что делаете?"
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Il professore sta {{traduciendo=>traducendo}} una lettera."
+        hint: "tradurre → основа traduc- + **-endo**, без лишней i."
+        ru: "Профессор переводит письмо."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Guarda fuori: {{è=>sta}} piovendo!"
+        hint: "Длительное действие «прямо сейчас» строится только со **stare** + герундий."
+        explain: "Правильно: «Sta piovendo!» — с глаголом stare, а не essere."
+        ru: "Посмотри в окно: идёт дождь!"
+      - type: order
+        level: 2
+        q: "Соберите: «Фильм вот-вот начнётся.»"
+        answer: "Il film sta per cominciare."
+        hint: "Подлежащее + **sta per** + инфинитив."
+        ru: "Фильм вот-вот начнётся."
+      - type: order
+        level: 3
+        q: "Соберите: «Я как раз читаю это (письмо) сейчас.»"
+        answer: "La sto leggendo adesso."
+        hint: "Местоимение la (lettera — ж. р.) можно поставить **перед stare**."
+        ru: "Я как раз его (письмо) сейчас читаю."
+  - slug: telefono-messaggi
+    kind: lesson
+    title_it: "Pronto? Chi parla?"
+    title_ru: "Телефон и сообщения"
+    theory: |
+      ## Как говорят по телефону
+
+      | ситуация | по-итальянски |
+      |---|---|
+      | ответить на звонок | *Pronto?* · *Pronto, chi parla?* |
+      | представиться | *Sono Sofia.* · *Parla Sofia Ivanova.* (официально) |
+      | попросить кого-то | *Posso parlare con Lorenzo?* · *C'è Gianna?* |
+      | «Минутку» | *Un attimo, per favore.* · *Aspetti un momento.* (вежливо) |
+      | человека нет | *Non c'è, vuole lasciare un messaggio?* |
+      | плохая связь | *Non ti sento bene.* · *È caduta la linea.* · *Non c'è campo.* |
+      | перезвонить | *Ti richiamo più tardi.* · *Mi può richiamare?* |
+      | ошиблись номером | *Scusi, ho sbagliato numero.* |
+
+      ## Сообщения: сокращения
+
+      В чатах итальянцы пишут коротко: **cmq** = comunque (всё равно), **xké** = perché, **tvb** = ti voglio bene,
+      **nn** = non, **x** = per, **qlc** = qualcosa. В письменной речи сокращения не используйте.
+
+      > 💡 Голосовое сообщение — *il vocale* (*Ti mando un vocale.*), смс — *il messaggio*, пропущенный звонок — *la chiamata persa*.
+    words:
+      - "chiamare | звонить, звать"
+      - "la chiamata | звонок"
+      - "lasciare | оставлять"
+      - "il numero | номер"
+      - "sbagliare numero | ошибиться номером"
+      - "il campo | сеть, связь (мобильная)"
+      - "cad`ere | падать; обрываться (о связи)"
+      - "il cellulare | мобильный телефон"
+      - "il vocale | голосовое сообщение"
+      - "la segreter`ia | автоответчик"
+      - "occupato | занятый"
+    phrases:
+      - "Pronto, chi parla? | Алло, кто говорит?"
+      - "Posso parlare con Lorenzo? | Можно поговорить с Лоренцо?"
+      - "Un attimo, per favore. | Минутку, пожалуйста."
+      - "Vuole lasciare un messaggio? | Хотите оставить сообщение?"
+      - "È caduta la linea. | Связь прервалась."
+      - "Scusi, ho sbagliato numero. | Простите, я ошиблась номером."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Как итальянцы отвечают на телефонный звонок?"
+        options: ["Ciao!", "Pronto?", "Ecco!", "Avanti!"]
+        answer: 1
+        hint: "Слово значит «готов(о)» — им всегда начинают разговор по телефону."
+        ru: "«Алло?»"
+      - type: choice
+        level: 1
+        q: "Человек не тот — вы ошиблись. Что сказать?"
+        options: ["Ho sbagliato numero.", "È caduta la linea.", "Non c'è campo.", "Glielo passo."]
+        answer: 0
+        hint: "sbagliare — ошибаться, numero — номер."
+        ru: "Я ошиблась номером."
+      - type: choice
+        level: 2
+        q: "Связь вдруг прервалась. Как это сказать?"
+        options: ["È occupato.", "È caduta la linea.", "Ti richiamo.", "C'è campo."]
+        answer: 1
+        hint: "cadere — падать: «упала линия»."
+        ru: "Связь прервалась."
+      - type: match
+        level: 2
+        q: "Соедините фразу и перевод"
+        hint: "Вспомните таблицу телефонных фраз в правиле урока."
+        pairs:
+          - ["Chi parla?", "Кто говорит?"]
+          - ["Un attimo.", "Минутку."]
+          - ["Non c'è campo.", "Нет сети."]
+          - ["Ti richiamo.", "Я тебе перезвоню."]
+          - ["È occupato.", "Занято."]
+        ru: "Телефонные фразы."
+      - type: dialog
+        level: 2
+        q: "Восстановите разговор: вы звоните в офис."
+        hint: "Приветствие → просьба позвать → человека нет → предложение оставить сообщение."
+        lines:
+          - "Pronto, buongiorno. Posso parlare con il dottor Neri?"
+          - "Mi dispiace, in questo momento non c'è."
+          - "Allora posso lasciare un messaggio?"
+          - "Certo, mi dica pure."
+        ru: "— Алло, добрый день. Можно поговорить с доктором Нери? — Простите, сейчас его нет. — Тогда можно оставить сообщение? — Конечно, говорите."
+      - type: cloze
+        level: 2
+        q: "Заполните пропуски."
+        text: "Pronto, chi [[parla]]? — Sono Sofia. C'è Gianna? — Sì, un [[attimo]], adesso la [[chiamo]]."
+        hint: "Chi parla? — кто говорит; un attimo — минутку; chiamare — позвать (la chiamo — позову её)."
+        ru: "Алло, кто говорит? — Это София. Джанна дома? — Да, минутку, сейчас её позову."
+      - type: input
+        level: 3
+        audio: "Ti mando un vocale."
+        q: "🎧 Напишите, что вы услышали."
+        answer: ["Ti mando un vocale.", "Ti mando un vocale"]
+        hint: "Глагол mandare (посылать), il vocale — голосовое сообщение."
+        ru: "Я пришлю тебе голосовое."
+      - type: tf
+        level: 1
+        q: "Верно или неверно?"
+        hint: "Вспомните раздел о сокращениях в сообщениях."
+        items:
+          - ["«cmq» значит «comunque».", true]
+          - ["«tvb» значит «ti voglio bene».", true]
+          - ["«xké» значит «quando».", false]
+        ru: "Сокращения в чатах: cmq — всё равно, tvb — люблю тебя, xké — почему/потому что."
+
+  - slug: praktikum-10
+    kind: practice
+    title_it: "Esercizi: pronomi indiretti e imperativo"
+    title_ru: "Практикум: косвенные местоимения и повелительное наклонение"
+    theory: |
+      ## Памятка
+
+      **Косвенные местоимения** (кому?): **mi, ti, gli** (ему, им), **le** (ей), **Le** (Вам), **ci, vi**.
+
+      * *Telefoni a Marco? — Sì, **gli** telefono.* · *Scrivi a Laura? — Sì, **le** scrivo.*
+      * *piacere*: ***Mi** piace il gelato. **Gli** piacciono i film.* · В прошедшем — essere: *Ti **è piaciuto** il film? Mi **sono piaciute** le foto.*
+
+      **Прямое или косвенное?** Зависит от итальянского глагола: *aiutare **qualcuno*** (прямое: **la** aiuto), но *telefonare **a** qualcuno* (косвенное: **le** telefono). Ориентир — предлог **a** после глагола.
+
+      ## Повелительное наклонение
+
+      | | parlare | prendere | sentire | finire |
+      |---|---|---|---|---|
+      | tu | parl**a** | prend**i** | sent**i** | fin**isci** |
+      | noi | parl**iamo** | prend**iamo** | sent**iamo** | fin**iamo** |
+      | voi | parl**ate** | prend**ete** | sent**ite** | fin**ite** |
+      | Lei | parl**i** | prend**a** | sent**a** | fin**isca** |
+
+      * **Отрицание на tu** = **non + инфинитив**: *Non parlare! Non mangiare troppo!*
+      * Неправильные (tu): *va' / vai, fa' / fai, da' / dai, sta' / stai, di'*; *sii* (essere), *abbi* (avere).
+      * Местоимения **присоединяются** к императиву на tu / noi / voi: *Scrivi**mi**! Prendi**lo**! Andiamo**ci**!* — после односложных удваивают согласную: *Di**mmi**! Fa**mmi** vedere!*
+      * С **Lei** — перед глаголом: ***Mi** dica! **La** prenda!*
+    exercises:
+      - type: choice
+        level: 1
+        q: "Telefoni a tua sorella? — Sì, ___ telefono stasera."
+        options: ["le", "la", "gli", "lo"]
+        answer: 0
+        hint: "telefonare **a** qualcuno → косвенное; sorella — ж. р. → **le**."
+        ru: "Ты позвонишь сестре? — Да, позвоню ей сегодня вечером."
+      - type: choice
+        level: 1
+        q: "Che cosa regali a Marco? — ___ regalo un libro."
+        options: ["Gli", "Lo", "Le", "Li"]
+        answer: 0
+        hint: "regalare **a** qualcuno → «ему» = **gli**."
+        ru: "Что ты подаришь Марко? — Подарю ему книгу."
+      - type: choice
+        level: 2
+        q: "Ai bambini ___ piacciono i cartoni animati."
+        options: ["gli", "li", "le", "loro"]
+        answer: 0
+        hint: "«им» (ai bambini) в разговорной речи → **gli**."
+        ru: "Детям нравятся мультфильмы."
+      - type: choice
+        level: 2
+        q: "Ti ___ piaciuta la festa?"
+        options: ["è", "ha", "sei", "hai"]
+        answer: 0
+        hint: "piacere в прошедшем — с **essere**; согласование с тем, что понравилось (la festa → piaciuta)."
+        ru: "Тебе понравился праздник?"
+      - type: choice
+        level: 2
+        q: "Conosci Anna? Puoi aiutar___ con i compiti?"
+        options: ["la", "le", "gli", "lo"]
+        answer: 0
+        hint: "aiutare **qualcuno** — без предлога → прямое местоимение: aiutar**la**."
+        ru: "Ты знаешь Анну? Можешь помочь ей с уроками?"
+      - type: choice
+        level: 1
+        q: "Marco, ___ la finestra, per favore!"
+        options: ["apri", "apre", "aprite", "apra"]
+        answer: 0
+        hint: "Императив на **tu** у глаголов -ire → окончание **-i**."
+        ru: "Марко, открой окно, пожалуйста!"
+      - type: choice
+        level: 2
+        q: "Signora, ___ pure!"
+        options: ["entra", "entri", "entrate", "entrare"]
+        answer: 1
+        hint: "Вежливое **Lei** у глаголов на -are → окончание **-i** (наоборот по сравнению с tu)."
+        ru: "Синьора, входите, пожалуйста!"
+      - type: choice
+        level: 2
+        q: "Non ___ così tanto, è tardi!"
+        options: ["mangi", "mangia", "mangiare", "mangiate"]
+        answer: 2
+        hint: "Отрицательный императив на **tu** = non + **инфинитив**."
+        ru: "Не ешь так много, уже поздно!"
+      - type: input
+        level: 2
+        q: "Ragazzi, ___ (ascoltare) bene!"
+        answer: ["ascoltate"]
+        hint: "Императив на **voi** совпадает с настоящим временем: voi ascoltate."
+        ru: "Ребята, слушайте внимательно!"
+      - type: input
+        level: 3
+        q: "Di' + mi la verità! → ___ la verità! (одним словом)"
+        answer: ["Dimmi"]
+        hint: "После односложного императива (di') согласная местоимения **удваивается**: di + mmi."
+        ru: "Скажи мне правду!"
+      - type: input
+        level: 3
+        q: "Il libro è sul tavolo: prendi + lo! → ___!"
+        answer: ["Prendilo"]
+        hint: "Местоимение присоединяется к императиву на tu в конце слова."
+        ru: "Книга на столе: возьми её!"
+      - type: cloze
+        level: 3
+        q: "Поставьте глаголы в повелительное наклонение."
+        text: "Signor Rossi, [[prenda]] (prendere, Lei) questa medicina. Lucia, [[finisci]] (finire, tu) i compiti! Bambini, [[state]] (stare, voi) zitti!"
+        hint: "Lei: -ere → -a; tu: finire → finisci (-isc-); voi: как в настоящем — state."
+        ru: "Синьор Росси, примите это лекарство. Лючия, закончи уроки! Дети, замолчите!"
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Ho visto Laura e {{la=>le}} ho detto tutto."
+        hint: "dire **a** qualcuno → косвенное местоимение; Laura — ж. р. → le."
+        ru: "Я увидела Лауру и сказала ей всё."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Non {{parla=>parlare}} con la bocca piena!"
+        hint: "Отрицательный императив на tu = non + инфинитив."
+        ru: "Не разговаривай с набитым ртом!"
+      - type: match
+        level: 2
+        q: "Соедините инфинитив и императив на tu"
+        hint: "Короткие формы неправильных глаголов — с апострофом."
+        pairs:
+          - ["andare", "va'"]
+          - ["fare", "fa'"]
+          - ["dire", "di'"]
+          - ["essere", "sii"]
+          - ["avere", "abbi"]
+        ru: "идти, делать, говорить, быть, иметь — «иди!, делай!, скажи!, будь!, имей!»"
+
   - slug: autovalutazione-10
     kind: review
     title_it: "Che cosa hai imparato?"

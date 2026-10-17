@@ -58,7 +58,7 @@ const COMBINING_MARKS = new RegExp('[\\u0300-\\u036f]', 'g')
 export const stripAccents = (t) => t.normalize('NFD').replace(COMBINING_MARKS, '')
 const noPunct = (t) => normalize(t).replace(/[^\p{L}\p{N}' ]/gu, '').replace(/\s+/g, ' ').trim()
 
-function compareText(given, accepted) {
+export function compareText(given, accepted) {
   const g = normalize(given)
   const norm = accepted.map(normalize)
   if (norm.includes(g)) return { correct: true, expected: accepted[0] }
@@ -119,6 +119,7 @@ export function exerciseQuestion(ex, rand = Math.random, context = {}) {
   const q = {
     id: `ex:${ex.id}`, type: ex.type, level: ex.level, prompt: ex.q,
     audio: ex.audio, img: ex.img, explain: ex.explain,
+    rule: ex.hint || undefined, ru: ex.ru || undefined, lesson: `${ex.unit_id}.${ex.lesson_slug}`,
   }
   if (ex.ref && context[ex.ref]) q.context = { kind: ex.ref, data: context[ex.ref] }
   switch (ex.type) {

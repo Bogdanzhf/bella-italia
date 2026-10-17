@@ -2,7 +2,7 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { loadCourse } from './lib/course'
-import { emptyProgress } from './lib/progress'
+import { emptyProgress, setDict } from './lib/progress'
 import { MODE, store } from './lib/store'
 
 const AppContext = createContext(null)
@@ -69,9 +69,30 @@ export function AppProvider({ children }) {
         await store.markTheory(key)
         await refresh()
       },
-      async favorite(id, fav) {
-        setProgress((p) => ({ ...p, words: { ...p.words, [id]: { box: 0, correct: 0, wrong: 0, ...p.words[id], favorite: fav } } }))
-        await store.favorite(id, fav)
+      /** Личный словарь: status — 'learning' | 'learned' | null (убрать из словаря). */
+      async setDict(ids, status) {
+        const list = Array.isArray(ids) ? ids : [ids]
+        if (!list.length) return
+        setProgress((p) => ({ ...p, words: { ...p.words, ...Object.fromEntries(list.map((id) => [id, setDict(p.words[id], status)])) } }))
+        try {
+          await store.setDict(list, status)
+        } finally {
+          await refresh()
+        }
+      },
+      async addCustom(w) {
+        const word = await store.addCustom(w)
+        await refresh()
+        return word
+      },
+      async editCustom(id, w) {
+        const word = await store.editCustom(id, w)
+        await refresh()
+        return word
+      },
+      async deleteCustom(id) {
+        await store.deleteCustom(id)
+        await refresh()
       },
       async reviews(list) {
         if (!list.length) return

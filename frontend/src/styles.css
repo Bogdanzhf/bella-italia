@@ -105,7 +105,7 @@ img { max-width: 100%; }
 
 .tabbar { display: none; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .nav-link { padding: 8px 9px; font-size: 0.92rem; }
 }
 
@@ -174,6 +174,7 @@ img { max-width: 100%; }
 .kind-dialogue { background: var(--sky-100); color: #3d7bb3; }
 .kind-culture { background: var(--mint-100); color: #2f8a64; }
 .kind-review { background: var(--butter); color: #a2700b; }
+.kind-practice { background: var(--peach-100); color: #b35a1f; }
 .kind-grammar { background: var(--lav-100); color: var(--lav-600); }
 
 .loading { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 60px; color: var(--muted); }
@@ -339,6 +340,8 @@ textarea { width: 100%; resize: vertical; }
 .lv-A0 { background: var(--mint-500); }
 .lv-A1 { background: var(--pink-400); }
 .lv-A2 { background: var(--lav-600); }
+.lv-B1 { background: #4fb98d; }
+.lv-B2 { background: #e0894a; }
 .unit-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
 .unit-card { position: relative; display: flex; flex-direction: column; color: var(--text); margin: 0; transition: transform 0.2s, box-shadow 0.2s; }
 .unit-card:hover { transform: translateY(-4px) rotate(-0.3deg); box-shadow: var(--shadow-hover); }
@@ -710,7 +713,7 @@ textarea { width: 100%; resize: vertical; }
 
 /* ---------- планшет (iPad) ---------- */
 
-@media (min-width: 761px) and (max-width: 1100px) {
+@media (min-width: 761px) and (max-width: 1200px) {
   .page { width: calc(100% - 40px); }
   .word-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
   .unit-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
@@ -727,3 +730,69 @@ textarea { width: 100%; resize: vertical; }
 .crash .row-gap { justify-content: center; }
 .switch { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; cursor: pointer; }
 .switch input { width: 20px; height: 20px; accent-color: var(--pink-500); }
+
+/* ---------- личный словарь ---------- */
+.nowrap { flex-wrap: nowrap; }
+.linklike { background: none; border: 0; padding: 0; color: var(--pink-600); font-weight: 700; text-decoration: underline; cursor: pointer; font-size: inherit; }
+.word-dict { margin-top: 8px; }
+.dict-btn { white-space: nowrap; border: 2px solid var(--pink-200); background: var(--white); color: var(--pink-600); border-radius: 999px; padding: 5px 12px; font-weight: 800; font-size: 0.85rem; cursor: pointer; min-height: 34px; }
+.dict-btn:hover { background: var(--pink-100); }
+.dict-btn.learning { border-color: var(--lav-200); background: var(--lav-100); color: var(--lav-600); }
+.dict-btn.learned { border-color: var(--mint-300); background: var(--mint-100); color: #2f8a64; }
+.dict-menu { position: relative; display: inline-block; }
+.dict-pop { position: absolute; z-index: 20; top: calc(100% + 6px); left: 0; display: flex; flex-direction: column; min-width: 190px; background: var(--white); border: 2px solid var(--pink-100); border-radius: 16px; box-shadow: var(--shadow); padding: 6px; }
+.dict-pop button { text-align: left; background: none; border: 0; padding: 10px 12px; border-radius: 10px; font-weight: 700; color: var(--text); cursor: pointer; }
+.dict-pop button:hover { background: var(--pink-100); }
+
+.dict-train { display: flex; gap: 16px; align-items: center; }
+.dict-train .check select { margin: 0 6px; }
+.bulk { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; position: sticky; top: 74px; z-index: 6; }
+.dict-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.dict-row { background: var(--white); border: 2px solid var(--pink-100); border-radius: 18px; padding: 8px 12px; }
+.dict-row.learned { border-color: var(--mint-100); }
+.dict-row-main { display: flex; align-items: center; gap: 10px; }
+.dict-row-main input[type=checkbox] { width: 20px; height: 20px; accent-color: var(--pink-500); flex: none; }
+.dict-pic { flex: none; width: 44px; display: grid; place-items: center; }
+.dict-word { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 1px; background: none; border: 0; padding: 4px 0; text-align: left; cursor: pointer; color: var(--text); font-size: 1rem; }
+.dict-word b { font-size: 1.08rem; overflow-wrap: anywhere; }
+.dict-actions { display: flex; gap: 4px; flex: none; }
+.streak { display: inline-flex; gap: 3px; flex: none; }
+.streak i { width: 9px; height: 9px; border-radius: 50%; background: var(--pink-100); border: 1px solid var(--pink-200); }
+.streak i.on { background: var(--mint-500); border-color: var(--mint-500); }
+.explain { margin: 8px 0 4px 64px; padding: 10px 14px; background: var(--pink-50); border-radius: 14px; font-size: 0.95rem; }
+.explain p { margin: 4px 0; }
+.explain-examples { margin-top: 6px; }
+.custom-form { display: flex; flex-direction: column; gap: 10px; max-width: 560px; }
+.custom-form label { display: flex; flex-direction: column; gap: 4px; font-weight: 700; }
+.custom-form input { font-weight: 400; }
+.custom-form .row-gap input { flex: 1; }
+.empty-dict { text-align: center; }
+
+.trainer { max-width: 620px; margin: 0 auto; }
+.trainer .link-back { background: none; border: 0; cursor: pointer; margin-top: 12px; }
+.flash-card-big { display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center; padding: 18px 8px; }
+.flash-card-big .explain { margin: 4px 0; text-align: left; width: 100%; }
+.flash-card-big .answer-input, .flash-card-big .accent-input { width: 100%; max-width: 380px; }
+.fc-pic { min-height: 96px; display: grid; place-items: center; }
+.fc-emoji { font-size: 4rem; }
+.fc-word { font-size: 2rem; font-weight: 800; color: #4a2c40; overflow-wrap: anywhere; }
+.fc-ru { font-size: 1.35rem; font-weight: 700; color: var(--pink-600); }
+.trainer-result { text-align: center; max-width: 620px; margin: 0 auto; }
+
+@media (max-width: 640px) {
+  .dict-row-main { flex-wrap: wrap; }
+  .dict-word { flex-basis: calc(100% - 140px); }
+  .dict-actions { width: 100%; justify-content: flex-end; }
+  .explain { margin-left: 0; }
+  .dict-train { flex-direction: column; align-items: stretch; }
+  .dict-train > svg { display: none; }
+}
+
+/* ---------- помощь к заданию: правило и перевод ---------- */
+.q-help { margin: 6px 0 10px; }
+.q-help-btns { display: flex; flex-wrap: wrap; gap: 6px; }
+.q-help-body { margin-top: 8px; padding: 10px 14px; border-radius: 14px; background: var(--lav-100); font-size: 0.95rem; }
+.q-help-body p:first-child { margin-top: 0; }
+.q-help-body p:last-child { margin-bottom: 0; }
+.q-ru { background: var(--peach-100); }
+.theory-peek { max-height: 320px; overflow: auto; background: var(--pink-50); }

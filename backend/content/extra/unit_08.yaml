@@ -111,6 +111,246 @@ lessons_after:
         options: ["Parmigiano Reggiano", "Prosciutto di Parma", "Mozzarella di bufala", "Coca-Cola"]
         answer: 3
 
+  - slug: avverbi-mente
+    kind: grammar
+    title_it: "Lentamente, ma sicuramente"
+    title_ru: "Наречия на -mente; molto, tanto, troppo"
+    theory: |
+      ## Наречие из прилагательного: -mente
+
+      Берём прилагательное **в женском роде** и добавляем **-mente**:
+
+      * *lento → lent**a** → lent**amente*** (медленно)
+      * *sicuro → sicur**amente*** (наверняка) · *vero → ver**amente*** (действительно)
+      * *veloce → veloce**mente*** (на -e не меняется)
+
+      Если прилагательное оканчивается на **-le / -re** после гласной, **e** выпадает:
+
+      * *facile → facil**mente*** · *gentile → gentil**mente*** · *regolare → regolar**mente***
+
+      Исключения: *leggero → **leggermente***, *violento → violentemente*; *buono → **bene***, *cattivo → **male***.
+
+      ## Molto, tanto, troppo, poco: согласовывать или нет?
+
+      * Перед **существительным** — это прилагательные, они **согласуются**:
+        *molt**e** persone, tant**i** amici, tropp**a** gente, poch**i** soldi*.
+      * Перед **прилагательным, наречием** или после **глагола** — это наречия, они **не меняются**:
+        *Le ragazze sono **molto** brave.* · *Lavori **troppo**.* · *Sono **tanto** stanca.*
+
+      > 💡 Проверка: можно ли поставить «много/мало» = количество предметов? Тогда согласуем. Если значит «очень / слишком» — не меняем.
+    words:
+      - "lentamente | медленно"
+      - "velocemente | быстро"
+      - "sicuramente | наверняка, конечно"
+      - "veramente | действительно, правда"
+      - "facilmente | легко"
+      - "gentilmente | любезно"
+      - "regolarmente | регулярно"
+      - "leggermente | слегка"
+      - "probabilmente | вероятно"
+      - "finalmente | наконец"
+      - "troppo | слишком, слишком много"
+      - "la gente | люди | f"
+    phrases:
+      - "Parla lentamente, per favore. | Говори медленно, пожалуйста."
+      - "Sicuramente verrà domani. | Он наверняка придёт завтра."
+      - "C'è troppa gente qui! | Здесь слишком много людей!"
+      - "Le ragazze sono molto brave. | Девочки очень молодцы."
+    exercises:
+      - type: input
+        level: 1
+        q: "lento → ___ (медленно)"
+        answer: ["lentamente"]
+        hint: "Женский род прилагательного (**lenta**) + **-mente**."
+        ru: "медленный → медленно"
+      - type: input
+        level: 2
+        q: "facile → ___ (легко)"
+        answer: ["facilmente"]
+        hint: "На **-le** после гласной: последняя **e** выпадает → facil + mente."
+        ru: "лёгкий → легко"
+      - type: input
+        level: 2
+        q: "regolare → ___ (регулярно)"
+        answer: ["regolarmente"]
+        hint: "На **-re** после гласной: e выпадает → regolar + mente."
+        ru: "регулярный → регулярно"
+      - type: input
+        level: 3
+        q: "leggero → ___ (слегка)"
+        answer: ["leggermente"]
+        hint: "Это исключение: не leggeramente, а укороченная форма."
+        ru: "лёгкий → слегка"
+      - type: choice
+        level: 2
+        q: "Ci sono ___ persone in piazza."
+        options: ["molto", "molte", "molti", "molta"]
+        answer: 1
+        hint: "Перед **существительным** molto согласуется: persone — ж. р., мн. ч. → **molte**."
+        ru: "На площади много людей."
+      - type: choice
+        level: 2
+        q: "Le tue amiche sono ___ simpatiche."
+        options: ["molte", "molto", "molti", "tante"]
+        answer: 1
+        hint: "Перед **прилагательным** (simpatiche) — наречие «очень», оно **не меняется**."
+        ru: "Твои подруги очень приятные."
+      - type: choice
+        level: 2
+        q: "Lavori ___ ! Riposati un po'."
+        options: ["troppo", "troppa", "troppi", "troppe"]
+        answer: 0
+        hint: "После глагола (lavori) — наречие «слишком», не меняется."
+        ru: "Ты слишком много работаешь! Отдохни немного."
+      - type: cloze
+        level: 3
+        q: "Согласуйте, если нужно."
+        text: "Ho [[pochi]] soldi (poco). Questa torta è [[troppo]] dolce (troppo). C'è [[tanta]] gente (tanto). Sono [[molto]] stanca (molto)."
+        hint: "soldi (м. мн.) и gente (ж. ед.) — существительные → согласуем. dolce и stanca — прилагательные → не меняем."
+        ru: "У меня мало денег. Этот торт слишком сладкий. Много людей. Я очень устала."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Le mie sorelle sono {{molte=>molto}} gentili."
+        hint: "Перед прилагательным gentili — наречие «очень»."
+        ru: "Мои сёстры очень любезные."
+      - type: match
+        level: 1
+        q: "Соедините прилагательное и наречие"
+        hint: "Женский род + -mente; исключения: buono → bene, cattivo → male."
+        pairs:
+          - ["sicuro", "sicuramente"]
+          - ["gentile", "gentilmente"]
+          - ["buono", "bene"]
+          - ["cattivo", "male"]
+          - ["vero", "veramente"]
+        ru: "уверенный — наверняка, любезный — любезно, хороший — хорошо, плохой — плохо, правдивый — действительно"
+      - type: order
+        level: 2
+        q: "Соберите: «Говори медленно, пожалуйста.»"
+        answer: "Parla lentamente, per favore."
+        hint: "Повелительное наклонение **parla** + наречие + вежливое per favore."
+        ru: "Говори медленно, пожалуйста."
+
+  - slug: praktikum-8
+    kind: practice
+    title_it: "Esercizi: pronomi diretti e ne"
+    title_ru: "Практикум: прямые местоимения и ne"
+    theory: |
+      ## Памятка
+
+      **Прямые местоимения** (кого? что?) стоят **перед** глаголом:
+
+      | mi | ti | lo (его, это) | la (её) / La (Вас) | ci | vi | li (их, м.) | le (их, ж.) |
+      |---|---|---|---|---|---|---|---|
+
+      * *Conosci Marco? — Sì, **lo** conosco.* · *Compri la frutta? — Sì, **la** compro.*
+      * С **модальным** + инфинитив — два варианта: ***Lo** voglio vedere* = *Voglio veder**lo***.
+      * **ne** — «из этого, этого» при количестве: *Quante mele vuoi? — **Ne** voglio tre.* · *Non **ne** ho.* (нет ни одного)
+
+      ## Passato prossimo
+
+      Причастие **согласуется** с lo / la / li / le (lo, la → l' перед гласной):
+
+      * *La torta? **L'ho mangiata**.* · *I libri? **Li ho letti**.* · *Le chiavi? **Le ho prese**.*
+      * С **ne** причастие согласуется с количеством: *Quante pizze hai mangiato? — **Ne ho mangiate** due.*
+
+      > 💡 Порядок решения: 1) найдите существительное, которое заменяем, 2) определите его род и число, 3) выберите местоимение, 4) в прошедшем — согласуйте причастие.
+    exercises:
+      - type: choice
+        level: 1
+        q: "Conosci Gianna? — Sì, ___ conosco bene."
+        options: ["la", "lo", "le", "gli"]
+        answer: 0
+        hint: "Gianna — ж. р., ед. ч. → **la**."
+        ru: "Ты знаешь Джанну? — Да, я её хорошо знаю."
+      - type: choice
+        level: 1
+        q: "Compri i pomodori? — Sì, ___ compro al mercato."
+        options: ["li", "le", "lo", "ne"]
+        answer: 0
+        hint: "i pomodori — м. р., мн. ч. → **li**."
+        ru: "Ты купишь помидоры? — Да, куплю их на рынке."
+      - type: choice
+        level: 1
+        q: "Dove sono le chiavi? Non ___ trovo!"
+        options: ["li", "le", "la", "lo"]
+        answer: 1
+        hint: "le chiavi — ж. р., мн. ч. → **le**."
+        ru: "Где ключи? Не могу их найти!"
+      - type: choice
+        level: 2
+        q: "Quanti fratelli hai? — ___ ho due."
+        options: ["Li", "Ne", "Lo", "Ci"]
+        answer: 1
+        hint: "Указываем **количество** («двоих из них») → **ne**."
+        ru: "Сколько у тебя братьев? — Двое."
+      - type: choice
+        level: 2
+        q: "Signora, ___ aiuto io con la valigia!"
+        options: ["la", "La", "le", "Le"]
+        answer: 1
+        hint: "Вежливое «Вас» (прямое дополнение: aiutare **кого?**) → **La** с большой буквы."
+        ru: "Синьора, я помогу Вам с чемоданом!"
+      - type: input
+        level: 2
+        q: "Il film? Voglio veder___ stasera. (присоедините местоимение)"
+        answer: ["lo"]
+        hint: "Il film — м. р. ед. ч. → **lo**, пишется слитно с инфинитивом без -e: vederlo."
+        ru: "Фильм? Хочу посмотреть его сегодня вечером."
+      - type: input
+        level: 3
+        q: "La torta? L'ho ___ (mangiare) tutta!"
+        answer: ["mangiata"]
+        hint: "L' = la (torta, ж. р.) → причастие согласуется: mangi**ata**."
+        ru: "Торт? Я съела его целиком!"
+      - type: input
+        level: 3
+        q: "I biglietti? Li ho ___ (comprare) ieri."
+        answer: ["comprati"]
+        hint: "li (biglietti, м. мн.) → причастие на **-i**."
+        ru: "Билеты? Я их купила вчера."
+      - type: input
+        level: 3
+        q: "Quante foto hai fatto? — Ne ho ___ (fare) cento!"
+        answer: ["fatte"]
+        hint: "С ne причастие согласуется с тем, что считаем: foto — ж. р. мн. ч. → fatt**e**."
+        ru: "Сколько фото ты сделала? — Сто!"
+      - type: cloze
+        level: 2
+        q: "Ответьте с местоимением."
+        text: "Bevi il caffè? — Sì, [[lo]] bevo. Leggi le riviste? — No, non [[le]] leggo. Quanti anni hai? — [[Ne]] ho venti."
+        hint: "il caffè → lo; le riviste → le; количество (сколько лет) → ne."
+        ru: "Ты пьёшь кофе? — Да, пью. Ты читаешь журналы? — Нет, не читаю. Сколько тебе лет? — Двадцать."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Hai visto Marco e Luca? — Sì, {{le=>li}} ho visti al bar."
+        hint: "Marco e Luca — мужчины, мн. ч. → li."
+        ru: "Ты видела Марко и Луку? — Да, видела их в баре."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "La lettera? L'ho {{scritto=>scritta}} stamattina."
+        hint: "l' = la (lettera) → причастие согласуется: ж. р."
+        ru: "Письмо? Я написала его сегодня утром."
+      - type: match
+        level: 1
+        q: "Соедините существительное и местоимение"
+        hint: "м. ед. — lo, ж. ед. — la, м. мн. — li, ж. мн. — le."
+        pairs:
+          - ["il libro", "lo"]
+          - ["la mela", "la"]
+          - ["gli amici", "li"]
+          - ["le scarpe", "le"]
+        ru: "книга, яблоко, друзья, туфли"
+      - type: order
+        level: 2
+        q: "Соберите: «Я не знаю его.»"
+        answer: "Non lo conosco."
+        hint: "non + местоимение + глагол."
+        ru: "Я его не знаю."
+
   - slug: autovalutazione-8
     kind: review
     title_it: "Che cosa hai imparato?"

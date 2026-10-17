@@ -116,6 +116,134 @@ lessons_after:
         options: ["penne", "fusilli", "farfalle", "cotoletta"]
         answer: 3
 
+  - slug: praktikum-6
+    kind: practice
+    title_it: "Esercizi: possessivi, quello e bello"
+    title_ru: "Практикум: притяжательные, quello и bello, volerci / metterci"
+    theory: |
+      ## Памятка
+
+      | | м. ед. | ж. ед. | м. мн. | ж. мн. |
+      |---|---|---|---|---|
+      | мой | il mio | la mia | i miei | le mie |
+      | твой | il tuo | la tua | i tuoi | le tue |
+      | его / её / Ваш | il suo | la sua | i suoi | le sue |
+      | наш | il nostro | la nostra | i nostri | le nostre |
+      | ваш | il vostro | la vostra | i vostri | le vostre |
+      | их | il loro | la loro | i loro | le loro |
+
+      * **suo / sua** согласуется с **предметом**, а не с владельцем: *Marco e **la sua** macchina* (его машина), *Anna e **il suo** libro* (её книга).
+      * С **одним** родственником в ед. ч. артикль не ставят: *mio padre, sua sorella*. Но: *i miei fratelli, la loro madre, la mia mamma, il mio fratellino*.
+
+      **quello** и **bello** перед существительным ведут себя как определённый артикль:
+
+      | артикль | il | lo | l' | la | i | gli | le |
+      |---|---|---|---|---|---|---|---|
+      | quello | quel | quello | quell' | quella | quei | quegli | quelle |
+      | bello | bel | bello | bell' | bella | bei | begli | belle |
+
+      **volerci** (требуется — безлично): *Ci **vuole** un'ora. Ci **vogliono** due ore.*
+      **metterci** (тратит человек): *Io **ci metto** venti minuti.*
+    exercises:
+      - type: choice
+        level: 1
+        q: "Anna è con ___ fratello."
+        options: ["suo", "il suo", "sua", "la sua"]
+        answer: 0
+        hint: "Один родственник (fratello, ед. ч.) → без артикля; fratello — м. р. → **suo**."
+        ru: "Анна со своим братом."
+      - type: choice
+        level: 2
+        q: "Marco parla con ___ madre."
+        options: ["suo", "sua", "la sua", "il suo"]
+        answer: 1
+        hint: "suo / sua согласуется с **предметом** (madre — ж. р.), а не с Марко; родственник в ед. ч. → без артикля."
+        ru: "Марко разговаривает со своей мамой."
+      - type: choice
+        level: 2
+        q: "Questi sono ___ nonni."
+        options: ["miei", "i miei", "mie", "le mie"]
+        answer: 1
+        hint: "Родственники во **мн. ч.** → с артиклем: i miei."
+        ru: "Это мои бабушка и дедушка."
+      - type: choice
+        level: 2
+        q: "Gianna e Lorenzo? ___ figlia si chiama Ada."
+        options: ["Sua", "La loro", "Loro", "La sua"]
+        answer: 1
+        hint: "«их» — **loro**, всегда с артиклем: la loro figlia."
+        ru: "Джанна и Лоренцо? Их дочь зовут Ада."
+      - type: input
+        level: 2
+        q: "Ho dimenticato ___ chiavi a casa. (мои)"
+        answer: ["le mie"]
+        hint: "chiavi — ж. р. мн. ч. → **le mie**."
+        ru: "Я забыла свои ключи дома."
+      - type: choice
+        level: 1
+        q: "Guarda ___ ragazzo!"
+        options: ["quel", "quello", "quell'", "quella"]
+        answer: 0
+        hint: "Перед ragazzo артикль **il** → **quel**."
+        ru: "Посмотри на того парня!"
+      - type: choice
+        level: 2
+        q: "Mi piacciono ___ stivali."
+        options: ["quei", "quelli", "quegli", "quelle"]
+        answer: 2
+        hint: "stivali начинается на s + согласная → артикль **gli** → **quegli**."
+        ru: "Мне нравятся те сапоги."
+      - type: choice
+        level: 2
+        q: "Che ___ idea!"
+        options: ["bel", "bello", "bell'", "bella"]
+        answer: 2
+        hint: "idea — ж. р., начинается с гласной → **l'** → **bell'**."
+        ru: "Какая прекрасная идея!"
+      - type: cloze
+        level: 3
+        q: "Поставьте нужную форму quello."
+        text: "[[quel]] libro, [[quello]] specchio, [[quell']]albero, [[quei]] piatti, [[quegli]] amici, [[quelle]] case"
+        hint: "Подставьте артикль: il libro, lo specchio, l'albero, i piatti, gli amici, le case — и замените его формой quello."
+        ru: "та книга, то зеркало, то дерево, те тарелки, те друзья, те дома"
+      - type: choice
+        level: 2
+        q: "Per arrivare a Firenze ___ tre ore."
+        options: ["ci vuole", "ci vogliono", "ci metto", "ci mettono"]
+        answer: 1
+        hint: "Безличное «нужно (времени)» → **volerci**; tre ore — мн. ч. → ci vogliono."
+        ru: "Чтобы добраться до Флоренции, нужно три часа."
+      - type: choice
+        level: 2
+        q: "Quanto tempo ___ tu per fare la doccia?"
+        options: ["ci vuole", "ci metti", "ci vogliono", "ci mette"]
+        answer: 1
+        hint: "Время тратит конкретный человек (tu) → **metterci**: tu ci metti."
+        ru: "Сколько времени у тебя уходит на душ?"
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "I {{mio=>miei}} genitori abitano a Bari."
+        hint: "genitori — м. р. мн. ч. → притяжательное тоже во мн. ч.: i miei."
+        ru: "Мои родители живут в Бари."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Che {{bello=>bel}} vestito!"
+        hint: "Перед vestito (артикль il) bello принимает форму **bel**."
+        ru: "Какое красивое платье!"
+      - type: match
+        level: 2
+        q: "Соедините существительное и форму bello"
+        hint: "Как артикль: il → bel, lo → bello, l' → bell', i → bei, gli → begli."
+        pairs:
+          - ["giardino", "bel"]
+          - ["zaino", "bello"]
+          - ["albergo", "bell'"]
+          - ["fiori", "bei"]
+          - ["occhi", "begli"]
+        ru: "сад, рюкзак, гостиница, цветы, глаза — с формой «красивый»"
+
   - slug: autovalutazione-6
     kind: review
     title_it: "Che cosa hai imparato?"

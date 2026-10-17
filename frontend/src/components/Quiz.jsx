@@ -1,17 +1,19 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { checkAnswer, wordOf } from '../lib/quiz'
+import { Link } from 'react-router-dom'
+import { dictStatus } from '../lib/progress'
 import { speak, stop } from '../speech'
 import { feedback, play } from '../sounds'
 import { useApp } from '../state'
 import { Bird, Princess } from './Decor'
-import { ErrorBox, MdInline, Pic, ProgressBar, SpeakButton, Stars } from './ui'
+import { ErrorBox, Md, MdInline, Pic, ProgressBar, SpeakButton, Stars } from './ui'
 
 const ACCENTS = ['à', 'è', 'é', 'ì', 'ò', 'ù', "'"]
 const PRAISE = ['Brava! 🌸', 'Perfetto! 👑', 'Bellissimo! 🦋', 'Esatto! 🌷', 'Fantastico! ✨', 'Benissimo! 💖']
 const COMFORT = ['Non fa niente! 🌼', 'Quasi! 💗', 'Coraggio! 🐦', 'Riprova dopo! 🌷']
 const pick = (arr) => arr[Math.floor(Math.random() * arr.length)]
 
-function AccentInput({ value, onChange, disabled, onEnter, autoFocus, small = false, label }) {
+export function AccentInput({ value, onChange, disabled, onEnter, autoFocus, small = false, label }) {
   const ref = useRef(null)
   useEffect(() => {
     if (autoFocus && !disabled) ref.current?.focus({ preventScroll: true })
@@ -243,6 +245,47 @@ function QuestionBody({ q, disabled, value, setValue, onSubmit, verdict }) {
   }
 }
 
+/** Слова из ошибок теста — одной кнопкой в «Изучаю» личного словаря. */
+function MistakeWords({ answers }) {
+  const app = useApp()
+  const [done, setDone] = useState(false)
+  const ids = [...new Set(answers.map((a) => wordOf(a.id)).filter((id) => id && app.course.words[id]))]
+  const fresh = ids.filter((id) => dictStatus(app.progress.words[id]) !== 'learning')
+  if (!ids.length) return null
+  if (done || !fresh.length) {
+    return <p className="muted small center">⭐ Слова с ошибками — в разделе «Изучаю» <Link to="/my-words">моего словаря</Link></p>
+  }
+  return (
+    <div className="row-center">
+      <button className="btn btn-soft" onClick={() => app.setDict(fresh, 'learning').then(() => setDone(true)).catch(() => {})}>
+        ⭐ Слова с ошибками ({fresh.length}) — в мой словарь
+      </button>
+    </div>
+  )
+}
+
+/** «Как решать» (правило) и перевод задания — по кнопке, не сразу. После ответа перевод открывается сам. */
+function QuestionHelp({ q, answered }) {
+  const { course } = useApp()
+  const [open, setOpen] = useState(null)
+  const theory = !q.rule && q.lesson ? course.lessons[q.lesson]?.theory : null
+  if (!q.rule && !theory && !q.ru) return null
+  const toggle = (k) => setOpen((o) => (o === k ? null : k))
+  const showRu = q.ru && (open === 'ru' || answered)
+  return (
+    <div className="q-help">
+      <div className="q-help-btns">
+        {q.rule && <button type="button" className={`chip ${open === 'rule' ? 'chip-on' : ''}`} onClick={() => toggle('rule')} aria-expanded={open === 'rule'}>💡 Как решать</button>}
+        {theory && <button type="button" className={`chip ${open === 'theory' ? 'chip-on' : ''}`} onClick={() => toggle('theory')} aria-expanded={open === 'theory'}>📖 Правило урока</button>}
+        {q.ru && !answered && <button type="button" className={`chip ${open === 'ru' ? 'chip-on' : ''}`} onClick={() => toggle('ru')} aria-expanded={open === 'ru'}>🇷🇺 Перевод</button>}
+      </div>
+      {open === 'rule' && <div className="q-help-body"><Md>{q.rule}</Md></div>}
+      {open === 'theory' && <div className="q-help-body theory-peek"><Md>{theory}</Md></div>}
+      {showRu && <div className="q-help-body q-ru">🇷🇺 <MdInline>{q.ru}</MdInline></div>}
+    </div>
+  )
+}
+
 /**
  * Прохождение набора вопросов: мгновенная проверка, пояснения, итог со звёздами
  * и работой над ошибками. Результат сохраняется через app.saveResult(meta + счёт).
@@ -336,6 +379,7 @@ export default function Quiz({ questions, meta, onDone, onRestart, title }) {
             ))}
           </div>
         )}
+        <MistakeWords answers={mistakes} />
         <div className="row-center">{onRestart && <button className="btn" onClick={onRestart}>Пройти ещё раз</button>}</div>
       </div>
     )
@@ -377,6 +421,7 @@ export default function Quiz({ questions, meta, onDone, onRestart, title }) {
         </div>
       )}
       {q.hint && <div className="quiz-hint">{q.hint}</div>}
+      <QuestionHelp key={`help-${q.id}-${idx}`} q={q} answered={Boolean(verdict)} />
       <QuestionBody key={q.id + idx} q={q} disabled={Boolean(verdict) || busy} value={value} setValue={setValue} onSubmit={submitAnswer} verdict={verdict} />
       {verdict && (
         <div className={`feedback ${verdict.correct ? 'ok' : 'bad'}`} role="status">

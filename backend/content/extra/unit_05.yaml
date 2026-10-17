@@ -115,6 +115,223 @@ lessons_after:
           - ["il 6 gennaio", "la Befana"]
           - ["il 15 agosto", "Ferragosto"]
 
+  - slug: in-albergo
+    kind: lesson
+    title_it: "Vorrei prenotare una camera"
+    title_ru: "В гостинице"
+    dialogue:
+      title: "All'Hotel Bellavista"
+      scene: "София и Джанна приехали на выходные во Флоренцию. Они подходят к стойке регистрации."
+      lines:
+        - "Receptionist: Buonasera, benvenute all'Hotel Bellavista! Avete una prenotazione? | Добрый вечер, добро пожаловать в отель «Беллависта»! У вас есть бронь?"
+        - "Sofia: Sì, a nome Ivanova. Una camera doppia per due notti. | Да, на имя Иванова. Двухместный номер на две ночи."
+        - "Receptionist: Un attimo… Sì, ecco. Camera 24, al secondo piano, con vista sul fiume. | Минутку… Да, вот. Номер 24, на третьем этаже, с видом на реку."
+        - "Gianna: Che bello! La colazione è compresa? | Как здорово! Завтрак включён?"
+        - "Receptionist: Sì, la colazione è dalle sette alle dieci, nella sala al piano terra. | Да, завтрак с семи до десяти, в зале на первом этаже."
+        - "Sofia: C'è il wi-fi in camera? | В номере есть вай-фай?"
+        - "Receptionist: Certo, la password è sul biglietto con la chiave. Mi date un documento, per favore? | Конечно, пароль на карточке вместе с ключом. Дайте, пожалуйста, документ."
+        - "Gianna: Ecco i nostri passaporti. A che ora dobbiamo lasciare la camera? | Вот наши паспорта. Во сколько нужно освободить номер?"
+        - "Receptionist: Entro le undici. Se avete bisogno di qualcosa, chiamate la reception. Buona permanenza! | До одиннадцати. Если что-то понадобится, звоните на ресепшен. Приятного отдыха!"
+    words:
+      - "l'albergo | гостиница | m"
+      - "la prenotazione | бронь, бронирование"
+      - "prenotare | бронировать"
+      - "la camera s`ingola | одноместный номер"
+      - "la camera doppia | двухместный номер"
+      - "la notte | ночь"
+      - "il piano terra | первый этаж"
+      - "la vista | вид"
+      - "compreso | включённый"
+      - "il documento | документ"
+      - "il passaporto | паспорт"
+      - "la chiave | ключ"
+      - "lasciare la camera | освободить номер"
+      - "l'asciugamano | полотенце | m"
+      - "l'aria condizionata | кондиционер | f"
+    phrases:
+      - "Vorrei prenotare una camera doppia. | Я бы хотела забронировать двухместный номер."
+      - "Ho una prenotazione a nome Ivanova. | У меня бронь на имя Иванова."
+      - "La colazione è compresa? | Завтрак включён?"
+      - "A che ora dobbiamo lasciare la camera? | Во сколько нужно освободить номер?"
+      - "L'aria condizionata non funziona. | Кондиционер не работает."
+      - "Mi può portare un asciugamano? | Можете принести мне полотенце?"
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        hint: "Ищите в диалоге числа: сколько ночей, какой этаж, во сколько завтрак."
+        items:
+          - ["Sofia e Gianna restano tre notti.", false]
+          - ["La camera è al secondo piano.", true]
+          - ["La colazione non è compresa.", false]
+          - ["Devono lasciare la camera entro le undici.", true]
+        ru: "1. София и Джанна остаются на три ночи. 2. Номер на третьем (втором по-итальянски) этаже. 3. Завтрак не включён. 4. Номер нужно освободить до одиннадцати."
+      - type: choice
+        level: 1
+        ref: dialogue
+        q: "Где пароль от вай-фая?"
+        options: ["sul biglietto con la chiave", "nella sala colazione", "sul passaporto", "alla reception"]
+        answer: 0
+        hint: "Найдите реплику администратора со словом **password**."
+        ru: "На карточке вместе с ключом."
+      - type: choice
+        level: 2
+        q: "Вам нужна комната на одного. Что вы попросите?"
+        options: ["una camera singola", "una camera doppia", "un appartamento", "una camera matrimoniale"]
+        answer: 0
+        hint: "singola — для одного (singolo = одиночный), doppia — для двоих."
+        ru: "одноместный номер"
+      - type: choice
+        level: 2
+        audio: "L'aria condizionata non funziona."
+        q: "🎧 На что жалуется гость?"
+        options: ["не работает кондиционер", "нет полотенца", "шумно", "не работает душ"]
+        answer: 0
+        hint: "**funzionare** — работать (о технике); l'aria condizionata — кондиционер."
+        ru: "«Кондиционер не работает»."
+      - type: cloze
+        level: 2
+        q: "Заполните пропуски."
+        text: "Buongiorno, vorrei [[prenotare]] una camera [[doppia]] per due notti. La colazione è [[compresa]]?"
+        hint: "prenotare — бронировать; doppia — двухместная; compreso / compresa — включён(а), согласуется с colazione (ж. р.)."
+        ru: "Добрый день, я бы хотела забронировать двухместный номер на две ночи. Завтрак включён?"
+      - type: dialog
+        level: 2
+        q: "Восстановите разговор на ресепшене."
+        hint: "Приветствие → бронь на имя → номер и этаж → благодарность."
+        lines:
+          - "Buonasera, ho una prenotazione a nome Rossi."
+          - "Sì, ecco: camera 15, al primo piano."
+          - "Perfetto. A che ora è la colazione?"
+          - "Dalle sette alle dieci."
+        ru: "— Добрый вечер, у меня бронь на имя Росси. — Да, вот: номер 15, на втором этаже. — Отлично. Во сколько завтрак? — С семи до десяти."
+      - type: match
+        level: 1
+        q: "Соедините слово и перевод"
+        hint: "Слова урока «В гостинице»."
+        pairs:
+          - ["la chiave", "ключ"]
+          - ["la notte", "ночь"]
+          - ["l'asciugamano", "полотенце"]
+          - ["il passaporto", "паспорт"]
+          - ["la prenotazione", "бронь"]
+        ru: "Гостиничная лексика."
+
+  - slug: praktikum-5
+    kind: practice
+    title_it: "Esercizi: futuro semplice"
+    title_ru: "Практикум: будущее время"
+    theory: |
+      ## Памятка
+
+      **futuro semplice:** инфинитив без последней -e + окончания **-ò, -ai, -à, -emo, -ete, -anno**.
+      У глаголов на **-are** a → **e**: *parlare → parl**e**rò*.
+
+      | | parlare | prendere | partire |
+      |---|---|---|---|
+      | io | parlerò | prenderò | partirò |
+      | tu | parlerai | prenderai | partirai |
+      | lui | parlerà | prenderà | partirà |
+      | noi | parleremo | prenderemo | partiremo |
+      | voi | parlerete | prenderete | partirete |
+      | loro | parleranno | prenderanno | partiranno |
+
+      * **-care / -gare → -cherò / -gherò**: *cercherò, pagherò*; **-ciare / -giare → -cerò / -gerò**: *comincerò, mangerò*.
+      * **Неправильные:** essere → **sarò**, avere → **avrò**, fare → **farò**, andare → **andrò**, venire → **verrò**, potere → **potrò**, dovere → **dovrò**, volere → **vorrò**, vedere → **vedrò**, sapere → **saprò**, stare → **starò**, dare → **darò**, bere → **berrò**, rimanere → **rimarrò**.
+
+      Futuro также выражает **предположение**: *Dov'è Marco? — **Sarà** a casa.* — Наверное, он дома.
+
+      **Se** + futuro → futuro: *Se **farà** bel tempo, **andremo** al mare.*
+    exercises:
+      - type: choice
+        level: 1
+        q: "Domani io ___ (parlare) con il direttore."
+        options: ["parlerò", "parlarò", "parlero", "parlerei"]
+        answer: 0
+        hint: "-are → основа **parler-** + **-ò** (с ударением на конце)."
+        ru: "Завтра я поговорю с директором."
+      - type: choice
+        level: 1
+        q: "L'anno prossimo noi ___ (andare) in Sicilia."
+        options: ["andremo", "anderemo", "andiamo", "andremmo"]
+        answer: 0
+        hint: "andare — неправильный: основа **andr-** + -emo."
+        ru: "В следующем году мы поедем на Сицилию."
+      - type: choice
+        level: 2
+        q: "Stasera ___ (essere) molto stanca."
+        options: ["sarò", "essererò", "sono stata", "saro"]
+        answer: 0
+        hint: "essere в будущем — **sarò, sarai, sarà**…"
+        ru: "Сегодня вечером я буду очень уставшей."
+      - type: choice
+        level: 2
+        q: "Chi ha suonato alla porta? — ___ il postino."
+        options: ["Sarà", "È stato", "Sarebbe", "Sono"]
+        answer: 0
+        hint: "Предположение «наверное, это…» → **futuro**: Sarà."
+        ru: "Кто позвонил в дверь? — Наверное, почтальон."
+      - type: input
+        level: 2
+        q: "Io ___ (pagare) con la carta."
+        answer: ["pagherò"]
+        hint: "-gare → **-gherò**: h сохраняет звук [г]."
+        ru: "Я заплачу картой."
+      - type: input
+        level: 2
+        q: "Quando ___ (cominciare) il corso?"
+        answer: ["comincerà"]
+        hint: "-ciare → **-cerà**: i перед e не нужна."
+        ru: "Когда начнётся курс?"
+      - type: input
+        level: 3
+        q: "I miei amici ___ (venire) a trovarmi a giugno."
+        answer: ["verranno"]
+        hint: "venire → основа **verr-** + -anno."
+        ru: "Мои друзья приедут ко мне в гости в июне."
+      - type: input
+        level: 3
+        q: "Tu ___ (avere) tempo domani?"
+        answer: ["avrai"]
+        hint: "avere → основа **avr-** + -ai."
+        ru: "У тебя будет время завтра?"
+      - type: cloze
+        level: 3
+        q: "Поставьте глаголы в futuro."
+        text: "Se [[farà]] (fare) bel tempo, [[andremo]] (andare) al mare. Se [[pioverà]] (piovere), [[resteremo]] (restare) a casa."
+        hint: "После **se** о будущем — тоже futuro. fare → farà, andare → andremo, piovere → pioverà, restare → resteremo (a → e)."
+        ru: "Если будет хорошая погода, поедем на море. Если пойдёт дождь, останемся дома."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Domani noi {{mangiaremo=>mangeremo}} al ristorante."
+        hint: "У глаголов на -are в futuro a меняется на **e**; -giare теряет i."
+        ru: "Завтра мы будем ужинать в ресторане."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Quando arriverai a Roma, mi {{telefoni=>telefonerai}}?"
+        hint: "Обе части фразы о будущем → futuro в обеих."
+        ru: "Когда приедешь в Рим, ты мне позвонишь?"
+      - type: match
+        level: 2
+        q: "Соедините инфинитив и futuro (io)"
+        hint: "Все формы неправильные — основа укорачивается или меняется."
+        pairs:
+          - ["fare", "farò"]
+          - ["vedere", "vedrò"]
+          - ["volere", "vorrò"]
+          - ["dovere", "dovrò"]
+          - ["rimanere", "rimarrò"]
+        ru: "делать, видеть, хотеть, быть должным, оставаться — «я буду…»"
+      - type: order
+        level: 2
+        q: "Соберите: «Завтра я тебе позвоню.»"
+        answer: "Domani ti telefonerò."
+        hint: "Время + местоимение ti + глагол в futuro."
+        ru: "Завтра я тебе позвоню."
+
   - slug: autovalutazione-5
     kind: review
     title_it: "Che cosa hai imparato?"

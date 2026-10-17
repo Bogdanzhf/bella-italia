@@ -110,6 +110,127 @@ lessons_after:
         options: ["l'Arena di Verona", "il Colosseo", "il Duomo di Milano", "la Torre di Pisa"]
         answer: 0
 
+  - slug: praktikum-11
+    kind: practice
+    title_it: "Esercizi: condizionale"
+    title_ru: "Практикум: условное наклонение"
+    theory: |
+      ## Памятка
+
+      **condizionale semplice** = основа futuro + **-ei, -esti, -ebbe, -emmo, -este, -ebbero**:
+      *parlerei, prenderesti, partirebbe, saremmo, avreste, vorrebbero.*
+
+      **Когда употреблять**
+
+      | | пример |
+      |---|---|
+      | вежливая просьба | *Vorrei un caffè. Potrebbe aiutarmi?* |
+      | желание | *Mi piacerebbe vivere a Roma.* |
+      | совет | *Dovresti dormire di più. Al tuo posto andrei dal medico.* |
+      | предположение, мнение | *Sarebbe meglio partire presto.* |
+
+      **condizionale composto** = avrei / sarei + причастие — несбывшееся в прошлом:
+      *Sarei venuta volentieri, ma ero malata.* · *Avrei dovuto studiare di più.*
+
+      **Будущее в прошедшем**: после *ha detto che, pensavo che* о будущем — condizionale **composto**:
+      *Ha detto che **sarebbe venuto**.* — Он сказал, что придёт.
+
+      > 💡 Не путайте: *parleremo* (будем говорить) — *parleremmo* (говорили бы): в condizionale двойная **mm**.
+    exercises:
+      - type: choice
+        level: 1
+        q: "___ un cappuccino, per favore."
+        options: ["Vorrei", "Voglio", "Vorrò", "Volevo"]
+        answer: 0
+        hint: "Вежливая просьба → **condizionale**: vorrei."
+        ru: "Я бы хотела капучино, пожалуйста."
+      - type: choice
+        level: 1
+        q: "___ chiudere la porta, per favore?"
+        options: ["Potresti", "Potrai", "Puoi stato", "Potessi"]
+        answer: 0
+        hint: "Вежливая просьба на tu → potere в condizionale: **potresti**."
+        ru: "Не могла бы ты закрыть дверь, пожалуйста?"
+      - type: choice
+        level: 2
+        q: "Sei stanca: ___ riposarti un po'."
+        options: ["dovresti", "devi stato", "dovrai", "dovevi"]
+        answer: 0
+        hint: "Совет «тебе следовало бы» → **dovresti**."
+        ru: "Ты устала: тебе стоит немного отдохнуть."
+      - type: choice
+        level: 2
+        q: "Noi ___ volentieri in Sardegna, ma non abbiamo soldi."
+        options: ["andremo", "andremmo", "andiamo", "anderemmo"]
+        answer: 1
+        hint: "Желание «поехали бы» → condizionale; noi → **-emmo** (две m)."
+        ru: "Мы бы с удовольствием поехали на Сардинию, но у нас нет денег."
+      - type: choice
+        level: 3
+        q: "Mi aveva promesso che mi ___ ."
+        options: ["avrebbe telefonato", "telefonerà", "telefonerebbe", "ha telefonato"]
+        answer: 0
+        hint: "Будущее по отношению к прошлому (mi aveva promesso) → **condizionale composto**."
+        ru: "Он обещал мне, что позвонит."
+      - type: input
+        level: 2
+        q: "Io ___ (essere) felice di aiutarti."
+        answer: ["sarei"]
+        hint: "essere → основа **sar-** + -ei."
+        ru: "Я была бы рада тебе помочь."
+      - type: input
+        level: 2
+        q: "Lui ___ (preferire) restare a casa."
+        answer: ["preferirebbe"]
+        hint: "preferire → prefer**ir**- + **-ebbe**."
+        ru: "Он предпочёл бы остаться дома."
+      - type: input
+        level: 3
+        q: "Loro ___ (venire) con noi?"
+        answer: ["verrebbero"]
+        hint: "venire → основа **verr-** + -ebbero."
+        ru: "Они пошли бы с нами?"
+      - type: input
+        level: 3
+        q: "Mi ___ (piacere) imparare a ballare il tango."
+        answer: ["piacerebbe"]
+        hint: "piacere согласуется с тем, что нравится (imparare — ед. ч.) → **piacerebbe**."
+        ru: "Мне бы хотелось научиться танцевать танго."
+      - type: cloze
+        level: 3
+        q: "Поставьте condizionale composto."
+        text: "Io [[sarei]] venuta alla festa, ma ero malata. Tu [[avresti]] dovuto chiamarmi! Noi [[avremmo]] comprato i biglietti prima."
+        hint: "venire — с essere (sarei venuta); dovere + инфинитив и comprare — с avere (avresti, avremmo)."
+        ru: "Я бы пришла на праздник, но болела. Тебе надо было мне позвонить! Мы бы купили билеты раньше."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Noi {{mangeremo=>mangeremmo}} volentieri una pizza, ma non abbiamo tempo."
+        hint: "Это не будущее, а «ели бы» → condizionale, noi → -emmo."
+        ru: "Мы бы с удовольствием съели пиццу, но у нас нет времени."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Al tuo posto io {{vado=>andrei}} dal medico."
+        hint: "Совет «на твоём месте я бы…» → condizionale."
+        ru: "На твоём месте я бы пошла к врачу."
+      - type: match
+        level: 2
+        q: "Соедините ситуацию и фразу"
+        hint: "Просьба — potresti / vorrei; совет — dovresti; желание — mi piacerebbe; сожаление — avrei dovuto."
+        pairs:
+          - ["вежливая просьба", "Potresti aiutarmi?"]
+          - ["совет", "Dovresti dormire di più."]
+          - ["желание", "Mi piacerebbe viaggiare."]
+          - ["сожаление", "Avrei dovuto studiare."]
+        ru: "Употребление condizionale."
+      - type: order
+        level: 2
+        q: "Соберите: «Я бы с удовольствием пришла.»"
+        answer: "Sarei venuta volentieri."
+        hint: "condizionale composto: sarei + venuta + наречие."
+        ru: "Я бы с удовольствием пришла."
+
   - slug: autovalutazione-11
     kind: review
     title_it: "Che cosa hai imparato?"

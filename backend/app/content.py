@@ -24,7 +24,7 @@ CONTENT_DIR = CONTENT_ROOT / "units"
 EXERCISE_TYPES = {"choice", "input", "match", "order", "odd", "tf", "dialog", "cloze", "error"}
 LEVEL_NAMES = {1: "Лёгкий", 2: "Средний", 3: "Сложный"}
 PERSONS = ["io", "tu", "lui / lei", "noi", "voi", "loro"]
-LESSON_KINDS = {"lesson", "grammar", "dialogue", "culture", "review"}
+LESSON_KINDS = {"lesson", "grammar", "dialogue", "culture", "review", "practice"}
 
 # [[ответ]] / [[ответ|вариант]] — ввод; [[а/*б/в]] — выбор, * отмечает правильный
 CLOZE_GAP = re.compile(r"\[\[(.+?)\]\]")
@@ -100,7 +100,9 @@ class Exercise:
     audio: str = ""  # текст для озвучки (аудирование)
     img: str = ""
     ref: str = ""  # dialogue / reading — показать текст урока рядом с вопросом
-    explain: str = ""
+    explain: str = ""  # пояснение после ответа
+    hint: str = ""  # «как решать»: правило, открывается по кнопке до ответа
+    ru: str = ""  # перевод задания на русский, открывается по кнопке
 
 
 @dataclass
@@ -322,6 +324,8 @@ def _parse_exercise(raw: dict, unit_id: int, slug: str, idx: int, ctx: _Ctx, id_
         unit_id=unit_id,
         lesson_slug=slug,
         explain=str(raw.get("explain", "")).strip(),
+        hint=str(raw.get("hint", "")).strip(),
+        ru=str(raw.get("ru", "")).strip(),
         audio=clean(str(audio)) if audio else "",
         img=ctx.check_img(str(raw.get("img", "")), where),
         ref=str(raw.get("ref", "")),

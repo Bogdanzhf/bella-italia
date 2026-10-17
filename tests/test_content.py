@@ -76,3 +76,30 @@ def test_every_phrase_has_a_picture():
     # новые фразы нужно добавить в content/phrase_images.txt и запустить tools/build_images.py
     missing = [p.it for u in lib.units for les in u.lessons for p in les.phrases if not p.img]
     assert missing == []
+
+
+NEW_LESSONS = {"in-albergo", "dal-medico", "dialogo-casa-roma", "comparativi", "superlativi", "avverbi-mente",
+               "dialogo-telefonata", "gerundio-stare", "telefono-messaggi"}
+
+
+def test_practice_exercises_have_rule_and_translation():
+    """В практикумах и новых уроках у каждого задания есть «как решать» и перевод (открываются по кнопке)."""
+    checked = 0
+    for u in lib.units:
+        for les in u.lessons:
+            if les.kind == "practice" or les.slug in NEW_LESSONS:
+                for ex in les.exercises:
+                    assert ex.hint, f"{ex.id}: нет подсказки «как решать»"
+                    assert ex.ru, f"{ex.id}: нет перевода"
+                    checked += 1
+    assert checked > 200
+
+
+def test_every_unit_has_practice():
+    for u in lib.units:
+        assert any(les.kind == "practice" for les in u.lessons), u.id
+
+
+def test_course_stays_within_a2():
+    levels = {u.level for u in lib.units}
+    assert levels <= {"A0", "A1", "A2"}, levels

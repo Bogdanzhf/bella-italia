@@ -1018,3 +1018,17 @@ guasto = wrench
 trasloco = package
 lento = snail
 sala = performing arts
+
+# --- новые уроки (практикум A1–A2) ---
+aria condizionata = snowflake
+braccio = flexed biceps
+mano = raised hand
+gamba = leg
+piede = foot
+influenza = face with thermometer
+telefonata = telephone receiver
+numero = input numbers
+tosse = face with medical mask
+chiamata = telephone
+vocale = microphone
+campo = antenna bars

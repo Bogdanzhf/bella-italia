@@ -52,6 +52,10 @@ images:
     alt: angry face
     kind: emoji
     src: img/e/angry-face.webp
+  e-antenna-bars:
+    alt: antenna bars
+    kind: emoji
+    src: img/e/antenna-bars.webp
   e-anxious-face-with-sweat:
     alt: anxious face with sweat
     kind: emoji
@@ -636,6 +640,14 @@ images:
     alt: face with hand over mouth
     kind: emoji
     src: img/e/face-with-hand-over-mouth.webp
+  e-face-with-head-bandage:
+    alt: face with head-bandage
+    kind: emoji
+    src: img/e/face-with-head-bandage.webp
+  e-face-with-medical-mask:
+    alt: face with medical mask
+    kind: emoji
+    src: img/e/face-with-medical-mask.webp
   e-face-with-monocle:
     alt: face with monocle
     kind: emoji
@@ -720,6 +732,10 @@ images:
     alt: folded hands
     kind: emoji
     src: img/e/folded-hands.webp
+  e-foot:
+    alt: foot
+    kind: emoji
+    src: img/e/foot.webp
   e-footprints:
     alt: footprints
     kind: emoji
@@ -1096,6 +1112,10 @@ images:
     alt: left arrow curving right
     kind: emoji
     src: img/e/left-arrow-curving-right.webp
+  e-leg:
+    alt: leg
+    kind: emoji
+    src: img/e/leg.webp
   e-lemon:
     alt: lemon
     kind: emoji
@@ -1136,6 +1156,10 @@ images:
     alt: love letter
     kind: emoji
     src: img/e/love-letter.webp
+  e-low-battery:
+    alt: low battery
+    kind: emoji
+    src: img/e/low-battery.webp
   e-luggage:
     alt: luggage
     kind: emoji
@@ -1308,6 +1332,10 @@ images:
     alt: no entry
     kind: emoji
     src: img/e/no-entry.webp
+  e-no-mobile-phones:
+    alt: no mobile phones
+    kind: emoji
+    src: img/e/no-mobile-phones.webp
   e-nose:
     alt: nose
     kind: emoji
@@ -2076,6 +2104,10 @@ images:
     alt: tumbler glass
     kind: emoji
     src: img/e/tumbler-glass.webp
+  e-turtle:
+    alt: turtle
+    kind: emoji
+    src: img/e/turtle.webp
   e-twelve-oclock:
     alt: twelve oclock
     kind: emoji
@@ -2521,11 +2553,13 @@ phrases:
   a capodanno cosa farete: e-fireworks
   a che ora apre: e-alarm-clock
   a che ora apre la farmacia: e-pill
+  a che ora dobbiamo lasciare la camera: e-alarm-clock
   a che ora parte il treno: e-station
   a che ora partite: e-alarm-clock
   a che ora ti sei svegliata: e-alarm-clock
   a domani: e-calendar
   a presto: e-waving-hand
+  a roma fa più caldo che a milano: e-sun-with-face
   abbi pazienza: e-snail
   abbiamo chiacchierato un'oretta: e-speech-balloon
   abito a roma da due anni: e-house-with-garden
@@ -2562,8 +2596,10 @@ phrases:
   buone feste: e-wrapped-gift
   buongiorno, signora rossi! come sta: e-sun-with-face
   c'era una volta una principessa: e-princess
+  c'è troppa gente qui: e-people-hugging
   c'è un balcone: e-potted-plant
   c'è uno sconto: e-label
+  canti meglio di me: e-microphone
   cara giulia, come stai: e-love-letter
   ce l'ho: e-raising-hands
   che bel ristorante: e-fork-and-knife-with-plate
@@ -2576,6 +2612,7 @@ phrases:
   che cosa fai domani: e-spiral-calendar
   che cosa farete a capodanno: e-fireworks
   che cosa hai fatto di bello: e-sparkles
+  che cosa stai facendo? — sto studiando: e-books
   che cosa è successo: e-face-with-open-mouth
   che film andiamo a vedere: e-film-frames
   che fortuna: e-four-leaf-clover
@@ -2611,6 +2648,7 @@ phrases:
   come si dice in italiano: e-speech-balloon
   come si scrive: e-memo
   come si scrive il tuo cognome: e-writing-hand
+  come si sente: e-stethoscope
   come stai? — bene, e tu: e-smiling-face-with-smiling-eyes
   come ti chiami: e-name-badge
   come ti senti: e-face-with-thermometer
@@ -2624,6 +2662,7 @@ phrases:
   da quale binario parte il treno: e-high-speed-train
   dagli il libro: e-closed-book
   davvero: e-astonished-face
+  deve riposarsi: e-bed
   devo cambiare a bologna: e-railway-track
   devo scendere alla prossima fermata: e-bus-stop
   di chi è questo zaino: e-backpack
@@ -2638,6 +2677,7 @@ phrases:
   dovresti riposarti: e-sleeping-face
   due caffè, per favore: e-hot-beverage
   due giorni fa ho mangiato una pizza buonissima: e-pizza
+  due volte al giorno, dopo i pasti: e-pill
   e da bere: e-wine-glass
   ecco il museo: e-classical-building
   fa freddo e tira vento: e-wind-face
@@ -2659,10 +2699,13 @@ phrases:
   hai saputo la notizia: e-newspaper
   hai visto la mostra: e-framed-picture
   ho fame: e-face-savoring-food
+  ho la febbre: e-thermometer
   ho letto un libro bellissimo: e-open-book
+  ho mal di gola: e-face-with-thermometer
   ho molto da fare: e-clipboard
   ho sempre fretta: e-woman-running
   ho sete: e-cup-with-straw
+  ho una prenotazione a nome ivanova: e-bellhop-bell
   ho ventidue anni: e-birthday-cake
   ho vinto una borsa di studio: e-graduation-cap
   ho visto un film con gli amici: e-film-projector
@@ -2670,38 +2713,47 @@ phrases:
   i miei nonni abitano in campagna: e-house-with-garden
   il conto, per favore: e-receipt
   il film non era un granché: e-face-with-diagonal-mouth
+  il film sta per cominciare: e-clapper-board
   il latte? lo compro io: e-glass-of-milk
   il libro è sul tavolo: e-green-book
   il mio compleanno è il tre marzo: e-birthday-cake
   il museo è chiuso il lunedì: e-locked
   il sabato vado in piscina: e-woman-swimming
+  il telefono è quasi scarico: e-low-battery
   il treno è in ritardo: e-hourglass-not-done
   in estate andiamo al mare: e-beach-with-umbrella
   in italia si mangia bene: e-pizza
+  l'aria condizionata non funziona: e-snowflake
+  l'autobus sta per partire: e-bus
   l'avrei visto volentieri, ma: e-film-projector
   l'hai presa: e-shopping-bags
   l'ho conosciuta alla festa di carla: e-party-popper
+  la colazione è compresa: e-croissant
   la lezione finisce tra dieci minuti: e-stopwatch
   la loro casa è molto bella: e-house-with-garden
   la mia migliore amica è allegra: e-grinning-face-with-smiling-eyes
+  la pizza era ottima: e-pizza
   la posso provare: e-dress
   lascia stare: e-face-exhaling
   le case nuove: e-houses
   le chiavi sono nel cassetto: e-key
   le città italiane sono belle: e-cityscape
   le mele le prendi tu: e-red-apple
+  le ragazze sono molto brave: e-clapping-hands
   le telefono più tardi: e-telephone
   lei come si chiama: e-name-badge
   lei studia o lavora: e-briefcase
   lei, di dov'è: e-globe-showing-americas
   lo posso provare: e-t-shirt
   lo prendo: e-shopping-bags
+  lo sto leggendo adesso: e-open-book
   luca e la sua macchina: e-automobile
   meno male: e-relieved-face
   mentre camminavo, ho incontrato dino: e-man-walking
   mi chiamo sofia: e-woman-raising-hand
   mi dica: e-woman-tipping-hand
   mi dispiace, ma non posso: e-pensive-face
+  mi fa male la testa: e-face-with-head-bandage
   mi fai un favore: e-folded-hands
   mi lavo i denti: e-toothbrush
   mi passi il sale, per favore: e-salt
@@ -2709,10 +2761,12 @@ phrases:
   mi piacciono i dolci: e-shortcake
   mi piace / non mi piace: e-thumbs-up
   mi piace la pasta al dente: e-spaghetti
+  mi piace più leggere che guardare la tv: e-open-book
   mi piacerebbe andare in italia: e-airplane-departure
   mi piacerebbe tanto: e-shooting-star
   mi presti la tua penna: e-pen
   mi puoi dare una mano: e-open-hands
+  mi può portare un asciugamano: e-soap
   mi sono divertita molto: e-partying-face
   mi sono piaciute molto le tue foto: e-camera
   mi sta bene: e-mirror
@@ -2720,6 +2774,7 @@ phrases:
   mi sveglio alle sette: e-alarm-clock
   mia nonna è nata nel 1950: e-old-woman
   mia sorella si chiama laura: e-girl
+  mio fratello maggiore vive a torino: e-boy
   natale con i tuoi, pasqua con chi vuoi: e-people-hugging
   ne prendo un chilo: e-balance-scale
   ne vorrei mezzo chilo: e-balance-scale
@@ -2748,8 +2803,10 @@ phrases:
   offro io: e-money-with-wings
   oggi c'è il sole: e-sun-with-face
   oggi c'è sciopero generale: e-loudspeaker
+  oggi sto peggio di ieri: e-face-with-thermometer
   ogni estate andavamo al mare: e-water-wave
   pago in contanti: e-dollar-banknote
+  parla lentamente, per favore: e-turtle
   partecipa e vinci: e-trophy
   peccato: e-disappointed-face
   penso di no: e-woman-gesturing-no
@@ -2759,6 +2816,7 @@ phrases:
   piacere mio: e-handshake
   possiamo darci del tu: e-handshake
   posso pagare con la carta: e-credit-card
+  posso parlare con lorenzo: e-telephone
   potrebbe aiutarmi, per favore: e-folded-hands
   potresti insegnarmi: e-woman-teacher
   povera te: e-hugging-face
@@ -2767,6 +2825,7 @@ phrases:
   prendilo pure: e-wrapped-gift
   prendo la metro tutti i giorni: e-metro
   pronto: e-telephone-receiver
+  pronto, chi parla: e-telephone-receiver
   puoi andare al bar eden: e-hot-beverage
   quando sei libera: e-spiral-calendar
   quando sono arrivata, il treno era già partito: e-train
@@ -2784,6 +2843,7 @@ phrases:
   questa è la mia borsa: e-handbag
   questi sono i nostri libri: e-books
   ripeti, per favore: e-repeat-button
+  roma è la città più bella d'italia: e-classical-building
   roma è tra firenze e napoli: e-world-map
   sa tutto di tutti: e-woman-with-headscarf
   sai dov'è l'ufficio postale: e-postbox
@@ -2795,17 +2855,21 @@ phrases:
   scrivimi quando arrivi: e-speech-balloon
   scusi, dov'è il centro: e-world-map
   scusi, dov'è la stazione: e-station
+  scusi, ho sbagliato numero: e-face-with-hand-over-mouth
   scusi, posso entrare: e-door
   se farà bel tempo, andremo in montagna: e-mountain
   secondo me, il film è bellissimo: e-star-struck
+  sei bella come il sole: e-sun-with-face
   sei d'accordo: e-thumbs-up
   sei italiana: e-pizza
   sei libera stasera: e-night-with-stars
   sei mai stata a venezia: p-gondola
   sei nuova: e-woman-raising-hand
+  sei più bravo di me: e-trophy
   si può pagare in contanti: e-euro-banknote
   siamo arrivati tardi: e-crescent-moon
   siamo in ritardo: e-woman-running
+  sicuramente verrà domani: e-check-mark-button
   siete pronti per ordinare: e-man-in-tuxedo
   signora, la posso aiutare: e-woman-tipping-hand
   sii gentile: e-smiling-face-with-halo
@@ -2814,7 +2878,10 @@ phrases:
   sono in pensione: e-old-woman
   sono inglese, e lei: e-teacup-without-handle
   sono le sette meno venti: e-six-thirty
+  sta piovendo: e-cloud-with-rain
   stasera vado da franco: e-house-with-garden
+  stavo per uscire: e-door
+  sto arrivando: e-woman-running
   studio l'italiano da due anni: e-books
   sul serio: e-astonished-face
   suono la chitarra da tre anni: e-guitar
@@ -2824,15 +2891,19 @@ phrases:
   ti dispiace se apro la finestra: e-window
   ti posso chiedere un favore: e-folded-hands
   ti presento sofia: e-people-hugging
+  ti richiamo appena scendo: e-mobile-phone
   ti ricordi: e-thought-balloon
   ti ricordi di me: e-thought-balloon
   ti ringrazio per gli appunti: e-spiral-notepad
+  ti sento malissimo: e-ear
   ti sta benissimo: e-smiling-face-with-heart-eyes
+  ti sto aspettando da venti minuti: e-hourglass-not-done
   ti vedo un po' giù: e-pensive-face
   ti voglio bene: e-growing-heart
   ti è piaciuto il film: e-clapper-board
   tienilo: e-wrapped-gift
   un attimo: e-index-pointing-up
+  un attimo, per favore: e-index-pointing-up
   un biglietto per venezia, per favore: e-ticket
   un libro rosso: e-closed-book
   una mela al giorno toglie il medico di torno: e-red-apple
@@ -2849,18 +2920,25 @@ phrases:
   vieni con noi al mare: e-beach-with-umbrella
   volentieri: e-star-struck
   vorrei prenotare un tavolo per due: e-fork-and-knife-with-plate
+  vorrei prenotare una camera doppia: e-bed
   vorrei tre etti di prosciutto: e-cut-of-meat
   vorrei un caffè: e-hot-beverage
   vorrei una spremuta d'arancia: e-tangerine
   vuoi dello zucchero: e-candy
   vuoi un passaggio: e-automobile
   vuoi una mano: e-open-hands
+  vuole lasciare un messaggio: e-memo
   è alto, bruno e molto simpatico: e-man
   è aperto dalle nove alle diciannove: e-nine-oclock
+  è caduta la linea: e-no-mobile-phones
   è colpa mia: e-face-with-hand-over-mouth
   è l'una e mezza: e-one-thirty
+  è la scelta migliore: e-thumbs-up
   è meglio partire presto: e-sunrise
+  è meglio vivere vicino al lavoro: e-office-building
+  è meno caro di quello che pensavo: e-coin
   è mio: e-raising-hands
+  è più piccolo dell'altro: e-house
   è sul tavolino, accanto alla lampada: e-light-bulb
   è una ragazza molto simpatica: e-smiling-face-with-smiling-eyes
 words:
@@ -2915,6 +2993,7 @@ words:
   appunti: e-spiral-notepad
   aprile: e-tulip
   aprire: e-door
+  aria condizionata: e-snowflake
   armadio: e-door
   arrabbiarsi: e-angry-face
   arrabbiato: e-angry-face
@@ -2985,6 +3064,7 @@ words:
   borsa: e-handbag
   borsa di studio: e-graduation-cap
   bottiglia: e-bottle-with-popping-cork
+  braccio: e-flexed-biceps
   brasiliano: e-soccer-ball
   bravissimo: e-clapping-hands
   bruno: e-person
@@ -3017,6 +3097,7 @@ words:
   camino: e-fire
   campagna: e-sunrise-over-mountains
   campeggio: e-camping
+  campo: e-antenna-bars
   canale: e-television
   cane: e-dog
   cantante: e-woman-singer
@@ -3067,6 +3148,7 @@ words:
   chiacchierare: e-speech-balloon
   chiamare: e-telephone-receiver
   chiamarsi: e-name-badge
+  chiamata: e-telephone
   chiave: e-key
   chiedere: e-red-question-mark
   chiesa: e-church
@@ -3239,6 +3321,7 @@ words:
   fruttivendolo: e-green-apple
   fungo: e-brown-mushroom
   galleria: e-framed-picture
+  gamba: e-leg
   gara: e-trophy
   gatto: e-cat
   gelato: e-ice-cream
@@ -3292,6 +3375,7 @@ words:
   incontro: e-handshake
   incrocio: e-horizontal-traffic-light
   indirizzo: e-envelope
+  influenza: e-face-with-thermometer
   inglese: e-teacup-without-handle
   ingrediente: e-basket
   ingresso: e-door
@@ -3361,6 +3445,7 @@ words:
   mamma: e-woman
   mandare: e-outbox-tray
   mangiare: e-face-savoring-food
+  mano: e-raised-hand
   maratona: e-person-running
   marchio: e-registered
   mare: e-water-wave
@@ -3441,6 +3526,7 @@ words:
   notte: e-night-with-stars
   nove: e-keycap-9
   novembre: e-umbrella-with-rain-drops
+  numero: e-input-numbers
   nuotare: e-person-swimming
   nuovo: e-sparkles
   nuvola: e-cloud
@@ -3534,6 +3620,7 @@ words:
   piatto: e-fork-and-knife-with-plate
   piazza: e-fountain
   piccolo: e-baby-chick
+  piede: e-foot
   pinacoteca: e-framed-picture
   pioggia: e-cloud-with-rain
   piovere: e-umbrella-with-rain-drops
@@ -3759,6 +3846,7 @@ words:
   tedesco: e-pretzel
   telecomando: e-trackball
   telefonare: e-telephone-receiver
+  telefonata: e-telephone-receiver
   telefono: e-telephone
   telegiornale: e-television
   televisione: e-television
@@ -3785,6 +3873,7 @@ words:
   torta: e-birthday-cake
   torta al cioccolato: e-chocolate-bar
   torta di mele: e-pie
+  tosse: e-face-with-medical-mask
   tovaglia: e-roll-of-paper
   tovagliolo: e-roll-of-paper
   tradizione: e-scroll
@@ -3848,6 +3937,7 @@ words:
   viso: e-slightly-smiling-face
   vitello: e-cow
   vivere: e-house-with-garden
+  vocale: e-microphone
   voce: e-microphone
   volentieri: e-grinning-face-with-smiling-eyes
   volere: e-star-struck

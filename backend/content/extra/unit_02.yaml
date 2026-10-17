@@ -122,6 +122,146 @@ lessons_after:
         q: "Заполните пропуски по тексту."
         text: "La domenica i tifosi vanno allo [[stadio]]. A Venezia c'è il [[*vaporetto/tram/treno]]."
 
+  - slug: praktikum-2
+    kind: practice
+    title_it: "Esercizi: verbi irregolari, modali e preposizioni"
+    title_ru: "Практикум: неправильные и модальные глаголы, предлоги"
+    theory: |
+      ## Памятка
+
+      **Неправильные глаголы**
+
+      | | fare | andare | venire | uscire | stare | dare | dire | bere |
+      |---|---|---|---|---|---|---|---|---|
+      | io | faccio | vado | vengo | esco | sto | do | dico | bevo |
+      | tu | fai | vai | vieni | esci | stai | dai | dici | bevi |
+      | lui | fa | va | viene | esce | sta | dà | dice | beve |
+      | noi | facciamo | andiamo | veniamo | usciamo | stiamo | diamo | diciamo | beviamo |
+      | voi | fate | andate | venite | uscite | state | date | dite | bevete |
+      | loro | fanno | vanno | vengono | escono | stanno | danno | dicono | bevono |
+
+      **Модальные** (+ инфинитив): **volere** (voglio, vuoi, vuole, vogliamo, volete, vogliono), **potere** (posso, puoi, può, possiamo, potete, possono), **dovere** (devo, devi, deve, dobbiamo, dovete, devono).
+      *Voglio dormire. Posso entrare? Devi studiare.*
+
+      **Предлоги места**
+
+      * **a** + город: *a Roma*; **in** + страна, регион, «тип места»: *in Italia, in banca, in ufficio, in piazza*;
+      * **a** + некоторые места: *a casa, a scuola, a teatro, a letto*;
+      * **da** + человек: *vado **da** Marco, **dal** medico* (к кому-то);
+      * **di** — происхождение: *Sono **di** Mosca*; **da** — откуда пришёл: *Vengo **da** Mosca*.
+
+      > 💡 Время: *Che ora è? — È l'una. Sono le tre e mezza.* (часы — женский род мн. ч., кроме «час»).
+    exercises:
+      - type: choice
+        level: 1
+        q: "Che cosa ___ (fare) stasera, ragazzi?"
+        options: ["fate", "fanno", "facciamo", "fai"]
+        answer: 0
+        hint: "ragazzi = **voi** → fare: voi **fate**."
+        ru: "Что вы делаете сегодня вечером, ребята?"
+      - type: choice
+        level: 1
+        q: "Io ___ (andare) al cinema con Gianna."
+        options: ["vado", "ando", "va", "vai"]
+        answer: 0
+        hint: "andare — неправильный: io **vado**."
+        ru: "Я иду в кино с Джанной."
+      - type: choice
+        level: 2
+        q: "Loro ___ (venire) alla festa?"
+        options: ["venono", "vengono", "vengano", "vieneno"]
+        answer: 1
+        hint: "venire: io ven**g**o … loro ven**g**ono — в 1-м лице ед. ч. и 3-м лице мн. ч. появляется **g**."
+        ru: "Они придут на праздник?"
+      - type: choice
+        level: 2
+        q: "Stasera noi ___ (uscire) con gli amici."
+        options: ["usciamo", "esciamo", "uscimo", "escono"]
+        answer: 0
+        hint: "uscire: в формах noi и voi корень **usc-**, в остальных — **esc-**."
+        ru: "Сегодня вечером мы идём гулять с друзьями."
+      - type: input
+        level: 2
+        q: "Che cosa ___ (dire) tu?"
+        answer: ["dici"]
+        hint: "dire спрягается от основы **dic-**: dico, dici, dice…"
+        ru: "Что ты говоришь?"
+      - type: input
+        level: 2
+        q: "Io non ___ (bere) il caffè la sera."
+        answer: ["bevo"]
+        hint: "bere спрягается от основы **bev-**: bevo, bevi, beve…"
+        ru: "Я не пью кофе вечером."
+      - type: choice
+        level: 1
+        q: "Scusi, ___ entrare?"
+        options: ["posso", "voglio", "devo", "so"]
+        answer: 0
+        hint: "Просим разрешения → **potere** («можно?»)."
+        ru: "Простите, можно войти?"
+      - type: choice
+        level: 2
+        q: "Domani abbiamo un esame: ___ studiare."
+        options: ["possiamo", "dobbiamo", "vogliamo", "sappiamo"]
+        answer: 1
+        hint: "Необходимость, обязанность → **dovere**: noi **dobbiamo**."
+        ru: "Завтра у нас экзамен: мы должны заниматься."
+      - type: input
+        level: 3
+        q: "Mia madre non ___ (volere) uscire."
+        answer: ["vuole"]
+        hint: "volere: lui / lei **vuole**."
+        ru: "Моя мама не хочет выходить."
+      - type: cloze
+        level: 2
+        q: "Вставьте a, in или da."
+        text: "Abito [[a]] Milano, ma lavoro [[in]] banca. Stasera vado [[da]] Lorenzo e domani [[in]] Francia."
+        hint: "a + город; in + «тип места» (banca, ufficio) и страна; da + человек."
+        ru: "Я живу в Милане, но работаю в банке. Сегодня вечером иду к Лоренцо, а завтра — во Францию."
+      - type: choice
+        level: 2
+        q: "Sono ___ Mosca, ma abito a Roma."
+        options: ["di", "da", "a", "in"]
+        answer: 0
+        hint: "Происхождение «я из (родом из) …» → **essere di**."
+        ru: "Я из Москвы, но живу в Риме."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Stasera vado {{a=>da}} Gianna per cena."
+        hint: "К **человеку** (к кому-то домой) — предлог **da**."
+        ru: "Сегодня вечером я иду к Джанне на ужин."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Il film comincia {{alla=>alle}} nove."
+        hint: "Часы — женского рода **мн. ч.** (le nove) → a + le = **alle**. Только «час» — all'una."
+        ru: "Фильм начинается в девять."
+      - type: choice
+        level: 2
+        q: "Che ore sono? — ___ le otto e un quarto."
+        options: ["È", "Sono", "Ha", "Fa"]
+        answer: 1
+        hint: "Для всех часов, кроме «час» (È l'una), — **sono** le…"
+        ru: "Который час? — Четверть девятого."
+      - type: match
+        level: 1
+        q: "Соедините инфинитив и форму io"
+        hint: "Все эти глаголы неправильные — вспомните таблицу."
+        pairs:
+          - ["fare", "faccio"]
+          - ["andare", "vado"]
+          - ["venire", "vengo"]
+          - ["uscire", "esco"]
+          - ["stare", "sto"]
+        ru: "делать, идти, приходить, выходить, находиться — форма «я»"
+      - type: order
+        level: 2
+        q: "Соберите: «Ты хочешь пойти в кино?»"
+        answer: "Vuoi andare al cinema?"
+        hint: "Модальный глагол (vuoi) + инфинитив (andare) + место."
+        ru: "Ты хочешь пойти в кино?"
+
   - slug: autovalutazione-2
     kind: review
     title_it: "Che cosa hai imparato?"

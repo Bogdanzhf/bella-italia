@@ -109,6 +109,137 @@ lessons_after:
         options: ["+7", "+39", "+33", "+49"]
         answer: 1
 
+  - slug: praktikum-3
+    kind: practice
+    title_it: "Esercizi: preposizioni articolate e possessivi"
+    title_ru: "Практикум: сочленённые предлоги, c'è / ci sono, притяжательные"
+    theory: |
+      ## Памятка
+
+      **Сочленённые предлоги:** предлог + определённый артикль = одно слово.
+
+      | | il | lo | l' | la | i | gli | le |
+      |---|---|---|---|---|---|---|---|
+      | **a** | al | allo | all' | alla | ai | agli | alle |
+      | **di** | del | dello | dell' | della | dei | degli | delle |
+      | **da** | dal | dallo | dall' | dalla | dai | dagli | dalle |
+      | **in** | nel | nello | nell' | nella | nei | negli | nelle |
+      | **su** | sul | sullo | sull' | sulla | sui | sugli | sulle |
+
+      **con, per, tra / fra** с артиклем не сливаются: *con il treno, per la mamma*.
+
+      **C'è / ci sono:** *C'è un tavolo* (ед. ч.) · *Ci sono due sedie* (мн. ч.).
+
+      **Притяжательные** стоят с артиклем: *il mio libro, la tua casa, i suoi amici*.
+      **Без артикля** — с одним родственником в ед. ч.: *mia madre, tuo fratello* (но *la mia mamma, i miei genitori, il loro padre*).
+
+      **Частичный артикль** (немного, какие-то) = di + артикль: *Vorrei **del** pane, **dell'**acqua, **delle** mele.*
+    exercises:
+      - type: choice
+        level: 1
+        q: "Il libro è ___ tavolo."
+        options: ["sul", "sullo", "su il", "nel"]
+        answer: 0
+        hint: "su + il = **sul** (на столе)."
+        ru: "Книга на столе."
+      - type: choice
+        level: 1
+        q: "Vado ___ stazione."
+        options: ["al", "alla", "allo", "a la"]
+        answer: 1
+        hint: "stazione — ж. р. → a + la = **alla**."
+        ru: "Я иду на вокзал."
+      - type: choice
+        level: 2
+        q: "Le chiavi sono ___ zaino."
+        options: ["nel", "nello", "nell'", "in lo"]
+        answer: 1
+        hint: "zaino начинается на z → артикль lo → in + lo = **nello**."
+        ru: "Ключи в рюкзаке."
+      - type: choice
+        level: 2
+        q: "Il treno arriva ___ aeroporto."
+        options: ["dal", "dall'", "dallo", "dalla"]
+        answer: 1
+        hint: "aeroporto начинается с гласной → l' → da + l' = **dall'**."
+        ru: "Поезд прибывает из аэропорта."
+      - type: cloze
+        level: 2
+        q: "Соедините предлог с артиклем."
+        text: "la casa [[della]] nonna (di + la), il libro [[dello]] studente (di + lo), [[negli]] Stati Uniti (in + gli), [[ai]] bambini (a + i)"
+        hint: "Смотрите на артикль существительного и сливайте по таблице: di + la = della, di + lo = dello, in + gli = negli, a + i = ai."
+        ru: "дом бабушки, книга студента, в Соединённых Штатах, детям"
+      - type: choice
+        level: 1
+        q: "Nella stanza ___ due finestre."
+        options: ["c'è", "ci sono", "è", "ha"]
+        answer: 1
+        hint: "«Есть / находятся» для **мн. ч.** (due finestre) → **ci sono**."
+        ru: "В комнате два окна."
+      - type: choice
+        level: 1
+        q: "In piazza ___ una fontana."
+        options: ["c'è", "ci sono", "sono", "ha"]
+        answer: 0
+        hint: "Один предмет (ед. ч.) → **c'è**."
+        ru: "На площади есть фонтан."
+      - type: choice
+        level: 2
+        q: "___ madre è insegnante."
+        options: ["Mia", "La mia", "Il mio", "Mie"]
+        answer: 0
+        hint: "Один родственник в ед. ч. → **без артикля**: mia madre."
+        ru: "Моя мама — учительница."
+      - type: choice
+        level: 2
+        q: "___ genitori abitano a Torino."
+        options: ["Miei", "I miei", "Mie", "Il mio"]
+        answer: 1
+        hint: "Родственники во **мн. ч.** → артикль нужен: **i miei** genitori."
+        ru: "Мои родители живут в Турине."
+      - type: choice
+        level: 3
+        q: "Marco e Luca? ___ padre è medico."
+        options: ["Suo", "Il loro", "Loro", "I loro"]
+        answer: 1
+        hint: "**loro** (их) всегда с артиклем, даже с родственником: **il loro** padre."
+        ru: "Марко и Лука? Их отец — врач."
+      - type: input
+        level: 2
+        q: "Vorrei ___ pane, per favore. (немного хлеба: di + il)"
+        answer: ["del"]
+        hint: "Частичный артикль = di + артикль: di + il = **del**."
+        ru: "Я бы хотела хлеба, пожалуйста."
+      - type: input
+        level: 3
+        q: "Compro ___ uova al mercato. (какие-то яйца: di + le)"
+        answer: ["delle"]
+        hint: "le uova (ж. р. мн. ч.!) → di + le = **delle**."
+        ru: "Я покупаю яйца на рынке."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Mio fratello vive {{in=>a}} Napoli."
+        hint: "Перед **городом** — предлог a (in — перед страной: in Italia)."
+        ru: "Мой брат живёт в Неаполе."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Le foto sono {{su=>sul}} computer."
+        hint: "Перед существительным с артиклем il предлог su сливается: **sul**."
+        ru: "Фотографии на компьютере."
+      - type: match
+        level: 2
+        q: "Соедините предлог + артикль и результат"
+        hint: "Таблица сочленённых предлогов в памятке."
+        pairs:
+          - ["a + il", "al"]
+          - ["di + gli", "degli"]
+          - ["da + la", "dalla"]
+          - ["in + i", "nei"]
+          - ["su + le", "sulle"]
+        ru: "Сочленённые предлоги."
+
   - slug: autovalutazione-3
     kind: review
     title_it: "Che cosa hai imparato?"

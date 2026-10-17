@@ -110,6 +110,650 @@ lessons_after:
         options: ["в феврале и сентябре", "в январе и июле", "только в декабре", "каждый месяц"]
         answer: 1
 
+  - slug: dialogo-casa-roma
+    kind: dialogue
+    title_it: "Quale appartamento scegliere?"
+    title_ru: "Какую квартиру выбрать?"
+    dialogue:
+      title: "Due appartamenti a Roma"
+      scene: "София хочет переехать в квартиру побольше и выбирает между двумя вариантами. Она звонит Джанне посоветоваться."
+      lines:
+        - "Gianna: Allora, Sofia, hai visto i due appartamenti? | Ну что, София, ты посмотрела обе квартиры?"
+        - "Sofia: Sì! Quello a Trastevere è più piccolo dell'altro, ma è molto più luminoso. | Да! Та, что в Трастевере, меньше второй, но гораздо светлее."
+        - "Gianna: E l'affitto? | А аренда?"
+        - "Sofia: È meno caro di quello che pensavo: ottocento euro. L'altro costa mille. | Дешевле, чем я думала: восемьсот евро. Вторая стоит тысячу."
+        - "Gianna: Allora il primo è più conveniente! E la zona? | Тогда первая выгоднее! А район?"
+        - "Sofia: Trastevere è la zona più vivace di Roma: ristoranti, musica, gente simpaticissima. | Трастевере — самый оживлённый район Рима: рестораны, музыка, очень милые люди."
+        - "Gianna: Sì, ma è anche più rumorosa. Dormire lì è più difficile che dormire in periferia. | Да, но и шумнее. Спать там труднее, чем на окраине."
+        - "Sofia: Il secondo appartamento è tranquillo quanto una biblioteca, però è lontanissimo dal lavoro. | Вторая квартира тихая, как библиотека, но очень далеко от работы."
+        - "Gianna: Secondo me è meglio vivere vicino al lavoro. Il tempo è la cosa più preziosa! | По-моему, лучше жить рядом с работой. Время — самое ценное!"
+        - "Sofia: Hai ragione. È la scelta migliore. Prendo quello a Trastevere! | Ты права. Это лучший выбор. Беру ту, что в Трастевере!"
+    words:
+      - "luminoso | светлый, солнечный"
+      - "l'affitto | аренда, квартплата | m"
+      - "conveniente | выгодный"
+      - "vivace | оживлённый, живой"
+      - "rumoroso | шумный"
+      - "la periferia | окраина"
+      - "tranquillo | спокойный, тихий"
+      - "lontano | далёкий, далеко"
+      - "prezioso | ценный, драгоценный"
+      - "la scelta | выбор"
+      - "il quartiere | квартал, район"
+      - "il trasloco | переезд"
+    phrases:
+      - "È più piccolo dell'altro. | Она меньше другой."
+      - "È meno caro di quello che pensavo. | Дешевле, чем я думала."
+      - "È meglio vivere vicino al lavoro. | Лучше жить рядом с работой."
+      - "È la scelta migliore. | Это лучший выбор."
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        hint: "Перечитайте диалог: ищите слова **più** (более) и **meno** (менее) — они показывают, что с чем сравнивают."
+        items:
+          - ["L'appartamento a Trastevere è più grande dell'altro.", false]
+          - ["L'appartamento a Trastevere costa meno.", true]
+          - ["Il secondo appartamento è vicino al lavoro.", false]
+          - ["Sofia sceglie l'appartamento a Trastevere.", true]
+        ru: "1. Квартира в Трастевере больше другой. 2. Квартира в Трастевере стоит меньше. 3. Вторая квартира рядом с работой. 4. София выбирает квартиру в Трастевере."
+      - type: choice
+        level: 1
+        ref: dialogue
+        q: "Почему Джанна советует квартиру рядом с работой?"
+        options: ["Она дешевле", "Время — самое ценное", "Там тише", "Там больше комнат"]
+        answer: 1
+        hint: "Найдите в конце диалога фразу со словом **la cosa più preziosa**."
+        ru: "Il tempo è la cosa più preziosa — «Время — самое ценное»."
+      - type: choice
+        level: 2
+        audio: "Il secondo appartamento è tranquillo quanto una biblioteca."
+        q: "🎧 С чем сравнивают вторую квартиру?"
+        options: ["с библиотекой", "с рестораном", "с офисом", "с парком"]
+        answer: 0
+        hint: "**tanto … quanto / … quanto** — сравнение равенства: «такой же, как»."
+        ru: "«Вторая квартира тихая, как библиотека»."
+      - type: cloze
+        level: 2
+        ref: dialogue
+        q: "Заполните пропуски по диалогу."
+        text: "Trastevere è la zona [[*più/meno/molto]] vivace di Roma, ma è anche più [[rumorosa]]. È [[*meglio/migliore/più bene]] vivere vicino al lavoro."
+        hint: "После глагола **è** + инфинитив («лучше делать что-то») нужно наречие **meglio**, а не прилагательное migliore."
+        ru: "Трастевере — самый оживлённый район Рима, но и самый шумный. Лучше жить рядом с работой."
+      - type: dialog
+        level: 2
+        q: "Восстановите разговор о квартире."
+        hint: "Сначала вопрос, потом ответ с ценой, потом вывод с **più conveniente**."
+        lines:
+          - "Quanto costa l'affitto?"
+          - "Ottocento euro al mese."
+          - "Allora è più conveniente dell'altro!"
+          - "Sì, e anche più luminoso."
+        ru: "— Сколько стоит аренда? — Восемьсот евро в месяц. — Тогда она выгоднее второй! — Да, и ещё светлее."
+  - slug: comparativi
+    kind: grammar
+    title_it: "Più alto di me"
+    title_ru: "Сравнительная степень: più / meno, di или che"
+    theory: |
+      ## Больше или меньше: più / meno
+
+      Сравнение строится как в русском «более / менее … чем»:
+
+      | | |
+      |---|---|
+      | **più** + прилагательное + **di / che** | более … чем |
+      | **meno** + прилагательное + **di / che** | менее … чем |
+
+      * *Marco è **più alto di** Luca.* — Марко выше Луки.
+      * *Roma è **meno cara di** Milano.* — Рим менее дорогой, чем Милан.
+
+      ## Di или che? Главное правило
+
+      **DI** — когда сравниваем **два предмета / человека** по одному качеству (перед существительным, именем, местоимением):
+
+      * *Sofia è più giovane **di** Gianna.* · *Il treno è più veloce **dell'**autobus.* (di + l' = dell')
+      * *Sei più bravo **di** me.* — после di ставим ударное местоимение: **me, te, lui, lei, noi, voi, loro**.
+
+      **CHE** — когда сравниваем **два качества, два действия, два места или времени** у одного предмета:
+
+      * *Il film è più noioso **che** divertente.* — два прилагательных
+      * *Mi piace più leggere **che** guardare la TV.* — два инфинитива
+      * *A Roma fa più caldo **che** a Milano.* — перед предлогом
+      * *Ho più amiche **che** amici.* — два существительных без артикля в количестве
+
+      > 💡 Проверка: если после «чем» стоит **предлог, глагол или второе прилагательное** → **che**. Если **существительное или местоимение** (и сравниваются два предмета) → **di**.
+
+      ## Равенство: tanto … quanto / così … come
+
+      * *Luca è **(tanto) alto quanto** Marco.* — Лука такого же роста, как Марко.
+      * *Sei **(così) bella come** tua madre.* — Ты так же красива, как твоя мама.
+
+      Первое слово (tanto / così) часто опускают: *bella come il sole*.
+
+      ## «Чем я думала»
+
+      Перед глаголом используйте **di quello che**:
+
+      * *È più bello **di quello che** credevo.* — Это красивее, чем я думала.
+    words:
+      - "alto | высокий"
+      - "basso | низкий"
+      - "giovane | молодой"
+      - "anziano | пожилой"
+      - "veloce | быстрый"
+      - "lento | медленный"
+      - "caro | дорогой"
+      - "economico | дешёвый, экономичный"
+      - "pesante | тяжёлый"
+      - "leggero | лёгкий"
+      - "noioso | скучный"
+      - "divertente | весёлый, забавный"
+      - "simpatico | приятный, симпатичный"
+      - "paragonare | сравнивать"
+    phrases:
+      - "Sei più bravo di me. | Ты лучше (способнее) меня."
+      - "Mi piace più leggere che guardare la TV. | Мне больше нравится читать, чем смотреть телевизор."
+      - "A Roma fa più caldo che a Milano. | В Риме жарче, чем в Милане."
+      - "Sei bella come il sole. | Ты прекрасна, как солнце."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Il treno è più veloce ___ autobus."
+        options: ["dell'", "che l'", "come l'", "di"]
+        answer: 0
+        hint: "Сравниваются **два предмета** (поезд и автобус) → **di**. Перед l'autobus: di + l' = **dell'**."
+        ru: "Поезд быстрее автобуса."
+      - type: choice
+        level: 1
+        q: "Mi piace più nuotare ___ correre."
+        options: ["di", "che", "del", "quanto"]
+        answer: 1
+        hint: "Сравниваются **два действия** (два инфинитива) → **che**."
+        ru: "Мне больше нравится плавать, чем бегать."
+      - type: choice
+        level: 1
+        q: "Sofia è più giovane ___ Gianna."
+        options: ["che", "di", "della", "come"]
+        answer: 1
+        hint: "Две девушки по одному качеству → **di**. С именами артикль не нужен."
+        ru: "София моложе Джанны."
+      - type: choice
+        level: 2
+        q: "Questo film è più noioso ___ divertente."
+        options: ["di", "del", "che", "quanto"]
+        answer: 2
+        hint: "Два качества одного фильма (два прилагательных) → **che**."
+        ru: "Этот фильм скорее скучный, чем весёлый."
+      - type: choice
+        level: 2
+        q: "In estate fa più caldo a Roma ___ a Milano."
+        options: ["di", "che", "da", "come"]
+        answer: 1
+        hint: "После «чем» стоит **предлог a** → всегда **che**."
+        ru: "Летом в Риме жарче, чем в Милане."
+      - type: choice
+        level: 2
+        q: "Tu sei più alta ___."
+        options: ["di io", "di me", "che me", "di mi"]
+        answer: 1
+        hint: "После **di** ставится **ударное** местоимение: me, te, lui, lei, noi, voi, loro."
+        ru: "Ты выше меня."
+      - type: cloze
+        level: 2
+        q: "Вставьте di (с артиклем, если нужно) или che."
+        text: "Milano è più cara [[di]] Napoli. Ho più libri [[che]] riviste. La macchina è più comoda [[della]] bicicletta. È più facile parlare [[che]] scrivere."
+        hint: "Два предмета → **di** (+ артикль: della bicicletta). Два существительных в количестве или два инфинитива → **che**."
+        ru: "Милан дороже Неаполя. У меня больше книг, чем журналов. Машина удобнее велосипеда. Говорить легче, чем писать."
+      - type: input
+        level: 2
+        q: "Luca è ___ alto quanto Marco. (такой же — первое слово пары)"
+        answer: ["tanto"]
+        hint: "Равенство: **tanto … quanto** или **così … come**. Здесь вторая часть — quanto."
+        ru: "Лука такого же роста, как Марко."
+      - type: input
+        level: 3
+        q: "Roma è ___ cara di Londra. (менее)"
+        answer: ["meno"]
+        hint: "«Менее … чем» = **meno … di**."
+        ru: "Рим менее дорогой, чем Лондон."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Leggere è più rilassante {{di=>che}} correre."
+        hint: "Сравниваются **два действия** (два инфинитива) → che."
+        ru: "Читать спокойнее, чем бегать."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Il mio gatto è più intelligente {{che=>del}} tuo cane."
+        hint: "Сравниваются **два животных** по одному качеству → di + il = **del**."
+        ru: "Мой кот умнее твоей собаки."
+      - type: order
+        level: 2
+        q: "Соберите: «Это труднее, чем я думала.»"
+        answer: "È più difficile di quello che pensavo."
+        hint: "Схема: È + più + прилагательное + **di quello che** + глагол в imperfetto."
+        ru: "Это труднее, чем я думала."
+      - type: match
+        level: 1
+        q: "Соедините противоположности"
+        hint: "Подумайте о парах антонимов: высокий — низкий, быстрый — медленный…"
+        pairs:
+          - ["alto", "basso"]
+          - ["veloce", "lento"]
+          - ["caro", "economico"]
+          - ["pesante", "leggero"]
+          - ["noioso", "divertente"]
+        ru: "высокий — низкий, быстрый — медленный, дорогой — дешёвый, тяжёлый — лёгкий, скучный — весёлый"
+  - slug: superlativi
+    kind: grammar
+    title_it: "Il più bello del mondo"
+    title_ru: "Превосходная степень и особые формы"
+    theory: |
+      ## Самый … : superlativo relativo
+
+      **артикль + (существительное) + più / meno + прилагательное + di / tra**
+
+      * *Roma è **la città più bella d'**Italia.* — Рим — самый красивый город Италии.
+      * *È **il più alto della** classe.* — Он самый высокий в классе.
+      * *È **il meno caro di** tutti.* — Он самый недорогой из всех.
+
+      > 💡 Второй артикль не нужен: **la città più bella** (а не *la città la più bella*).
+
+      ## Очень … : superlativo assoluto
+
+      1. **-issimo** вместо последней гласной: *bello → bell**issimo***, *caro → car**issima***, *facile → facil**issimo***.
+         -co / -go → **-chissimo / -ghissimo**: *simpatico → simpati**chissimo***, *lungo → lun**ghissimo***.
+      2. **molto / assai / davvero** + прилагательное: *molto bello*.
+      3. Повтор (разговорное): *piano piano* — потихоньку; приставки **stra- / super-**: *stracotto, superveloce*.
+
+      ## Особые формы
+
+      | | сравн. степень | превосх. относ. | превосх. абсол. |
+      |---|---|---|---|
+      | buono | **migliore** (più buono) | il migliore | **ottimo** (buonissimo) |
+      | cattivo | **peggiore** (più cattivo) | il peggiore | **pessimo** (cattivissimo) |
+      | grande | **maggiore** (più grande) | il maggiore | **massimo** (grandissimo) |
+      | piccolo | **minore** (più piccolo) | il minore | **minimo** (piccolissimo) |
+
+      *mio fratello maggiore* — мой старший брат · *la sorella minore* — младшая сестра.
+
+      ## Migliore или meglio?
+
+      * **migliore / peggiore** — **прилагательные**: стоят при существительном, изменяются по числу: *un libro migliore, le idee migliori*.
+      * **meglio / peggio** — **наречия**: при глаголе, не изменяются: *Canti **meglio** di me.* · *Oggi sto **peggio**.* · *È **meglio** partire presto.*
+
+      | наречие | сравн. | превосх. |
+      |---|---|---|
+      | bene | **meglio** | benissimo |
+      | male | **peggio** | malissimo |
+      | molto | **più** | moltissimo |
+      | poco | **meno** | pochissimo |
+    words:
+      - "il migliore | лучший"
+      - "il peggiore | худший"
+      - "ottimo | отличный, превосходный"
+      - "p`essimo | ужасный, наихудший"
+      - "maggiore | старший, больший"
+      - "minore | младший, меньший"
+      - "meglio | лучше (наречие)"
+      - "peggio | хуже (наречие)"
+      - "famoso | знаменитый"
+      - "antico | древний, старинный"
+      - "il mondo | мир"
+      - "la classe | класс"
+      - "intelligente | умный"
+    phrases:
+      - "Roma è la città più bella d'Italia. | Рим — самый красивый город Италии."
+      - "Canti meglio di me. | Ты поёшь лучше меня."
+      - "Mio fratello maggiore vive a Torino. | Мой старший брат живёт в Турине."
+      - "La pizza era ottima! | Пицца была превосходная!"
+      - "Oggi sto peggio di ieri. | Сегодня мне хуже, чем вчера."
+    exercises:
+      - type: choice
+        level: 1
+        q: "Questa è ___ pizza della città!"
+        options: ["la migliore", "la meglio", "la più meglio", "migliore"]
+        answer: 0
+        hint: "При существительном нужно **прилагательное** migliore; «самый лучший» = **il / la migliore**."
+        ru: "Это лучшая пицца в городе!"
+      - type: choice
+        level: 1
+        q: "Parli italiano ___ di me!"
+        options: ["migliore", "meglio", "più bene", "il migliore"]
+        answer: 1
+        hint: "Слово относится к **глаголу** parli («говоришь как?») → наречие **meglio**."
+        ru: "Ты говоришь по-итальянски лучше меня!"
+      - type: choice
+        level: 2
+        q: "Il Colosseo è il monumento più famoso ___ Roma."
+        options: ["che", "di", "a", "come"]
+        answer: 1
+        hint: "Превосходная степень: «самый … из / в» → **di** (или tra)."
+        ru: "Колизей — самый известный памятник Рима."
+      - type: choice
+        level: 2
+        q: "Mio fratello ___ ha trent'anni, quello minore ne ha venti."
+        options: ["maggiore", "migliore", "massimo", "più grande di"]
+        answer: 0
+        hint: "Старший по возрасту брат — **maggiore**, младший — **minore**."
+        ru: "Моему старшему брату тридцать лет, младшему — двадцать."
+      - type: choice
+        level: 2
+        q: "Oggi ho mal di testa e sto ___ di ieri."
+        options: ["peggiore", "peggio", "pessimo", "male"]
+        answer: 1
+        hint: "«Чувствую себя хуже» — при глаголе stare → наречие **peggio**."
+        ru: "Сегодня у меня болит голова, и мне хуже, чем вчера."
+      - type: input
+        level: 2
+        q: "bello → ___ (очень красивый, -issimo)"
+        answer: ["bellissimo"]
+        hint: "Отбросьте последнюю гласную и добавьте **-issimo**."
+        ru: "красивый → очень красивый"
+      - type: input
+        level: 3
+        q: "simpatico → ___ (очень приятный)"
+        answer: ["simpaticissimo"]
+        hint: "-co → **-chissimo**: звук [к] сохраняется благодаря h."
+        ru: "приятный → очень приятный"
+      - type: input
+        level: 3
+        q: "lungo → ___ (очень длинный)"
+        answer: ["lunghissimo"]
+        hint: "-go → **-ghissimo**."
+        ru: "длинный → очень длинный"
+      - type: input
+        level: 2
+        q: "Il gelato è buonissimo = il gelato è ___ (одним словом, особая форма)"
+        answer: ["ottimo"]
+        hint: "Абсолютная превосходная степень от **buono** — особая форма **ottimo**."
+        ru: "Мороженое превосходное."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Il Monte Bianco è la montagna più alta {{che=>delle}} Alpi."
+        hint: "Превосходная степень «самый … из» → **di** + артикль: di + le = delle."
+        ru: "Монблан — самая высокая гора Альп."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Questo ristorante è {{meglio=>migliore}} di quello in piazza."
+        hint: "Сравниваются **рестораны** (существительные), слово стоит после è как определение → прилагательное."
+        ru: "Этот ресторан лучше того, что на площади."
+      - type: cloze
+        level: 3
+        q: "Выберите правильную форму."
+        text: "È [[*meglio/migliore]] studiare la sera. Il tuo tema è [[*migliore/meglio]] del mio. Mia sorella [[*minore/minima]] va ancora a scuola. Il tempo oggi è [[*pessimo/peggio]]."
+        hint: "При глаголе / после «è + инфинитив» — наречие (meglio, peggio). При существительном — прилагательное (migliore, minore, pessimo)."
+        ru: "Лучше заниматься вечером. Твоё сочинение лучше моего. Моя младшая сестра ещё ходит в школу. Погода сегодня ужасная."
+      - type: match
+        level: 2
+        q: "Соедините слово и его особую форму"
+        hint: "buono → migliore/ottimo, cattivo → peggiore/pessimo, bene → meglio, male → peggio."
+        pairs:
+          - ["più buono", "migliore"]
+          - ["più cattivo", "peggiore"]
+          - ["più bene", "meglio"]
+          - ["più male", "peggio"]
+          - ["buonissimo", "ottimo"]
+        ru: "лучший (прил.), худший (прил.), лучше (нар.), хуже (нар.), превосходный"
+
+  - slug: dal-medico
+    kind: lesson
+    title_it: "Mi fa male la testa"
+    title_ru: "У врача и в аптеке"
+    theory: |
+      ## Что болит?
+
+      **Mi fa male** + ед. ч. / **Mi fanno male** + мн. ч. — «у меня болит / болят»:
+
+      * *Mi fa male **la testa**.* — У меня болит голова. · *Mi fanno male **i piedi**.* — У меня болят ноги (ступни).
+      * **avere mal di** + часть тела: *Ho mal di testa, mal di gola, mal di denti, mal di pancia.*
+
+      ## Как я себя чувствую
+
+      * *Mi sento male / bene / meglio.* — Мне плохо / хорошо / лучше.
+      * *Ho la febbre, la tosse, il raffreddore.* — У меня температура, кашель, насморк.
+      * *Mi sono fatta male al braccio.* — Я ушибла руку. (возвратный глагол в прошедшем — с essere)
+
+      ## Части тела: особое множественное число
+
+      *il braccio → **le braccia**, il dito → **le dita**, il ginocchio → **le ginocchia**, l'orecchio → le orecchie, la mano → **le mani**.*
+
+      > 💡 У врача: *Da quanto tempo?* — С какого времени? *Prenda questa medicina tre volte al giorno.* — Принимайте это лекарство три раза в день.
+    dialogue:
+      title: "Dal medico"
+      scene: "София простудилась и пришла к врачу."
+      lines:
+        - "Medico: Buongiorno, signorina. Come si sente? | Добрый день, синьорина. Как Вы себя чувствуете?"
+        - "Sofia: Non molto bene. Ho mal di gola e mi fa male la testa. | Не очень хорошо. У меня болит горло и голова."
+        - "Medico: Da quanto tempo? Ha anche la febbre? | Давно? Температура тоже есть?"
+        - "Sofia: Da due giorni. Ieri sera avevo trentotto. | Два дня. Вчера вечером было тридцать восемь."
+        - "Medico: Vediamo… Apra la bocca, per favore. Sì, la gola è rossa. È un'influenza. | Посмотрим… Откройте рот, пожалуйста. Да, горло красное. Это грипп."
+        - "Sofia: È grave? Domani devo lavorare. | Это серьёзно? Завтра мне надо работать."
+        - "Medico: No, ma deve riposarsi per tre o quattro giorni. Le scrivo la ricetta. | Нет, но Вам нужно отдохнуть три-четыре дня. Я выпишу Вам рецепт."
+        - "Sofia: Grazie, dottore. Quante volte al giorno devo prendere la medicina? | Спасибо, доктор. Сколько раз в день принимать лекарство?"
+        - "Medico: Due volte al giorno, dopo i pasti. E beva molta acqua! | Два раза в день, после еды. И пейте много воды!"
+    words:
+      - "la testa | голова"
+      - "la gola | горло"
+      - "la pancia | живот"
+      - "il dente | зуб"
+      - "la schiena | спина"
+      - "il braccio | рука (от плеча до кисти); мн. ч. le braccia"
+      - "la mano | кисть руки; мн. ч. le mani"
+      - "la gamba | нога"
+      - "il piede | ступня"
+      - "la febbre | температура, жар"
+      - "la tosse | кашель"
+      - "il raffreddore | насморк, простуда"
+      - "l'influenza | грипп | f"
+      - "la medicina | лекарство"
+      - "la ricetta | рецепт"
+      - "la farmacia | аптека"
+      - "riposarsi | отдыхать"
+      - "grave | серьёзный, тяжёлый"
+    phrases:
+      - "Mi fa male la testa. | У меня болит голова."
+      - "Ho mal di gola. | У меня болит горло."
+      - "Ho la febbre. | У меня температура."
+      - "Come si sente? | Как Вы себя чувствуете?"
+      - "Deve riposarsi. | Вам нужно отдохнуть."
+      - "Due volte al giorno, dopo i pasti. | Два раза в день, после еды."
+    exercises:
+      - type: tf
+        level: 1
+        ref: dialogue
+        q: "Верно или неверно?"
+        hint: "Ищите в диалоге, что болит, сколько дней и что советует врач."
+        items:
+          - ["Sofia ha mal di pancia.", false]
+          - ["Sofia sta male da due giorni.", true]
+          - ["Il medico dice che è un'influenza.", true]
+          - ["Sofia deve prendere la medicina tre volte al giorno.", false]
+        ru: "1. У Софии болит живот. 2. Софии плохо два дня. 3. Врач говорит, что это грипп. 4. София должна принимать лекарство три раза в день."
+      - type: choice
+        level: 1
+        q: "Mi ___ male i denti."
+        options: ["fa", "fanno", "ha", "hanno"]
+        answer: 1
+        hint: "Подлежащее — **i denti** (мн. ч.) → mi **fanno** male."
+        ru: "У меня болят зубы."
+      - type: choice
+        level: 1
+        q: "Ho mal ___ testa."
+        options: ["di", "della", "alla", "a"]
+        answer: 0
+        hint: "Устойчивое выражение **avere mal di** + часть тела без артикля."
+        ru: "У меня болит голова."
+      - type: choice
+        level: 2
+        q: "il braccio → le ___"
+        options: ["bracci", "braccia", "braccie", "bracce"]
+        answer: 1
+        hint: "Некоторые части тела во мн. ч. становятся женского рода на **-a**: le braccia, le dita, le ginocchia."
+        ru: "рука → руки"
+      - type: choice
+        level: 2
+        audio: "Prenda questa medicina due volte al giorno."
+        q: "🎧 Как принимать лекарство?"
+        options: ["два раза в день", "раз в день", "три раза в день", "перед сном"]
+        answer: 0
+        hint: "**due volte al giorno** — два раза в день."
+        ru: "«Принимайте это лекарство два раза в день»."
+      - type: cloze
+        level: 2
+        q: "Заполните пропуски."
+        text: "Non mi sento bene: ho la [[febbre]] e mi fa [[male]] la gola. Vado in [[farmacia]] a comprare una medicina."
+        hint: "la febbre — температура; fare male — болеть; in farmacia — в аптеку."
+        ru: "Я плохо себя чувствую: у меня температура и болит горло. Иду в аптеку купить лекарство."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Mi {{fa=>fanno}} male le gambe."
+        hint: "le gambe — мн. ч. → глагол тоже во мн. ч."
+        ru: "У меня болят ноги."
+      - type: match
+        level: 1
+        q: "Соедините часть тела и перевод"
+        hint: "Слова урока «У врача»."
+        pairs:
+          - ["la testa", "голова"]
+          - ["la gola", "горло"]
+          - ["la schiena", "спина"]
+          - ["il piede", "ступня"]
+          - ["la pancia", "живот"]
+        ru: "Части тела."
+      - type: dialog
+        level: 2
+        q: "Восстановите разговор в аптеке."
+        hint: "Приветствие → жалоба → совет фармацевта → цена."
+        lines:
+          - "Buongiorno, ho mal di gola. Che cosa mi consiglia?"
+          - "Queste pastiglie sono molto efficaci."
+          - "Quanto costano?"
+          - "Otto euro."
+        ru: "— Добрый день, у меня болит горло. Что Вы мне посоветуете? — Эти таблетки очень эффективные. — Сколько стоят? — Восемь евро."
+
+  - slug: praktikum-9
+    kind: practice
+    title_it: "Esercizi: verbi riflessivi e si impersonale"
+    title_ru: "Практикум: возвратные глаголы и безличное si"
+    theory: |
+      ## Памятка
+
+      **Возвратные глаголы** — частица перед глаголом: **mi, ti, si, ci, vi, si**.
+
+      | alzarsi | mettersi | vestirsi |
+      |---|---|---|
+      | mi alzo | mi metto | mi vesto |
+      | ti alzi | ti metti | ti vesti |
+      | si alza | si mette | si veste |
+      | ci alziamo | ci mettiamo | ci vestiamo |
+      | vi alzate | vi mettete | vi vestite |
+      | si alzano | si mettono | si vestono |
+
+      * В **passato prossimo** — всегда **essere** + согласование: *Mi sono alzat**a** alle sette. Ci siamo divertit**i**.*
+      * С модальным — частица перед модальным или слитно с инфинитивом: ***Mi** devo alzare* = *Devo alzar**mi***.
+      * **Взаимные**: *Ci vediamo domani. Si sono conosciuti a Roma.* — Увидимся / Они познакомились.
+
+      **Безличное si** = «у нас / здесь / люди делают»: *In Italia **si mangia** bene.* · *Qui non **si fuma**.*
+      С существительным во мн. ч. глагол — во мн. ч.: ***Si vendono** case.*
+
+      > 💡 Различайте: *lavo la macchina* (мою машину) — *mi lavo* (моюсь) — *mi lavo le mani* (мою руки).
+    exercises:
+      - type: choice
+        level: 1
+        q: "La mattina io ___ alle sette."
+        options: ["mi alzo", "si alzo", "alzo", "mi alza"]
+        answer: 0
+        hint: "io → частица **mi** + глагол в форме io: mi alz**o**."
+        ru: "Утром я встаю в семь."
+      - type: choice
+        level: 1
+        q: "Come ___ chiamano i tuoi amici?"
+        options: ["si", "ci", "vi", "ti"]
+        answer: 0
+        hint: "loro (i tuoi amici) → частица **si**."
+        ru: "Как зовут твоих друзей?"
+      - type: choice
+        level: 2
+        q: "Ieri sera noi ___ molto alla festa."
+        options: ["abbiamo divertito", "ci siamo divertiti", "si siamo divertiti", "ci abbiamo divertiti"]
+        answer: 1
+        hint: "Возвратный глагол в прошедшем → **essere** + согласование; noi → ci."
+        ru: "Вчера вечером мы очень повеселились на празднике."
+      - type: choice
+        level: 2
+        q: "Sofia ___ il vestito rosso."
+        options: ["si è messa", "ha messo si", "si ha messo", "è messa"]
+        answer: 0
+        hint: "mettersi (надевать) в прошедшем: si + **è** + mess**a** (Sofia)."
+        ru: "София надела красное платье."
+      - type: input
+        level: 2
+        q: "Voi a che ora ___ (svegliarsi)?"
+        answer: ["vi svegliate"]
+        hint: "voi → частица **vi** + окончание -ate."
+        ru: "Во сколько вы просыпаетесь?"
+      - type: input
+        level: 3
+        q: "Le ragazze si sono ___ (vestire) in fretta."
+        answer: ["vestite"]
+        hint: "С essere согласуем: ж. р. мн. ч. → vest**ite**."
+        ru: "Девушки быстро оделись."
+      - type: choice
+        level: 2
+        q: "In questo negozio ___ vestiti usati."
+        options: ["si vende", "si vendono", "vendono si", "ci vendono"]
+        answer: 1
+        hint: "Безличное si + существительное **во мн. ч.** (vestiti) → глагол во мн. ч."
+        ru: "В этом магазине продаётся одежда секонд-хенд."
+      - type: choice
+        level: 1
+        q: "In Italia ___ la pasta quasi ogni giorno."
+        options: ["si mangia", "si mangiano", "mangia si", "ci mangia"]
+        answer: 0
+        hint: "«Здесь едят» — безличное **si** + глагол в 3-м лице; la pasta — ед. ч."
+        ru: "В Италии пасту едят почти каждый день."
+      - type: cloze
+        level: 3
+        q: "Возвратный или нет? Выберите частицу или «—», если она не нужна."
+        text: "Prima [[*mi/si/—]] lavo, poi [[*—/mi/si]] lavo i piatti. Lorenzo [[*si/mi/—]] fa la barba ogni mattina."
+        hint: "lavarsi — мыться (себя) → mi; lavare i piatti — мыть посуду (не себя) → частица не нужна; farsi la barba — бриться → si."
+        ru: "Сначала я умываюсь, потом мою посуду. Лоренцо бреется каждое утро."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Stamattina mi {{ho=>sono}} svegliata tardi."
+        hint: "Возвратные глаголы в passato prossimo — только с essere."
+        ru: "Сегодня утром я проснулась поздно."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Devo {{alzarsi=>alzarmi}} presto domani."
+        hint: "Частица в инфинитиве меняется по лицу: (io) devo alzar**mi**."
+        ru: "Завтра мне нужно рано встать."
+      - type: order
+        level: 2
+        q: "Соберите: «Мы познакомились в Риме.»"
+        answer: "Ci siamo conosciuti a Roma."
+        hint: "Взаимный глагол conoscersi: ci + siamo + conosciuti."
+        ru: "Мы познакомились в Риме."
+      - type: match
+        level: 2
+        q: "Соедините глагол и перевод"
+        hint: "Все глаголы возвратные."
+        pairs:
+          - ["svegliarsi", "просыпаться"]
+          - ["vestirsi", "одеваться"]
+          - ["divertirsi", "веселиться"]
+          - ["riposarsi", "отдыхать"]
+          - ["sentirsi", "чувствовать себя"]
+        ru: "Возвратные глаголы."
+
   - slug: autovalutazione-9
     kind: review
     title_it: "Che cosa hai imparato?"

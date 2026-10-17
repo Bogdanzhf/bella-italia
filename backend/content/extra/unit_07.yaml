@@ -110,6 +110,133 @@ lessons_after:
           - ["Roberto Benigni", "La vita è bella"]
           - ["Paolo Sorrentino", "La grande bellezza"]
 
+  - slug: praktikum-7
+    kind: practice
+    title_it: "Esercizi: imperfetto o passato prossimo?"
+    title_ru: "Практикум: imperfetto или passato prossimo?"
+    theory: |
+      ## Памятка
+
+      **imperfetto:** основа инфинитива + **-vo, -vi, -va, -vamo, -vate, -vano**: *parla**vo**, legge**vi**, dormi**va***.
+      Неправильные: essere → **ero, eri, era, eravamo, eravate, erano**; fare → **facevo**; dire → **dicevo**; bere → **bevevo**.
+
+      ## Когда что
+
+      | **imperfetto** — «фон», процесс | **passato prossimo** — событие, результат |
+      |---|---|
+      | описание: *Era una bella giornata.* | одно законченное действие: *Ho visto un film.* |
+      | привычка в прошлом: *Da bambina **andavo** al mare ogni estate.* | действие с точным сроком: *Ieri **sono andata** al mare.* |
+      | состояние, возраст, время, погода: *Avevo dieci anni. Erano le tre.* | последовательность событий: *Sono entrata, ho salutato e mi sono seduta.* |
+      | два параллельных процесса: ***Mentre** cucinavo, lui **leggeva**.* | |
+
+      **Прерванное действие:** процесс — imperfetto, то, что его прервало, — passato prossimo:
+      *Mentre **dormivo**, **è suonato** il telefono.* — Пока я спала, зазвонил телефон.
+
+      **Слова-подсказки:** *mentre, di solito, ogni giorno, sempre, da bambino* → imperfetto · *ieri, una volta, all'improvviso, tre giorni fa, poi, alla fine* → passato prossimo.
+
+      **trapassato prossimo** (avevo / ero + причастие) — действие **до** другого в прошлом: *Quando sono arrivata, il treno **era già partito**.*
+    exercises:
+      - type: choice
+        level: 1
+        q: "Da bambina ___ (giocare) sempre in giardino."
+        options: ["giocavo", "ho giocato", "gioco", "giocherò"]
+        answer: 0
+        hint: "**Привычка в прошлом** (sempre, da bambina) → imperfetto."
+        ru: "В детстве я всегда играла в саду."
+      - type: choice
+        level: 1
+        q: "Ieri sera ___ (vedere) un film bellissimo."
+        options: ["vedevo", "ho visto", "vedo", "avevo visto"]
+        answer: 1
+        hint: "**Одно законченное действие** в определённый момент (ieri sera) → passato prossimo."
+        ru: "Вчера вечером я посмотрела прекрасный фильм."
+      - type: choice
+        level: 2
+        q: "Mentre ___ (cucinare), è arrivato Marco."
+        options: ["ho cucinato", "cucinavo", "cucino", "avevo cucinato"]
+        answer: 1
+        hint: "Процесс, который был **прерван** (mentre…) → imperfetto."
+        ru: "Пока я готовила, пришёл Марко."
+      - type: choice
+        level: 2
+        q: "Mentre leggevo, all'improvviso ___ (andare) via la luce."
+        options: ["andava", "è andata", "va", "era andata"]
+        answer: 1
+        hint: "Внезапное событие (all'improvviso), которое прервало чтение → passato prossimo."
+        ru: "Пока я читала, вдруг погас свет."
+      - type: choice
+        level: 2
+        q: "Quando ero piccola, ___ (avere) un cane."
+        options: ["ho avuto", "avevo", "avrò", "ho"]
+        answer: 1
+        hint: "Состояние / обладание в прошлом на фоне → imperfetto."
+        ru: "Когда я была маленькой, у меня была собака."
+      - type: choice
+        level: 3
+        q: "Quando siamo arrivati alla stazione, il treno ___ già ___ ."
+        options: ["è … partito", "era … partito", "partiva … —", "ha … partito"]
+        answer: 1
+        hint: "Поезд ушёл **раньше**, чем мы пришли → trapassato prossimo: era partito."
+        ru: "Когда мы приехали на вокзал, поезд уже ушёл."
+      - type: input
+        level: 1
+        q: "Io ___ (essere) stanca. (imperfetto)"
+        answer: ["ero"]
+        hint: "essere в imperfetto неправильный: **ero**, eri, era…"
+        ru: "Я была уставшей."
+      - type: input
+        level: 2
+        q: "Che cosa ___ (fare) voi ogni domenica? (imperfetto)"
+        answer: ["facevate"]
+        hint: "fare → основа **face-** + -vate."
+        ru: "Что вы делали каждое воскресенье?"
+      - type: input
+        level: 2
+        q: "Mio nonno ___ (dire) sempre: «Chi va piano va sano». (imperfetto)"
+        answer: ["diceva"]
+        hint: "dire → основа **dice-** + -va."
+        ru: "Мой дедушка всегда говорил: «Тише едешь — дальше будешь»."
+      - type: cloze
+        level: 3
+        q: "Выберите время."
+        text: "[[*Era/È stata]] una bella giornata. Il sole [[*splendeva/ha splenduto]] e io [[*camminavo/ho camminato]] nel parco. All'improvviso [[*ho visto/vedevo]] Lorenzo."
+        hint: "Описание фона (погода, процесс) — imperfetto; внезапное событие — passato prossimo."
+        ru: "Был прекрасный день. Светило солнце, и я гуляла в парке. Вдруг я увидела Лоренцо."
+      - type: cloze
+        level: 3
+        q: "Поставьте глаголы в нужное время."
+        text: "Ieri [[sono uscita]] (uscire, я) alle otto, [[ho preso]] (prendere) l'autobus e [[sono arrivata]] (arrivare) in ufficio."
+        hint: "Цепочка законченных событий одно за другим → passato prossimo. uscire и arrivare — с essere (говорит девушка), prendere — с avere."
+        ru: "Вчера я вышла в восемь, села на автобус и приехала в офис."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Quando ero piccola, ogni giorno {{vado=>andavo}} a scuola a piedi."
+        hint: "ogni giorno в прошлом (quando ero piccola) — привычка → imperfetto."
+        ru: "Когда я была маленькой, я каждый день ходила в школу пешком."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Ieri {{guardavo=>ho guardato}} un film e poi sono andata a letto."
+        hint: "Последовательность законченных действий (poi) → passato prossimo."
+        ru: "Вчера я посмотрела фильм, а потом легла спать."
+      - type: tf
+        level: 2
+        q: "Какое время подсказывает слово? Верно или неверно?"
+        hint: "Привычка и фон — imperfetto; разовое событие с точным моментом — passato prossimo."
+        items:
+          - ["«di solito» подсказывает imperfetto.", true]
+          - ["«ieri» подсказывает imperfetto.", false]
+          - ["«ogni estate» подсказывает imperfetto.", true]
+          - ["«all'improvviso» подсказывает passato prossimo.", true]
+        ru: "di solito — обычно, ieri — вчера, ogni estate — каждое лето, all'improvviso — вдруг."
+      - type: order
+        level: 2
+        q: "Соберите: «Пока я спала, зазвонил телефон.»"
+        answer: "Mentre dormivo, è suonato il telefono."
+        hint: "Процесс (mentre + imperfetto), затем событие в passato prossimo."
+        ru: "Пока я спала, зазвонил телефон."
+
   - slug: autovalutazione-7
     kind: review
     title_it: "Che cosa hai imparato?"

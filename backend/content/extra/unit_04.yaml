@@ -109,6 +109,141 @@ lessons_after:
         q: "Заполните пропуски по тексту."
         text: "La moka è stata inventata nel [[1933]]. Prima si paga alla [[*cassa/banco/moka]], poi si dà lo [[scontrino]] al barista."
 
+  - slug: praktikum-4
+    kind: practice
+    title_it: "Esercizi: passato prossimo — essere o avere?"
+    title_ru: "Практикум: passato prossimo — essere или avere?"
+    theory: |
+      ## Памятка
+
+      **passato prossimo** = **avere / essere** в настоящем + **причастие** (participio passato).
+
+      Причастие: -are → **-ato** (parlato), -ere → **-uto** (venduto), -ire → **-ito** (dormito).
+
+      ## Как выбрать вспомогательный глагол
+
+      **ESSERE**, если глагол:
+      1. означает **движение из точки в точку** или **остановку**: andare, venire, arrivare, partire, tornare, uscire, entrare, salire, scendere, restare, rimanere;
+      2. означает **изменение состояния**: nascere, morire, diventare, crescere;
+      3. **возвратный**: alzarsi, lavarsi, divertirsi;
+      4. а также: essere, stare, piacere, costare, succedere, sembrare.
+
+      **AVERE** — все остальные, особенно если у глагола есть **прямое дополнение** (что? кого?): *Ho mangiato una pizza.*
+
+      С **essere** причастие **согласуется** с подлежащим: *Sofia è andat**a**, i ragazzi sono partit**i**, le amiche sono uscit**e**.*
+
+      **Частые неправильные причастия:** fare → **fatto**, dire → **detto**, leggere → **letto**, scrivere → **scritto**, prendere → **preso**, mettere → **messo**, vedere → **visto**, aprire → **aperto**, chiudere → **chiuso**, venire → **venuto**, essere → **stato**, nascere → **nato**, rimanere → **rimasto**, bere → **bevuto**.
+
+      > 💡 Тест: можно ли спросить «что?» после глагола? Да → обычно **avere**. Это перемещение или изменение состояния? → **essere**.
+    exercises:
+      - type: choice
+        level: 1
+        q: "Ieri Sofia ___ al cinema."
+        options: ["ha andato", "è andata", "è andato", "ha andata"]
+        answer: 1
+        hint: "andare — движение → **essere**; Sofia — девушка → причастие на **-a**."
+        ru: "Вчера София ходила в кино."
+      - type: choice
+        level: 1
+        q: "Abbiamo ___ una pizza buonissima."
+        options: ["mangiato", "mangiati", "mangiata", "mangiare"]
+        answer: 0
+        hint: "С **avere** причастие обычно **не согласуется** с подлежащим — остаётся на -o."
+        ru: "Мы съели очень вкусную пиццу."
+      - type: choice
+        level: 2
+        q: "Le ragazze ___ partite alle otto."
+        options: ["hanno", "sono", "sono state", "hanno state"]
+        answer: 1
+        hint: "partire — движение (уезжать) → **essere**; причастие partite уже согласовано (ж. мн.)."
+        ru: "Девушки уехали в восемь."
+      - type: choice
+        level: 2
+        q: "Mio nonno ___ nel 1945."
+        options: ["ha nato", "è nato", "è nata", "ha nascito"]
+        answer: 1
+        hint: "nascere — изменение состояния → **essere**; причастие неправильное — **nato**."
+        ru: "Мой дедушка родился в 1945 году."
+      - type: choice
+        level: 2
+        q: "Quanto ___ costato il biglietto?"
+        options: ["ha", "è", "hai", "sono"]
+        answer: 1
+        hint: "costare в прошедшем — всегда с **essere**: è costato."
+        ru: "Сколько стоил билет?"
+      - type: cloze
+        level: 2
+        q: "Поставьте ho / sono (или другую форму essere / avere)."
+        text: "Stamattina mi [[sono]] alzata alle sette, [[ho]] fatto colazione e [[sono]] uscita. Poi [[ho]] preso l'autobus."
+        hint: "alzarsi (возвратный) и uscire (движение) — essere; fare colazione и prendere l'autobus — есть «что?» → avere."
+        ru: "Сегодня утром я встала в семь, позавтракала и вышла. Потом села на автобус."
+      - type: input
+        level: 1
+        q: "fare → ___ (причастие)"
+        answer: ["fatto"]
+        hint: "Неправильное причастие — запоминайте: **fatto**."
+        ru: "делать → сделанный"
+      - type: input
+        level: 2
+        q: "Hai ___ (leggere) il giornale?"
+        answer: ["letto"]
+        hint: "leggere → **letto** (неправильное)."
+        ru: "Ты прочитала газету?"
+      - type: input
+        level: 2
+        q: "Chi ha ___ (aprire) la finestra?"
+        answer: ["aperto"]
+        hint: "aprire → **aperto** (неправильное)."
+        ru: "Кто открыл окно?"
+      - type: input
+        level: 3
+        q: "Siamo ___ (rimanere) a casa tutto il giorno. (мы — девушки)"
+        answer: ["rimaste"]
+        hint: "rimanere → rimasto; с essere согласуем: ж. р. мн. ч. → **rimaste**."
+        ru: "Мы весь день оставались дома."
+      - type: input
+        level: 3
+        q: "Gianna ha ___ (scrivere) una lettera."
+        answer: ["scritto"]
+        hint: "scrivere → **scritto** (неправильное); с avere — без согласования."
+        ru: "Джанна написала письмо."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Ieri Marco {{ha=>è}} tornato tardi."
+        hint: "tornare — возвращение (движение) → essere."
+        ru: "Вчера Марко вернулся поздно."
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Sofia è {{arrivato=>arrivata}} a Milano."
+        hint: "С essere причастие согласуется с подлежащим: Sofia — ж. р."
+        ru: "София приехала в Милан."
+      - type: error
+        level: 3
+        q: "Найдите ошибку."
+        text: "Abbiamo {{prenduto=>preso}} un taxi."
+        hint: "prendere — неправильное причастие."
+        ru: "Мы взяли такси."
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: какой глагол спрягается с AVERE?"
+        options: ["andare", "partire", "mangiare", "arrivare"]
+        answer: 2
+        hint: "Три глагола обозначают перемещение (essere), один — действие с дополнением «что?»."
+        ru: "идти, уезжать, есть, приезжать"
+      - type: match
+        level: 2
+        q: "Соедините инфинитив и причастие"
+        hint: "Все причастия неправильные — вспомните список в памятке."
+        pairs:
+          - ["dire", "detto"]
+          - ["vedere", "visto"]
+          - ["mettere", "messo"]
+          - ["chiudere", "chiuso"]
+          - ["venire", "venuto"]
+        ru: "сказать, видеть, класть, закрывать, приходить — причастия"
+
   - slug: autovalutazione-4
     kind: review
     title_it: "Che cosa hai imparato?"

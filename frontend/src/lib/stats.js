@@ -1,6 +1,6 @@
 // Статистика для главной страницы — считается из курса и прогресса в браузере.
 
-import { isDue, isLearned, isSeen, today } from './progress'
+import { dictStatus, isDue, isLearned, isSeen, today } from './progress'
 
 export function streak(activity) {
   const days = new Set(Object.keys(activity))
@@ -36,7 +36,8 @@ export function computeStats(course, progress) {
     wordsLearned: rows.filter(isLearned).length,
     wordsLearning: rows.filter((r) => isSeen(r) && !isLearned(r)).length,
     wordsDue: rows.filter(isDue).length,
-    favorites: rows.filter((r) => r.favorite).length,
+    dictLearning: rows.filter((r) => dictStatus(r) === 'learning').length,
+    dictLearned: rows.filter((r) => dictStatus(r) === 'learned').length,
     testsTaken: results.length,
     averagePercent: results.length ? Math.round(results.reduce((s, r) => s + (r.score * 100) / r.total, 0) / results.length) : 0,
     streak: streak(progress.activity),

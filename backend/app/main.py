@@ -22,7 +22,9 @@ from starlette.middleware.base import BaseHTTPMiddleware
 from . import passwords
 from .config import settings
 from .content import get_library
-from .db import Activity, LessonProgress, TestResult, User, WordProgress, aware, get_session, init_db, utcnow
+from .db import (
+    Activity, CustomWord, LessonProgress, TestResult, User, WordProgress, aware, get_session, init_db, utcnow,
+)
 from .security import (
     LOGIN_IP_LIMIT,
     LOGIN_USER_LIMIT,
@@ -44,6 +46,8 @@ from .security import (
 
 PASS_PERCENT = 70
 BOX_DAYS = [0, 1, 2, 4, 8, 16]
+LEARN_STREAK = 3  # верных ответов подряд, чтобы слово из «Изучаю» перешло в «Выучено»
+MAX_CUSTOM_WORDS = 2000
 LEARNED_BOX = 3
 AVATARS = ["👸", "🧚", "🦄", "🐦", "🌸", "🦋", "🌷", "🐰", "🦢", "🍓"]
 USERNAME_RE = re.compile(r"^[a-z0-9._-]{3,40}$")
@@ -169,6 +173,30 @@ class FavoriteIn(BaseModel):
     favorite: bool
 
 
+class DictIn(BaseModel):
+    ids: list[str] = Field(min_length=1, max_length=500)
+    status: str | None = Field(default=None, pattern="^(learning|learned)$")
+
+    @field_validator("ids")
+    @classmethod
+    def _ids(cls, v: list[str]) -> list[str]:
+        if any(len(i) > 80 for i in v):
+            raise ValueError("слишком длинный id")
+        return list(dict.fromkeys(v))
+
+
+class CustomWordIn(BaseModel):
+    it: str = Field(min_length=1, max_length=120)
+    ru: str = Field(min_length=1, max_length=200)
+    note: str = Field(default="", max_length=300)
+    example: str = Field(default="", max_length=300)
+
+    @field_validator("it", "ru", "note", "example")
+    @classmethod
+    def _strip(cls, v: str) -> str:
+        return " ".join(v.split())
+
+
 class ResultIn(BaseModel):
     kind: str = Field(pattern="^(lesson|unit|final|words|verbs|progress|game)$")
     scope: str = Field(max_length=120)
@@ -203,12 +231,14 @@ def _lesson_row(db: Session, user: User, key: str) -> LessonProgress:
 def _word_row(db: Session, user: User, word_id: str) -> WordProgress:
     row = db.scalar(select(WordProgress).where(WordProgress.user_id == user.id, WordProgress.word_id == word_id))
     if row is None:
-        row = WordProgress(user_id=user.id, word_id=word_id, box=0, favorite=False, correct=0, wrong=0, due_at=utcnow())
+        row = WordProgress(user_id=user.id, word_id=word_id, box=0, favorite=False, correct=0, wrong=0, due_at=utcnow(),
+                           streak=0)
         db.add(row)
     return row
 
 
 def _review(row: WordProgress, known: bool) -> None:
+    """То же правило, что review() в frontend/src/lib/progress.js."""
     if known:
         row.correct += 1
         row.box = min(row.box + 1, len(BOX_DAYS) - 1)
@@ -216,6 +246,18 @@ def _review(row: WordProgress, known: bool) -> None:
         row.wrong += 1
         row.box = 0
     row.due_at = utcnow() + timedelta(days=BOX_DAYS[row.box])
+    # личный словарь: ошибка возвращает слово в «Изучаю», серия верных ответов — переводит в «Выучено»
+    if row.dict_status:
+        row.streak = (row.streak or 0) + 1 if known else 0
+        if not known:
+            row.dict_status = "learning"
+        elif row.streak >= LEARN_STREAK:
+            row.dict_status = "learned"
+
+
+def _custom_id(word_id: str) -> int | None:
+    m = re.fullmatch(r"c:(\d{1,9})", word_id)
+    return int(m.group(1)) if m else None
 
 
 def _activity(db: Session, user: User, points: int) -> None:
@@ -227,9 +269,28 @@ def _activity(db: Session, user: User, points: int) -> None:
     row.points += max(0, points)
 
 
-def _known_word(word_id: str) -> None:
-    if word_id not in get_library().words:
-        raise HTTPException(status.HTTP_400_BAD_REQUEST, f"Неизвестное слово {word_id}")
+def _known_word(word_id: str, db: Session | None = None, user: User | None = None) -> None:
+    """Слово курса или своё слово этого пользователя (чужие свои слова — как несуществующие)."""
+    if word_id in get_library().words:
+        return
+    cid = _custom_id(word_id)
+    if cid is not None and db is not None and user is not None:
+        if db.scalar(select(CustomWord.id).where(CustomWord.id == cid, CustomWord.user_id == user.id)):
+            return
+    raise HTTPException(status.HTTP_400_BAD_REQUEST, f"Неизвестное слово {word_id}")
+
+
+def _custom_out(c: CustomWord) -> dict:
+    return {"id": f"c:{c.id}", "it": c.it, "ru": c.ru, "note": c.note, "example": c.example,
+            "created_at": aware(c.created_at).isoformat()}
+
+
+def _word_out(r: WordProgress) -> dict:
+    out = {"box": r.box, "favorite": r.favorite, "correct": r.correct, "wrong": r.wrong,
+           "due_at": aware(r.due_at).isoformat(), "streak": r.streak or 0, "dict": r.dict_status}
+    if r.dict_added_at:
+        out["dict_added_at"] = aware(r.dict_added_at).isoformat()
+    return out
 
 
 def _check_password_policy(password: str, username: str) -> None:
@@ -363,11 +424,12 @@ def progress(user: User = Depends(current_user), db: Session = Depends(get_sessi
         select(TestResult).where(TestResult.user_id == user.id).order_by(TestResult.created_at.desc()).limit(200)
     )
     activity = db.scalars(select(Activity).where(Activity.user_id == user.id))
+    custom = db.scalars(select(CustomWord).where(CustomWord.user_id == user.id).order_by(CustomWord.id))
     return {
         "lessons": {r.lesson_key: {"theory_read": r.theory_read, "best_score": r.best_score, "completed": r.completed}
                     for r in lessons},
-        "words": {r.word_id: {"box": r.box, "favorite": r.favorite, "correct": r.correct, "wrong": r.wrong,
-                              "due_at": aware(r.due_at).isoformat()} for r in words},
+        "words": {r.word_id: _word_out(r) for r in words},
+        "custom": [_custom_out(c) for c in custom],
         "results": [{"id": r.id, "kind": r.kind, "scope": r.scope, "title": r.title, "level": r.level,
                      "score": r.score, "total": r.total, "created_at": aware(r.created_at).isoformat()}
                     for r in results],
@@ -390,7 +452,7 @@ def lesson_progress(data: LessonIn, user: User = Depends(current_user), db: Sess
 @app.post("/api/progress/reviews")
 def word_reviews(data: ReviewsIn, user: User = Depends(current_user), db: Session = Depends(get_session)):
     for r in data.reviews:
-        _known_word(r.id)
+        _known_word(r.id, db, user)
     for r in data.reviews:
         _review(_word_row(db, user, r.id), r.correct)
     _activity(db, user, len(data.reviews))
@@ -406,10 +468,67 @@ def favorite(data: FavoriteIn, user: User = Depends(current_user), db: Session =
     return {"ok": True}
 
 
+@app.post("/api/dict")
+def set_dict(data: DictIn, user: User = Depends(current_user), db: Session = Depends(get_session)):
+    """Ручное перемещение слов: в «Изучаю», в «Выучено» или из словаря (status = null)."""
+    for word_id in data.ids:
+        _known_word(word_id, db, user)
+    for word_id in data.ids:
+        row = _word_row(db, user, word_id)
+        row.dict_status = data.status
+        row.favorite = False
+        row.streak = LEARN_STREAK if data.status == "learned" else 0
+        row.dict_added_at = (row.dict_added_at or utcnow()) if data.status else None
+    db.commit()
+    return {"ok": True}
+
+
+@app.post("/api/custom-words")
+def add_custom_word(data: CustomWordIn, user: User = Depends(current_user), db: Session = Depends(get_session)):
+    count = len(db.scalars(select(CustomWord.id).where(CustomWord.user_id == user.id)).all())
+    if count >= MAX_CUSTOM_WORDS:
+        raise HTTPException(status.HTTP_400_BAD_REQUEST, "В словаре слишком много своих слов")
+    word = CustomWord(user_id=user.id, it=data.it, ru=data.ru, note=data.note, example=data.example)
+    db.add(word)
+    db.flush()
+    row = _word_row(db, user, f"c:{word.id}")
+    row.dict_status, row.dict_added_at = "learning", utcnow()
+    db.commit()
+    return _custom_out(word)
+
+
+def _own_custom(db: Session, user: User, word_id: str) -> CustomWord:
+    cid = _custom_id(word_id)
+    word = db.get(CustomWord, cid) if cid is not None else None
+    if word is None or word.user_id != user.id:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Слово не найдено")
+    return word
+
+
+@app.put("/api/custom-words/{word_id}")
+def edit_custom_word(word_id: str, data: CustomWordIn, user: User = Depends(current_user),
+                     db: Session = Depends(get_session)):
+    word = _own_custom(db, user, word_id)
+    word.it, word.ru, word.note, word.example = data.it, data.ru, data.note, data.example
+    db.commit()
+    return _custom_out(word)
+
+
+@app.delete("/api/custom-words/{word_id}")
+def delete_custom_word(word_id: str, user: User = Depends(current_user), db: Session = Depends(get_session)):
+    word = _own_custom(db, user, word_id)
+    row = db.scalar(select(WordProgress).where(WordProgress.user_id == user.id, WordProgress.word_id == word_id))
+    if row is not None:
+        db.delete(row)
+    db.delete(word)
+    db.commit()
+    return {"ok": True}
+
+
 @app.post("/api/progress/result")
 def save_result(data: ResultIn, user: User = Depends(current_user), db: Session = Depends(get_session)):
     for w in data.words:
-        _known_word(w.id)
+        _known_word(w.id, db, user)
     percent = round(data.score * 100 / data.total)
     completed = False
     if data.kind == "lesson":

@@ -8,13 +8,13 @@ const NAV = [
   { to: '/', label: 'Главная', icon: '🏰', end: true },
   { to: '/course', label: 'Курс', icon: '📚' },
   { to: '/dictionary', label: 'Словарь', icon: '🌸' },
-  { to: '/flashcards', label: 'Карточки', icon: '🃏' },
+  { to: '/my-words', label: 'Мой словарь', icon: '⭐' },
   { to: '/games', label: 'Игры', icon: '🎲' },
   { to: '/verbs', label: 'Глаголы', icon: '🦋' },
   { to: '/tests', label: 'Тесты', icon: '🏆' },
 ]
 // на телефоне в нижней панели помещается 5 пунктов
-const MOBILE = ['/', '/course', '/flashcards', '/games', '/tests']
+const MOBILE = ['/', '/course', '/my-words', '/games', '/tests']
 
 export default function Layout() {
   const { user } = useApp()

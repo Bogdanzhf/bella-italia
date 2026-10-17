@@ -149,6 +149,139 @@ lessons_after:
         q: "Заполните пропуски по тексту."
         text: "La capitale d'Italia è [[Roma]]. In Italia ci sono [[*venti/dieci/trenta]] regioni. La lingua ufficiale è l'[[italiano]]."
 
+  - slug: praktikum-0
+    kind: practice
+    title_it: "Esercizi: articoli e plurale"
+    title_ru: "Практикум: артикли, род и число"
+    theory: |
+      ## Памятка
+
+      **Род:** -o — обычно мужской (*il libro*), -a — обычно женский (*la casa*), -e — может быть любым (*il pane, la chiave*) — запоминайте с артиклем.
+
+      **Определённый артикль**
+
+      | | ед. ч. | мн. ч. |
+      |---|---|---|
+      | м. р., перед согласной | **il** libro | **i** libri |
+      | м. р., перед s + согл., z, gn, ps, y | **lo** studente, **lo** zaino | **gli** studenti, **gli** zaini |
+      | м. р., перед гласной | **l'**amico | **gli** amici |
+      | ж. р., перед согласной | **la** casa | **le** case |
+      | ж. р., перед гласной | **l'**amica | **le** amiche |
+
+      **Множественное число:** -o → **-i**, -a → **-e**, -e → **-i**. Не меняются: слова с ударением на конце (*la città → le città*), на согласную (*il bar → i bar*) и сокращения (*la foto → le foto*).
+
+      > 💡 Порядок решения: 1) определите род, 2) посмотрите на первую букву слова, 3) выберите артикль по таблице.
+    exercises:
+      - type: choice
+        level: 1
+        q: "___ zaino"
+        options: ["il", "lo", "la", "l'"]
+        answer: 1
+        hint: "Слово мужского рода начинается на **z** → артикль **lo**."
+        ru: "рюкзак"
+      - type: choice
+        level: 1
+        q: "___ amica"
+        options: ["la", "l'", "lo", "il"]
+        answer: 1
+        hint: "Перед **гласной** в единственном числе артикль сокращается до **l'** — и в мужском, и в женском роде."
+        ru: "подруга"
+      - type: choice
+        level: 1
+        q: "___ studenti"
+        options: ["i", "gli", "le", "lo"]
+        answer: 1
+        hint: "Мн. ч. мужского рода перед **s + согласная** → **gli** (как lo в ед. ч.)."
+        ru: "студенты"
+      - type: choice
+        level: 2
+        q: "___ psicologo"
+        options: ["il", "lo", "l'", "gli"]
+        answer: 1
+        hint: "Перед **ps** (как перед s + согласная, z, gn) → **lo**."
+        ru: "психолог"
+      - type: choice
+        level: 2
+        q: "___ chiave"
+        options: ["il", "la", "lo", "l'"]
+        answer: 1
+        hint: "Слова на -e нужно знать с артиклем: *chiave* — **женского** рода."
+        ru: "ключ"
+      - type: input
+        level: 1
+        q: "il libro → i ___"
+        answer: ["libri"]
+        hint: "Мужской род на -o → мн. ч. на **-i**."
+        ru: "книга → книги"
+      - type: input
+        level: 1
+        q: "la casa → le ___"
+        answer: ["case"]
+        hint: "Женский род на -a → мн. ч. на **-e**."
+        ru: "дом → дома"
+      - type: input
+        level: 2
+        q: "la città → le ___"
+        answer: ["città"]
+        hint: "Ударение на последнем слоге → слово **не меняется**."
+        ru: "город → города"
+      - type: input
+        level: 2
+        q: "lo studente → gli ___"
+        answer: ["studenti"]
+        hint: "-e → **-i** во множественном числе."
+        ru: "студент → студенты"
+      - type: input
+        level: 3
+        q: "l'amico → gli ___"
+        answer: ["amici"]
+        hint: "Мужской род -co после ударного слога обычно → **-ci** (amico — amici), а не -chi."
+        ru: "друг → друзья"
+      - type: cloze
+        level: 2
+        q: "Поставьте определённый артикль."
+        text: "[[il]] gatto, [[lo]] sport, [[l']]ospedale, [[la]] pizza, [[gli]] zii, [[le]] amiche"
+        hint: "Смотрите на род, число и первую букву: lo — перед s + согласная; l' — перед гласной; gli — мн. ч. м. р. перед гласной/z/s + согл."
+        ru: "кот, спорт, больница, пицца, дяди, подруги"
+      - type: odd
+        level: 2
+        q: "Найдите лишнее: какое слово женского рода?"
+        options: ["il pane", "il mare", "la notte", "il fiore"]
+        answer: 2
+        hint: "У всех слов окончание -e: род определяет только артикль."
+        ru: "хлеб, море, ночь, цветок"
+      - type: error
+        level: 2
+        q: "Найдите ошибку."
+        text: "Ho comprato {{il=>lo}} yogurt e un panino."
+        hint: "Перед **y** (как перед z, gn, ps) используется **lo**."
+        ru: "Я купила йогурт и булочку."
+      - type: match
+        level: 1
+        q: "Соедините единственное и множественное число"
+        hint: "il → i, lo → gli, la → le, l' (м. р.) → gli, l' (ж. р.) → le."
+        pairs:
+          - ["il ragazzo", "i ragazzi"]
+          - ["lo zio", "gli zii"]
+          - ["la ragazza", "le ragazze"]
+          - ["l'amico", "gli amici"]
+          - ["la foto", "le foto"]
+        ru: "парень, дядя, девушка, друг, фото — и их формы мн. ч."
+      - type: input
+        level: 1
+        audio: "Ventotto."
+        q: "🎧 Напишите цифрами число, которое вы услышали."
+        answer: ["28"]
+        hint: "venti + otto: гласная i выпадает перед otto → **ventotto**."
+        ru: "двадцать восемь"
+      - type: choice
+        level: 2
+        q: "21 по-итальянски:"
+        options: ["ventuno", "ventiuno", "vent'uno", "uno e venti"]
+        answer: 0
+        hint: "Перед **uno** и **otto** конечная гласная десятка выпадает: vent**uno**, vent**otto**."
+        ru: "двадцать один"
+
   - slug: autovalutazione-0
     kind: review
     title_it: "Che cosa hai imparato?"

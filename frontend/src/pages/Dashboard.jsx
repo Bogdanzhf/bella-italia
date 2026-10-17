@@ -89,9 +89,10 @@ export default function Dashboard() {
             <Bird size={64} className="float f2" />
             <div>
               <p>{s.wordsDue > 0 ? <>Пора повторить <b>{s.wordsDue}</b> {plural(s.wordsDue, 'слово', 'слова', 'слов')}!</> : 'Новые слова ждут тебя в карточках.'}</p>
-              <p className="muted small">Изучаются: {s.wordsLearning} · В избранном: {s.favorites}</p>
+              <p className="muted small">Мой словарь: изучаю {s.dictLearning} · выучено {s.dictLearned}</p>
               <div className="row-gap">
-                <Link to="/flashcards" className="btn">Карточки 🃏</Link>
+                <Link to="/my-words" className="btn">Мой словарь ⭐</Link>
+                <Link to="/flashcards" className="btn btn-ghost">Карточки 🃏</Link>
                 <Link to="/games" className="btn btn-ghost">Игры 🎲</Link>
               </div>
             </div>

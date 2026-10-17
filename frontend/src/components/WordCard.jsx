@@ -1,8 +1,44 @@
-import { isLearned } from '../lib/progress'
+import { useState } from 'react'
+import { LEARN_STREAK, dictStatus, isLearned } from '../lib/progress'
+import { useApp } from '../state'
 import { Pic, SpeakButton, genderLabel } from './ui'
 
-export default function WordCard({ word, row, onFavorite, showUnit = false }) {
-  const fav = Boolean(row?.favorite)
+export const DICT_LABEL = { learning: '📖 Изучаю', learned: '✅ Выучено' }
+
+/** Кнопка личного словаря: «＋ В словарь» или раздел слова с меню перемещения. */
+export function DictButton({ id, row, compact = false }) {
+  const app = useApp()
+  const [open, setOpen] = useState(false)
+  const status = dictStatus(row)
+  const move = (s) => {
+    setOpen(false)
+    app.setDict(id, s).catch(() => {})
+  }
+  if (!status) {
+    return (
+      <button className="dict-btn add" onClick={() => move('learning')} title="Добавить в мой словарь — в раздел «Изучаю»">
+        ＋{compact ? '' : ' В словарь'}
+      </button>
+    )
+  }
+  return (
+    <span className="dict-menu">
+      <button className={`dict-btn ${status}`} onClick={() => setOpen((o) => !o)} aria-expanded={open} title="Раздел в моём словаре">
+        {DICT_LABEL[status]}
+        {status === 'learning' && row?.streak > 0 && <small> {row.streak}/{LEARN_STREAK}</small>}
+      </button>
+      {open && (
+        <span className="dict-pop" role="menu">
+          {status !== 'learning' && <button role="menuitem" onClick={() => move('learning')}>📖 В «Изучаю»</button>}
+          {status !== 'learned' && <button role="menuitem" onClick={() => move('learned')}>✅ В «Выучено»</button>}
+          <button role="menuitem" onClick={() => move(null)}>✕ Убрать из словаря</button>
+        </span>
+      )}
+    </span>
+  )
+}
+
+export default function WordCard({ word, row, showUnit = false }) {
   const learned = isLearned(row)
   return (
     <div className={`word-card ${learned ? 'learned' : ''}`}>
@@ -21,15 +57,9 @@ export default function WordCard({ word, row, onFavorite, showUnit = false }) {
           {word.gender && <span className="tag">{genderLabel[word.gender]}</span>}
           {word.note && <span className="tag">{word.note}</span>}
           {showUnit && <span className="tag tag-unit">юнит {word.unit_id}</span>}
-          {learned && <span className="tag tag-ok">выучено</span>}
         </div>
+        <div className="word-dict"><DictButton id={word.id} row={row} /></div>
       </div>
-      {onFavorite && (
-        <button className={`fav ${fav ? 'on' : ''}`} onClick={onFavorite} aria-pressed={fav}
-          aria-label={fav ? 'Убрать из избранного' : 'В избранное'} title={fav ? 'Убрать из избранного' : 'В избранное'}>
-          {fav ? '♥' : '♡'}
-        </button>
-      )}
     </div>
   )
 }

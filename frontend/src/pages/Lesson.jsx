@@ -12,7 +12,7 @@ import { KIND } from './Unit'
 const SPEAKER_COLORS = ['#ffd1e3', '#e2d4ff', '#c8f0de', '#ffe7c2', '#d4ecff']
 const SPEAKER_ICONS = {
   Sofia: '👱🏻‍♀️', Gianna: '👩🏼', Lorenzo: '👨🏻', Michela: '👩🏻‍🦰', madre: '👩🏻', padre: '👨🏼',
-  Cameriere: '🤵🏻', Commessa: '👩🏻‍💼', Fruttivendolo: '👨🏻‍🌾',
+  Cameriere: '🤵🏻', Commessa: '👩🏻‍💼', Fruttivendolo: '👨🏻‍🌾', Receptionist: '🛎️', Medico: '👨🏻‍⚕️',
 }
 
 function DialogueView({ dialogue }) {
@@ -153,10 +153,10 @@ export default function Lesson() {
       {tab === 'theory' && lesson.theory && <section className="card theory"><Md>{lesson.theory}</Md></section>}
       {tab === 'words' && (
         <section>
-          <p className="muted small">Транскрипция русскими буквами (ударная гласная отмечена) и международная (IPA). 🔊 — послушать, ♡ — в избранное.</p>
+          <p className="muted small">Транскрипция русскими буквами (ударная гласная отмечена) и международная (IPA). 🔊 — послушать, «＋ В словарь» — добавить в мой словарь, чтобы отработать на карточках.</p>
           <div className="word-grid">
             {lesson.words.map((w) => (
-              <WordCard key={w.id} word={w} row={progress.words[w.id]} onFavorite={() => app.favorite(w.id, !progress.words[w.id]?.favorite)} />
+              <WordCard key={w.id} word={w} row={progress.words[w.id]} />
             ))}
           </div>
         </section>

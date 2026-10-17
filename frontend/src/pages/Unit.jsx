@@ -12,6 +12,7 @@ export const KIND = {
   lesson: { label: 'Урок', icon: '📖' },
   grammar: { label: 'Грамматика', icon: '✏️' },
   culture: { label: 'Культура', icon: '🏛️' },
+  practice: { label: 'Практикум', icon: '🏋️' },
   review: { label: 'Повторение', icon: '🌟' },
 }
 

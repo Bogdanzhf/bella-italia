@@ -3,7 +3,7 @@
 //  • local  — статический сайт (GitHub Pages / офлайн): профили и прогресс в памяти браузера.
 // Режим выбирается при сборке: VITE_STATIC=1 → local.
 
-import { addActivity, applyResult, emptyProgress, review } from './progress'
+import { addActivity, applyResult, emptyProgress, review, setDict } from './progress'
 
 export const MODE = import.meta.env.VITE_STATIC === '1' ? 'local' : 'server'
 
@@ -55,6 +55,18 @@ const serverStore = {
   reviews: (list) => request('POST', '/progress/reviews', { reviews: list }),
   favorite: (id, favorite) => request('POST', '/progress/favorite', { id, favorite }),
   saveResult: (r) => request('POST', '/progress/result', r),
+  setDict: (ids, status) => request('POST', '/dict', { ids, status }),
+  addCustom: (w) => request('POST', '/custom-words', w),
+  editCustom: (id, w) => request('PUT', `/custom-words/${encodeURIComponent(id)}`, w),
+  deleteCustom: (id) => request('DELETE', `/custom-words/${encodeURIComponent(id)}`),
+}
+
+/** Своё слово: те же ограничения, что на сервере (CustomWordIn). */
+function cleanCustom(w) {
+  const t = (v, n) => String(v ?? '').split(/\s+/).filter(Boolean).join(' ').slice(0, n)
+  const out = { it: t(w.it, 120), ru: t(w.ru, 200), note: t(w.note, 300), example: t(w.example, 300) }
+  if (!out.it || !out.ru) throw new ApiError(422, 'Заполните слово и перевод')
+  return out
 }
 
 // ---------- устройство ----------
@@ -145,6 +157,30 @@ const localStore = {
       p.words[id] = { box: 0, correct: 0, wrong: 0, due_at: new Date().toISOString(), ...p.words[id], favorite }
     }),
   saveResult: (r) => mutate((p) => applyResult(p, r)),
+  setDict: (ids, status) =>
+    mutate((p) => {
+      for (const id of ids) p.words[id] = setDict(p.words[id], status)
+    }),
+  addCustom: (w) =>
+    mutate((p) => {
+      const next = p.custom.reduce((m, c) => Math.max(m, Number(c.id.slice(2)) || 0), 0) + 1
+      const word = { id: `c:${next}`, ...cleanCustom(w), created_at: new Date().toISOString() }
+      p.custom.push(word)
+      p.words[word.id] = setDict(p.words[word.id], 'learning')
+      return word
+    }),
+  editCustom: (id, w) =>
+    mutate((p) => {
+      const i = p.custom.findIndex((c) => c.id === id)
+      if (i < 0) throw new ApiError(404, 'Слово не найдено')
+      p.custom[i] = { ...p.custom[i], ...cleanCustom(w) }
+      return p.custom[i]
+    }),
+  deleteCustom: (id) =>
+    mutate((p) => {
+      p.custom = p.custom.filter((c) => c.id !== id)
+      delete p.words[id]
+    }),
   async exportData() {
     const me = await this.me()
     return { app: 'bella-italia', version: 1, profile: me, progress: await this.getProgress() }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { isDue, isSeen } from '../lib/progress'
+import { dictStatus, isDue, isSeen } from '../lib/progress'
 import { shuffle, wordsDrill } from '../lib/quiz'
 import { speak } from '../speech'
 import { play } from '../sounds'
@@ -73,13 +73,13 @@ function Cards({ cards, onFinish }) {
 
 export default function Flashcards() {
   const { course, progress } = useApp()
-  const [opts, setOpts] = useState({ unit: '', favorites: false, mode: 'cards', count: 15 })
+  const [opts, setOpts] = useState({ unit: '', mine: false, mode: 'cards', count: 15 })
   const [session, setSession] = useState(null)
   const [done, setDone] = useState(null)
   const [error, setError] = useState(null)
 
   function pool() {
-    return course.wordList.filter((w) => (opts.unit === '' || w.unit_id === Number(opts.unit)) && (!opts.favorites || progress.words[w.id]?.favorite))
+    return course.wordList.filter((w) => (opts.unit === '' || w.unit_id === Number(opts.unit)) && (!opts.mine || dictStatus(progress.words[w.id])))
   }
 
   function start() {
@@ -160,7 +160,7 @@ export default function Flashcards() {
               {[10, 15, 20, 30].map((n) => <option key={n} value={n}>{n}</option>)}
             </select>
           </label>
-          <label className="check"><input type="checkbox" checked={opts.favorites} onChange={(e) => setOpts({ ...opts, favorites: e.target.checked })} /> ♥ только избранные</label>
+          <label className="check"><input type="checkbox" checked={opts.mine} onChange={(e) => setOpts({ ...opts, mine: e.target.checked })} /> ⭐ только из моего словаря</label>
         </div>
         <ErrorBox error={error} />
         <button className="btn btn-big" onClick={start}>Начать <Bird size={26} /></button>

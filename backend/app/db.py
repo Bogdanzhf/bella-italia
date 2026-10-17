@@ -80,6 +80,24 @@ class WordProgress(Base):
     correct: Mapped[int] = mapped_column(Integer, default=0)
     wrong: Mapped[int] = mapped_column(Integer, default=0)
     due_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
+    # личный словарь: None — не в словаре, 'learning' — «Изучаю», 'learned' — «Выучено»
+    dict_status: Mapped[str | None] = mapped_column(String(10), nullable=True, default=None)
+    streak: Mapped[int] = mapped_column(Integer, default=0)
+    dict_added_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True, default=None)
+
+
+class CustomWord(Base):
+    """Своё слово пользователя в личном словаре (id в прогрессе — «c:<id>»)."""
+
+    __tablename__ = "custom_words"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    it: Mapped[str] = mapped_column(String(120))
+    ru: Mapped[str] = mapped_column(String(200))
+    note: Mapped[str] = mapped_column(String(300), default="")
+    example: Mapped[str] = mapped_column(String(300), default="")
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow)
 
 
 class TestResult(Base):
@@ -130,6 +148,15 @@ def init_db(bind=None) -> None:
     with bind.begin() as conn:
         # первая версия хранила токены входа открытым текстом — удаляем их (нужно войти заново)
         conn.exec_driver_sql("DROP TABLE IF EXISTS auth_tokens")
+        # личный словарь: добавляем колонки в уже существующую таблицу, данные не трогаем
+        columns = {row[1] for row in conn.exec_driver_sql("PRAGMA table_info(word_progress)")}
+        for name, ddl in (("dict_status", "VARCHAR(10)"), ("streak", "INTEGER NOT NULL DEFAULT 0"),
+                          ("dict_added_at", "DATETIME")):
+            if name not in columns:
+                conn.exec_driver_sql(f"ALTER TABLE word_progress ADD COLUMN {name} {ddl}")
+        # прежнее «избранное» становится разделом «Изучаю»
+        conn.exec_driver_sql("UPDATE word_progress SET dict_status = 'learning', favorite = 0 "
+                             "WHERE favorite = 1 AND dict_status IS NULL")
 
 
 def get_session() -> Iterator[Session]:

@@ -3,7 +3,7 @@ import { useApp } from '../state'
 import { Tulip } from '../components/Decor'
 import { Ring } from '../components/ui'
 
-const LEVEL_INFO = { A0: 'Самое начало', A1: 'Начальный уровень', A2: 'Элементарный уровень' }
+const LEVEL_INFO = { A0: 'Самое начало', A1: 'Начальный уровень', A2: 'Элементарный уровень', B1: 'Средний уровень', B2: 'Выше среднего' }
 
 export default function Course() {
   const { course, progress } = useApp()
@@ -20,7 +20,7 @@ export default function Course() {
           После юнитов 2, 5, 8 и 11 — тесты прогресса.
         </p>
       </div>
-      {['A0', 'A1', 'A2'].map((lvl) => (
+      {Object.keys(LEVEL_INFO).filter((lvl) => course.units.some((u) => u.level === lvl)).map((lvl) => (
         <section key={lvl} className="level-group">
           <h2 className="level-title"><span className={`level-badge lv-${lvl}`}>{lvl}</span> {LEVEL_INFO[lvl]}</h2>
           <div className="unit-grid">
